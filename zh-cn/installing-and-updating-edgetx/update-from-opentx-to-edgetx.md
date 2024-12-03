@@ -1,113 +1,109 @@
-# Migrate from OpenTX to EdgeTX using EdgeTX Buddy
+# 使用 EdgeTX Buddy 从 OpenTX 迁移到 EdgeTX
 
-In order to update from OpenTX to EdgeTX you will need to have both OpenTX & EdgeTX Companion installed on your computer.  You can download OpenTX Companion from: [https://downloads.open-tx.org/2.3/release/companion/](https://downloads.open-tx.org/2.3/release/companion/). You can download EdgeTX Companion from: [https://github.com/EdgeTX/edgetx/releases](https://github.com/EdgeTX/edgetx/releases) (File name: edgetx-cpn-\[operation system]-\[version].zip)
+要从 OpenTX 更新到 EdgeTX，您需要在电脑上安装 OpenTX 和 EdgeTX Companion。您可以通过以下链接下载 OpenTX Companion：[https://downloads.open-tx.org/2.3/release/companion/](https://downloads.open-tx.org/2.3/release/companion/)。EdgeTX Companion 可通过以下链接下载：[https://github.com/EdgeTX/edgetx/releases](https://github.com/EdgeTX/edgetx/releases)（文件名格式：edgetx-cpn-\[操作系统]-\[版本].zip）。
 
-### Backup up your models
+### 备份模型
 
-Turn on your radio, navigate to **Radio Settings**, **Hardware** and scroll down to the bottom of the screen and select **EEPROM backup**. If you do not have this option, then your radio does not store your data in EEPROM and this step can be skipped.&#x20;
+打开遥控器，导航至 **遥控器设置** -> **硬件**，滚动到屏幕底部并选择 **EEPROM 备份**。如果没有该选项，说明您的遥控器未使用 EEPROM 存储数据，可以跳过此步骤。
 
 <figure><img src="../.gitbook/assets/update14.png" alt=""><figcaption></figcaption></figure>
 
-With your radio powered on, plug your radio into your computer via USB. When prompted by your radio for the USB mode, select **USB Storage**.&#x20;
+打开遥控器电源后，通过 USB 将其连接到电脑。当遥控器提示选择 USB 模式时，选择 **USB 存储**。
 
-With your computer, copy the entire contents of your SD card to a safe place on your Computer. If you ever decide to go back to OpenTX you can use these files again. If you backed up your EEPROM in the step above, check the EEPROM folder to make sure that there is a recent backup file in there.
+在电脑上，将 SD 卡的全部内容复制到安全位置。如果以后需要切换回 OpenTX，这些文件仍可使用。如果您已进行 EEPROM 备份，请检查 EEPROM 文件夹，确保其中有最近的备份文件。
 
-Start OpenTX Companion.&#x20;
+启动 OpenTX Companion。
 
-Select the **Backup radio to file** icon from the left side of the screen as shown below. Select a saving location (desktop is fine) and give it a descriptive name.
+选择左侧屏幕中的 **备份遥控器到文件** 图标。选择保存位置（如桌面）并为文件命名。
 
 <figure><img src="../.gitbook/assets/update1.png" alt=""><figcaption></figcaption></figure>
 
-After the file has been saved, close OpenTX Companion.&#x20;
+保存文件后，关闭 OpenTX Companion。
 
-Delete the contents of the **Model** folder on your SD Card so it is empty.
+删除 SD 卡中 **Model** 文件夹的内容，确保该文件夹为空。
 
-Unplug the radio from the computer and power it off.
+断开遥控器与电脑的连接并关闭遥控器。
 
-### Flashing EdgeTX Bootloader and Firmware
+### 刷写 EdgeTX 引导加载器和固件
 
-With the radio powered off, plug your radio into your computer via USB. This will connect your radio to the computer via DFU mode.&#x20;
+在遥控器关闭的情况下，通过 USB 将其连接到电脑。这会将遥控器连接到电脑的 DFU 模式。
 
 {% hint style="info" %}
-On the Jumper T-Pro, you have to plug in the radio while pressing the Boot0 button to enter DFU mode.
+对于 Jumper T-Pro，您需要按住 Boot0 按钮并插入 USB 才能进入 DFU 模式。
 {% endhint %}
 
-Go to this website: [https://buddy.edgetx.org/](https://buddy.edgetx.org/)
+访问以下网站：[https://buddy.edgetx.org/](https://buddy.edgetx.org/)
 
-Select the **Firmware version** and **Radio model** - then **Flash via USB**.
+选择 **固件版本** 和 **遥控器型号**，然后点击 **通过 USB 刷写**。
 
 <figure><img src="../.gitbook/assets/update2.png" alt=""><figcaption></figcaption></figure>
 
-On the next screen, select the **STM32 Bootloader** device and click **Next**.
+在下一屏幕，选择 **STM32 Bootloader** 设备并点击 **下一步**。
 
 <figure><img src="../.gitbook/assets/update3.png" alt=""><figcaption></figcaption></figure>
 
-
-
-If the **STM32 Bootloader** device is not present, then select **Add New Device**. From the pop up window, select **STM32 Bootloader** and click **Connect.**
+如果未显示 **STM32 Bootloader** 设备，选择 **添加新设备**。在弹出窗口中选择 **STM32 Bootloader** 并点击 **连接**。
 
 <figure><img src="../.gitbook/assets/update4.png" alt=""><figcaption></figcaption></figure>
 
-After selecting the **STM32 Bootloader** device and clicking **Next,** you will be presented with a confirmation screen to verify your settings. Once you have verified everything is correct (Version, Radio, and device) click the **Start Flashing** button.
+选择 **STM32 Bootloader** 设备并点击 **下一步** 后，将显示确认屏幕以验证您的设置。确认所有内容正确（版本、遥控器和设备）后，点击 **开始刷写** 按钮。
 
 <figure><img src="../.gitbook/assets/update5.png" alt=""><figcaption></figcaption></figure>
 
-EdgeTX buddy will now start the flashing sequence. A progress screen will be displayed to show you the progress.
+EdgeTX Buddy 将开始刷写过程，屏幕会显示进度。
 
 <figure><img src="../.gitbook/assets/update6.png" alt=""><figcaption></figcaption></figure>
 
-Once the flashing is complete, select the **setup your SD Card** link from the completion screen which will take you to the SD Card content screen.&#x20;
+刷写完成后，点击完成屏幕上的 **设置您的 SD 卡** 链接，这会带您进入 SD 卡内容页面。
 
-At this point, the EdgeTX bootloader and firmware have been installed on your radio. The next step is to install the SD Card contents.
-
-### SD Card Preparation
+### 准备 SD 卡
 
 <figure><img src="../.gitbook/assets/update7.png" alt=""><figcaption></figcaption></figure>
 
-Unplug the radio from the computer and power it on. You should see the EdgeTX Splash screen on the radio, but you will still hear "Welcome to OpenTX". This is normal - we will install the EdgeTX sound pack with the SD card contents next.
+断开遥控器与电脑的连接并启动遥控器。您会看到遥控器显示 EdgeTX 启动画面，但仍会听到“欢迎使用 OpenTX”的提示音。这是正常现象，我们将在下一步通过更新 SD 卡内容来安装 EdgeTX 声音包。
 
-With the radio turned on, plug it in to your PC via USB and select **USB Storage** when the option is displayed on the radio. Click on the **Select SD Card** option and then navigate to your EdgeTX SD card.&#x20;
+打开遥控器电源后，通过 USB 将其连接到电脑。当遥控器提示选择 USB 模式时，选择 **USB 存储**。点击 **选择 SD 卡** 选项，然后导航到 EdgeTX 的 SD 卡。
 
 <figure><img src="../.gitbook/assets/update8.png" alt=""><figcaption></figcaption></figure>
 
-The EdgeTX SD Card will be mounted as a USB Drive on your computer. Select the USB Drive (notice the OpenTX files are still in there - that is the correct one.) and then click on **Select folder.**
+EdgeTX SD 卡将作为 USB 驱动器挂载到您的电脑。选择 USB 驱动器后点击 **选择文件夹**。
 
 <figure><img src="../.gitbook/assets/update9.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Your PC may ask you to give EdgeTX buddy permission to your SD card contents.  This is normal and required for buddy to be able to modify the files on the SD Card.
+您的电脑可能会提示要求 EdgeTX Buddy 获取 SD 卡内容的权限。这是正常的，Buddy 需要权限以修改 SD 卡上的文件。
 {% endhint %}
 
-On the SD Card Content screen, verify the Firmware version and Radio model are still correct, then select the desired language for the sound pack. Click on **Apply Changes.** A status window will pop up and show you the installation progress. Once the installation of the files is complete, the status window will close.
+在 SD 卡内容页面，确认固件版本和遥控器型号仍然正确，然后选择所需的声音包语言。点击 **应用更改**。状态窗口会弹出并显示安装进度。文件安装完成后，状态窗口会自动关闭。
 
 <figure><img src="../.gitbook/assets/update10.png" alt=""><figcaption></figcaption></figure>
 
-At this point, you now have the EdgeTX Bootloader, Firmware and the SD card contents installed. The last step is to convert your models over from OpenTX and put them on the radio. You can now close EdgeTX Buddy.
+此时，EdgeTX 引导加载器、固件和 SD 卡内容已安装完成。最后一步是将模型从 OpenTX 转换为 EdgeTX 格式并上传到遥控器。您现在可以关闭 EdgeTX Buddy。
 
-### Restoring your Models from OpenTX
+### 从 OpenTX 恢复模型
 
-Open EdgeTX Companion. If you have not already done so, create a radio profile for your radio and make sure that it is selected as active.
+启动 EdgeTX Companion。如果尚未创建遥控器配置文件，请创建一个并确保其为活动配置文件。
 
-In the upper left corner of Companion, select **File**, then **Open**, then select the OpenTX Backup file that you made at the very beginning. A warning message will be displayed. Click **OK**.
+在 Companion 左上角，选择 **文件** -> **打开**，然后选择之前备份的 OpenTX 文件。将显示警告信息，点击 **OK**。
 
 <figure><img src="../.gitbook/assets/update11.png" alt=""><figcaption></figcaption></figure>
 
-You will then see all your models from OpenTX in EdgeTX Companion. Click on the **Write models and Settings to Radio** button. It will warn you that it will overwrite all the models on your radio.  Click **Yes.**&#x20;
+在 EdgeTX Companion 中，您将看到所有来自 OpenTX 的模型。点击 **写入模型和设置到遥控器** 按钮。系统将提示您会覆盖遥控器上的所有模型，点击 **是**。
 
 <figure><img src="../.gitbook/assets/update12.png" alt=""><figcaption></figcaption></figure>
 
-The models and settings will be written to the radio.  A message will be displayed when complete.  Click on **OK**. Unplug your radio from the USB port and close EdgeTX Companion.
+模型和设置将写入遥控器。完成后将显示提示信息，点击 **OK**。断开遥控器与 USB 的连接并关闭 EdgeTX Companion。
 
 <figure><img src="../.gitbook/assets/update13.png" alt=""><figcaption></figcaption></figure>
 
-### Congratulations, you have now successfully updated to EdgeTX!
+### 恭喜，您已成功迁移到 EdgeTX！
 
-All of your models have been updated to the EdgeTX .yml format and you have the EdgeTX sound pack installed. You are now ready to use EdgeTX.
+您的所有模型已更新为 EdgeTX 的 .yml 格式，并安装了 EdgeTX 声音包。您现在可以开始使用 EdgeTX。
 
 {% hint style="info" %}
-_Unfortunately, it is not possible to copy over the setup for your widgets from OpenTX. They will have to be set up again manually in EdgeTX._
+_遗憾的是，无法从 OpenTX 直接迁移小部件的设置，您需要在 EdgeTX 中手动重新设置。_
 {% endhint %}
 
 {% hint style="info" %}
-Your Lua Scripts from OpenTX will still be on your SD Card. However, they may not all work with EdgeTX and may need to be re-installed to get them to work.  You can find a list of EdgeTX-compatible LUA scripts here: [https://github.com/EdgeTX/lua-scripts](https://github.com/EdgeTX/lua-scripts)
+OpenTX 的 Lua 脚本仍保留在 SD 卡上，但并非所有脚本都兼容 EdgeTX。可能需要重新安装才能使其正常工作。您可以在此处找到兼容 EdgeTX 的 Lua 脚本列表：[https://github.com/EdgeTX/lua-scripts](https://github.com/EdgeTX/lua-scripts)
 {% endhint %}

@@ -1,43 +1,42 @@
-# Installing and Updating EdgeTX
+# 安装和更新 EdgeTX
 
-There are several ways to install or update EdgeTX on your radio transmitter. You can use the online tool EdgeTX buddy or manually install/update the bootloader and firmware using the bootloader method. There are advantages and disadvantages to both ways, so really, it boils down to person preference.
+您可以通过多种方式在遥控器上安装或更新 EdgeTX。可以使用在线工具 EdgeTX Buddy，也可以通过引导加载器方法手动安装/更新引导加载器和固件。这两种方法各有优劣，具体选择取决于个人偏好。
 
 ### EdgeTX Buddy
 
-#### Pros
+#### 优点
 
-* Firmware and SD card contents are all located in one location
-* It takes you step by step through the process
-* Normally a simple process.
+* 固件和 SD 卡内容集中在一个位置。
+* 提供逐步指导。
+* 通常操作简单。
 
-#### Cons
+#### 缺点
 
-* Must use a Chromium-based browser to access (Chrome, MS Edge, Brave, Opera, etc.)
-* You must have the correct STM32 drivers installed on your computer. Usually, this is automatic. However, some computers install incorrect drivers, which can make this process more difficult.&#x20;
+* 必须使用基于 Chromium 的浏览器访问（如 Chrome、MS Edge、Brave、Opera 等）。
+* 需要在电脑上安装正确的 STM32 驱动程序。通常会自动完成，但某些电脑可能会安装错误的驱动程序，从而使流程更复杂。
 
-### Bootloader Method
+### 引导加载器方法
 
-#### Pros
+#### 优点
 
-* Flashing always works
-* The flashing process is quicker.
-* Does not rely on your computer for flashing
+* 刷写总是可以成功。
+* 刷写过程更快。
+* 不依赖电脑进行刷写。
 
-#### Cons&#x20;
+#### 缺点
 
-* Firmware, SD Card, and Sound files must be downloaded individually from different locations and placed manually on the SD Card.
+* 固件、SD 卡和声音文件需要分别从不同位置下载，并手动放置到 SD 卡中。
 
-**Whichever way you choose, there is a guide that will help you. Below are the migration guides and installation guides for both methods:**
+**无论选择哪种方式，都有相应的指南可供参考。以下是两种方法的迁移指南和安装指南：**
 
-### Migrate from OpenTX to EdgeTX&#x20;
+### 从 OpenTX 迁移到 EdgeTX
 
-[Migrate from OpenTX to EdgeTX using EdgeTX Buddy](update-from-opentx-to-edgetx.md)
+[使用 EdgeTX Buddy 从 OpenTX 迁移到 EdgeTX](update-from-opentx-to-edgetx.md)
 
-[Migrate from OpenTX to EdgeTX using the Bootloader](migrate-from-opentx-to-edgetx-using-the-bootloader.md)
+[使用引导加载器从 OpenTX 迁移到 EdgeTX](migrate-from-opentx-to-edgetx-using-the-bootloader.md)
 
-### Update from an earlier version of EdgeTX
+### 从早期版本的 EdgeTX 更新
 
-[Update from an earlier version of EdgeTX using EdgeTX Buddy](update-from-opentx-to-edgetx-1.md)
+[使用 EdgeTX Buddy 从早期版本的 EdgeTX 更新](update-from-opentx-to-edgetx-1.md)
 
-[Update from an earlier version of EdgeTX using the Bootloader](update-from-an-earlier-version-of-edgetx-using-the-bootloader.md)
-
+[使用引导加载器从早期版本的 EdgeTX 更新](update-from-an-earlier-version-of-edgetx-using-the-bootloader.md)
