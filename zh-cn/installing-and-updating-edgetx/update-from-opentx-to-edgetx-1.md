@@ -35,7 +35,7 @@
 {% endhint %}
 
 {% hint style="info" %}
-如果您的电脑始终无法检测到 STM32 BOOTLOADER，则必须使用引导加载器方法更新 EdgeTX。跳过本节其余部分并参考 [**更新 SD 卡内容部分**](update-from-opentx-to-edgetx-1.md#update-sd-card-contents)。完成 SD 卡更新后，我们将指导您通过引导加载器更新固件。
+如果您的电脑始终无法检测到 STM32 BOOTLOADER，则必须使用引导加载器方法更新 EdgeTX。跳过本节其余部分并参考 [**更新 SD 卡内容部分**](update-from-opentx-to-edgetx-1.md#更新-SD-卡内容)。完成 SD 卡更新后，我们将指导您通过引导加载器更新固件。
 {% endhint %}
 
 选择 **STM32 Bootloader** 设备并点击 **下一步** 后，将显示确认屏幕以验证您的设置。确认所有内容正确（版本、遥控器和设备）后，点击 **开始刷写** 按钮。
