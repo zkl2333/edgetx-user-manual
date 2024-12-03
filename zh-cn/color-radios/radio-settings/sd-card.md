@@ -1,6 +1,6 @@
 # SD Card
 
-<figure><img src="../../.gitbook/assets/sdcard.jpg" alt=""><figcaption><p>SD Card screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/sdcard.jpg" alt=""><figcaption><p>SD Card screen</p></figcaption></figure>
 
 The **SD Card** screen shows you the contents of your SD card, allows you to navigate the folders and interact with the files in the folders. All folders contain a README.txt file that describes what type of files belong in this folder. After selecting a file in one of the folders, you will be presented with some of the options below, depending on the file type that was selected:
 
@@ -109,7 +109,7 @@ This is where model template files are stored. By default, it will have the foll
 
 This folder contains the theme packs for EdgeTX. The EdgeTX SD card comes with several theme packs automatically installed.&#x20;
 
-<figure><img src="../../.gitbook/assets/themes4.jpg" alt=""><figcaption><p>EdgeTX Installed theme packs</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/themes4.jpg" alt=""><figcaption><p>EdgeTX Installed theme packs</p></figcaption></figure>
 
 &#x20;You can download and add additional themes from: [https://github.com/EdgeTX/themes](https://github.com/EdgeTX/themes).
 

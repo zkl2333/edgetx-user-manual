@@ -2,7 +2,7 @@
 
 The **Trainer** screen in Radio Settings is used to configure how the radio in Master mode will handle the signals from the radio in Slave mode.
 
-<figure><img src="../../.gitbook/assets/trainer2.png" alt=""><figcaption><p>Trainer Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/trainer2.png" alt=""><figcaption><p>Trainer Screen</p></figcaption></figure>
 
 For each of the four main control inputs (Ail, Ele, Thr, Rud), the following options can be configured (for each row, from left to right).
 

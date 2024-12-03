@@ -1,6 +1,6 @@
 # Enabled Features
 
-<figure><img src="../../../.gitbook/assets/enabledfeatures.png" alt=""><figcaption><p>Enabled Features</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/enabledfeatures.png" alt=""><figcaption><p>Enabled Features</p></figcaption></figure>
 
 The **Enabled Features** section of **Model Setup** allows you to configure which tabs are visible in the selected model's radio setup and model settings area of EdgeTX. You can select the following options:
 

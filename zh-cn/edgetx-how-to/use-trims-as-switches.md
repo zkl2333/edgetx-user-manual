@@ -10,19 +10,19 @@ In this sample we will use the rudder trim buttons to adjust the differential of
 
 **Step 1:** Disable the trims for rudder and throttle which are not needed. Then we can reuse them for other functionality. Enter the model menu and navigate to the F[light Modes](../color-radios/model-settings/flight-modes.md) page. Edit **FM0** and disable the Throttle and Rudder trims. The yellow highlight color will be gone when the trims are disabled.
 
-<figure><img src="../.gitbook/assets/howto-trims-as-switches-fm0-disable-trims.png" alt=""><figcaption><p>Disable trims for flight mode</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/howto-trims-as-switches-fm0-disable-trims.png" alt=""><figcaption><p>Disable trims for flight mode</p></figcaption></figure>
 
 You can see the disabled trims also on the flight modes page. They now show a dash
 
-<figure><img src="../.gitbook/assets/howto-trims-as-switches-fm0-disabled-trims.png" alt=""><figcaption><p>FM0 with disabled trims for throttle and rudder</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/howto-trims-as-switches-fm0-disabled-trims.png" alt=""><figcaption><p>FM0 with disabled trims for throttle and rudder</p></figcaption></figure>
 
 **Step 2:** Now we navigate to the [Global Variables](../color-radios/model-settings/global-variables.md) page and set a default value of 30 for **GV1** in **FM0**
 
-<figure><img src="../.gitbook/assets/howto-trims-as-switches-gv1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/howto-trims-as-switches-gv1.png" alt=""><figcaption></figcaption></figure>
 
 **Step 3:** We will now create 2 [Special Functions](../color-radios/model-settings/special-functions.md) to adjust the **GV1** value we created in the previous step. Navigate to the [Special Functions](../color-radios/model-settings/special-functions.md) page and create a new function **SF1** for decreasing **GV1**
 
-<figure><img src="../.gitbook/assets/howto-trims-as-switches-sf1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/howto-trims-as-switches-sf1.png" alt=""><figcaption></figcaption></figure>
 
 * **Trigger** is set to the Rud-  (rudder trim left)
 * **Function** is Adjust
@@ -33,7 +33,7 @@ You can see the disabled trims also on the flight modes page. They now show a da
 
 We create **SF2** now for increasing the **GV1** value
 
-<figure><img src="../.gitbook/assets/howto-trims-as-switches-sf2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/howto-trims-as-switches-sf2.png" alt=""><figcaption></figcaption></figure>
 
 * **Trigger** is set to Rud+ (rudder trim right)
 * **Function** is Adjust
@@ -46,7 +46,7 @@ after those 2 special functions are created you can already test the functionali
 
 **Step 4:** Now we can adjust our aileron mixer and use the GV1 value for the differential
 
-<figure><img src="../.gitbook/assets/howto-trims-as-switches-ail-mix.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/howto-trims-as-switches-ail-mix.png" alt=""><figcaption></figcaption></figure>
 
 * **Curve** is set to use Global variables and GV1 is selected
 

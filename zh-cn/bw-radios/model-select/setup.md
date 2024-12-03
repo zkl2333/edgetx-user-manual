@@ -1,6 +1,6 @@
 # Setup
 
-<figure><img src="../../.gitbook/assets/bwsetup.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwsetup.png" alt=""><figcaption></figcaption></figure>
 
 The **Setup** screen is where you start to configure your model. It contains the following settings:
 
@@ -56,7 +56,7 @@ If set to **Remain**, the counter will function like a countdown timer - countin
 * **Voice** - The radio will count down by second starting at the time designated.
 * **Haptic** - The radio will vibrate every second starting at the time designated.
 
-<figure><img src="../../.gitbook/assets/Bwsetup1.png" alt=""><figcaption><p>Function Switches</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/Bwsetup1.png" alt=""><figcaption><p>Function Switches</p></figcaption></figure>
 
 ### **Function Switches**&#x20;
 
@@ -94,7 +94,7 @@ Selecting this check box makes the assigned group act like a traditional 6-posit
 Unlike hardware 6-POS implementation (Horus, TX16S,...), software managed switches can not be used as an analog source, they are individual switches with either ↑ or ↓ position. The behavior of previous 6P source can be achieved using a combination of mixer lines
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/setup2.png" alt=""><figcaption><p>Trims settings</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/setup2.png" alt=""><figcaption><p>Trims settings</p></figcaption></figure>
 
 ### **Trims**
 
@@ -114,7 +114,7 @@ Unlike hardware 6-POS implementation (Horus, TX16S,...), software managed switch
 * Extra Fine = 0.2%
 * Exponential = 0.2% near the center and the step value increases exponentially as the distance from the center increases.
 
-<figure><img src="../../.gitbook/assets/bwsetup3 (1).png" alt=""><figcaption><p>Throttle Settings</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwsetup3 (1).png" alt=""><figcaption><p>Throttle Settings</p></figcaption></figure>
 
 ### **Throttle**
 
@@ -136,7 +136,7 @@ For example, with **Trim idle only** enabled, the throttle stick at the lowest p
 On surface radios (EX: MT-12), the throttle trim has no effect on the reverse throttle range and has some effect over the entire forward throttle range.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/BWPrestartChecks.png" alt=""><figcaption><p>Pre-start Checks options</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/BWPrestartChecks.png" alt=""><figcaption><p>Pre-start Checks options</p></figcaption></figure>
 
 ### Pre-start Checks
 
@@ -205,7 +205,7 @@ Below are the possibile configuration options:
 * **Slave / Bluetooth** - Slave mode using a Bluetooth connection (if installed in radio).
 * **Master / Multi** - Master mode using an additional externally mounted Multi-protocol module for the connection. For more information on this setup, see [set-up-wireless-trainer-with-mpm.md](../../edgetx-how-to/set-up-wireless-trainer-with-mpm.md "mention")
 
-<figure><img src="../../.gitbook/assets/bwsetup5 (1).png" alt=""><figcaption><p>Enabled Features options</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwsetup5 (1).png" alt=""><figcaption><p>Enabled Features options</p></figcaption></figure>
 
 ### Enabled Features
 
@@ -221,7 +221,7 @@ _**Note:**_ Turning off a tab only hides the tab and does not change the items a
 **EXCEPTION:** Turning off the Global / Special Functions tab will disable configured global / special functions for that model.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/bwjoy4.png" alt=""><figcaption><p>USB Joystick advanced mode settings</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwjoy4.png" alt=""><figcaption><p>USB Joystick advanced mode settings</p></figcaption></figure>
 
 ### USB Joystick
 
@@ -259,7 +259,7 @@ In **Advanced mode** you can configure the following additional options:
 
 * **None** - Channel is not used
 
-<figure><img src="../../.gitbook/assets/bwjoy1.png" alt=""><figcaption><p>Button mode options for a selected channel</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwjoy1.png" alt=""><figcaption><p>Button mode options for a selected channel</p></figcaption></figure>
 
 * **Btn** - Channel is used to simulate a button. Configuration options include:
   * **Inversion** - Inverts the output channel signal. Options are: **On** / **Off**
@@ -274,12 +274,12 @@ In **Advanced mode** you can configure the following additional options:
       * **2POS - 8 POS** - will map to the number of buttons that the switch has (ex: 3POS will map to 3 buttons).
   * **Button No:** The button number that the output will be mapped to and sent to the target device as.
 
-<figure><img src="../../.gitbook/assets/bwjoy2.png" alt=""><figcaption><p>Axis mode options for a selected channel</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwjoy2.png" alt=""><figcaption><p>Axis mode options for a selected channel</p></figcaption></figure>
 
 * **Axis** - The channel is used to simulate an axis and will be mapped to one of the target device's default axes.
   * Axis options are: **X**, **Y**, **Z**, **rotX** (rotation X), **rotY**, **rotZ**
 
-<figure><img src="../../.gitbook/assets/bwjoy3.png" alt=""><figcaption><p>Sim mode options for selected channel</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwjoy3.png" alt=""><figcaption><p>Sim mode options for selected channel</p></figcaption></figure>
 
 * **Sim** - The channel is used to simulate a common sim axis and it will be listed on the target device as the selected option (ex: Thr)
   * Sim Axis options are: **Ail**, **Ele**, **Rud**, **Thr, Acc**, **Brk**, **Steer**, **Dpad**

@@ -1,6 +1,6 @@
 # Hardware
 
-<figure><img src="../../.gitbook/assets/hardware.png" alt=""><figcaption><p>Hardware Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/hardware.png" alt=""><figcaption><p>Hardware Screen</p></figcaption></figure>
 
 The **Hardware** screen is where you configure hardware specific-settings for your radio. It contains the following configuration options:
 
@@ -83,15 +83,15 @@ For your gimbal calibration, use a left-to-right & up-to-down movement for the g
 
 <div>
 
-<figure><img src="../../.gitbook/assets/Axis.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/Axis.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/Pots.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/Pots.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/Switches.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/Switches.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -101,11 +101,11 @@ Selecting one of the Axis, Pots, or Switches buttons will open the configuration
 
 <div>
 
-<figure><img src="../../.gitbook/assets/hardware4.png" alt=""><figcaption><p>Analog Debug Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/hardware4.png" alt=""><figcaption><p>Analog Debug Screen</p></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/hardware5 (1).jpg" alt=""><figcaption><p>Switches Test Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/hardware5 (1).jpg" alt=""><figcaption><p>Switches Test Screen</p></figcaption></figure>
 
 </div>
 

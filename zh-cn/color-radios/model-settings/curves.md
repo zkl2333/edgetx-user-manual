@@ -2,7 +2,7 @@
 
 The **Curves** screen of Model Settings allows you to define custom curves to use in the Inputs, Mixes, or Output screens. The curves screen will show all of the configured custom curves, with a graphical representation of each curve, the number of points, and the curve type. &#x20;
 
-<figure><img src="../../.gitbook/assets/curve1.png" alt=""><figcaption><p>Curves screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/curve1.png" alt=""><figcaption><p>Curves screen</p></figcaption></figure>
 
 Selecting an existing custom curve will display the following options:
 
@@ -16,7 +16,7 @@ Selecting the plus button to create a new curve will give you the following opti
 * **Edit** - Opens the curve configuration page.
 * **Preset** - Allows you to set the curve to one of the preset slope values (-45 to 45 degrees in 15 degree increments). The curve will have 5 points and smoothing is not enabled by default.
 
-<figure><img src="../../.gitbook/assets/curves2.png" alt=""><figcaption><p>Curve configuration screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/curves2.png" alt=""><figcaption><p>Curve configuration screen</p></figcaption></figure>
 
 Selecting **Edit** for a configured or unconfigured curve will open the curve configuration screen and display the following options:
 

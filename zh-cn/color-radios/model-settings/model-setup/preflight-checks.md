@@ -1,6 +1,6 @@
 # Pre-start Checks
 
-<figure><img src="../../../.gitbook/assets/prestart checks.png" alt=""><figcaption><p>Pre-start Checks page</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/prestart checks.png" alt=""><figcaption><p>Pre-start Checks page</p></figcaption></figure>
 
 Whenever a new model is loaded, EdgeTX will conduct pre-flight checks based on the checks that are configured on this page. If any of the checks are failed, EdgeTX will give the user an audio and visual warning that must be acknowledged before using the model. The following preflight checks are configurable:
 

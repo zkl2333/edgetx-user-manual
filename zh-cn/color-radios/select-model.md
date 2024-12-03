@@ -2,7 +2,7 @@
 
 The Manage Models screen allows you to create new models, select which model is active, create and apply model labels, and create model templates.
 
-<figure><img src="../.gitbook/assets/ManageModels1.png" alt=""><figcaption><p>Manage Models screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/ManageModels1.png" alt=""><figcaption><p>Manage Models screen</p></figcaption></figure>
 
 ### Selecting & managing existing models&#x20;
 
@@ -28,7 +28,7 @@ Double-tapping on a non-active model (unhighlighted) will give you the following
 
 To create a new model, select the **New Model** button in the upper right corner. You will then be presented with the following options:&#x20;
 
-<figure><img src="../.gitbook/assets/screenshot_tx16s_24-05-13_09-10-02.png" alt=""><figcaption><p>New model options</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/screenshot_tx16s_24-05-13_09-10-02.png" alt=""><figcaption><p>New model options</p></figcaption></figure>
 
 * **Blank Model** - This will create a blank model with only the default options configured.
 * **1.Wizard** - This will launch the new model wizard and create the model as configured in the wizard.&#x20;
@@ -76,7 +76,7 @@ The drop-down menu below the label list is for sorting the filtered models. Mode
 
 There are 4 layouts for the model list in the Manage Models page:
 
-<figure><img src="../.gitbook/assets/MMLayouts.png" alt=""><figcaption><p>Model List Layouts</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/MMLayouts.png" alt=""><figcaption><p>Model List Layouts</p></figcaption></figure>
 
 * Large image (2x2) - Default layout
 * Small image (3x3)

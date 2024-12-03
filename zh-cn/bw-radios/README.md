@@ -14,7 +14,7 @@ layout:
 
 # User Manual for Monochrome Screen Radios
 
-<figure><img src="../.gitbook/assets/monoradios (1).png" alt=""><figcaption><p>EdgeTX supported monochrome screen radios</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/monoradios (1).png" alt=""><figcaption><p>EdgeTX supported monochrome screen radios</p></figcaption></figure>
 
 EdgeTX supports the following monochrome screen radios:
 

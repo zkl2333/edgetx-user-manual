@@ -6,11 +6,11 @@ The Internal / External RF modules are "active" for a model when the buttons are
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/internalrf.png" alt=""><figcaption><p>Internal RF with multi-protocol module selected</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/internalrf.png" alt=""><figcaption><p>Internal RF with multi-protocol module selected</p></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/externalrf.png" alt=""><figcaption><p>External RF with CRSF selected</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/externalrf.png" alt=""><figcaption><p>External RF with CRSF selected</p></figcaption></figure>
 
 </div>
 

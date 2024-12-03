@@ -6,7 +6,7 @@ description: General model settings
 
 <div align="center">
 
-<figure><img src="../../../.gitbook/assets/modelsetup.png" alt=""><figcaption><p>Model Setup tab under Model Settings</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/modelsetup.png" alt=""><figcaption><p>Model Setup tab under Model Settings</p></figcaption></figure>
 
 </div>
 

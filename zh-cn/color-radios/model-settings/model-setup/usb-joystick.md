@@ -2,7 +2,7 @@
 
 The USB Joystick has two possible modes, **Classic** and **Advanced**.&#x20;
 
-<figure><img src="../../../.gitbook/assets/usbjoystick1.png" alt=""><figcaption><p>USB Joystick Classic mode</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/usbjoystick1.png" alt=""><figcaption><p>USB Joystick Classic mode</p></figcaption></figure>
 
 In **Classic mode**, the radio's configured output channels will be sent to the target device in numerical order and mapped to the device's preconfigured USB controller axes and buttons. Below is the default channel mapping for Microsoft Windows.
 
@@ -20,7 +20,7 @@ If using the radio as a USB Joysitck, both internal and external RF modules shou
 * Ch 8 - Slider
 * CH 9 - Ch 32 - Buttons 1 - 24
 
-<figure><img src="../../../.gitbook/assets/usbjoystick.png" alt=""><figcaption><p>USB Joystick Advanced mode</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/usbjoystick.png" alt=""><figcaption><p>USB Joystick Advanced mode</p></figcaption></figure>
 
 In **Advanced mode** you can configure the following options:
 
@@ -38,7 +38,7 @@ In **Advanced mode** you can configure the following options:
 
 **None** - Channel is not used
 
-<figure><img src="../../../.gitbook/assets/usbjoystick2.png" alt=""><figcaption><p>Button mode options for a selected channel</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/usbjoystick2.png" alt=""><figcaption><p>Button mode options for a selected channel</p></figcaption></figure>
 
 **Btn** - Channel is used to simulate a button. Configuration options include:
 
@@ -54,13 +54,13 @@ In **Advanced mode** you can configure the following options:
   * **2POS - 8 POS** - will map to the number of buttons that the switch has (ex: 3POS will map to 3 buttons).
 * **Button No:** The button number that the output will be mapped to and sent to the target device as.
 
-<figure><img src="../../../.gitbook/assets/usbjoystick3.png" alt=""><figcaption><p>Axis mode options for a selected channel</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/usbjoystick3.png" alt=""><figcaption><p>Axis mode options for a selected channel</p></figcaption></figure>
 
 **Axis -** The channel is used to simulate an axis and will be mapped to one of the target device's default axes.
 
 * Axis options are: X, Y, Z, rotX (rotation x), rotY, rotZ
 
-<figure><img src="../../../.gitbook/assets/usbjoystick4.png" alt=""><figcaption><p>Sim mode options for selected channel</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/usbjoystick4.png" alt=""><figcaption><p>Sim mode options for selected channel</p></figcaption></figure>
 
 **Sim -** The channel is used to simulate a common sim axis and it will be listed on the target device as the selected option (ex: Thr)
 

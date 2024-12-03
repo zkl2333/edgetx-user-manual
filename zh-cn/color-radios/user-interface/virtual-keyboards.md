@@ -2,7 +2,7 @@
 
 To allow for the easy entry of text and numbers, EdgeTX uses virtual text and number keyboards that can be interacted by either the touchscreen or roller. Additionally, there are shortcut keys that are mapped to the hardware buttons as described below:
 
-<figure><img src="../../.gitbook/assets/keyboard1.png" alt=""><figcaption><p>Virtual Text Keyboard</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/keyboard1.png" alt=""><figcaption><p>Virtual Text Keyboard</p></figcaption></figure>
 
 ### Shortcuts to the text keyboard using the hardware keys.
 
@@ -31,7 +31,7 @@ To allow for the easy entry of text and numbers, EdgeTX uses virtual text and nu
 * **\[TELE]** = toggle case
 * **LONG \[TELE]** = delete
 
-<figure><img src="../../.gitbook/assets/Keyboard2.png" alt=""><figcaption><p>Virtual Number Keyboard</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/Keyboard2.png" alt=""><figcaption><p>Virtual Number Keyboard</p></figcaption></figure>
 
 ### Shortcuts to the number keyboard using the hardware keys.
 

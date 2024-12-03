@@ -1,6 +1,6 @@
 # Trainer
 
-<figure><img src="../../../.gitbook/assets/trainer1.png" alt=""><figcaption><p>Trainer Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/trainer1.png" alt=""><figcaption><p>Trainer Screen</p></figcaption></figure>
 
 The **Trainer** screen is where you can configure the CPPM passthrough mode and method.  When enabled, this allows the CPPM signals from a radio in _**Slave**_ mode to be passed through to another radio in Master mode which will then pass the signal to the model it is connected to. CPPM passthrough can be used for several different use cases, such as: connecting a head tracker, Instructor / Student training mode, and controlling complex models that require more stick inputs than available on a standard transmitter.&#x20;
 

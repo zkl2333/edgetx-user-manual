@@ -1,6 +1,6 @@
 # Sensor Configuration
 
-<figure><img src="../../../.gitbook/assets/bwtelemetry2.png" alt=""><figcaption><p>Sensor Configuration page</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtelemetry2.png" alt=""><figcaption><p>Sensor Configuration page</p></figcaption></figure>
 
 The below options can be configured for sensors:
 

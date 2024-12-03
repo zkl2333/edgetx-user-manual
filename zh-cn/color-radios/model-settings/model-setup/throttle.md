@@ -1,6 +1,6 @@
 # Throttle
 
-<figure><img src="../../../.gitbook/assets/throttle.png" alt=""><figcaption><p>Throttle page settings</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/throttle.png" alt=""><figcaption><p>Throttle page settings</p></figcaption></figure>
 
 EdgeTX has to possibility to select a specific source and trim for the model throttle and allows for the following configuration options:
 

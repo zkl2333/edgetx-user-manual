@@ -2,7 +2,7 @@
 
 The **Mixes** screen of Model Settings is where several Inputs can be combined into one "Channel Mix". These mixes are then assigned to a radio channel for output. This is also the place where switches, knobs or sliders are assigned to a channel for output. Similar to the Input section, it is also possible to assign a weight, offset or curve to a channel mix.
 
-<figure><img src="../../../.gitbook/assets/Mixes.jpg" alt=""><figcaption><p>Mixes Page</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/Mixes.jpg" alt=""><figcaption><p>Mixes Page</p></figcaption></figure>
 
 Selecting the **+** **button** will create a new mix and open the mixes configuration page. Selecting an existing mix will give you the following options:
 
@@ -15,11 +15,11 @@ Selecting the **+** **button** will create a new mix and open the mixes configur
 * **Paste before** - pastes the copied or moved mix line before the selected mix line.
 * **Paste after** - pastes the copied or moved mix line before the selected mix line.
 
-<figure><img src="../../../.gitbook/assets/Mixes2.jpg" alt=""><figcaption><p>Mixes with Show Mixer Monitors enabled</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/Mixes2.jpg" alt=""><figcaption><p>Mixes with Show Mixer Monitors enabled</p></figcaption></figure>
 
 **Show mixer monitors** - Selecting this option will display a bar graph on the mix channels showing the current value for that mix channel.
 
-<figure><img src="../../../.gitbook/assets/mixes3.jpg" alt=""><figcaption><p>Mixes configuration options</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/mixes3.jpg" alt=""><figcaption><p>Mixes configuration options</p></figcaption></figure>
 
 The upper right portion of the mixes configuration page contains a channel monitor for the selected mix line. It shows the output (top) and mix (bottom) values. The following configuration options are also available:
 
@@ -30,7 +30,7 @@ The upper right portion of the mixes configuration page contains a channel monit
 * **Switch** - The physical switch that activates this mix line (optional). If no switch is selected, then the mix will be active by default.
 * **Curve** - Specifies the type of curve that will be used. See the **curve** section on the [Inputs](inputs.md) page for detailed explanations of the different curve types.&#x20;
 
-<figure><img src="../../../.gitbook/assets/Mixes4.png" alt=""><figcaption><p>Additional Mixes settings</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/Mixes4.png" alt=""><figcaption><p>Additional Mixes settings</p></figcaption></figure>
 
 
 

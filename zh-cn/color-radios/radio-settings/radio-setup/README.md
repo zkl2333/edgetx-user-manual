@@ -1,6 +1,6 @@
 # Radio Setup
 
-<figure><img src="../../../.gitbook/assets/RadioSetup.png" alt=""><figcaption><p>Radio Setup Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/RadioSetup.png" alt=""><figcaption><p>Radio Setup Screen</p></figcaption></figure>
 
 The **Radio Setup** screen is where you configure basic settings for your radio. It contains the following options:
 

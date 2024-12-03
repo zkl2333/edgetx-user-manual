@@ -20,15 +20,15 @@
 
 选择 **固件版本** 和 **遥控器型号**，然后点击 **通过 USB 刷写**。
 
-<figure><img src="../../.gitbook/assets/update2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/update2.png" alt=""><figcaption></figcaption></figure>
 
 在下一屏幕，选择 **STM32 Bootloader** 设备并点击 **下一步**。
 
-<figure><img src="../../.gitbook/assets/update3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/update3.png" alt=""><figcaption></figcaption></figure>
 
 如果未显示 **STM32 Bootloader** 设备，选择 **添加新设备**。在弹出窗口中选择 **STM32 Bootloader** 并点击 **连接**。
 
-<figure><img src="../../.gitbook/assets/update4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/update4.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **注意：** 如果无法选择 STM32 BOOTLOADER，通常说明您的电脑驱动程序存在问题。您可以安装 **ImpulseRC Driver Fixer** 来修复驱动程序。下载链接：[https://impulserc.blob.core.windows.net/utilities/ImpulseRC\_Driver\_Fixer.exe](https://impulserc.blob.core.windows.net/utilities/ImpulseRC\_Driver\_Fixer.exe)
@@ -40,15 +40,15 @@
 
 选择 **STM32 Bootloader** 设备并点击 **下一步** 后，将显示确认屏幕以验证您的设置。确认所有内容正确（版本、遥控器和设备）后，点击 **开始刷写** 按钮。
 
-<figure><img src="../../.gitbook/assets/update5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/update5.png" alt=""><figcaption></figcaption></figure>
 
 EdgeTX Buddy 将开始刷写过程，屏幕会显示进度。
 
-<figure><img src="../../.gitbook/assets/update6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/update6.png" alt=""><figcaption></figcaption></figure>
 
 刷写完成后，下一步是更新 SD 卡内容。尽管不总是必须更新 SD 卡内容，但建议您这样做。要更新 SD 卡内容，请点击完成屏幕上的 **设置您的 SD 卡** 链接，这会带您进入 SD 卡内容页面。
 
-<figure><img src="../../.gitbook/assets/update7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/update7.png" alt=""><figcaption></figcaption></figure>
 
 ### 更新 SD 卡内容
 
@@ -56,11 +56,11 @@ EdgeTX Buddy 将开始刷写过程，屏幕会显示进度。
 
 打开遥控器电源后，通过 USB 将其连接到电脑。当遥控器提示选择 USB 模式时，选择 **USB 存储**。点击 **选择 SD 卡** 选项，然后导航到您的 EdgeTX SD 卡。
 
-<figure><img src="../../.gitbook/assets/update8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/update8.png" alt=""><figcaption></figcaption></figure>
 
 EdgeTX SD 卡将作为 USB 驱动器挂载到您的电脑。选择 USB 驱动器后点击 **选择文件夹**。
 
-<figure><img src="../../.gitbook/assets/update9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/update9.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 您的电脑可能会提示要求 EdgeTX Buddy 获取 SD 卡内容的权限。这是正常的，Buddy 需要权限以修改 SD 卡上的文件。
@@ -68,7 +68,7 @@ EdgeTX SD 卡将作为 USB 驱动器挂载到您的电脑。选择 USB 驱动器
 
 在 SD 卡内容页面，确认固件版本和遥控器型号仍然正确，然后选择所需的声音包语言。点击 **应用更改**。状态窗口会弹出并显示安装进度。文件安装完成后，状态窗口会自动关闭。
 
-<figure><img src="../../.gitbook/assets/update10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/update10.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **注意：** EdgeTX Buddy 只会更新默认 EdgeTX 安装的一部分 SD 卡文件。它不会修改或删除您添加的其他文件（如 LUA 脚本、声音文件、图片、自定义主题、模型文件、遥控器设置文件等）。
@@ -86,7 +86,7 @@ EdgeTX SD 卡将作为 USB 驱动器挂载到您的电脑。选择 USB 驱动器
 
 固件下载完成后，系统会要求选择保存位置。导航到遥控器的 SD 卡并选择 **Firmware** 文件夹，然后点击 **保存**。
 
-<figure><img src="../../.gitbook/assets/update15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/update15.png" alt=""><figcaption></figcaption></figure>
 
 断开 USB 数据线并关闭遥控器电源。
 

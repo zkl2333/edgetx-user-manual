@@ -8,7 +8,7 @@ The Telemetry screen is where you configure these sensors to use in EdgeTX.  Bel
 
 
 
-<figure><img src="../../../.gitbook/assets/bwtelemetry4 (2).png" alt=""><figcaption><p>Sensors portion of the Telemetry screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtelemetry4 (2).png" alt=""><figcaption><p>Sensors portion of the Telemetry screen</p></figcaption></figure>
 
 All previously configured sensors are listed here. The list is collapsible by clicking on the **arrow icon** to the right side of the **Sensors** label. The number of configured sensors will be displayed in **parentheses,** ex: (6), when the sensor list is collapsed. Sensors that have not received data since the model was loaded or the telemetry values were reset display **---** for the values. The asterisk **\*** to the left of the sensor value will flash when the sensor has received a data update. A solid asterisk**\*** indicates that the sensors that are receiving regular updates. Sensors that are no longer receiving regular updates will not be marked with the asterisk**\***. See [Common Telemetry Sensors](../../../color-radios/model-settings/telemetry/common-telemetry-sensors.md) for a list of commonly used sensors in EdgeTX.
 
@@ -33,7 +33,7 @@ See the [Sensor Configuration](sensor-configuration-options.md) page for a detai
 
 **RX Status**
 
-<figure><img src="../../../.gitbook/assets/bwtelemetry1.png" alt=""><figcaption><p>RSSI Portion of Telemetry screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtelemetry1.png" alt=""><figcaption><p>RSSI Portion of Telemetry screen</p></figcaption></figure>
 
 Here you can configure the threshold for the RX alarms. The Rx-Stats label will change (Rx-Stats, RSSI, Rqly, Sgnl) depending on the protocol that is used with the model.
 
@@ -43,7 +43,7 @@ Here you can configure the threshold for the RX alarms. The Rx-Stats label will 
 
 **Variometer**
 
-<figure><img src="../../../.gitbook/assets/bwtelemetry3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtelemetry3.png" alt=""><figcaption></figcaption></figure>
 
 A variometer detects changes in the model altitude.  EdgeTX can alert the user of these altitude changes by providing a rising/lower pitched tone. Use the **Variometer** menu on the Radio Setup page to set the actual frequency and volume of the tone to be played. The following options exist to configure the variometer alarm.
 

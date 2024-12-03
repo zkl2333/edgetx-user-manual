@@ -1,6 +1,6 @@
 # Timer 1/2/3
 
-<figure><img src="../../../.gitbook/assets/timers.png" alt=""><figcaption><p>Timer configuration page</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/timers.png" alt=""><figcaption><p>Timer configuration page</p></figcaption></figure>
 
 EdgeTX provides 3 timers that can be custom programmed.  Below are the configuration options.
 

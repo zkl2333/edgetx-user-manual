@@ -6,7 +6,7 @@ Not all radios go into Bootloader or DFU mode the same way.  Below you will find
 
 
 
-<figure><img src="../.gitbook/assets/LR3Prodfu.png" alt="" width="375"><figcaption><p>BETAFPV LiteRadio 3 Pro Bootloader and DFU Button</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/LR3Prodfu.png" alt="" width="375"><figcaption><p>BETAFPV LiteRadio 3 Pro Bootloader and DFU Button</p></figcaption></figure>
 
 **Bootloader**: Turn off the radio transmitter. Press the Bootloader button and Power button, release at the same time.
 
@@ -20,7 +20,7 @@ Note: In early versions of the LiteRadio 3 Pro, the DFU button was non-functiona
 
 
 
-<figure><img src="../.gitbook/assets/EL18 DFU.png" alt="" width="456"><figcaption><p>FlySky NV14/EL18 DFU button</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/EL18 DFU.png" alt="" width="456"><figcaption><p>FlySky NV14/EL18 DFU button</p></figcaption></figure>
 
 **Bootloader**: Turn off the radio transmitter. Pull both trims inward and press both power buttons.
 
@@ -30,7 +30,7 @@ Note: In early versions of the LiteRadio 3 Pro, the DFU button was non-functiona
 
 
 
-<figure><img src="../.gitbook/assets/PL18Dfu.png" alt="" width="375"><figcaption><p>PL18 PL18 EV DFU Button</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/PL18Dfu.png" alt="" width="375"><figcaption><p>PL18 PL18 EV DFU Button</p></figcaption></figure>
 
 **Bootloader**: Turn off the radio transmitter. Pull both horizontal trims (TR7 and TR8) together and press both power buttons.
 
@@ -38,7 +38,7 @@ Note: In early versions of the LiteRadio 3 Pro, the DFU button was non-functiona
 
 ### iFlight Commando8
 
-<figure><img src="../.gitbook/assets/Com8DFU.png" alt="" width="375"><figcaption><p>iFlight Commando8 Boot Button</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/Com8DFU.png" alt="" width="375"><figcaption><p>iFlight Commando8 Boot Button</p></figcaption></figure>
 
 **Bootloader**: Turn off the radio transmitter. Press the Boot button and Power button, release at the same time.
 
@@ -52,7 +52,7 @@ Note: In early versions of the LiteRadio 3 Pro, the DFU button was non-functiona
 
 ### Jumper T12 MAX
 
-<figure><img src="../.gitbook/assets/T12MAX-dfu-button.png" alt=""><figcaption><p>Jumper T12 MAX DFU Button</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/T12MAX-dfu-button.png" alt=""><figcaption><p>Jumper T12 MAX DFU Button</p></figcaption></figure>
 
 **Bootloader**: Turn off the radio transmitter. Pull both horizontal trim switches together and press the power button.
 
@@ -60,7 +60,7 @@ Note: In early versions of the LiteRadio 3 Pro, the DFU button was non-functiona
 
 ### Jumper T14/T15
 
-<figure><img src="../.gitbook/assets/T15-dfu-button.png" alt=""><figcaption><p>Jumper T14/T15 DFU Button</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/T15-dfu-button.png" alt=""><figcaption><p>Jumper T14/T15 DFU Button</p></figcaption></figure>
 
 **Bootloader**: Turn off the radio transmitter. Pull both horizontal trim switches together and press the power button.
 
@@ -68,13 +68,13 @@ Note: In early versions of the LiteRadio 3 Pro, the DFU button was non-functiona
 
 ### Jumper T-20/T-20S
 
-<figure><img src="../.gitbook/assets/T20DFU.png" alt="" width="563"><figcaption><p>Jumper T-20 v1 DFU Button</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/T20DFU.png" alt="" width="563"><figcaption><p>Jumper T-20 v1 DFU Button</p></figcaption></figure>
 
 {% hint style="info" %}
 Note: To access the DFU button on v1, remove the antenna. For v2, use a toothpick to gently push the button to avoid damage.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/T20V2.png" alt="" width="563"><figcaption><p>Jumper T-20 v2 DFU Button</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/T20V2.png" alt="" width="563"><figcaption><p>Jumper T-20 v2 DFU Button</p></figcaption></figure>
 
 **Bootloader**: Turn off the radio transmitter. Push both trim hat switches inward together and press the power button.
 
@@ -88,7 +88,7 @@ Note: To access the DFU button on v1, remove the antenna. For v2, use a toothpic
 
 ### Jumper T-Pro / T-Pro V2
 
-<figure><img src="../.gitbook/assets/T-ProDFU.png" alt="" width="375"><figcaption><p>Jumper T-Pro DFU Button</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/T-ProDFU.png" alt="" width="375"><figcaption><p>Jumper T-Pro DFU Button</p></figcaption></figure>
 
 
 

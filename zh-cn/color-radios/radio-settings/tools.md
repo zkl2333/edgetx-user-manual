@@ -1,18 +1,18 @@
 # Tools
 
-<figure><img src="../../.gitbook/assets/tools.jpg" alt=""><figcaption><p>Tools Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/tools.jpg" alt=""><figcaption><p>Tools Screen</p></figcaption></figure>
 
 The **Tools** page in Radio Settings is where you can select Lua script-based tools for execution. Lua scripts that are located on the SD card in the **Tools** folder will be listed here. Selecting a tool will execute it in full-screen mode. By default, EdgeTX includes several tools. Other tools can be downloaded and added to the SD card as well.  The following tools are included in the default EdgeTX SD card.&#x20;
 
 #### Model Locator (by RSSI)
 
-<figure><img src="../../.gitbook/assets/rssi.jpg" alt=""><figcaption><p>Model Locator tool</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/rssi.jpg" alt=""><figcaption><p>Model Locator tool</p></figcaption></figure>
 
 The Model Locator tool helps to find a lost model based on the RSSI (if still available). The widget produces an audio representation (variometer style) of the RSSI from the lost model. The widget will also display the RSSI in a visible colorized bar (0-100%).
 
 #### Spectrum (INT)
 
-<figure><img src="../../.gitbook/assets/spectrum-int.jpg" alt=""><figcaption><p>Spectrum Analyzer (INT) tool</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/spectrum-int.jpg" alt=""><figcaption><p>Spectrum Analyzer (INT) tool</p></figcaption></figure>
 
 The Spectrum Analyzer tool will show the strength of signals in the 2.4GHz band. It uses the internal MULTI-Module as a 2.4GHz spectrum analyzer.
 
@@ -28,11 +28,11 @@ Pressing **ENT** and scrolling left and right allows the **T** value to be chang
 
 <div>
 
-<figure><img src="../../.gitbook/assets/wizard1.jpg" alt=""><figcaption><p>Wizard Loader tool</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wizard1.jpg" alt=""><figcaption><p>Wizard Loader tool</p></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/wizard2.jpg" alt=""><figcaption><p>Plane Wizard</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wizard2.jpg" alt=""><figcaption><p>Plane Wizard</p></figcaption></figure>
 
 </div>
 

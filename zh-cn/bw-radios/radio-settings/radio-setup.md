@@ -1,6 +1,6 @@
 # Radio Setup
 
-<figure><img src="../../.gitbook/assets/bwRadioSetup.png" alt=""><figcaption><p>Radio Setup</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwRadioSetup.png" alt=""><figcaption><p>Radio Setup</p></figcaption></figure>
 
 The **Radio Setup** screen is where you configure basic settings for your radio. It contains the following options:
 
@@ -12,7 +12,7 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 
 
 
-<figure><img src="../../.gitbook/assets/bwRadioSetup2.png" alt=""><figcaption><p>Sound Settings</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwRadioSetup2.png" alt=""><figcaption><p>Sound Settings</p></figcaption></figure>
 
 ### **Sound**&#x20;
 
@@ -35,7 +35,7 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 
 **Bg volume -** The volume for background .wav files (music) that are played with the **BGMusic** special function
 
-<figure><img src="../../.gitbook/assets/bwRadioSetup3 (1).png" alt=""><figcaption><p>Variometer Settings</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwRadioSetup3 (1).png" alt=""><figcaption><p>Variometer Settings</p></figcaption></figure>
 
 ### **Vario  (Variometer)**
 
@@ -51,7 +51,7 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 Note: In order for the variometer to function, it must be turned on via the **Vario** special or global function. See [Special Functions](../../color-radios/model-settings/special-functions.md) for more information on how to configure this.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/bwRadioSetup4.png" alt=""><figcaption><p>Haptic Settings</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwRadioSetup4.png" alt=""><figcaption><p>Haptic Settings</p></figcaption></figure>
 
 ### Haptic
 
@@ -66,7 +66,7 @@ Note: In order for the variometer to function, it must be turned on via the **Va
 
 **Strength** - Strength of vibration
 
-<figure><img src="../../.gitbook/assets/bwRadioSetup5.png" alt=""><figcaption><p>Alarms Settings</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwRadioSetup5.png" alt=""><figcaption><p>Alarms Settings</p></figcaption></figure>
 
 ### Alarms
 
@@ -80,7 +80,7 @@ Note: In order for the variometer to function, it must be turned on via the **Va
 
 **RSSI Shutdown** - Checks if a receiver is still connected to the radio on attempted shutdown. Makes a audio and visual alert if one is detected.&#x20;
 
-<figure><img src="../../.gitbook/assets/bwRadioSetup6.png" alt=""><figcaption><p>Backlight Settings</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwRadioSetup6.png" alt=""><figcaption><p>Backlight Settings</p></figcaption></figure>
 
 ### Backlight
 
@@ -98,7 +98,7 @@ Note: In order for the variometer to function, it must be turned on via the **Va
 
 **Alarm** - The backlight turns on when there are alarms or warnings.
 
-<figure><img src="../../.gitbook/assets/bwRadioSetup7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwRadioSetup7.png" alt=""><figcaption></figcaption></figure>
 
 **Contrast** - For LCD displays, adjusts the screen contrast setting. For OLED displays. adjusts the OLED brightness level.
 
@@ -114,7 +114,7 @@ Note: In order for the variometer to function, it must be turned on via the **Va
 
 **Time Zone** - The time offset from UTC where the radio is being used. Can be configured in 15 minute increments.
 
-<figure><img src="../../.gitbook/assets/bwRadioSetup8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwRadioSetup8.png" alt=""><figcaption></figcaption></figure>
 
 **Adjust RTC** - Adjust the transmitter's real-time clock to match the time determined by the GPS.
 
@@ -130,7 +130,7 @@ Note: In order for the variometer to function, it must be turned on via the **Va
 
 **Play delay** (sw. mid pos) - The minimum time in milliseconds a switch must be in the middle position before a special function will get activated. This is used to prevent the middle position from being activated on a three-position switch when switching from low position to high position.
 
-<figure><img src="../../.gitbook/assets/bwRadioSetup9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwRadioSetup9.png" alt=""><figcaption></figcaption></figure>
 
 **USB Mode** - Sets the default action when a USB cable is plugged into the USB data port and the radio is powered on.  Options are: **Ask**, **Joystick**, **Storage**, and **Serial**.
 
@@ -150,7 +150,7 @@ Note: In order for the variometer to function, it must be turned on via the **Va
 
 
 
-<figure><img src="../../.gitbook/assets/bwEnabledFeatures.png" alt=""><figcaption><p>Enabled Features</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwEnabledFeatures.png" alt=""><figcaption><p>Enabled Features</p></figcaption></figure>
 
 ### Enabled Features
 

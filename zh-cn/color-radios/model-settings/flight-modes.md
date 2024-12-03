@@ -1,6 +1,6 @@
 # Flight Modes
 
-<figure><img src="../../.gitbook/assets/FM1.png" alt=""><figcaption><p>Flight Modes page</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/FM1.png" alt=""><figcaption><p>Flight Modes page</p></figcaption></figure>
 
 Flight modes allow you to have different trim settings for each flight mode. Once multiple flight modes are configured, you can adjust the trim settings in each flight mode without affecting the trim settings in other flight modes (unless they are configured to do so). There are 9 possible flight modes to use, with Flight Mode 0 being the default flight mode.
 
@@ -8,7 +8,7 @@ The **Flight Mode** screen displays an overview of each flight mode. The highlig
 
 **Check FM Trims:** When the check FM trims button is pressed, the trims for the current flight mode are temporarily disabled. This is used to test the impact of the current flight mode’s trims on the outputs.
 
-<figure><img src="../../.gitbook/assets/FM2.png" alt=""><figcaption><p>Flight Mode configuration page</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/FM2.png" alt=""><figcaption><p>Flight Mode configuration page</p></figcaption></figure>
 
 The flight mode conifiguration screen has the following options:
 

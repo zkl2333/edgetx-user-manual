@@ -2,7 +2,7 @@
 
 The **Hardware** screen is where you configure hardware specific-settings for your radio. It shows all physical hardware objects (sticks, pots, switches) and allows for their modifications. It is also where you can calibrate your sticks and pots. It also contains additional configuration options.
 
-<figure><img src="../../.gitbook/assets/bwhardware1.png" alt=""><figcaption><p>Hardware Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwhardware1.png" alt=""><figcaption><p>Hardware Screen</p></figcaption></figure>
 
 ### **Calibration**
 
@@ -18,7 +18,7 @@ Selecting one of the Axis, Pots, or Switches lines from the list will allow you 
 
 ### Additional hardware configuration options
 
-<figure><img src="../../.gitbook/assets/bwhardware2.png" alt=""><figcaption><p>Hardware Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwhardware2.png" alt=""><figcaption><p>Hardware Screen</p></figcaption></figure>
 
 **Batt. Calib** (Battery Calibration) - Set this value to match the transmitter battery voltage. This ensures that the displayed battery voltage is accurate.
 
@@ -85,11 +85,11 @@ The debug section allows for testing and debugging of the analog controls and ke
 
 <div>
 
-<figure><img src="../../.gitbook/assets/bwhardware3.png" alt=""><figcaption><p>Debug Analogs screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwhardware3.png" alt=""><figcaption><p>Debug Analogs screen</p></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/bwhardware4.png" alt=""><figcaption><p>Debug Keys screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwhardware4.png" alt=""><figcaption><p>Debug Keys screen</p></figcaption></figure>
 
 </div>
 

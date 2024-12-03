@@ -2,7 +2,7 @@
 
 The **Special Functions** section of Model Setup, as the name implies, is where you can configure the special functions that are included in EdgeTX. These special functions add additional functionality beyond normal model controls such as enabling trainer mode, playing a sound, adjusting the radio backlight, adjusting radio volume, etc. On the special functions screen you will see all configured special functions as well as some of the configured options such as function name, activation switch, if the function is enabled, and other configuration options.
 
-<figure><img src="../../.gitbook/assets/specialfunctions.png" alt=""><figcaption><p>Special Functions</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/specialfunctions.png" alt=""><figcaption><p>Special Functions</p></figcaption></figure>
 
 Selecting the **+** button will allow you to select an unused special function to configure and the special function configuration window will appear. See [configuring special functions](special-functions.md#configuring-special-functions) below for information about configuring new special functions.
 

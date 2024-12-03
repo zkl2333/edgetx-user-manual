@@ -1,6 +1,6 @@
 # Statistics
 
-<figure><img src="../../.gitbook/assets/bwstats.png" alt=""><figcaption><p>Statistics screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwstats.png" alt=""><figcaption><p>Statistics screen</p></figcaption></figure>
 
 The **Statistics** screen presents you with statistics regarding radio usage. All data is reset once the radio is powered off. The following information is provided:
 
@@ -14,11 +14,11 @@ Pressing **\[PAGE>]** will take you to the **Debug** screens.
 
 <div>
 
-<figure><img src="../../.gitbook/assets/bwdebug.png" alt=""><figcaption><p>Debug screen 1</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwdebug.png" alt=""><figcaption><p>Debug screen 1</p></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/bwdebug2.png" alt=""><figcaption><p>Debug screen 1</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwdebug2.png" alt=""><figcaption><p>Debug screen 1</p></figcaption></figure>
 
 </div>
 

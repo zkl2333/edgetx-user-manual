@@ -1,6 +1,6 @@
 # Trims
 
-<figure><img src="../../../.gitbook/assets/trims.png" alt=""><figcaption><p>Trims settings page</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/trims.png" alt=""><figcaption><p>Trims settings page</p></figcaption></figure>
 
 Trims are used adjust the center position of a given stick axis. EdgeTX has the following time configuration options:
 

@@ -8,7 +8,7 @@ Below are descriptions and configuration options for widgets included with EdgeT
 
 ### BattAnalog
 
-<figure><img src="../../.gitbook/assets/wid_battanal.png" alt=""><figcaption><p>BattAnalog Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_battanal.png" alt=""><figcaption><p>BattAnalog Widget</p></figcaption></figure>
 
 Displays a graphical representation of the charge level of a Lipo/Li-ion. It will automatically detect the cell count of the battery. It works with telemetry where only the total battery voltage is received. The configurable options are:
 
@@ -19,7 +19,7 @@ Displays a graphical representation of the charge level of a Lipo/Li-ion. It wil
 
 ### BattCheck
 
-<figure><img src="../../.gitbook/assets/wid_battcheck.png" alt=""><figcaption><p>BattCheck Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_battcheck.png" alt=""><figcaption><p>BattCheck Widget</p></figcaption></figure>
 
 Displays a graphical representation of the charge level of a Lipo/Li-ion. It works with telemetry where individual cell voltage is received, such as FLVSS liPo Voltage Sensor. The configurable options are:
 
@@ -31,7 +31,7 @@ Displays a graphical representation of the charge level of a Lipo/Li-ion. It wor
 
 ### Counter
 
-<figure><img src="../../.gitbook/assets/wid_counter.png" alt=""><figcaption><p>Counter Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_counter.png" alt=""><figcaption><p>Counter Widget</p></figcaption></figure>
 
 A counter that incrementally counts. The configurable options are:
 
@@ -42,11 +42,11 @@ A counter that incrementally counts. The configurable options are:
 
 <div>
 
-<figure><img src="../../.gitbook/assets/widgets5.jpg" alt=""><figcaption><p>Counter and Event Demo Widgets</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/widgets5.jpg" alt=""><figcaption><p>Counter and Event Demo Widgets</p></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/widgets6.jpg" alt=""><figcaption><p>Event Demo Widget Full Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/widgets6.jpg" alt=""><figcaption><p>Event Demo Widget Full Screen</p></figcaption></figure>
 
 </div>
 
@@ -56,7 +56,7 @@ Demonstrates handling of key and touch events in full screen mode. For demo purp
 
 ### **Flights**&#x20;
 
-<figure><img src="../../.gitbook/assets/wid_flights.png" alt=""><figcaption><p>Flights Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_flights.png" alt=""><figcaption><p>Flights Widget</p></figcaption></figure>
 
 Counts your number of flights. It will give you a verbal queue when the flight has started, finished as well as the total flights for the model.&#x20;
 
@@ -76,7 +76,7 @@ The widget assumes the following: the model has a motor, the motor is activated 
 
 ### Gauge
 
-<figure><img src="../../.gitbook/assets/wid_gauge (1).png" alt=""><figcaption><p>Gauge Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_gauge (1).png" alt=""><figcaption><p>Gauge Widget</p></figcaption></figure>
 
 Shows a bar graph for the source value. The configurable options are:
 
@@ -87,7 +87,7 @@ Shows a bar graph for the source value. The configurable options are:
 
 ### **Gauge Rotary**
 
-<figure><img src="../../.gitbook/assets/wid_gaugerotary.png" alt=""><figcaption><p>Gauge Rotary Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_gaugerotary.png" alt=""><figcaption><p>Gauge Rotary Widget</p></figcaption></figure>
 
 &#x20;A configurable analog style gauge with a needle. Also shows the minimum and maximum values that were read by the gauge with green and red needles. The configurable options are:
 
@@ -99,7 +99,7 @@ Shows a bar graph for the source value. The configurable options are:
 
 ### **Ghost**
 
-<figure><img src="../../.gitbook/assets/wid_ghost.jpg" alt=""><figcaption><p>Ghost Widget Normal Mode and VTX Mode</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_ghost.jpg" alt=""><figcaption><p>Ghost Widget Normal Mode and VTX Mode</p></figcaption></figure>
 
 The Ghost widget will display RF receiver or video transmitter telemetry data based on the mode that is configured.&#x20;
 
@@ -109,13 +109,13 @@ In video mode, the widget provides Video Band (VBAN), Video Frequency (VFRQ), Vi
 
 ### **LibGUI Demo**
 
-<figure><img src="../../.gitbook/assets/wid_libgui.jpg" alt=""><figcaption><p>LibGUI Demo Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_libgui.jpg" alt=""><figcaption><p>LibGUI Demo Widget</p></figcaption></figure>
 
 This widget is a demo for the LibGUI library. This library is not normally run by itself. Instead, it provides interactive functions to other Lua scripts that use it. The widget must be run in full-screen mode to demo the library's functionality.
 
 ### **Model info**
 
-<figure><img src="../../.gitbook/assets/wid_modelinfo (1).png" alt=""><figcaption><p>Model Info Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_modelinfo (1).png" alt=""><figcaption><p>Model Info Widget</p></figcaption></figure>
 
 Displays the selected model name and picture (if configured in model settings). The configurable options are:
 
@@ -127,7 +127,7 @@ Displays the selected model name and picture (if configured in model settings). 
 
 ### **Outputs**&#x20;
 
-<figure><img src="../../.gitbook/assets/wid_outputs.png" alt=""><figcaption><p>Outputs Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_outputs.png" alt=""><figcaption><p>Outputs Widget</p></figcaption></figure>
 
 Shows the channel output values in a bar graph. The number of channels that are displayed is dependent on the size of the widget. The configurable options are:
 
@@ -139,13 +139,13 @@ Shows the channel output values in a bar graph. The number of channels that are 
 
 ### Serial Power Port Demo
 
-<figure><img src="../../.gitbook/assets/wid_serialpower.png" alt=""><figcaption><p>Serial Power Port Demo Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_serialpower.png" alt=""><figcaption><p>Serial Power Port Demo Widget</p></figcaption></figure>
 
 A demo widget to show you how the power port can be used. It must be run in full screen mode.
 
 ### **SOARETX**
 
-<figure><img src="../../.gitbook/assets/wid_soaretx.jpg" alt=""><figcaption><p>SoarETX Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_soaretx.jpg" alt=""><figcaption><p>SoarETX Widget</p></figcaption></figure>
 
 The EdgeTX version of the SoarOTX tool.  It is a package of sailplane models for EdgeTX transmitters. It provides Lua scripts for timing and scorekeeping, graphing of log data (e.g. altitude graphs), and model configuration.
 
@@ -155,7 +155,7 @@ A demo of this tool can be seen here: [https://www.youtube.com/watch?v=5NSvxUNKM
 
 ### **Text**
 
-<figure><img src="../../.gitbook/assets/wid_text.png" alt=""><figcaption><p>Text Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_text.png" alt=""><figcaption><p>Text Widget</p></figcaption></figure>
 
 Displays a user-customizable text field. The configurable options are:
 
@@ -167,7 +167,7 @@ Displays a user-customizable text field. The configurable options are:
 
 ### **Timer**
 
-<figure><img src="../../.gitbook/assets/wid_timer.png" alt=""><figcaption><p>Timer Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_timer.png" alt=""><figcaption><p>Timer Widget</p></figcaption></figure>
 
 Displays the selected timer. No configurable options other than timer selection.
 
@@ -175,7 +175,7 @@ Displays the selected timer. No configurable options other than timer selection.
 
 ### **Timer2**&#x20;
 
-<figure><img src="../../.gitbook/assets/wid_timer2.png" alt=""><figcaption><p>Timer2 Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_timer2.png" alt=""><figcaption><p>Timer2 Widget</p></figcaption></figure>
 
 Displays the selected timer with the timer text scaled based on the select widget size and has the following configuration options:
 
@@ -185,13 +185,13 @@ Displays the selected timer with the timer text scaled based on the select widge
 
 ### **TxGPStest**&#x20;
 
-<figure><img src="../../.gitbook/assets/wid_gpstest.png" alt=""><figcaption><p>TxGPSTest Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_gpstest.png" alt=""><figcaption><p>TxGPSTest Widget</p></figcaption></figure>
 
 Displays GPS Information in text format. There are no configurable options.
 
 ### **Value**
 
-<figure><img src="../../.gitbook/assets/wid_value.png" alt=""><figcaption><p>Value Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_value.png" alt=""><figcaption><p>Value Widget</p></figcaption></figure>
 
 Displays a numeric value of the defined source as text. The configurable options are:
 
@@ -203,7 +203,7 @@ Displays a numeric value of the defined source as text. The configurable options
 
 ### Value2
 
-<figure><img src="../../.gitbook/assets/wid_value2.png" alt=""><figcaption><p>Value2 Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_value2.png" alt=""><figcaption><p>Value2 Widget</p></figcaption></figure>
 
 Displays a numeric value of the defined telemetry source as text. The text will scale based on the size of the widget grid that is selected. The widget will detect the end of the flight (by no longer receiving telemtry) and will then display the min and max values of the configured telemetry sensor.
 

@@ -2,14 +2,14 @@
 
 Global variables are variables whose values are shared across all the configuration screens of a model. Their values can be used in weights, offsets, differential, expo settings, outputs, and in logical switch comparisons.  The **Global Variables** screen of Model Settings shows the value of each global variable for each flight mode.
 
-<figure><img src="../../.gitbook/assets/globalvariables1.png" alt=""><figcaption><p>Global variables screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/globalvariables1.png" alt=""><figcaption><p>Global variables screen</p></figcaption></figure>
 
 Selecting a global variable from the global variable screen will give you the following options:
 
 * **Edit** - Opens the global variable configuration screen for the selected global variable.
 * **Clear** - Clears the global variable values for all flight modes for the selected global variable.
 
-<figure><img src="../../.gitbook/assets/GVE.png" alt=""><figcaption><p>Global Variable configuration screen.</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/GVE.png" alt=""><figcaption><p>Global Variable configuration screen.</p></figcaption></figure>
 
 The global variable configuration screen is where you assign a value and other configuration options to a global variable. Additionally, you can select how the value of the global variable is defined for every flight mode - either the value is manually defined or inherited from another selected flight mode. It contains the following configuration options:
 
@@ -26,4 +26,4 @@ The global variable configuration screen is where you assign a value and other c
 
 
 
-<figure><img src="../../.gitbook/assets/GVE2.png" alt=""><figcaption><p>Popup message of global variable change</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/GVE2.png" alt=""><figcaption><p>Popup message of global variable change</p></figcaption></figure>

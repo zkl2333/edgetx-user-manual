@@ -6,7 +6,7 @@ The **Outputs** screen of **Model Settings** is where final adjustments to the c
 A **Trim** is a temporary adjustment to a flight control normally done while in operation with a trim switch. A **Subtrim** is a semi-permanant adjustment to a flight control that is normally configured when setting up the model in the output settings.&#x20;
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/outputs.jpg" alt=""><figcaption><p>Outputs screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/outputs.jpg" alt=""><figcaption><p>Outputs screen</p></figcaption></figure>
 
 The output screen shows all the configured output channels. For each output line, it displays the values for the minimum and maximum limits, subtrim, center point, subtrim mode and channel monitor. The two options below are also available on the output page:
 
@@ -20,7 +20,7 @@ Selecting an output line will give you the following options:
 * **Copy Sticks to Subtrim** - Adds the current value of the stick deflection as the subtrim value.
 * **Copy Trims to Subtrim** - Adds the current trim value to the subtrim value.  The trim value is not changed.
 
-<figure><img src="../../../.gitbook/assets/outputs2.jpg" alt=""><figcaption><p>Outputs Configuration page</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/outputs2.jpg" alt=""><figcaption><p>Outputs Configuration page</p></figcaption></figure>
 
 The output configuration screen has the following configuration options:
 

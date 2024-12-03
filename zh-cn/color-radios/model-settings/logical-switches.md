@@ -4,7 +4,7 @@ Logical Switches are virtual two-position switches whose values (ON/OFF or +100/
 
 The **Logical Switches** page in Model Settings shows you all the configured logical switches as well as an overview of their configured options.
 
-<figure><img src="../../.gitbook/assets/logicalswitches1.png" alt=""><figcaption><p>Logical Switches screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/logicalswitches1.png" alt=""><figcaption><p>Logical Switches screen</p></figcaption></figure>
 
 Selecting the **+** button will allow you to select an unused logical switch to configure.
 
@@ -15,7 +15,7 @@ Selecting a configured logic switch will give you the following options:
 * **Paste** - Pastes a copied logical switch onto the selected logical switch. Note: it will overwrite the selected logical switch.
 * **Clear** - Deletes all configuration options for the selected logical switch.
 
-<figure><img src="../../.gitbook/assets/logicalswitches2.png" alt=""><figcaption><p>Logical Switches configuration screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/logicalswitches2.png" alt=""><figcaption><p>Logical Switches configuration screen</p></figcaption></figure>
 
 After selecting to edit a logical switch, you will have the following configuration options:
 

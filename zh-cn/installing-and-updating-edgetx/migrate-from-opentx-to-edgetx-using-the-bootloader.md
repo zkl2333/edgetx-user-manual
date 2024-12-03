@@ -6,7 +6,7 @@
 
 打开遥控器，导航至 **遥控器设置** -> **硬件**，滚动到屏幕底部并选择 **EEPROM 备份**。如果没有该选项，说明您的遥控器未使用 EEPROM 存储数据，可以跳过此步骤。
 
-<figure><img src="../../.gitbook/assets/update14.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/update14.png" alt=""><figcaption></figcaption></figure>
 
 打开遥控器电源后，通过 USB 将其连接到电脑。当遥控器提示选择 USB 模式时，选择 **USB 存储**。
 
@@ -16,7 +16,7 @@
 
 选择左侧屏幕中的 **备份遥控器到文件** 图标。选择保存位置（如桌面）并为文件命名。
 
-<figure><img src="../../.gitbook/assets/update1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/update1.png" alt=""><figcaption></figcaption></figure>
 
 保存文件后，关闭 OpenTX Companion。断开遥控器与电脑的连接并关闭遥控器。
 
@@ -70,15 +70,15 @@
 
 在 Companion 左上角，选择 **文件** -> **打开**，然后选择之前备份的 OpenTX 文件。将显示警告信息，点击 **OK**。
 
-<figure><img src="../../.gitbook/assets/update11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/update11.png" alt=""><figcaption></figcaption></figure>
 
 在 EdgeTX Companion 中，您将看到所有来自 OpenTX 的模型。点击 **写入模型和设置到遥控器** 按钮。系统将提示您会覆盖遥控器上的所有模型，点击 **是**。
 
-<figure><img src="../../.gitbook/assets/update12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/update12.png" alt=""><figcaption></figcaption></figure>
 
 模型和设置将写入遥控器。完成后将显示提示信息，点击 **OK**。断开遥控器与 USB 的连接并关闭 EdgeTX Companion。
 
-<figure><img src="../../.gitbook/assets/update13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/update13.png" alt=""><figcaption></figcaption></figure>
 
 ### 恭喜，您已成功迁移到 EdgeTX！
 

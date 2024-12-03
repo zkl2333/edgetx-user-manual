@@ -17,11 +17,11 @@ On the Instructor radio, configure the **Trainer** section of **Radio Settings**
 
 <div>
 
-<figure><img src="../.gitbook/assets/mpmt1.png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/mpmt1.png" alt="" width="360"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/mpmt7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/mpmt7.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -29,11 +29,11 @@ On the Instructor radio, configure the **Trainer** section of **Model Settings**
 
 <div>
 
-<figure><img src="../.gitbook/assets/mpmt2.png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/mpmt2.png" alt="" width="360"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/mpmt8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/mpmt8.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -41,11 +41,11 @@ On the Instructor radio, configure the special function _**Trainer**_. Designate
 
 <div>
 
-<figure><img src="../.gitbook/assets/mpmt3.png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/mpmt3.png" alt="" width="360"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/mpmt9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/mpmt9.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -53,11 +53,11 @@ On the Instructor radio, configure the **Internal RF** and **External RF** secti
 
 <div>
 
-<figure><img src="../.gitbook/assets/mpmt4.png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/mpmt4.png" alt="" width="360"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/mpmt10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/mpmt10.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -65,11 +65,11 @@ One the Student radio, configure either the Internal RF or External RF (which ev
 
 <div>
 
-<figure><img src="../.gitbook/assets/mpmt5.png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/mpmt5.png" alt="" width="360"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/mpmt11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/mpmt11.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -77,11 +77,11 @@ On the Student radio, no configuration of the **Trainer** section in the **Model
 
 <div>
 
-<figure><img src="../.gitbook/assets/mpmt6 (2).png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/mpmt6 (2).png" alt="" width="360"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/mpmt12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/mpmt12.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

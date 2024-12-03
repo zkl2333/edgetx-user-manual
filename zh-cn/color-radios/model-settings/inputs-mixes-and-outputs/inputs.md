@@ -10,7 +10,7 @@ Your input channels may default to a different order based on the settings defin
 The Inputs section is also commonly referred to as "**Dual Rates"** as it was previously called this in earlier versions of OpenTX.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/inputs.jpg" alt=""><figcaption><p>Inputs screen in Model Settings</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/inputs.jpg" alt=""><figcaption><p>Inputs screen in Model Settings</p></figcaption></figure>
 
 Selecting the **+** **button** will show you a list of available inputs that can be configured. After selecting an input, the input configuration page for that input will open. Selecting an existing input will give you the following options:
 
@@ -23,7 +23,7 @@ Selecting the **+** **button** will show you a list of available inputs that can
 * **Paste before** - pastes the copied or moved input line before the selected input line.
 * **Paste after** - pastes the copied or moved input line before the selected input line.
 
-<figure><img src="../../../.gitbook/assets/inputs2.jpg" alt=""><figcaption><p>Input Configuration Page</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/inputs2.jpg" alt=""><figcaption><p>Input Configuration Page</p></figcaption></figure>
 
 ### Input configuration page
 
@@ -32,7 +32,7 @@ The input configuration page allows you to edit the input configuation parameter
 * **Input Name** - Name for the input. Four character are possible.
 * **Line Name** - Name of the individual line in the input. Multiple physical inputs can be mapped to one input by adding an additional input line under the input.
 
-<figure><img src="../../../.gitbook/assets/multiple_input_lines.jpg" alt=""><figcaption><p>Example of multiple input lines under one input</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/multiple_input_lines.jpg" alt=""><figcaption><p>Example of multiple input lines under one input</p></figcaption></figure>
 
 * **Source** - The physical control used for the input. In addition to physical controls, you can also specify MAX (always returns 100), MIN (always returns -100), cyclics, trim switches, channel values and more. Moving the physical control after the source has been selected will automatically map it to that input.
 * **Weight** - Percentage value of the stick travel to use (often referred to as "rates").
@@ -52,7 +52,7 @@ Values for weight, offset and curve % can also be defined by a configured global
 
 When selecting the gear button at the bottom of the screen, the following option window will be displayed.
 
-<figure><img src="../../../.gitbook/assets/inputs3.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/inputs3.jpg" alt=""><figcaption></figcaption></figure>
 
 **Side** - Specifies the input range for which this line setting is valid. If you select **---**, it will be valid in the entire range of Source values. If you select **x>0**, it will be valid in the upper half of the value of Source. If you select **x<0**, it will be valid in the lower half of the value of Source.
 

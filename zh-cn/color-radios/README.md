@@ -14,7 +14,7 @@ layout:
 
 # User Manual for Color Screen Radios
 
-<figure><img src="../.gitbook/assets/colorradios.png" alt=""><figcaption><p>EdgeTX supported color screen radios</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/colorradios.png" alt=""><figcaption><p>EdgeTX supported color screen radios</p></figcaption></figure>
 
 EdgeTX supports the following color screen radios:
 

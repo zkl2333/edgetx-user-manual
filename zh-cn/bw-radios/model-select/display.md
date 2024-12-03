@@ -8,11 +8,11 @@ You can configure up to Four telemetry screens. You can choose one of the follow
 
 <div>
 
-<figure><img src="../../.gitbook/assets/bwtel4.png" alt=""><figcaption><p>Display Numbers Configuration</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtel4.png" alt=""><figcaption><p>Display Numbers Configuration</p></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/bwtel1 (7).png" alt=""><figcaption><p>Display Screen with Numbers</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtel1 (7).png" alt=""><figcaption><p>Display Screen with Numbers</p></figcaption></figure>
 
 </div>
 
@@ -20,11 +20,11 @@ You can configure up to Four telemetry screens. You can choose one of the follow
 
 <div>
 
-<figure><img src="../../.gitbook/assets/bwtel5.png" alt=""><figcaption><p>Display Bars Configuration</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtel5.png" alt=""><figcaption><p>Display Bars Configuration</p></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/bwtel2 (2).png" alt=""><figcaption><p>Display Screen with Bars</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtel2 (2).png" alt=""><figcaption><p>Display Screen with Bars</p></figcaption></figure>
 
 </div>
 
@@ -32,11 +32,11 @@ You can configure up to Four telemetry screens. You can choose one of the follow
 
 <div>
 
-<figure><img src="../../.gitbook/assets/bwtel6.png" alt=""><figcaption><p>Display Script Configuration</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtel6.png" alt=""><figcaption><p>Display Script Configuration</p></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/bwtel3.png" alt=""><figcaption><p>Display Screen with fm2m Lua Script</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtel3.png" alt=""><figcaption><p>Display Screen with fm2m Lua Script</p></figcaption></figure>
 
 </div>
 

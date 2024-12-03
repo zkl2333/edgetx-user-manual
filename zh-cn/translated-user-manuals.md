@@ -10,11 +10,11 @@
 
 贡献者: Heiner#1063
 
-{% file src=".gitbook/assets/EdgeTx v2.9 Benutzerhandbuch Farbe (1).pdf" %}
+{% file src="/.gitbook/assets/EdgeTx v2.9 Benutzerhandbuch Farbe (1).pdf" %}
 德语版彩屏遥控器用户手册
 {% endfile %}
 
-{% file src=".gitbook/assets/EdgeTx v2.9 Benutzerhandbuch Schwarz Weiß.pdf" %}
+{% file src="/.gitbook/assets/EdgeTx v2.9 Benutzerhandbuch Schwarz Weiß.pdf" %}
 德语版单色屏幕遥控器用户手册
 {% endfile %}
 
@@ -22,7 +22,7 @@
 
 贡献者: Kerget Ruslan
 
-{% file src=".gitbook/assets/User.Manual.EdgeTX.v.2.9.for.Color.Screen.Radios.Rus.pdf" %}
+{% file src="/.gitbook/assets/User.Manual.EdgeTX.v.2.9.for.Color.Screen.Radios.Rus.pdf" %}
 俄语版单色屏幕遥控器用户手册
 {% endfile %}
 

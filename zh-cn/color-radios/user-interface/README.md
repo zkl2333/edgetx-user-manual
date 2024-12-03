@@ -2,7 +2,7 @@
 
 The user interface of EdgeTX can be navigated by physical buttons, the touch interface, or a combination of both.
 
-<figure><img src="../../.gitbook/assets/buttonnavigation.jpg" alt=""><figcaption><p>Common buttons for navigation</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/buttonnavigation.jpg" alt=""><figcaption><p>Common buttons for navigation</p></figcaption></figure>
 
 ### **Buttons:**
 
@@ -66,7 +66,7 @@ It is possible to disable the touch interface by configuring a special function.
 
 Touch the EdgeTX icon in the upper left corner of the screen to open the main navigation menu. Touch the desired menu option to select it.
 
-<figure><img src="../../.gitbook/assets/mainmenu.png" alt=""><figcaption><p>Main navigation menu</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/mainmenu.png" alt=""><figcaption><p>Main navigation menu</p></figcaption></figure>
 
 {% hint style="info" %}
 For models that have a valid model checklist file in the **Models** folder, a **Model Notes** icon is added after the **Manage Models** icon.

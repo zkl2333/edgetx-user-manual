@@ -6,29 +6,29 @@ The main view is the default view normally used during radio operation. This vie
 
 <div>
 
-<figure><img src="../../.gitbook/assets/bwview1.png" alt=""><figcaption><p>Screen 1</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwview1.png" alt=""><figcaption><p>Screen 1</p></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/bwview2.png" alt=""><figcaption><p>Screen 2</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwview2.png" alt=""><figcaption><p>Screen 2</p></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/BWScreen6 (1).png" alt=""><figcaption><p>Screen 2 (Surafce Radios)</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/BWScreen6 (1).png" alt=""><figcaption><p>Screen 2 (Surafce Radios)</p></figcaption></figure>
 
 </div>
 
 <div>
 
-<figure><img src="../../.gitbook/assets/bwview3.png" alt=""><figcaption><p>Screen 3</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwview3.png" alt=""><figcaption><p>Screen 3</p></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/bwview4.png" alt=""><figcaption><p>Screen 4</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwview4.png" alt=""><figcaption><p>Screen 4</p></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/bwview5.png" alt=""><figcaption><p>Screen 5</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwview5.png" alt=""><figcaption><p>Screen 5</p></figcaption></figure>
 
 </div>
 

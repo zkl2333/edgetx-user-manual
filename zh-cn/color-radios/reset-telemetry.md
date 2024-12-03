@@ -1,6 +1,6 @@
 # Reset Telemetry
 
-<figure><img src="../.gitbook/assets/resettelemetry.jpg" alt=""><figcaption><p>Reset telemetry screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/resettelemetry.jpg" alt=""><figcaption><p>Reset telemetry screen</p></figcaption></figure>
 
 **Reset flight** - When selected, this option:&#x20;
 

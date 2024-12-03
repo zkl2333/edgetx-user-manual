@@ -10,15 +10,15 @@ In the radio setup screen, you can configure the **Hats Mode** with one of the f
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/hat3.png" alt=""><figcaption><p>Hats mode option</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/hat3.png" alt=""><figcaption><p>Hats mode option</p></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/hat4.png" alt=""><figcaption><p>Configuration options</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/hat4.png" alt=""><figcaption><p>Configuration options</p></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/hat 5 (1).png" alt=""><figcaption><p>Hats mode help text</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/hat 5 (1).png" alt=""><figcaption><p>Hats mode help text</p></figcaption></figure>
 
 </div>
 
@@ -28,11 +28,11 @@ In the radio setup screen, you can configure the **Hats Mode** with one of the f
 
 <div>
 
-<figure><img src="../../.gitbook/assets/hat1 (1).png" alt=""><figcaption><p>Keys mode</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/hat1 (1).png" alt=""><figcaption><p>Keys mode</p></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/hat2.png" alt=""><figcaption><p>Trims mode</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/hat2.png" alt=""><figcaption><p>Trims mode</p></figcaption></figure>
 
 </div>
 

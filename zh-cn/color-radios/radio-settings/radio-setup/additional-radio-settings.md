@@ -6,7 +6,7 @@ Many of the additional settings here are self-explanatory. Only those settings n
 
 ### Sound
 
-<figure><img src="../../../.gitbook/assets/Sound.png" alt=""><figcaption><p>Sound Options</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/Sound.png" alt=""><figcaption><p>Sound Options</p></figcaption></figure>
 
 **Mode** - configures when to play sounds.
 
@@ -29,7 +29,7 @@ The volume for background .wav files (music) that are played with the **BGMusic*
 
 ### Variometer
 
-<figure><img src="../../../.gitbook/assets/variometer.png" alt=""><figcaption><p>Variometer options</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/variometer.png" alt=""><figcaption><p>Variometer options</p></figcaption></figure>
 
 **Repeat Zero**
 
@@ -41,7 +41,7 @@ Note: In order for the variometer to function, it must be turned on via the **Va
 
 ### Haptic
 
-<figure><img src="../../../.gitbook/assets/haptic.png" alt=""><figcaption><p>Haptic (vibration) options</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/haptic.png" alt=""><figcaption><p>Haptic (vibration) options</p></figcaption></figure>
 
 **Mode** - configures when the radio vibrates.
 
@@ -52,7 +52,7 @@ Note: In order for the variometer to function, it must be turned on via the **Va
 
 ### Alarms
 
-<figure><img src="../../../.gitbook/assets/alarms.png" alt=""><figcaption><p>Alarm options</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/alarms.png" alt=""><figcaption><p>Alarm options</p></figcaption></figure>
 
 #### Sound Off
 
@@ -64,7 +64,7 @@ Checks if a receiver is still connected to the radio on attempted shutdown. Make
 
 ### Backlight
 
-<figure><img src="../../../.gitbook/assets/backlight.png" alt=""><figcaption><p>Backlight options</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/backlight.png" alt=""><figcaption><p>Backlight options</p></figcaption></figure>
 
 **Mode**
 
@@ -84,7 +84,7 @@ The backlight turns on when there are alarms or warnings.
 
 ### GPS
 
-<figure><img src="../../../.gitbook/assets/gps.png" alt=""><figcaption><p>GPS options</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/gps.png" alt=""><figcaption><p>GPS options</p></figcaption></figure>
 
 {% hint style="info" %}
 The GPS configuration settings are only for when a GPS has been installed on the radio, not the model's GPS.
@@ -104,7 +104,7 @@ The GPS coordinate format that will be displayed.
 
 ### Enabled Features
 
-<figure><img src="../../../.gitbook/assets/EnabledFeatures.png" alt=""><figcaption><p>Enabled Reatures</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/EnabledFeatures.png" alt=""><figcaption><p>Enabled Reatures</p></figcaption></figure>
 
 The **Enabled Features** section of Radio Setup allows you to configure the _**Global**_ _**settings**_ for which tabs are visible in the Radio Setup and Model Settings area of EdgeTX. The configuration setting for the active model will show to the right of the toggle switch. The model configuration will override the global configuration.
 
@@ -116,7 +116,7 @@ _**Note:**_ Turning off a tab only hides the tab and does not change the items a
 
 ### Manage Models
 
-<figure><img src="../../../.gitbook/assets/RSManageModels.png" alt=""><figcaption><p>Manage Models settings</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/RSManageModels.png" alt=""><figcaption><p>Manage Models settings</p></figcaption></figure>
 
 **Model quick select** - Affects Manage Model screen. Both options require you first to select the desired model using the scroll wheel or short tap.
 
