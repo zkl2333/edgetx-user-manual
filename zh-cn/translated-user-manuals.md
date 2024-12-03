@@ -1,35 +1,35 @@
-# Translated User Manuals
+# 用户手册翻译版本
 
-Below are links to community translated versions of the EdgeTX User Manual.
+以下是由社区翻译的 EdgeTX 用户手册版本的链接。
 
 {% hint style="info" %}
-The manuals below are community submitted and have not been verified for accuracy by the EdgeTX team. While we are confident that the contributors have done their best to ensure their accuracy, you use them at your own risk.
+以下手册由社区成员提交，并未经过 EdgeTX 团队的准确性验证。尽管我们相信贡献者已尽最大努力确保准确性，但请您在使用时自行承担风险。
 {% endhint %}
 
-### German / Deutsch
+### 德语 / Deutsch
 
-Credit: Heiner#1063
+贡献者: Heiner#1063
 
 {% file src=".gitbook/assets/EdgeTx v2.9 Benutzerhandbuch Farbe (1).pdf" %}
-User Manual for Color Radios in German
+德语版彩屏遥控器用户手册
 {% endfile %}
 
 {% file src=".gitbook/assets/EdgeTx v2.9 Benutzerhandbuch Schwarz Weiß.pdf" %}
-User Manual for Monochrome Radios in German
+德语版单色屏幕遥控器用户手册
 {% endfile %}
 
-### Russian / Русский
+### 俄语 / Русский
 
-Credit: Kerget Ruslan
+贡献者: Kerget Ruslan
 
 {% file src=".gitbook/assets/User.Manual.EdgeTX.v.2.9.for.Color.Screen.Radios.Rus.pdf" %}
-User Manual for Monochrome Radios in Russian
+俄语版单色屏幕遥控器用户手册
 {% endfile %}
 
-### Spanish / Español
+### 西班牙语 / Español
 
-Credit: Roberto Domingues
+贡献者: Roberto Domingues
 
-_Work in progress!_
+_翻译进行中！_
 
 [https://robertomirax.gitbook.io/untitled/](https://robertomirax.gitbook.io/untitled/)

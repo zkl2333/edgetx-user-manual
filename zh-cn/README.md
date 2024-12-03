@@ -12,28 +12,28 @@ layout:
     visible: true
 ---
 
-# EdgeTX User Manual v2.10
+# EdgeTX 用户手册 v2.10
 
 <figure><img src=".gitbook/assets/logos (1).png" alt=""><figcaption></figcaption></figure>
 
-If you would like to contribute to this guide, please take a look at the [Contribute to the User Manual](edgetx-how-to/contribute-to-the-user-manual.md) page.
+如果您想为本手册做出贡献，请访问 [如何贡献用户手册](edgetx-how-to/contribute-to-the-user-manual.md) 页面。
 
-The purpose of this user manual is to consolidate information from the community about the setup, configuration, and use of EdgeTX. The goal is to be your "one-stop shop" for information about anything related to EdgeTX. It is broken down into the following areas:
+本用户手册旨在汇总社区关于 EdgeTX 的设置、配置和使用的相关信息，目标是成为与 EdgeTX 相关的一切信息的“一站式服务”。手册内容划分如下：
 
-#### EdgeTX User Manual <a href="#edgetx-user-manual" id="edgetx-user-manual"></a>
+#### EdgeTX 用户手册 <a href="#edgetx-user-manual" id="edgetx-user-manual"></a>
 
-The user guide explains all the configuration options available in EdgeTX as well as some high-level theoretical information about EdgeTX usage and model controls. It is broken into sections - one section covering the interface for [Color Screen Radios](color-radios/)[ ](color-radios/)and one section covering the interface for [Monochrome Screen radios.](bw-radios/)
+本用户手册解释了 EdgeTX 中可用的所有配置选项，以及一些关于 EdgeTX 使用和模型控制的高层次理论信息。内容分为几个部分——一个部分覆盖 [彩屏遥控器](color-radios/)，另一个部分覆盖 [单色屏幕遥控器](bw-radios/) 的界面。
 
-#### EdgeTX How-to <a href="#edgetx-how-to" id="edgetx-how-to"></a>
+#### EdgeTX 使用指南 <a href="#edgetx-how-to" id="edgetx-how-to"></a>
 
-The How-to section will provide detailed instructions about how to configure model or user-specific use cases in EdgeTX. It will cover common use cases as well as rare and specific use cases. This section of the manual will steadily grow as new How-to articles are submitted by contributors.
+“使用指南”部分提供了如何配置模型或用户特定使用场景的详细说明。它将涵盖常见的使用场景以及罕见的特定场景。随着贡献者提交新的使用指南文章，本部分内容将不断丰富。
 
-#### Additional EdgeTX Resources <a href="#additional-edgetx-resources" id="additional-edgetx-resources"></a>
+#### 额外的 EdgeTX 资源 <a href="#additional-edgetx-resources" id="additional-edgetx-resources"></a>
 
-This section of the knowledge base will contain links to additional resources that EdgeTX users may find useful. The external pages that are linked here are not maintained by EdgeTX. However, they are listed as they may be useful sources of additional information relating to EdgeTX.
+本知识库的这一部分包含指向 EdgeTX 用户可能感兴趣的额外资源的链接。这里链接的外部页面并非由 EdgeTX 维护，但它们可能是与 EdgeTX 相关的其他信息的有用来源。
 
-#### Special thanks to those that contributed to this knowledge base either directly or indirectly. <a href="#special-thanks-to-those-that-contributed-to-this-knowledge-base-either-directly-or-indirectly." id="special-thanks-to-those-that-contributed-to-this-knowledge-base-either-directly-or-indirectly."></a>
+#### 特别感谢直接或间接为本知识库做出贡献的人员 <a href="#special-thanks-to-those-that-contributed-to-this-knowledge-base-either-directly-or-indirectly." id="special-thanks-to-those-that-contributed-to-this-knowledge-base-either-directly-or-indirectly."></a>
 
-See the [Contributors ](more/contributors.md)section for a list of direct and indirect contributors.
+请参阅 [贡献者](more/contributors.md) 部分以获取直接或间接贡献者的名单。
 
-#### EdgeTX User Manual © 2024 by EdgeTX is licensed under CC BY-SA 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/
+#### EdgeTX 用户手册 © 2024，由 EdgeTX 创作，采用 CC BY-SA 4.0 授权。要查看该许可证的副本，请访问 http://creativecommons.org/licenses/by-sa/4.0/
