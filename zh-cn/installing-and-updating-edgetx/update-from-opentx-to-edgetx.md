@@ -6,7 +6,7 @@
 
 打开遥控器，导航至 **遥控器设置** -> **硬件**，滚动到屏幕底部并选择 **EEPROM 备份**。如果没有该选项，说明您的遥控器未使用 EEPROM 存储数据，可以跳过此步骤。
 
-<figure><img src="../.gitbook/assets/update14.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/update14.png" alt=""><figcaption></figcaption></figure>
 
 打开遥控器电源后，通过 USB 将其连接到电脑。当遥控器提示选择 USB 模式时，选择 **USB 存储**。
 
@@ -16,7 +16,7 @@
 
 选择左侧屏幕中的 **备份遥控器到文件** 图标。选择保存位置（如桌面）并为文件命名。
 
-<figure><img src="../.gitbook/assets/update1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/update1.png" alt=""><figcaption></figcaption></figure>
 
 保存文件后，关闭 OpenTX Companion。
 
@@ -36,39 +36,39 @@
 
 选择 **固件版本** 和 **遥控器型号**，然后点击 **通过 USB 刷写**。
 
-<figure><img src="../.gitbook/assets/update2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/update2.png" alt=""><figcaption></figcaption></figure>
 
 在下一屏幕，选择 **STM32 Bootloader** 设备并点击 **下一步**。
 
-<figure><img src="../.gitbook/assets/update3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/update3.png" alt=""><figcaption></figcaption></figure>
 
 如果未显示 **STM32 Bootloader** 设备，选择 **添加新设备**。在弹出窗口中选择 **STM32 Bootloader** 并点击 **连接**。
 
-<figure><img src="../.gitbook/assets/update4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/update4.png" alt=""><figcaption></figcaption></figure>
 
 选择 **STM32 Bootloader** 设备并点击 **下一步** 后，将显示确认屏幕以验证您的设置。确认所有内容正确（版本、遥控器和设备）后，点击 **开始刷写** 按钮。
 
-<figure><img src="../.gitbook/assets/update5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/update5.png" alt=""><figcaption></figcaption></figure>
 
 EdgeTX Buddy 将开始刷写过程，屏幕会显示进度。
 
-<figure><img src="../.gitbook/assets/update6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/update6.png" alt=""><figcaption></figcaption></figure>
 
 刷写完成后，点击完成屏幕上的 **设置您的 SD 卡** 链接，这会带您进入 SD 卡内容页面。
 
 ### 准备 SD 卡
 
-<figure><img src="../.gitbook/assets/update7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/update7.png" alt=""><figcaption></figcaption></figure>
 
 断开遥控器与电脑的连接并启动遥控器。您会看到遥控器显示 EdgeTX 启动画面，但仍会听到“欢迎使用 OpenTX”的提示音。这是正常现象，我们将在下一步通过更新 SD 卡内容来安装 EdgeTX 声音包。
 
 打开遥控器电源后，通过 USB 将其连接到电脑。当遥控器提示选择 USB 模式时，选择 **USB 存储**。点击 **选择 SD 卡** 选项，然后导航到 EdgeTX 的 SD 卡。
 
-<figure><img src="../.gitbook/assets/update8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/update8.png" alt=""><figcaption></figcaption></figure>
 
 EdgeTX SD 卡将作为 USB 驱动器挂载到您的电脑。选择 USB 驱动器后点击 **选择文件夹**。
 
-<figure><img src="../.gitbook/assets/update9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/update9.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 您的电脑可能会提示要求 EdgeTX Buddy 获取 SD 卡内容的权限。这是正常的，Buddy 需要权限以修改 SD 卡上的文件。
@@ -76,7 +76,7 @@ EdgeTX SD 卡将作为 USB 驱动器挂载到您的电脑。选择 USB 驱动器
 
 在 SD 卡内容页面，确认固件版本和遥控器型号仍然正确，然后选择所需的声音包语言。点击 **应用更改**。状态窗口会弹出并显示安装进度。文件安装完成后，状态窗口会自动关闭。
 
-<figure><img src="../.gitbook/assets/update10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/update10.png" alt=""><figcaption></figcaption></figure>
 
 此时，EdgeTX 引导加载器、固件和 SD 卡内容已安装完成。最后一步是将模型从 OpenTX 转换为 EdgeTX 格式并上传到遥控器。您现在可以关闭 EdgeTX Buddy。
 
@@ -86,15 +86,15 @@ EdgeTX SD 卡将作为 USB 驱动器挂载到您的电脑。选择 USB 驱动器
 
 在 Companion 左上角，选择 **文件** -> **打开**，然后选择之前备份的 OpenTX 文件。将显示警告信息，点击 **OK**。
 
-<figure><img src="../.gitbook/assets/update11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/update11.png" alt=""><figcaption></figcaption></figure>
 
 在 EdgeTX Companion 中，您将看到所有来自 OpenTX 的模型。点击 **写入模型和设置到遥控器** 按钮。系统将提示您会覆盖遥控器上的所有模型，点击 **是**。
 
-<figure><img src="../.gitbook/assets/update12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/update12.png" alt=""><figcaption></figcaption></figure>
 
 模型和设置将写入遥控器。完成后将显示提示信息，点击 **OK**。断开遥控器与 USB 的连接并关闭 EdgeTX Companion。
 
-<figure><img src="../.gitbook/assets/update13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/update13.png" alt=""><figcaption></figcaption></figure>
 
 ### 恭喜，您已成功迁移到 EdgeTX！
 
