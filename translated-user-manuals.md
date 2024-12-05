@@ -36,7 +36,7 @@ _Work in progress!_
 
 ### Ukrainian / Українська
 
-Credit: guys form https://fpvua.org
+Credit: guys from https://fpvua.org
 
 _Work in progress!_
 
