@@ -2,7 +2,7 @@
 
 EdgeTX 的用户界面可以通过物理按钮、触摸界面或两者结合进行导航。
 
-<figure><img src="//edgetx-static.zkl2333.com/buttonnavigation.jpg" alt=""><figcaption><p>常用导航按钮</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/buttonnavigation.jpg" alt=""><figcaption><p>常用导航按钮</p></figcaption></figure>
 
 ### **按钮：**
 
@@ -66,7 +66,7 @@ EdgeTX 的用户界面可以通过物理按钮、触摸界面或两者结合进�
 
 触摸屏幕左上角的 EdgeTX 图标以打开主导航菜单。触摸所需的菜单选项以选择它。
 
-<figure><img src="//edgetx-static.zkl2333.com/mainmenu.png" alt=""><figcaption><p>主导航菜单</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/mainmenu.png" alt=""><figcaption><p>主导航菜单</p></figcaption></figure>
 
 {% hint style="info" %}
 对于在 **Models** 文件夹中有有效模型检查表文件的模型，在 **Manage Models** 图标后会添加一个 **Model Notes** 图标。

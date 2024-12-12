@@ -6,7 +6,7 @@ description: 通用模型设置
 
 <div align="center">
 
-<figure><img src="//edgetx-static.zkl2333.com/modelsetup.png" alt=""><figcaption><p>模型设置中的模型设置选项卡</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/modelsetup.png" alt=""><figcaption><p>模型设置中的模型设置选项卡</p></figcaption></figure>
 
 </div>
 

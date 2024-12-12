@@ -2,7 +2,7 @@
 
 模型设置的 **混控** 屏幕是将多个输入组合成一个“通道混控”的地方。然后将这些混控分配给一个无线电通道进行输出。这也是分配开关、旋钮或滑块到通道进行输出的地方。与输入部分类似，也可以为通道混控分配权重、偏移或曲线。
 
-<figure><img src="//edgetx-static.zkl2333.com/Mixes.jpg" alt=""><figcaption><p>混控页面</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/Mixes.jpg" alt=""><figcaption><p>混控页面</p></figcaption></figure>
 
 选择 **+** **按钮** 将创建一个新的混控并打开混控配置页面。选择一个现有的混控将提供以下选项：
 
@@ -15,11 +15,11 @@
 * **前粘贴** - 在选定的混控行之前粘贴复制或移动的混控行。
 * **后粘贴** - 在选定的混控行之后粘贴复制或移动的混控行。
 
-<figure><img src="//edgetx-static.zkl2333.com/Mixes2.jpg" alt=""><figcaption><p>启用显示混控监视器的混控</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/Mixes2.jpg" alt=""><figcaption><p>启用显示混控监视器的混控</p></figcaption></figure>
 
 **显示混控监视器** - 选择此选项将在混控通道上显示一个条形图，显示该混控通道的当前值。
 
-<figure><img src="//edgetx-static.zkl2333.com/mixes3.jpg" alt=""><figcaption><p>混控配置选项</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/mixes3.jpg" alt=""><figcaption><p>混控配置选项</p></figcaption></figure>
 
 混控配置页面的右上部分包含选定混控行的通道监视器。它显示输出（顶部）和混控（底部）值。还提供以下配置选项：
 
@@ -30,7 +30,7 @@
 * **开关** - 激活此混控行的物理开关（可选）。如果未选择开关，则混控将默认激活。
 * **曲线** - 指定将使用的曲线类型。有关不同曲线类型的详细说明，请参见 [输入](inputs.md) 页面上的 **曲线** 部分。&#x20;
 
-<figure><img src="//edgetx-static.zkl2333.com/Mixes4.png" alt=""><figcaption><p>附加混控设置</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/Mixes4.png" alt=""><figcaption><p>附加混控设置</p></figcaption></figure>
 
 * **复合** - 复合设置定义当前混控行如何与同一通道上的其他行交互。**加** 将其输出添加到它们，**乘** 将乘以上面行的结果，**替换** 将用其输出替换之前所做的任何操作。&#x20;
 * **模式** - 指定此混控在哪些飞行模式下激活。

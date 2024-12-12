@@ -14,7 +14,7 @@ layout:
 
 # 彩屏遥控器用户手册
 
-<figure><img src="//edgetx-static.zkl2333.com/colorradios.png" alt=""><figcaption><p>EdgeTX 支持的彩屏遥控器</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/colorradios.png" alt=""><figcaption><p>EdgeTX 支持的彩屏遥控器</p></figcaption></figure>
 
 EdgeTX 支持以下彩屏遥控器：
 

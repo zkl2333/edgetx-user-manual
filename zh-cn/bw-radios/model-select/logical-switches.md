@@ -4,7 +4,7 @@
 
 **逻辑开关**页面显示所有配置的逻辑开关及其配置选项的概览。
 
-<figure><img src="//edgetx-static.zkl2333.com/bwlogswitch1.png" alt=""><figcaption><p>逻辑开关屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwlogswitch1.png" alt=""><figcaption><p>逻辑开关屏幕</p></figcaption></figure>
 
 选择一个逻辑开关将提供以下选项：
 
@@ -13,7 +13,7 @@
 * **粘贴** - 将复制的逻辑开关粘贴到所选逻辑开关上。注意：这将覆盖所选逻辑开关。
 * **清除** - 删除所选逻辑开关的所有配置选项。
 
-<figure><img src="//edgetx-static.zkl2333.com/bwlogswitch2.png" alt=""><figcaption><p>逻辑开关配置屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwlogswitch2.png" alt=""><figcaption><p>逻辑开关配置屏幕</p></figcaption></figure>
 
 选择编辑逻辑开关后，您将有以下配置选项：
 

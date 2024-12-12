@@ -2,7 +2,7 @@
 
 USB Joystick 有两种可能的模式，**经典** 和 **高级**。&#x20;
 
-<figure><img src="//edgetx-static.zkl2333.com/usbjoystick1.png" alt=""><figcaption><p>USB Joystick 经典模式</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/usbjoystick1.png" alt=""><figcaption><p>USB Joystick 经典模式</p></figcaption></figure>
 
 在 **经典模式** 中，电台配置的输出通道将按数字顺序发送到目标设备，并映射到设备预配置的 USB 控制器轴和按钮。以下是 Microsoft Windows 的默认通道映射。
 
@@ -20,7 +20,7 @@ USB Joystick 有两种可能的模式，**经典** 和 **高级**。&#x20;
 * Ch 8 - 滑块
 * CH 9 - Ch 32 - 按钮 1 - 24
 
-<figure><img src="//edgetx-static.zkl2333.com/usbjoystick.png" alt=""><figcaption><p>USB Joystick 高级模式</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/usbjoystick.png" alt=""><figcaption><p>USB Joystick 高级模式</p></figcaption></figure>
 
 在 **高级模式** 中，您可以配置以下选项：
 
@@ -38,7 +38,7 @@ USB Joystick 有两种可能的模式，**经典** 和 **高级**。&#x20;
 
 **无** - 通道不使用
 
-<figure><img src="//edgetx-static.zkl2333.com/usbjoystick2.png" alt=""><figcaption><p>为选定通道的按钮模式选项</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/usbjoystick2.png" alt=""><figcaption><p>为选定通道的按钮模式选项</p></figcaption></figure>
 
 **Btn** - 通道用于模拟按钮。配置选项包括：
 
@@ -54,13 +54,13 @@ USB Joystick 有两种可能的模式，**经典** 和 **高级**。&#x20;
   * **2POS - 8 POS** - 将映射到开关拥有的按钮数量（例如：3POS 将映射到 3 个按钮）。
 * **按钮编号：** 输出将被映射到的按钮编号，并作为目标设备发送。
 
-<figure><img src="//edgetx-static.zkl2333.com/usbjoystick3.png" alt=""><figcaption><p>为选定通道的轴模式选项</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/usbjoystick3.png" alt=""><figcaption><p>为选定通道的轴模式选项</p></figcaption></figure>
 
 **轴 -** 通道用于模拟一个轴，并将映射到目标设备的一个默认轴。
 
 * 轴选项有：X, Y, Z, rotX（旋转 x）, rotY, rotZ
 
-<figure><img src="//edgetx-static.zkl2333.com/usbjoystick4.png" alt=""><figcaption><p>为选定通道的模拟模式选项</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/usbjoystick4.png" alt=""><figcaption><p>为选定通道的模拟模式选项</p></figcaption></figure>
 
 **模拟 -** 通道用于模拟一个常见的模拟轴，并将在目标设备上列为选定的选项（例如：Thr）
 

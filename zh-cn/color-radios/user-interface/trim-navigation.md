@@ -10,15 +10,15 @@ description: 使用 NV14 和 EL18 上的微调帽开关导航菜单
 
 <div data-full-width="true">
 
-<figure><img src="//edgetx-static.zkl2333.com/hat3.png" alt=""><figcaption><p>帽模式选项</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/hat3.png" alt=""><figcaption><p>帽模式选项</p></figcaption></figure>
 
  
 
-<figure><img src="//edgetx-static.zkl2333.com/hat4.png" alt=""><figcaption><p>配置选项</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/hat4.png" alt=""><figcaption><p>配置选项</p></figcaption></figure>
 
  
 
-<figure><img src="//edgetx-static.zkl2333.com/hat 5 (1).png" alt=""><figcaption><p>帽模式帮助文本</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/hat 5 (1).png" alt=""><figcaption><p>帽模式帮助文本</p></figcaption></figure>
 
 </div>
 
@@ -28,11 +28,11 @@ description: 使用 NV14 和 EL18 上的微调帽开关导航菜单
 
 <div>
 
-<figure><img src="//edgetx-static.zkl2333.com/hat1 (1).png" alt=""><figcaption><p>按键模式</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/hat1 (1).png" alt=""><figcaption><p>按键模式</p></figcaption></figure>
 
  
 
-<figure><img src="//edgetx-static.zkl2333.com/hat2.png" alt=""><figcaption><p>微调模式</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/hat2.png" alt=""><figcaption><p>微调模式</p></figcaption></figure>
 
 </div>
 

@@ -1,6 +1,6 @@
 # 无线电设置
 
-<figure><img src="//edgetx-static.zkl2333.com/RadioSetup.png" alt=""><figcaption><p>无线电设置屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/RadioSetup.png" alt=""><figcaption><p>无线电设置屏幕</p></figcaption></figure>
 
 **无线电设置** 屏幕是配置无线电基本设置的地方。它包含以下选项：
 

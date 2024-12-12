@@ -8,16 +8,16 @@
 
 在以下示例中，我们使用开关 SF 通过全局功能禁用触摸屏。
 
-<figure><img src="//edgetx-static.zkl2333.com/create-no-touch-global-function.png" alt=""><figcaption><p>创建一个全局功能以使用开关 SF 禁用触摸</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/create-no-touch-global-function.png" alt=""><figcaption><p>创建一个全局功能以使用开关 SF 禁用触摸</p></figcaption></figure>
 
-<figure><img src="//edgetx-static.zkl2333.com/show-no-touch-global-function.png" alt=""><figcaption><p>显示全局功能</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/show-no-touch-global-function.png" alt=""><figcaption><p>显示全局功能</p></figcaption></figure>
 
 ## 使用特殊功能禁用触摸屏
 
 自定义开关或逻辑开关不能用于全局功能。但我们可以使用特殊功能通过自定义开关启用和禁用触摸屏。
 
-<figure><img src="//edgetx-static.zkl2333.com/list-customizable-switches-mo-touch.png" alt=""><figcaption><p>自定义开关的设置</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/list-customizable-switches-mo-touch.png" alt=""><figcaption><p>自定义开关的设置</p></figcaption></figure>
 
-<figure><img src="//edgetx-static.zkl2333.com/show-no-touch-special-function.png" alt=""><figcaption><p>创建一个特殊功能以使用 SW1 禁用触摸</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/show-no-touch-special-function.png" alt=""><figcaption><p>创建一个特殊功能以使用 SW1 禁用触摸</p></figcaption></figure>
 
-<figure><img src="//edgetx-static.zkl2333.com/show-no-touch-special-function.png" alt=""><figcaption><p>特殊功能列表</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/show-no-touch-special-function.png" alt=""><figcaption><p>特殊功能列表</p></figcaption></figure>

@@ -1,6 +1,6 @@
 # 飞行模式
 
-<figure><img src="//edgetx-static.zkl2333.com/FM1.png" alt=""><figcaption><p>飞行模式页面</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/FM1.png" alt=""><figcaption><p>飞行模式页面</p></figcaption></figure>
 
 飞行模式允许您为每个飞行模式设置不同的微调设置。一旦配置了多个飞行模式，您可以在每个飞行模式中调整微调设置，而不会影响其他飞行模式的微调设置（除非它们被配置为这样做）。可以使用 9 种可能的飞行模式，其中飞行模式 0 是默认飞行模式。
 
@@ -8,7 +8,7 @@
 
 **检查 FM 微调：** 当按下检查 FM 微调按钮时，当前飞行模式的微调将暂时禁用。这用于测试当前飞行模式的微调对输出的影响。
 
-<figure><img src="//edgetx-static.zkl2333.com/FM2.png" alt=""><figcaption><p>飞行模式配置页面</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/FM2.png" alt=""><figcaption><p>飞行模式配置页面</p></figcaption></figure>
 
 飞行模式配置屏幕具有以下选项：
 

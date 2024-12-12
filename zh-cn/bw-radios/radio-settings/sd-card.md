@@ -1,6 +1,6 @@
 # SD 卡
 
-<figure><img src="//edgetx-static.zkl2333.com/bwsdcard1.png" alt=""><figcaption><p>SD 卡屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwsdcard1.png" alt=""><figcaption><p>SD 卡屏幕</p></figcaption></figure>
 
 **SD 卡**屏幕显示 SD 卡的内容，允许您浏览文件夹并与其中的文件交互。每个文件夹都包含一个 README.txt 文件，说明该文件夹中适合存放哪种类型的文件。在文件夹中选择一个文件后，根据所选文件的类型，您可以执行以下操作：
 

@@ -1,6 +1,6 @@
 # 版本
 
-<figure><img src="//edgetx-static.zkl2333.com/version1.png" alt=""><figcaption><p>版本屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/version1.png" alt=""><figcaption><p>版本屏幕</p></figcaption></figure>
 
 版本屏幕显示有关当前使用的 EdgeTX 版本的信息：
 
@@ -14,6 +14,6 @@
 完整的构建选项列表可以在这里找到：[https://github.com/EdgeTX/edgetx/wiki/Compilation-options](https://github.com/EdgeTX/edgetx/wiki/Compilation-options)
 {% endhint %}
 
-<figure><img src="//edgetx-static.zkl2333.com/Version2.jpg" alt=""><figcaption><p>模块 / RX 版本屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/Version2.jpg" alt=""><figcaption><p>模块 / RX 版本屏幕</p></figcaption></figure>
 
 **模块 / RX 版本** 为您提供有关当前选择模型的已激活 RX 模块的信息。

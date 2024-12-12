@@ -1,6 +1,6 @@
 # SD 卡
 
-<figure><img src="//edgetx-static.zkl2333.com/sdcard.jpg" alt=""><figcaption><p>SD 卡屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/sdcard.jpg" alt=""><figcaption><p>SD 卡屏幕</p></figcaption></figure>
 
 **SD 卡** 屏幕显示 SD 卡的内容，允许您浏览文件夹并与文件夹中的文件进行交互。所有文件夹都包含一个 README.txt 文件，描述属于该文件夹的文件类型。在选择文件夹中的文件后，您将根据所选文件类型看到以下一些选项：
 
@@ -109,7 +109,7 @@ _启动画面图像_ 的理想图像尺寸为实际的遥控器屏幕尺寸（�
 
 此文件夹包含 EdgeTX 的主题包。EdgeTX SD 卡附带几个自动安装的主题包。
 
-<figure><img src="//edgetx-static.zkl2333.com/themes4.jpg" alt=""><figcaption><p>EdgeTX 已安装的主题包</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/themes4.jpg" alt=""><figcaption><p>EdgeTX 已安装的主题包</p></figcaption></figure>
 
 您可以从以下网址下载并添加其他主题：[https://github.com/EdgeTX/themes](https://github.com/EdgeTX/themes)。
 

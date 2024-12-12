@@ -6,11 +6,11 @@
 
 <div>
 
-<figure><img src="//edgetx-static.zkl2333.com/internalrf.png" alt=""><figcaption><p>选择多协议模块的内部 RF</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/internalrf.png" alt=""><figcaption><p>选择多协议模块的内部 RF</p></figcaption></figure>
 
  
 
-<figure><img src="//edgetx-static.zkl2333.com/externalrf.png" alt=""><figcaption><p>选择 CRSF 的外部 RF</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/externalrf.png" alt=""><figcaption><p>选择 CRSF 的外部 RF</p></figcaption></figure>
 
 </div>
 

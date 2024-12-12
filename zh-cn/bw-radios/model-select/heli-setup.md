@@ -2,7 +2,7 @@
 
 在模型设置中的**直升机设置**页面是一个可选页面，适用于自定义编译版本的EdgeTX。直升机设置页面通常用于集体俯仰混合（CCPM），用于接收机直接控制旋翼盘伺服的有平衡杆直升机。大多数无平衡杆直升机不需要配置此页面。CCPM混合器的输出为CYC1、CYC2和CYC3，需要在混合屏幕上分配到一个输出通道。
 
-<figure><img src="//edgetx-static.zkl2333.com/bwheli.png" alt=""><figcaption><p>直升机设置屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwheli.png" alt=""><figcaption><p>直升机设置屏幕</p></figcaption></figure>
 
 直升机设置屏幕具有以下配置选项：
 

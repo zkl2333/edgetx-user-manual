@@ -2,7 +2,7 @@
 
 模型设置的 **曲线** 屏幕允许您定义自定义曲线，以便在输入、混合或输出屏幕中使用。曲线屏幕将显示所有配置的自定义曲线，每条曲线都有图形表示、点数和曲线类型。
 
-<figure><img src="//edgetx-static.zkl2333.com/curve1.png" alt=""><figcaption><p>曲线屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/curve1.png" alt=""><figcaption><p>曲线屏幕</p></figcaption></figure>
 
 选择现有的自定义曲线将显示以下选项：
 
@@ -16,7 +16,7 @@
 * **编辑** - 打开曲线配置页面。
 * **预设** - 允许您将曲线设置为预设的斜率值之一（-45 到 45 度，以 15 度为增量）。曲线将有 5 个点，默认情况下不启用平滑。
 
-<figure><img src="//edgetx-static.zkl2333.com/curves2.png" alt=""><figcaption><p>曲线配置屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/curves2.png" alt=""><figcaption><p>曲线配置屏幕</p></figcaption></figure>
 
 为已配置或未配置的曲线选择 **编辑** 将打开曲线配置屏幕，并显示以下选项：
 

@@ -10,7 +10,7 @@
 输入部分通常也被称为“**双重速率**”，因为在早期版本的 OpenTX 中曾被这样称呼。
 {% endhint %}
 
-<figure><img src="//edgetx-static.zkl2333.com/bwinputs1.png" alt=""><figcaption><p>输入屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwinputs1.png" alt=""><figcaption><p>输入屏幕</p></figcaption></figure>
 
 输入屏幕显示了您配置的输入的概览。每行代表一个输入行，并从左到右显示以下信息：输入名称、权重、激活开关、行名称。这些项目在下面的[输入配置页面](inputs.md#input-configuration-page)区域中进行了描述。
 
@@ -29,7 +29,7 @@
 * **在前粘贴** - 在选定输入行之前粘贴复制或移动的输入行。
 * **在后粘贴** - 在选定输入行之后粘贴复制或移动的输入行。
 
-<figure><img src="//edgetx-static.zkl2333.com/bwinputs2.png" alt=""><figcaption><p>输入配置页面</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwinputs2.png" alt=""><figcaption><p>输入配置页面</p></figcaption></figure>
 
 ### 输入配置页面
 

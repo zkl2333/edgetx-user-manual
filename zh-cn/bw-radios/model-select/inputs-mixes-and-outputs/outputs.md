@@ -6,7 +6,7 @@
 **微调**是通常在操作时通过微调开关进行的飞行控制的临时调整。**子微调**是通常在输出设置中设置模型时配置的飞行控制的半永久性调整。
 {% endhint %}
 
-<figure><img src="//edgetx-static.zkl2333.com/bwoutputs1.png" alt=""><figcaption><p>输出屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwoutputs1.png" alt=""><figcaption><p>输出屏幕</p></figcaption></figure>
 
 输出屏幕显示所有的输出通道。对于每个输出行，它显示子微调、最小和最大限制、方向、曲线和子微调模式的值。在最后一个输出行之后是选项**Trims=>Subtrims**。选择此选项时，它会将当前微调值添加到每个配置输出的子微调值中。然后微调值重置为零。
 
@@ -18,7 +18,7 @@
 * **复制摇杆 -> 子微调** - 将当前摇杆偏转值添加为子微调值。
 * **复制最小/最大到所有** - 将所选通道的最小/最大字段中的设置复制到所有其他通道。
 
-<figure><img src="//edgetx-static.zkl2333.com/bwoutputs2.png" alt=""><figcaption><p>输出配置页面</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwoutputs2.png" alt=""><figcaption><p>输出配置页面</p></figcaption></figure>
 
 输出配置屏幕具有以下配置选项：
 

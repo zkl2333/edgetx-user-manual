@@ -4,7 +4,7 @@
 
 ### BETAFPV LiteRadio 3 Pro
 
-<figure><img src="//edgetx-static.zkl2333.com/LR3Prodfu.png" alt="" width="375"><figcaption><p>BETAFPV LiteRadio 3 Pro Bootloader 和 DFU 按钮</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/LR3Prodfu.png" alt="" width="375"><figcaption><p>BETAFPV LiteRadio 3 Pro Bootloader 和 DFU 按钮</p></figcaption></figure>
 
 **Bootloader**: 关闭遥控发射器。按下 Bootloader 按钮和电源按钮，同时释放。
 
@@ -16,7 +16,7 @@
 
 ### FlySky NV14 / EL18
 
-<figure><img src="//edgetx-static.zkl2333.com/EL18 DFU.png" alt="" width="456"><figcaption><p>FlySky NV14/EL18 DFU 按钮</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/EL18 DFU.png" alt="" width="456"><figcaption><p>FlySky NV14/EL18 DFU 按钮</p></figcaption></figure>
 
 **Bootloader**: 关闭遥控发射器。将两个微调向内拉并按下两个电源按钮。
 
@@ -24,7 +24,7 @@
 
 ### FlySky PL18 / PL18 EV
 
-<figure><img src="//edgetx-static.zkl2333.com/PL18Dfu.png" alt="" width="375"><figcaption><p>PL18 PL18 EV DFU 按钮</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/PL18Dfu.png" alt="" width="375"><figcaption><p>PL18 PL18 EV DFU 按钮</p></figcaption></figure>
 
 **Bootloader**: 关闭遥控发射器。将两个水平微调（TR7 和 TR8）一起拉并按下两个电源按钮。
 
@@ -32,7 +32,7 @@
 
 ### iFlight Commando8
 
-<figure><img src="//edgetx-static.zkl2333.com/Com8DFU.png" alt="" width="375"><figcaption><p>iFlight Commando8 Boot 按钮</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/Com8DFU.png" alt="" width="375"><figcaption><p>iFlight Commando8 Boot 按钮</p></figcaption></figure>
 
 **Bootloader**: 关闭遥控发射器。按下 Boot 按钮和电源按钮，同时释放。
 
@@ -46,7 +46,7 @@
 
 ### Jumper T12 MAX
 
-<figure><img src="//edgetx-static.zkl2333.com/T12MAX-dfu-button.png" alt=""><figcaption><p>Jumper T12 MAX DFU 按钮</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/T12MAX-dfu-button.png" alt=""><figcaption><p>Jumper T12 MAX DFU 按钮</p></figcaption></figure>
 
 **Bootloader**: 关闭遥控发射器。将两个水平微调开关一起拉并按下电源按钮。
 
@@ -54,7 +54,7 @@
 
 ### Jumper T14/T15
 
-<figure><img src="//edgetx-static.zkl2333.com/T15-dfu-button.png" alt=""><figcaption><p>Jumper T14/T15 DFU 按钮</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/T15-dfu-button.png" alt=""><figcaption><p>Jumper T14/T15 DFU 按钮</p></figcaption></figure>
 
 **Bootloader**: 关闭遥控发射器。将两个水平微调开关一起拉并按下电源按钮。
 
@@ -62,13 +62,13 @@
 
 ### Jumper T-20/T-20S
 
-<figure><img src="//edgetx-static.zkl2333.com/T20DFU.png" alt="" width="563"><figcaption><p>Jumper T-20 v1 DFU 按钮</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/T20DFU.png" alt="" width="563"><figcaption><p>Jumper T-20 v1 DFU 按钮</p></figcaption></figure>
 
 {% hint style="info" %}
 注意：要访问 v1 的 DFU 按钮，请移除天线。对于 v2，使用牙签轻轻按下按钮以避免损坏。
 {% endhint %}
 
-<figure><img src="//edgetx-static.zkl2333.com/T20V2.png" alt="" width="563"><figcaption><p>Jumper T-20 v2 DFU 按钮</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/T20V2.png" alt="" width="563"><figcaption><p>Jumper T-20 v2 DFU 按钮</p></figcaption></figure>
 
 **Bootloader**: 关闭遥控发射器。将两个微调帽开关一起向内推并按下电源按钮。
 
@@ -82,7 +82,7 @@
 
 ### Jumper T-Pro / T-Pro V2
 
-<figure><img src="//edgetx-static.zkl2333.com/T-ProDFU.png" alt="" width="375"><figcaption><p>Jumper T-Pro DFU 按钮</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/T-ProDFU.png" alt="" width="375"><figcaption><p>Jumper T-Pro DFU 按钮</p></figcaption></figure>
 
 **Bootloader**: 关闭遥控发射器。将两个微调帽开关一起向内推并按下电源按钮。
 

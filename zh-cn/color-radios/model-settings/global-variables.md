@@ -2,14 +2,14 @@
 
 全局变量是其值在模型的所有配置屏幕中共享的变量。它们的值可以用于权重、偏移、差动、指数设置、输出以及逻辑开关比较。模型设置的 **全局变量** 屏幕显示每个飞行模式的每个全局变量的值。
 
-<figure><img src="//edgetx-static.zkl2333.com/globalvariables1.png" alt=""><figcaption><p>全局变量屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/globalvariables1.png" alt=""><figcaption><p>全局变量屏幕</p></figcaption></figure>
 
 从全局变量屏幕中选择一个全局变量将提供以下选项：
 
 * **编辑** - 打开所选全局变量的全局变量配置屏幕。
 * **清除** - 清除所选全局变量的所有飞行模式的全局变量值。
 
-<figure><img src="//edgetx-static.zkl2333.com/GVE.png" alt=""><figcaption><p>全局变量配置屏幕。</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/GVE.png" alt=""><figcaption><p>全局变量配置屏幕。</p></figcaption></figure>
 
 全局变量配置屏幕是您为全局变量分配值和其他配置选项的地方。此外，您可以选择如何为每个飞行模式定义全局变量的值 - 要么手动定义值，要么从另一个选定的飞行模式继承。它包含以下配置选项：
 
@@ -24,4 +24,4 @@
   * 切换开关禁用 - 选定飞行模式的全局变量值从下拉菜单中定义的飞行模式继承。
   * 切换开关启用（高亮） - 选定飞行模式的全局变量值在文本字段中手动定义。
 
-<figure><img src="//edgetx-static.zkl2333.com/GVE2.png" alt=""><figcaption><p>全局变量更改的弹出消息</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/GVE2.png" alt=""><figcaption><p>全局变量更改的弹出消息</p></figcaption></figure>

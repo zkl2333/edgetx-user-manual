@@ -4,7 +4,7 @@
 
 从主视图按下 **\[MDL]** 按钮将打开 **模型选择** 屏幕。
 
-<figure><img src="//edgetx-static.zkl2333.com/bwmodelsel.png" alt=""><figcaption><p>模型选择屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwmodelsel.png" alt=""><figcaption><p>模型选择屏幕</p></figcaption></figure>
 
 使用 **\[滚轮]** 或 **\[旋钮]** 滚动浏览模型槽。
 

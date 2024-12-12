@@ -10,7 +10,7 @@
 输入部分通常也被称为 "**双重速率**"，因为在早期版本的 OpenTX 中曾这样称呼。
 {% endhint %}
 
-<figure><img src="//edgetx-static.zkl2333.com/inputs.jpg" alt=""><figcaption><p>模型设置中的输入屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/inputs.jpg" alt=""><figcaption><p>模型设置中的输入屏幕</p></figcaption></figure>
 
 选择 **+** **按钮** 将显示可配置的输入列表。选择输入后，将打开该输入的输入配置页面。选择现有输入将为您提供以下选项：
 
@@ -23,7 +23,7 @@
 * **在之前粘贴** - 在选定输入行之前粘贴复制或移动的输入行。
 * **在之后粘贴** - 在选定输入行之后粘贴复制或移动的输入行。
 
-<figure><img src="//edgetx-static.zkl2333.com/inputs2.jpg" alt=""><figcaption><p>输入配置页面</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/inputs2.jpg" alt=""><figcaption><p>输入配置页面</p></figcaption></figure>
 
 ### 输入配置页面
 
@@ -32,7 +32,7 @@
 * **输入名称** - 输入的名称。最多可以使用四个字符。
 * **行名称** - 输入中单个行的名称。通过在输入下添加额外的输入行，可以将多个物理输入映射到一个输入。
 
-<figure><img src="//edgetx-static.zkl2333.com/multiple_input_lines.jpg" alt=""><figcaption><p>一个输入下的多个输入行示例</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/multiple_input_lines.jpg" alt=""><figcaption><p>一个输入下的多个输入行示例</p></figcaption></figure>
 
 * **来源** - 用于输入的物理控件。除了物理控件，您还可以指定 MAX（始终返回 100）、MIN（始终返回 -100）、循环、微调开关、通道值等。选择来源后移动物理控件将自动将其映射到该输入。
 * **权重** - 使用的摇杆行程的百分比值（通常称为“速率”）。
@@ -52,7 +52,7 @@
 
 选择屏幕底部的齿轮按钮时，将显示以下选项窗口。
 
-<figure><img src="//edgetx-static.zkl2333.com/inputs3.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/inputs3.jpg" alt=""><figcaption></figcaption></figure>
 
 **侧面** - 指定此行设置有效的输入范围。如果选择 **---**，则在来源值的整个范围内有效。如果选择 **x>0**，则在来源值的上半部分有效。如果选择 **x<0**，则在来源值的下半部分有效。
 

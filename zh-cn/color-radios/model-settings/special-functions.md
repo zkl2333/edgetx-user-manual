@@ -2,7 +2,7 @@
 
 模型设置的 **特殊功能** 部分，顾名思义，是您可以配置 EdgeTX 中包含的特殊功能的地方。这些特殊功能增加了正常模型控制之外的附加功能，例如启用教练模式、播放声音、调整无线电背光、调整无线电音量等。在特殊功能屏幕上，您将看到所有配置的特殊功能以及一些配置选项，例如功能名称、激活开关、功能是否启用和其他配置选项。
 
-<figure><img src="//edgetx-static.zkl2333.com/specialfunctions.png" alt=""><figcaption><p>特殊功能</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/specialfunctions.png" alt=""><figcaption><p>特殊功能</p></figcaption></figure>
 
 选择 **+** 按钮将允许您选择一个未使用的特殊功能进行配置，并将出现特殊功能配置窗口。有关配置新特殊功能的信息，请参见下文的[配置特殊功能](special-functions.md#configuring-special-functions)。
 

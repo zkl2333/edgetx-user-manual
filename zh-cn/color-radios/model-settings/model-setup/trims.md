@@ -1,6 +1,6 @@
 # 微调
 
-<figure><img src="//edgetx-static.zkl2333.com/trims.png" alt=""><figcaption><p>微调设置页面</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/trims.png" alt=""><figcaption><p>微调设置页面</p></figcaption></figure>
 
 微调用于调整给定摇杆轴的中心位置。EdgeTX 提供以下时间配置选项：
 

@@ -1,6 +1,6 @@
 # 启用功能
 
-<figure><img src="//edgetx-static.zkl2333.com/enabledfeatures.png" alt=""><figcaption><p>启用功能</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/enabledfeatures.png" alt=""><figcaption><p>启用功能</p></figcaption></figure>
 
 **模型设置**的**启用功能**部分允许您配置在 EdgeTX 的选定模型的无线电设置和模型设置区域中可见的选项卡。您可以选择以下选项：
 

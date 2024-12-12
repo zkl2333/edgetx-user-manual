@@ -1,6 +1,6 @@
 # 硬件
 
-<figure><img src="//edgetx-static.zkl2333.com/hardware.png" alt=""><figcaption><p>硬件屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/hardware.png" alt=""><figcaption><p>硬件屏幕</p></figcaption></figure>
 
 **硬件** 屏幕是配置无线电硬件特定设置的地方。它包含以下配置选项：
 
@@ -83,15 +83,15 @@ _**注意：** 此选项仅在启用了 **Bluetooth** 标志的自定义编译�
 
 <div>
 
-<figure><img src="//edgetx-static.zkl2333.com/Axis.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/Axis.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="//edgetx-static.zkl2333.com/Pots.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/Pots.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="//edgetx-static.zkl2333.com/Switches.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/Switches.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -101,11 +101,11 @@ _**注意：** 此选项仅在启用了 **Bluetooth** 标志的自定义编译�
 
 <div>
 
-<figure><img src="//edgetx-static.zkl2333.com/hardware4.png" alt=""><figcaption><p>模拟调试屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/hardware4.png" alt=""><figcaption><p>模拟调试屏幕</p></figcaption></figure>
 
  
 
-<figure><img src="//edgetx-static.zkl2333.com/hardware5 (1).jpg" alt=""><figcaption><p>开关测试屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/hardware5 (1).jpg" alt=""><figcaption><p>开关测试屏幕</p></figcaption></figure>
 
 </div>
 

@@ -6,7 +6,7 @@
 
 **传感器**
 
-<figure><img src="//edgetx-static.zkl2333.com/bwtelemetry4 (2).png" alt=""><figcaption><p>遥测屏幕的传感器部分</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwtelemetry4 (2).png" alt=""><figcaption><p>遥测屏幕的传感器部分</p></figcaption></figure>
 
 所有先前配置的传感器都列在这里。通过点击**传感器**标签右侧的**箭头图标**可以折叠列表。当传感器列表被折叠时，配置的传感器数量将显示在**括号**中，例如：(6)。自模型加载或遥测值重置以来未接收到数据的传感器将显示**---**。当传感器接收到数据更新时，传感器值左侧的星号**\***将闪烁。实心星号**\***表示传感器正在接收定期更新。不再接收定期更新的传感器将不会标记星号**\***。请参阅[常见遥测传感器](../../../color-radios/model-settings/telemetry/common-telemetry-sensors.md)以获取EdgeTX中常用传感器的列表。
 
@@ -31,7 +31,7 @@
 
 **接收机状态**
 
-<figure><img src="//edgetx-static.zkl2333.com/bwtelemetry1.png" alt=""><figcaption><p>遥测屏幕的RSSI部分</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwtelemetry1.png" alt=""><figcaption><p>遥测屏幕的RSSI部分</p></figcaption></figure>
 
 在这里，您可以配置接收机警报的阈值。根据与模型使用的协议，Rx-Stats标签将更改（Rx-Stats、RSSI、Rqly、Sgnl）。
 
@@ -41,7 +41,7 @@
 
 **变率计**
 
-<figure><img src="//edgetx-static.zkl2333.com/bwtelemetry3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwtelemetry3.png" alt=""><figcaption></figcaption></figure>
 
 变率计检测模型高度的变化。EdgeTX可以通过提供升高/降低音调来提醒用户这些高度变化。使用无线电设置页面上的**变率计**菜单设置要播放的音调的实际频率和音量。以下选项用于配置变率计警报。
 

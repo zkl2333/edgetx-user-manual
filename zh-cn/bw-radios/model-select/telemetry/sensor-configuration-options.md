@@ -1,6 +1,6 @@
 # 传感器配置
 
-<figure><img src="//edgetx-static.zkl2333.com/bwtelemetry2.png" alt=""><figcaption><p>传感器配置页面</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwtelemetry2.png" alt=""><figcaption><p>传感器配置页面</p></figcaption></figure>
 
 以下选项可用于配置传感器：
 

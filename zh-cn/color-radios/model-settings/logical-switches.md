@@ -4,7 +4,7 @@
 
 模型设置中的 **逻辑开关** 页面显示了所有配置的逻辑开关及其配置选项的概览。
 
-<figure><img src="//edgetx-static.zkl2333.com/logicalswitches1.png" alt=""><figcaption><p>逻辑开关屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/logicalswitches1.png" alt=""><figcaption><p>逻辑开关屏幕</p></figcaption></figure>
 
 选择 **+** 按钮将允许您选择一个未使用的逻辑开关进行配置。
 
@@ -15,7 +15,7 @@
 * **粘贴** - 将复制的逻辑开关粘贴到所选逻辑开关上。注意：这将覆盖所选逻辑开关。
 * **清除** - 删除所选逻辑开关的所有配置选项。
 
-<figure><img src="//edgetx-static.zkl2333.com/logicalswitches2.png" alt=""><figcaption><p>逻辑开关配置屏幕</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/logicalswitches2.png" alt=""><figcaption><p>逻辑开关配置屏幕</p></figcaption></figure>
 
 选择编辑逻辑开关后，您将有以下配置选项：
 

@@ -1,6 +1,6 @@
 # 油门
 
-<figure><img src="//edgetx-static.zkl2333.com/throttle.png" alt=""><figcaption><p>油门页面设置</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/throttle.png" alt=""><figcaption><p>油门页面设置</p></figcaption></figure>
 
 EdgeTX 可以选择特定的油门源和微调，并允许进行以下配置选项：
 

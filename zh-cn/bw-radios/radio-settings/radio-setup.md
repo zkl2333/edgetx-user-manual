@@ -1,6 +1,6 @@
 # 电台设置
 
-<figure><img src="//edgetx-static.zkl2333.com/bwRadioSetup.png" alt=""><figcaption><p>电台设置</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwRadioSetup.png" alt=""><figcaption><p>电台设置</p></figcaption></figure>
 
 **电台设置**屏幕是配置电台基本设置的地方。它包含以下选项：
 
@@ -10,7 +10,7 @@
 
 **电池范围** - 设置电池电压表的最大和最小电压。这应根据您使用的电池类型进行设置。
 
-<figure><img src="//edgetx-static.zkl2333.com/bwRadioSetup2.png" alt=""><figcaption><p>声音设置</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwRadioSetup2.png" alt=""><figcaption><p>声音设置</p></figcaption></figure>
 
 ### **声音**
 
@@ -33,7 +33,7 @@
 
 **背景音量 -** 通过**BGMusic**特殊功能播放的背景.wav文件（音乐）的音量
 
-<figure><img src="//edgetx-static.zkl2333.com/bwRadioSetup3 (1).png" alt=""><figcaption><p>变音器设置</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwRadioSetup3 (1).png" alt=""><figcaption><p>变音器设置</p></figcaption></figure>
 
 ### **变音器**
 
@@ -49,7 +49,7 @@
 注意：为了使变音器功能正常，必须通过**变音器**特殊或全局功能打开。有关如何配置的更多信息，请参见[特殊功能](../../color-radios/model-settings/special-functions.md)。
 {% endhint %}
 
-<figure><img src="//edgetx-static.zkl2333.com/bwRadioSetup4.png" alt=""><figcaption><p>触觉设置</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwRadioSetup4.png" alt=""><figcaption><p>触觉设置</p></figcaption></figure>
 
 ### 触觉
 
@@ -64,7 +64,7 @@
 
 **强度** - 振动的强度
 
-<figure><img src="//edgetx-static.zkl2333.com/bwRadioSetup5.png" alt=""><figcaption><p>警报设置</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwRadioSetup5.png" alt=""><figcaption><p>警报设置</p></figcaption></figure>
 
 ### 警报
 
@@ -78,7 +78,7 @@
 
 **RSSI关机** - 在尝试关机时检查接收器是否仍连接到电台。如果检测到，则发出音频和视觉警报。
 
-<figure><img src="//edgetx-static.zkl2333.com/bwRadioSetup6.png" alt=""><figcaption><p>背光设置</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwRadioSetup6.png" alt=""><figcaption><p>背光设置</p></figcaption></figure>
 
 ### 背光
 
@@ -96,7 +96,7 @@
 
 **警报** - 当有警报或警告时，背光会打开。
 
-<figure><img src="//edgetx-static.zkl2333.com/bwRadioSetup7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwRadioSetup7.png" alt=""><figcaption></figcaption></figure>
 
 **对比度** - 对于LCD显示器，调整屏幕对比度设置。对于OLED显示器，调整OLED亮度级别。
 
@@ -112,7 +112,7 @@
 
 **时区** - 电台使用的时间与UTC的偏移量。可以以15分钟为增量进行配置。
 
-<figure><img src="//edgetx-static.zkl2333.com/bwRadioSetup8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwRadioSetup8.png" alt=""><figcaption></figcaption></figure>
 
 **调整RTC** - 调整发射机的实时时钟以匹配GPS确定的时间。
 
@@ -128,7 +128,7 @@
 
 **播放延迟** (开关中间位置) - 开关必须处于中间位置的最短时间（以毫秒为单位），以便特殊功能被激活。这用于防止在从低位置切换到高位置时，三位置开关的中间位置被激活。
 
-<figure><img src="//edgetx-static.zkl2333.com/bwRadioSetup9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwRadioSetup9.png" alt=""><figcaption></figcaption></figure>
 
 **USB模式** - 设置当USB数据端口插入USB电缆并打开电台时的默认操作。选项有：**询问**、**操纵杆**、**存储**和**串行**。
 
@@ -146,7 +146,7 @@
 
 <table><thead><tr><th width="181">选项</th><th width="168">左摇杆 H</th><th width="149">左摇杆 V</th><th width="133">右摇杆 H</th><th>右摇杆 V</th></tr></thead><tbody><tr><td>1: 左 = 方向+升降 </td><td>方向舵 (偏航)</td><td>升降舵 (俯仰)</td><td>副翼 (滚转)</td><td>油门</td></tr><tr><td>2: 左 = 方向+油门</td><td>方向舵 (偏航)</td><td>油门</td><td>副翼 (滚转)</td><td>升降舵 (俯仰)</td></tr><tr><td>3: 左 = 副翼+升降</td><td>副翼 (滚转)</td><td>升降舵 (俯仰)</td><td>方向舵 (偏航)</td><td>油门</td></tr><tr><td>4: 左 = 副翼+油门</td><td>副翼 (滚转)</td><td>油门</td><td>方向舵 (偏航)</td><td>升降舵 (俯仰)</td></tr></tbody></table>
 
-<figure><img src="//edgetx-static.zkl2333.com/bwEnabledFeatures.png" alt=""><figcaption><p>启用的功能</p></figcaption></figure>
+<figure><img src="https://edgetx-static.zkl2333.com/bwEnabledFeatures.png" alt=""><figcaption><p>启用的功能</p></figcaption></figure>
 
 ### 启用的功能
 
