@@ -1,33 +1,33 @@
-# Logical Switches
+# 逻辑开关
 
-Logical Switches are virtual two-position switches whose values (ON/OFF or +100/-100) are based on the evaluation (true/false) of a defined logical expression. Once configured, logical switches can be used anywhere in EdgeTX that a physical switch can be defined.
+逻辑开关是虚拟的两位开关，其值（开/关或 +100/-100）基于定义的逻辑表达式的评估（真/假）。一旦配置，逻辑开关可以在 EdgeTX 中任何可以定义物理开关的地方使用。
 
-The **Logical Switches** page shows you all the configured logical switches as well as an overview of their configured options.
+**逻辑开关**页面显示所有配置的逻辑开关及其配置选项的概览。
 
-<figure><img src="/.gitbook/assets/bwlogswitch1.png" alt=""><figcaption><p>Logical Switches Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwlogswitch1.png" alt=""><figcaption><p>逻辑开关屏幕</p></figcaption></figure>
 
-Selecting a logic switch will give you the following options:
+选择一个逻辑开关将提供以下选项：
 
-* **Edit** - Opens the Logical Switches configuration page for the selected logical switch.
-* **Copy** - Copies the selected logical switch
-* **Paste** - Pastes a copied logical switch onto the selected logical switch. Note: it will overwrite the selected logical switch.
-* **Clear** - Deletes all configuration options for the selected logical switch.
+* **编辑** - 打开所选逻辑开关的逻辑开关配置页面。
+* **复制** - 复制所选逻辑开关。
+* **粘贴** - 将复制的逻辑开关粘贴到所选逻辑开关上。注意：这将覆盖所选逻辑开关。
+* **清除** - 删除所选逻辑开关的所有配置选项。
 
-<figure><img src="/.gitbook/assets/bwlogswitch2.png" alt=""><figcaption><p>Logical Switches Configuration Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwlogswitch2.png" alt=""><figcaption><p>逻辑开关配置屏幕</p></figcaption></figure>
 
-After selecting to edit a logical switch, you will have the following configuration options:
+选择编辑逻辑开关后，您将有以下配置选项：
 
-* **Func** - The logical function that you want to use. See [Logical Switch Functions](logical-switches.md#logical\_switches\_judgment\_conditions\_and\_logical\_expressions) below for a description of the possible functions you can use.
-* **V1** - The first variable in the expression to evaluate.
-* **V2** -The second variable in the expression to evaluate.
-* **AND switch** - Switch that must be active to allow the logical switch to be evaluated for activation.
-* **Duration** - The duration that the logical switch will remain active (true) once meeting activation criteria.&#x20;
-* **Delay** - Delay between when the activation criteria for the logical switch has been met and when the logical switch changes to the activated state (true).
+* **Func** - 您想要使用的逻辑功能。请参阅下面的[逻辑开关功能](logical-switches.md#logical_switches_judgment_conditions_and_logical_expressions)以了解您可以使用的可能功能的描述。
+* **V1** - 要评估的表达式中的第一个变量。
+* **V2** - 要评估的表达式中的第二个变量。
+* **AND 开关** - 必须激活的开关，以允许逻辑开关被评估为激活。
+* **持续时间** - 逻辑开关在满足激活条件后保持激活（真）的持续时间。
+* **延迟** - 逻辑开关的激活条件满足后到逻辑开关变为激活状态（真）之间的延迟。
 
-### Logical Switch Functions <a href="#logical_switches_judgment_conditions_and_logical_expressions" id="logical_switches_judgment_conditions_and_logical_expressions"></a>
+### 逻辑开关功能 <a href="#logical_switches_judgment_conditions_and_logical_expressions" id="logical_switches_judgment_conditions_and_logical_expressions"></a>
 
-In the expression, a and b represent sources (sticks, switches, etc.), and x represents the constants (values) to be compared.
+在表达式中，a 和 b 代表源（摇杆、开关等），x 代表要比较的常量（值）。
 
-<table><thead><tr><th width="137">Expression</th><th width="606">Description</th></tr></thead><tbody><tr><td>a=x</td><td>True when the source V1 is exactly the same as the constant V2.</td></tr><tr><td>a~x</td><td>True when the source V1 is about the same as the constant V2.</td></tr><tr><td>a>x</td><td>True when the source  V1 is greater than the constant V2.</td></tr><tr><td>a&#x3C;x</td><td>True when the source  V1 is less than the constant V2.</td></tr><tr><td>|a|>x</td><td>True when the absolute value of the source V1 is greater than the constant V2.</td></tr><tr><td>|a|&#x3C;x</td><td>True when the absolute value of the source V1 is less than the constant V2.</td></tr><tr><td>AND</td><td>True when both sources V1 and V2 are TRUE.</td></tr><tr><td>OR</td><td>True when either source V1 or V2 is TRUE.</td></tr><tr><td>XOR</td><td>True when the source V1 and V2 positions do not match.</td></tr><tr><td>Edge</td><td>Momentarily true when the source V1 has been active for the defined period of time and then deactivated. The first time field (T1) under V1 is the minimum active duration required for source V1 to activate the logical switch. The second time (T2) is the maximum time allowed for the source V1 to be active for the logic switch to be activated. When T2 is set to --, the logical switch will be true regardless of how long V1 has been active. When T2 is set to 3, if V1 is active for more than 3 seconds, the logical switch will not be set to true when the source is deactivated. When T2 is set to &#x3C;&#x3C;, the logical switch will be true when the time conditions in T1 are met without source V1 being deactivated.</td></tr><tr><td>a=b</td><td>True when source V1 is the same as source V2.</td></tr><tr><td>a>b</td><td>True if source V1 is greater than source V2.</td></tr><tr><td>a&#x3C;b</td><td>True if source V1 is less than source V2.</td></tr><tr><td>△>x</td><td>Momentarily true every time the source V1 changes by more than the amount indicated by the constant V2. </td></tr><tr><td>|△|>x</td><td>Momentarily true every time the absolute value of the source V1 changes by more than the amount indicated by the constant V2.</td></tr><tr><td>Tim (Timer)</td><td>Momentarily true every xxx seconds. Argument V1 is the duration that the logical switch is true (active). Argument V2 is the time between logical switch activations. Repeats timer cycle as long as the defined switch is active.</td></tr><tr><td>Stky (Sticky)</td><td>"Sticks" true after switch V1 is active (true) and stays active (true) regardless of V1 position until switch V2 is activated (true) and "unsticks" or deactivates (false) the logical switch.</td></tr></tbody></table>
+<table><thead><tr><th width="137">表达式</th><th width="606">描述</th></tr></thead><tbody><tr><td>a=x</td><td>当源 V1 与常量 V2 完全相同时为真。</td></tr><tr><td>a~x</td><td>当源 V1 与常量 V2 大致相同时为真。</td></tr><tr><td>a>x</td><td>当源 V1 大于常量 V2 时为真。</td></tr><tr><td>a&#x3C;x</td><td>当源 V1 小于常量 V2 时为真。</td></tr><tr><td>|a|>x</td><td>当源 V1 的绝对值大于常量 V2 时为真。</td></tr><tr><td>|a|&#x3C;x</td><td>当源 V1 的绝对值小于常量 V2 时为真。</td></tr><tr><td>AND</td><td>当源 V1 和 V2 都为真时为真。</td></tr><tr><td>OR</td><td>当源 V1 或 V2 之一为真时为真。</td></tr><tr><td>XOR</td><td>当源 V1 和 V2 的位置不匹配时为真。</td></tr><tr><td>Edge</td><td>当源 V1 已激活定义的时间段然后停用时瞬时为真。V1 下的第一个时间字段 (T1) 是源 V1 激活逻辑开关所需的最小激活持续时间。第二个时间 (T2) 是源 V1 激活逻辑开关所允许的最大时间。当 T2 设置为 -- 时，无论 V1 激活多长时间，逻辑开关都将为真。当 T2 设置为 3 时，如果 V1 激活超过 3 秒，当源停用时，逻辑开关将不会设置为真。当 T2 设置为 &#x3C;&#x3C; 时，当 T1 中的时间条件满足而源 V1 未停用时，逻辑开关将为真。</td></tr><tr><td>a=b</td><td>当源 V1 与源 V2 相同时为真。</td></tr><tr><td>a>b</td><td>如果源 V1 大于源 V2，则为真。</td></tr><tr><td>a&#x3C;b</td><td>如果源 V1 小于源 V2，则为真。</td></tr><tr><td>△>x</td><td>每当源 V1 的变化超过常量 V2 指示的量时瞬时为真。</td></tr><tr><td>|△|>x</td><td>每当源 V1 的绝对值变化超过常量 V2 指示的量时瞬时为真。</td></tr><tr><td>Tim (计时器)</td><td>每 xxx 秒瞬时为真。参数 V1 是逻辑开关为真（激活）的持续时间。参数 V2 是逻辑开关激活之间的时间。只要定义的开关处于激活状态，就重复计时器周期。</td></tr><tr><td>Stky (粘性)</td><td>在开关 V1 激活（真）后“粘住”为真，并且无论 V1 位置如何保持激活（真），直到开关 V2 激活（真）并“解粘”或停用（假）逻辑开关。</td></tr></tbody></table>
 
-Pressing the **\[PAGE>]** button will take you to the **Special Functions** screen.
+按下 **\[PAGE>]** 按钮将带您进入**特殊功能**屏幕。

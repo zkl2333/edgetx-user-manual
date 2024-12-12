@@ -1,287 +1,287 @@
-# Setup
+# 设置
 
 <figure><img src="/.gitbook/assets/bwsetup.png" alt=""><figcaption></figcaption></figure>
 
-The **Setup** screen is where you start to configure your model. It contains the following settings:
+**设置**屏幕是您开始配置模型的地方。它包含以下设置：
 
-**Name** - Name of the model. The maximum number of characters is 10.
+**名称** - 模型的名称。最大字符数为10。
 
-* To edit the text, using the **\[roller]** or **\[dial]**, press the button, scroll to select the desired letter, then press the button again to move to the next space. To toggle between lower and upper case, long-press the button. Press the **\[RTN]** button to exit out of text editing mode.
+* 要编辑文本，使用**\[滚轮]**或**\[旋钮]**，按下按钮，滚动选择所需的字母，然后再次按下按钮移动到下一个空格。要在小写和大写之间切换，长按按钮。按**\[RTN]**按钮退出文本编辑模式。
 
-**Image** - Image displayed on the main view (only for radios with 212 x 64 displays).
-
-{% hint style="info" %}
-Image dimensions shall be 64 x 32 pixels, 16 bit, grayscale, .bmp file. The image must be stored in the **IMAGES** folder of the SD card.
-{% endhint %}
-
-### **Timers**
-
-**Timer 1/2/3** - There are 3 configurable timers in EdgeTX. The following configuration options will be displayed once the timer is no longer set to **OFF**:
-
-#### Timer 1   \[Mode]   \[Switch]&#x20;
-
-**\[Mode] -** The options include:
-
-* **OFF** - The timer is not used
-* **ON** - The timer runs all the time
-* **Strt (Start)** - The timer starts once the configured switch is activated. After the time is started, the timer ignores the switch position.
-* **THs (Throttle)** - The timer starts once the throttle is raised and the configured switch is activated. The timer will stop counting if either the throttle position is lowered back to the minimum value or the configured switch is deactivated.
-* **TH% (Throttle %)** - The timer counts proportionally to the throttle. It counts in real-time at full throttle and half speed at 50% throttle.
-* **THt (Throttle Start)** - The timer starts once the throttle is raised and the configured switch is activated. After starting, the timer ignores the throttle position and will keep counting unless the switch is deactivated.
-
-**\[Switch]** - Select the switch that will trigger the timer to start.  If no switch is selected, the timer will trigger based only on the configured mode. In addition to a switch, you can also select a trim, a telemetry source (triggered when telemetry data is received from that source), or physical activity (stick movement or button press) (labeled as **ACT**)
+**图像** - 显示在主视图上的图像（仅适用于具有212 x 64显示屏的无线电设备）。
 
 {% hint style="info" %}
-Those items with a "!" mark in front of the trigger name mean that the condition is reversed. For example, "!SA-" means "when SA switch is not in middle/center position (= up or down)".
+图像尺寸应为64 x 32像素，16位，灰度，.bmp文件。图像必须存储在SD卡的**IMAGES**文件夹中。
 {% endhint %}
 
-**Name -** Name of the timer
+### **计时器**
 
-**Start -** The time used for the timer's advanced functions.  The default value is 00:00 and when left as such, the timer operates like a stopwatch, counting upward until stopped.  If a different time is entered in this box, then the additional field will appear next to the time with the options: **Remain** or **Elaps**.
+**计时器 1/2/3** - EdgeTX中有3个可配置的计时器。一旦计时器不再设置为**关闭**，将显示以下配置选项：
 
-If set to **Remain**, the counter will function like a countdown timer - counting down from the designated time to zero and then alerting the user.  If set to **Elaps**, the timer functions like an alarm, counting up from zero until the designated time and then alerting the user.
+#### 计时器 1   \[模式]   \[开关]&#x20;
 
-**Persist. (Persistence):**
+**\[模式] -** 选项包括：
 
-* **OFF** - The timer value is reset when switching models or when the radio is turned off / on.
-* **Flight** - The timer value is NOT reset when switching models or when the radio is turned off / on. The timer value is only reset when the **Reset flight** option is selected in the [Reset](../main-view/reset.md) menu.
-* **Manual Reset** - The timer value is reset only when it is individually selected to be reset (example: Reset timer1) in the [Reset](../main-view/reset.md) menu.
+* **关闭** - 不使用计时器
+* **开启** - 计时器始终运行
+* **启动** - 一旦配置的开关被激活，计时器开始。启动后，计时器忽略开关位置。
+* **油门** - 一旦油门升高并且配置的开关被激活，计时器开始。如果油门位置降低到最小值或配置的开关被停用，计时器将停止计数。
+* **油门 %** - 计时器按油门比例计数。在全油门时实时计数，在50%油门时以半速计数。
+* **油门启动** - 一旦油门升高并且配置的开关被激活，计时器开始。启动后，计时器忽略油门位置，除非开关被停用，否则将继续计数。
 
-**Minute (Minute Call)** - If selected, you will be notified every minute that passes as described in the **Countdown** option.
-
-**Count Down:**
-
-* **Silent** - No notification is given until the timer reaches zero. When it reaches zero, you will hear one beep.
-* **Beeps** - The radio will beep every second starting at the time designated.
-* **Voice** - The radio will count down by second starting at the time designated.
-* **Haptic** - The radio will vibrate every second starting at the time designated.
-
-<figure><img src="/.gitbook/assets/Bwsetup1.png" alt=""><figcaption><p>Function Switches</p></figcaption></figure>
-
-### **Function Switches**&#x20;
-
-The functions switches are a type of multiposition switch (on select transmitters) that are managed directly by EdgeTX. Physically, they look like a regular 6-pos switch but are much more flexible.
-
-Unlike other switches managed at the radio level, function switches are defined per model and configured in the model setup page. They contain the following configuration options:
-
-**Switch Type**
-
-* **None**: the switch is disabled
-* **Toggle**: they are active only during the push duration
-* **2POS**: pushing the switch will alternate the state between OFF and On
-
-**Switch group**
-
-A traditional 6POS is a group of 6 switches that work together, where only one can be active at a time. Function switches expand that concept and let you choose how the switches should be grouped.
-
-'**-**' defines a function switch with no group. Pushing it will only affect this switch.
-
-**'1', '2' or '3'** define groups. All the switches in a group act together, **where only one (the last pushed) can be active.**
-
-**Always on groups**&#x20;
-
-Selecting this check box makes the assigned group act like a traditional 6-position switch where one button from the group must be on at all times.
-
-**Startup Position**
-
-**Start** - Defines the state that each switch will be in when the model is loaded.
-
-* **↑** Switch is inactive
-* **↓** Switch is active
-* **=** Switch is set to the same state it was in when the model was last used (it keeps old state).
+**\[开关]** - 选择将触发计时器开始的开关。如果未选择开关，计时器将仅根据配置的模式触发。除了开关，您还可以选择修整、遥测源（当从该源接收到遥测数据时触发）或物理活动（摇杆移动或按钮按下）（标记为**ACT**）
 
 {% hint style="info" %}
-Unlike hardware 6-POS implementation (Horus, TX16S,...), software managed switches can not be used as an analog source, they are individual switches with either ↑ or ↓ position. The behavior of previous 6P source can be achieved using a combination of mixer lines
+那些在触发名称前带有“!”标记的项目表示条件是反转的。例如，“!SA-”表示“当SA开关不在中间/中心位置（= 向上或向下）”。
 {% endhint %}
 
-<figure><img src="/.gitbook/assets/setup2.png" alt=""><figcaption><p>Trims settings</p></figcaption></figure>
+**名称 -** 计时器的名称
 
-### **Trims**
+**开始 -** 用于计时器高级功能的时间。默认值为00:00，当保持不变时，计时器像秒表一样运行，向上计数直到停止。如果在此框中输入不同的时间，则在时间旁边将出现附加字段，选项为：**剩余**或**经过**。
 
-**E.Limits (Extended Limits)** **-** When enabled, it increases the minimum and maximum range for the output values to -150 and 150. Extended limits are necessary if the full range of the control surface cannot be reached with standard limits.
+如果设置为**剩余**，计数器将像倒计时器一样工作 - 从指定时间倒计时到零，然后提醒用户。如果设置为**经过**，计时器像闹钟一样工作，从零开始计数直到指定时间，然后提醒用户。
 
-**E. Trims) Extended Trims -** Increases the maximum trim adjustment value from **±**25% to **±**100%.
+**持久性：**
 
-**Reset** - This resets all trim values to zero.
+* **关闭** - 切换模型或无线电关闭/打开时，计时器值将重置。
+* **飞行** - 切换模型或无线电关闭/打开时，计时器值不会重置。仅在[重置](../main-view/reset.md)菜单中选择**重置飞行**选项时，计时器值才会重置。
+* **手动重置** - 仅在[重置](../main-view/reset.md)菜单中单独选择重置时（例如：重置计时器1），计时器值才会重置。
 
-**Show trims -** When set to **Yes**, it will display the numerical trim value on the trim bar.  When set to **CHANGE**, it will display the numerical value once the trim is no longer at zero.
+**分钟（分钟提醒）** - 如果选择，您将在每分钟过去时收到通知，如**倒计时**选项中所述。
 
-**Trim Step: -** Defines the amount of increase/decrease in trim when the trim switch is pressed.&#x20;
+**倒计时：**
 
-* Course = 1.6%
-* Medium = 0.8%
-* Fine = 0.4%
-* Extra Fine = 0.2%
-* Exponential = 0.2% near the center and the step value increases exponentially as the distance from the center increases.
+* **静音** - 在计时器达到零之前不会发出通知。当达到零时，您将听到一声哔声。
+* **哔声** - 无线电将在指定时间开始每秒发出哔声。
+* **语音** - 无线电将在指定时间开始每秒倒计时。
+* **触觉** - 无线电将在指定时间开始每秒振动。
 
-<figure><img src="/.gitbook/assets/bwsetup3 (1).png" alt=""><figcaption><p>Throttle Settings</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/Bwsetup1.png" alt=""><figcaption><p>功能开关</p></figcaption></figure>
 
-### **Throttle**
+### **功能开关**&#x20;
 
-The throttle related configuration options below are displayed in collapsible menu.
+功能开关是一种多位置开关（在某些发射机上），由EdgeTX直接管理。物理上，它们看起来像一个常规的6位开关，但更灵活。
 
-**T-Reverse** - When enabled, this option reverses the output direction of the configured throttle channel.
+与在无线电级别管理的其他开关不同，功能开关是按模型定义的，并在模型设置页面中配置。它们包含以下配置选项：
 
-**T-Source** - The source that will be used for the throttle.&#x20;
+**开关类型**
 
-**T-Trim-Idle** - When enabled, the throttle trim will only affect the bottom portion of the throttle band.&#x20;
+* **无**：开关被禁用
+* **切换**：它们仅在按下期间激活
+* **2POS**：按下开关将状态在关闭和开启之间交替
+
+**开关组**
+
+传统的6POS是一个由6个开关组成的组，它们一起工作，其中只有一个可以同时激活。功能开关扩展了这个概念，让您选择开关应该如何分组。
+
+'**-**'定义了一个没有组的功能开关。按下它只会影响这个开关。
+
+**'1', '2' 或 '3'**定义组。组中的所有开关一起工作，**其中只有一个（最后按下的）可以激活。**
+
+**始终开启组**&#x20;
+
+选择此复选框使分配的组像传统的6位开关一样工作，其中组中的一个按钮必须始终开启。
+
+**启动位置**
+
+**启动** - 定义加载模型时每个开关的状态。
+
+* **↑** 开关不活动
+* **↓** 开关活动
+* **=** 开关设置为模型上次使用时的状态（保持旧状态）。
 
 {% hint style="info" %}
-For example, with **Trim idle only** enabled, the throttle stick at the lowest point might have a value of -80 and the center point will still be 0 and the highest point of 100. Without this enabled, the throttle stick at the lowest point might have a value of -80 however, the center point will be 20 and the highest point of 100.&#x20;
+与硬件6-POS实现（Horus, TX16S, ...）不同，软件管理的开关不能用作模拟源，它们是具有↑或↓位置的单独开关。可以通过组合混音器线实现以前的6P源的行为。
 {% endhint %}
 
-**T-Trim-SW** - The trim switch that will be used to trim the throttle. It is possible to substitute the throttle trim switch with the aileron, rudder, or elevator trim switches.
+<figure><img src="/.gitbook/assets/setup2.png" alt=""><figcaption><p>修整设置</p></figcaption></figure>
+
+### **修整**
+
+**扩展限制** **-** 启用时，增加输出值的最小和最大范围到-150和150。如果使用标准限制无法达到控制面的全范围，则需要扩展限制。
+
+**扩展修整 -** 将最大修整调整值从**±**25%增加到**±**100%。
+
+**重置** - 这将所有修整值重置为零。
+
+**显示修整 -** 设置为**是**时，将在修整条上显示数值修整值。设置为**更改**时，一旦修整不再为零，将显示数值。
+
+**修整步长：-** 定义按下修整开关时修整的增加/减少量。&#x20;
+
+* 粗略 = 1.6%
+* 中等 = 0.8%
+* 精细 = 0.4%
+* 超精细 = 0.2%
+* 指数 = 在中心附近为0.2%，随着距离中心的增加，步长值呈指数增加。
+
+<figure><img src="/.gitbook/assets/bwsetup3 (1).png" alt=""><figcaption><p>油门设置</p></figcaption></figure>
+
+### **油门**
+
+以下油门相关配置选项显示在可折叠菜单中。
+
+**油门反向** - 启用时，此选项反转配置的油门通道的输出方向。
+
+**油门源** - 将用于油门的源。&#x20;
+
+**油门修整-怠速** - 启用时，油门修整将仅影响油门带的底部部分。&#x20;
 
 {% hint style="info" %}
-On surface radios (EX: MT-12), the throttle trim has no effect on the reverse throttle range and has some effect over the entire forward throttle range.
+例如，启用**仅修整怠速**时，油门杆在最低点可能有-80的值，中心点仍为0，最高点为100。未启用此功能时，油门杆在最低点可能有-80的值，但中心点将为20，最高点为100。&#x20;
 {% endhint %}
 
-<figure><img src="/.gitbook/assets/BWPrestartChecks.png" alt=""><figcaption><p>Pre-start Checks options</p></figcaption></figure>
-
-### Pre-start Checks
-
-Whenever a new model is loaded, EdgeTX will conduct pre-flight checks based on the checks that are configured on this page. If any of the checks are failed, EdgeTX will give the user an audio and visual warning that must be acknowledged before using the model. The following preflight checks below are displayed in collapsible menu.
-
-**Checklist** - When this option is selected, the model notes file will be displayed when the model is loaded. A valid model notes file must be in the **Models** folder on the SD card. The model notes file must be a .txt file and must have the EXACT same name as the model it is for, for example: Mobula6.txt. The text in the file is up to the user.
-
-**C-Interact** (Interactive checklist) - This option is used with the **Checklist** option. When this option is selected, any line of text in the checklist file that begins with **=** will display as a check box when the checklist is displayed. All displayed checkboxes must be **checked** by selecting them in order to close the checklist.
-
-**T-Warning** - When selected, the radio will check that the throttle is at the minimum value for the configured throttle source in the **T-Source** configuration option.
-
-**Cust-Pos** - When this option is selected, the value designated in **Pos. %** will be used for the **T.Warning**.
-
-**Pos. %** - minimum value of the throttle for the throttle warning when **Cust-Pos** is enabled.
-
-**S-Warning** - The section displays all the switches that are configured on the radio and allows you to select which position is the correct position for the switch state check. Selecting the switch will cycle through the available switch positions or turn the check off for the switch completely.
-
-**Pot warn.** - When activated, this option checks the position of the pots & sliders. There are three options - **OFF**, **ON** and **Auto**. When **ON** or **AUTO** is selected, buttons for the available pots and sliders will appear. To enable the pot warning for an individual pot, select the pot with the **\[roller]** or **\[dial]** and click the button to highlight it. Highlighted pots are enabled.
-
-* **OFF** - Pot and slider positions are not checked.
-* **ON** - Positions are checked against manually configured pot and slider positions. To set the check position, select the item that you want to set, and long-press the **\[Enter]** button to set its current position for the check.
-* **Auto** - Positions are checked for pots and sliders and compared to the last automatically saved position before the radio was turned off or the model was changed.
-
-**Ctr Beep** - Allows you to turn on/off the center beep function for the individual sticks, pots, and sliders by highlighting them with the **\[roller]** or **\[dial]** and pressing the button. When a switch is highlighted, the function is enabled.
-
-**Glob. Funcs** - When enabled, global functions programmed in the radio settings will apply to this model. When disabled, global functions will not apply to this model.
-
-**ADC filter** - Enables/disables the ADC filter for this model. The **Global** option will take the value designated in the radio settings, which is _on_ by default.
+**油门修整-开关** - 将用于修整油门的修整开关。可以用副翼、方向舵或升降舵修整开关替代油门修整开关。
 
 {% hint style="info" %}
-The ADC filter is a filter for the proportional channels (sticks, pots, sliders), smoothing out smaller fast movements that occur due to noise in the system electronics. Normally, this filter should be _disabled_ for models with flight controllers.
+在地面无线电（例如：MT-12）上，油门修整对反向油门范围没有影响，并对整个前向油门范围有一些影响。
 {% endhint %}
 
-#### Internal / External RF
+<figure><img src="/.gitbook/assets/BWPrestartChecks.png" alt=""><figcaption><p>启动前检查选项</p></figcaption></figure>
 
-The configuration settings for both the Internal and External RF sections work the same. The only difference is that the **Internal RF** section is for configuring the built-in module and the **External RF** section is for configuring an RF module in the external module bay.
+### 启动前检查
 
-The configuration options are: **OFF** or the _**module name**_ of the installed module as configured in the radio settings. Configuration options are unique to each installed module. Please consult the manufacturer's documentation for configuration options.
+每当加载新模型时，EdgeTX将根据此页面上配置的检查进行飞行前检查。如果任何检查失败，EdgeTX将给用户一个音频和视觉警告，必须在使用模型之前确认。以下飞行前检查显示在可折叠菜单中。
+
+**检查清单** - 选择此选项时，模型笔记文件将在加载模型时显示。有效的模型笔记文件必须位于SD卡的**Models**文件夹中。模型笔记文件必须是.txt文件，并且必须与其对应的模型具有完全相同的名称，例如：Mobula6.txt。文件中的文本由用户决定。
+
+**交互式检查清单** - 此选项与**检查清单**选项一起使用。选择此选项时，检查清单文件中以**=**开头的任何文本行将在显示检查清单时显示为复选框。所有显示的复选框必须通过选择它们来**勾选**，以便关闭检查清单。
+
+**油门警告** - 选择时，无线电将检查油门是否在**油门源**配置选项中配置的油门源的最小值。
+
+**自定义位置** - 选择此选项时，**位置 %**中指定的值将用于**油门警告**。
+
+**位置 %** - 启用**自定义位置**时，油门警告的油门最小值。
+
+**开关警告** - 此部分显示无线电上配置的所有开关，并允许您选择哪个位置是开关状态检查的正确位置。选择开关将循环显示可用的开关位置或完全关闭开关的检查。
+
+**电位器警告** - 激活时，此选项检查电位器和滑块的位置。有三个选项 - **关闭**、**开启**和**自动**。选择**开启**或**自动**时，将出现可用电位器和滑块的按钮。要为单个电位器启用电位器警告，请使用**\[滚轮]**或**\[旋钮]**选择电位器并单击按钮以突出显示它。突出显示的电位器已启用。
+
+* **关闭** - 不检查电位器和滑块位置。
+* **开启** - 根据手动配置的电位器和滑块位置进行检查。要设置检查位置，请选择要设置的项目，并长按**\[Enter]**按钮以设置其当前检查位置。
+* **自动** - 检查电位器和滑块的位置，并与无线电关闭或模型更改前最后自动保存的位置进行比较。
+
+**中心哔声** - 允许您通过使用**\[滚轮]**或**\[旋钮]**突出显示并按下按钮来打开/关闭单个摇杆、电位器和滑块的中心哔声功能。当开关被突出显示时，功能已启用。
+
+**全局功能** - 启用时，在无线电设置中编程的全局功能将适用于此模型。禁用时，全局功能将不适用于此模型。
+
+**ADC滤波器** - 启用/禁用此模型的ADC滤波器。**全局**选项将采用无线电设置中指定的值，默认情况下为开启。
 
 {% hint style="info" %}
-Configuration options for the multi-protocol module are described here:  [https://www.multi-module.org/using-the-module/protocol-options](https://www.multi-module.org/using-the-module/protocol-options)
+ADC滤波器是比例通道（摇杆、电位器、滑块）的滤波器，平滑由于系统电子噪声引起的小而快的运动。通常，对于具有飞行控制器的模型，应禁用此滤波器。
 {% endhint %}
 
-**Receiver number** - A receiver number is a user-assigned number for a model that is sent to the receiver when bound. Each model must have a unique receiver number. However, models using different protocols may have the same receiver number without issues. EdgeTX will inform you when a receiver number is unique or if it is already being used with a text above the number field.
+#### 内部/外部RF
+
+内部和外部RF部分的配置设置工作方式相同。唯一的区别是**内部RF**部分用于配置内置模块，而**外部RF**部分用于配置外部模块槽中的RF模块。
+
+配置选项为：**关闭**或安装模块的_**模块名称**_，如无线电设置中配置的。配置选项对于每个安装的模块都是唯一的。请查阅制造商的文档以获取配置选项。
 
 {% hint style="info" %}
-If using the radio in gamepad mode, both internal and external RF modules should be turned off. This will result in increased performance when connected to a computer via USB.&#x20;
+多协议模块的配置选项在此描述：[https://www.multi-module.org/using-the-module/protocol-options](https://www.multi-module.org/using-the-module/protocol-options)
 {% endhint %}
 
-### **Trainer**
-
-**Trainer Mode** - The **Trainer Mode** option is where you can configure the CPPM passthrough mode and method. When enabled, this allows the CPPM signals from a radio in _**Slave**_ mode to be passed through to another radio in Master mode which will then pass the signal to the model it is connected to. CPPM passthrough can be used for several different use cases, such as: connecting a head tracker, Instructor / Student training mode, and controlling complex models that require more stick inputs than available on a standard transmitter.
-
-**Master mode** - This is the mode for the radio that will be connected to the model. This radio also shall configure the special/global function (Trainer) to activate the passthrough mode. When the passthrough mode is activated, the CPPM signals from the radio in _**Slave mode**_ will be sent to the model for control.
-
-**Slave mode** - This is the mode for the radio that will pass it's CPPM values to the radio in _**Master mode,**_ which are then sent to the model.
-
-Below are the possibile configuration options:
-
-* **OFF** - Trainer mode is not used for this model.
-* **Master/Jack** - Master mode using a cable connection.
-* **Slave/Jack** - Slave mode using a cable connection.
-  * **Ch. Range** - This is the range of channels that will be sent to the radio in Master mode. Channel 10 is the recommended last channel to use.
-  * **PPM frame** - The first field is the length of the PPM frame. The second field is the stop length/delay between pulses. The dropdown is to select the polarity of the signal. The frame length is automatically adjusted to the correct value when the number of transmitted channels is changed. However, this automatically assigned value can be manual changed. _**Note**: In most cases, the default setting does_ not _need to be changed._
-* **Master / Bluetooth** - Master mode using a Bluetooth connection (if installed in radio).
-* **Slave / Bluetooth** - Slave mode using a Bluetooth connection (if installed in radio).
-* **Master / Multi** - Master mode using an additional externally mounted Multi-protocol module for the connection. For more information on this setup, see [set-up-wireless-trainer-with-mpm.md](../../edgetx-how-to/set-up-wireless-trainer-with-mpm.md "mention")
-
-<figure><img src="/.gitbook/assets/bwsetup5 (1).png" alt=""><figcaption><p>Enabled Features options</p></figcaption></figure>
-
-### Enabled Features
-
-The **Enabled Features** section allows you to configure which pages are visible in the selected model's radio setup and model settings area of EdgeTX. The page names are displayed in a collapsible menu with the following configurable options:
-
-* **Global** - When selected, the tab will take the global value configured in the **Enabled Features** area in **Radio Setup**. The configured global value will display next to the option.
-* **On** - When selected, this tab will be visible when this model is loaded.
-* **Off** -  When selected, this tab will not be visible when this model is loaded.
+**接收机编号** - 接收机编号是为模型分配的用户编号，在绑定时发送到接收机。每个模型必须有一个唯一的接收机编号。然而，使用不同协议的模型可以没有问题地使用相同的接收机编号。EdgeTX将在编号字段上方通知您接收机编号是唯一的还是已经在使用。
 
 {% hint style="info" %}
-_**Note:**_ Turning off a tab only hides the tab and does not change the items already configured in that tab.
-
-**EXCEPTION:** Turning off the Global / Special Functions tab will disable configured global / special functions for that model.
+如果在游戏手柄模式下使用无线电，则应关闭内部和外部RF模块。这将在通过USB连接到计算机时提高性能。&#x20;
 {% endhint %}
 
-<figure><img src="/.gitbook/assets/bwjoy4.png" alt=""><figcaption><p>USB Joystick advanced mode settings</p></figcaption></figure>
+### **教练**
 
-### USB Joystick
+**教练模式** - **教练模式**选项是您可以配置CPPM直通模式和方法的地方。启用时，这允许来自_**从属**_模式无线电的CPPM信号传递到主模式无线电，然后将信号传递到其连接的模型。CPPM直通可以用于多种不同的用例，例如：连接头部跟踪器、教练/学生训练模式以及控制需要比标准发射机更多摇杆输入的复杂模型。
 
-The **USB Joystick** has two possible modes, **Classic** and **Advanced**.&#x20;
+**主模式** - 这是将连接到模型的无线电的模式。此无线电还应配置特殊/全局功能（教练）以激活直通模式。当直通模式激活时，来自_**从属模式**_无线电的CPPM信号将发送到模型进行控制。
+
+**从属模式** - 这是将其CPPM值传递给_**主模式**_无线电的模式，然后将其发送到模型。
+
+以下是可能的配置选项：
+
+* **关闭** - 此模型不使用教练模式。
+* **主/插孔** - 使用电缆连接的主模式。
+* **从/插孔** - 使用电缆连接的从属模式。
+  * **通道范围** - 这是将发送到主模式无线电的通道范围。建议使用通道10作为最后一个通道。
+  * **PPM帧** - 第一个字段是PPM帧的长度。第二个字段是脉冲之间的停止长度/延迟。下拉菜单用于选择信号的极性。当传输通道数量更改时，帧长度会自动调整为正确的值。然而，此自动分配的值可以手动更改。_**注意**：在大多数情况下，默认设置不需要更改。_
+* **主/蓝牙** - 使用蓝牙连接的主模式（如果无线电中安装）。
+* **从/蓝牙** - 使用蓝牙连接的从属模式（如果无线电中安装）。
+* **主/多协议** - 使用额外外部安装的多协议模块进行连接的主模式。有关此设置的更多信息，请参阅[set-up-wireless-trainer-with-mpm.md](../../edgetx-how-to/set-up-wireless-trainer-with-mpm.md "mention")
+
+<figure><img src="/.gitbook/assets/bwsetup5 (1).png" alt=""><figcaption><p>启用功能选项</p></figcaption></figure>
+
+### 启用功能
+
+**启用功能**部分允许您配置在EdgeTX的选定模型的无线电设置和模型设置区域中可见的页面。页面名称显示在可折叠菜单中，具有以下可配置选项：
+
+* **全局** - 选择时，选项卡将采用**无线电设置**中**启用功能**区域中配置的全局值。配置的全局值将显示在选项旁边。
+* **开启** - 选择时，此选项卡将在加载此模型时可见。
+* **关闭** - 选择时，此选项卡将在加载此模型时不可见。
 
 {% hint style="info" %}
-If using the radio as a USB Joysitck, both internal and external RF modules should be turned off. When configured as such, the mixer will run at 1000Hz when in Joystick mode (which is needed for F.Sim competitors). Additinally, it also displays mixer run time in statistic/debug screen. This will result in increased performance when connected to a computer via USB.&#x20;
+_**注意：**_ 关闭选项卡只会隐藏选项卡，不会更改该选项卡中已配置的项目。
+
+**例外：** 关闭全局/特殊功能选项卡将禁用为该模型配置的全局/特殊功能。
 {% endhint %}
 
-In **Classic mode**, the radio's configured output channels will be sent to the target device in numerical order and mapped to the device's preconfigured USB controller axes and buttons. Below is the default channel mapping for Microsoft Windows.
+<figure><img src="/.gitbook/assets/bwjoy4.png" alt=""><figcaption><p>USB操纵杆高级模式设置</p></figcaption></figure>
 
-* Ch 1 - X Axis
-* Ch 2 - Y Axis
-* Ch 3 - Z Axis
-* Ch 4 - X Rotation
-* Ch 5 - Y Rotation
-* Ch 6 - Z Rotation
-* Ch 7 - Dial
-* Ch 8 - Slider
-* CH 9 - Ch 32 - Buttons 1 - 24
+### USB操纵杆
 
-In **Advanced mode** you can configure the following additional options:
-
-**If. mode (Interface mode):** This indicates to the target device (the device you are connecting your transmitter to) what type of device you are connecting. The options are **Joystick**, **Gamepad**, **MultiAxis.** &#x20;
+**USB操纵杆**有两种可能的模式，**经典**和**高级**。&#x20;
 
 {% hint style="info" %}
-**Note:** Currently there is a limitation in MS Windows that may limit your transmitter to being only detected as a Joystick, regardless of what is selected in this option. In MacOS, Linux and Andriod this functions properly.
+如果将无线电用作USB操纵杆，则应关闭内部和外部RF模块。配置为这样时，混音器将在操纵杆模式下以1000Hz运行（这对于F.Sim竞争者是必需的）。此外，它还在统计/调试屏幕中显示混音器运行时间。这将在通过USB连接到计算机时提高性能。&#x20;
 {% endhint %}
 
-**Circ. cut (Circular cutout)** - For axis pairs (X-Y, Z-rX): By default, the range of the axis pairs is a rectangular area. With this option, the axis will be limited to a circular area (like gamepad controllers commonly are). Options are : **None** or **X-Y, Z-rX** or **X-Y, rX-rY** or **X-Y, Z-rZ**
+在**经典模式**下，无线电配置的输出通道将按数字顺序发送到目标设备，并映射到设备预配置的USB控制器轴和按钮。以下是Microsoft Windows的默认通道映射。
 
-**Channel Settings**
+* 通道 1 - X 轴
+* 通道 2 - Y 轴
+* 通道 3 - Z 轴
+* 通道 4 - X 旋转
+* 通道 5 - Y 旋转
+* 通道 6 - Z 旋转
+* 通道 7 - 旋钮
+* 通道 8 - 滑块
+* 通道 9 - 通道 32 - 按钮 1 - 24
 
-**Mode** - For each output channel, you can select the mode that you want to use for that channel. The available options are **None**, **Btn**, **Axis**, **Sim**.
+在**高级模式**下，您可以配置以下附加选项：
 
-* **None** - Channel is not used
+**接口模式：** 这向目标设备（您将发射机连接到的设备）指示您正在连接的设备类型。选项为**操纵杆**、**游戏手柄**、**多轴**。&#x20;
 
-<figure><img src="/.gitbook/assets/bwjoy1.png" alt=""><figcaption><p>Button mode options for a selected channel</p></figcaption></figure>
+{% hint style="info" %}
+**注意：** 目前在MS Windows中存在一个限制，可能会限制您的发射机仅被检测为操纵杆，无论在此选项中选择了什么。在MacOS、Linux和Android中，此功能正常。
+{% endhint %}
 
-* **Btn** - Channel is used to simulate a button. Configuration options include:
-  * **Inversion** - Inverts the output channel signal. Options are: **On** / **Off**
-  * **Button Mode** -
-    * **Normal** - Each postion of a multiposition switch is represented by a button. The current switch state is represented by a continous button press.
-      * **Pulse** - Similar to "Normal" mode. However, instead of continous button press it is represented by a short button press.
-      * **SWEmu** - The toggle switch emulations a push button. The first press turns the virtual button on, the second press turns it off.
-      * **Delta** - The change of the output channel is represented by 2 buttons. While the output value is decreasing, the first button is pressed. When the output value is increasing, the second button is pressed. If there is no change, then no buttons will be pressed.
-      * **Companion** - This option should be selected when using your transmitter to control the simulator in EdgeTX Companion.  It allows the multi-position switches to function properly in the simulator.
-  * **Positions** - The type of button that will be simulated.&#x20;
-    * **Push -** will only map to one button
-      * **2POS - 8 POS** - will map to the number of buttons that the switch has (ex: 3POS will map to 3 buttons).
-  * **Button No:** The button number that the output will be mapped to and sent to the target device as.
+**圆形切割** - 对于轴对（X-Y, Z-rX）：默认情况下，轴对的范围是一个矩形区域。使用此选项，轴将限制在一个圆形区域（如游戏手柄控制器通常是）。选项为：**无**或**X-Y, Z-rX**或**X-Y, rX-rY**或**X-Y, Z-rZ**
 
-<figure><img src="/.gitbook/assets/bwjoy2.png" alt=""><figcaption><p>Axis mode options for a selected channel</p></figcaption></figure>
+**通道设置**
 
-* **Axis** - The channel is used to simulate an axis and will be mapped to one of the target device's default axes.
-  * Axis options are: **X**, **Y**, **Z**, **rotX** (rotation X), **rotY**, **rotZ**
+**模式** - 对于每个输出通道，您可以选择要用于该通道的模式。可用选项为**无**、**按钮**、**轴**、**模拟**。
 
-<figure><img src="/.gitbook/assets/bwjoy3.png" alt=""><figcaption><p>Sim mode options for selected channel</p></figcaption></figure>
+* **无** - 通道不使用
 
-* **Sim** - The channel is used to simulate a common sim axis and it will be listed on the target device as the selected option (ex: Thr)
-  * Sim Axis options are: **Ail**, **Ele**, **Rud**, **Thr, Acc**, **Brk**, **Steer**, **Dpad**
+<figure><img src="/.gitbook/assets/bwjoy1.png" alt=""><figcaption><p>为选定通道的按钮模式选项</p></figcaption></figure>
 
-Pressing the **\[PAGE>]** button will take you to the **Heli Setup** screen.
+* **按钮** - 通道用于模拟按钮。配置选项包括：
+  * **反转** - 反转输出通道信号。选项为：**开启** / **关闭**
+  * **按钮模式** -
+    * **正常** - 多位置开关的每个位置由一个按钮表示。当前开关状态由连续按钮按下表示。
+      * **脉冲** - 类似于“正常”模式。然而，代替连续按钮按下，它由短暂按钮按下表示。
+      * **开关模拟** - 切换开关模拟一个按钮。第一次按下将虚拟按钮打开，第二次按下将其关闭。
+      * **增量** - 输出通道的变化由2个按钮表示。当输出值减少时，第一个按钮被按下。当输出值增加时，第二个按钮被按下。如果没有变化，则没有按钮被按下。
+      * **伴侣** - 使用发射机控制EdgeTX Companion中的模拟器时应选择此选项。它允许多位置开关在模拟器中正常工作。
+  * **位置** - 将模拟的按钮类型。&#x20;
+    * **按下 -** 仅映射到一个按钮
+      * **2POS - 8 POS** - 将映射到开关具有的按钮数量（例如：3POS将映射到3个按钮）。
+  * **按钮编号：** 输出将映射到的按钮编号，并发送到目标设备。
+
+<figure><img src="/.gitbook/assets/bwjoy2.png" alt=""><figcaption><p>为选定通道的轴模式选项</p></figcaption></figure>
+
+* **轴** - 通道用于模拟轴，并将映射到目标设备的默认轴之一。
+  * 轴选项为：**X**、**Y**、**Z**、**rotX**（旋转X）、**rotY**、**rotZ**
+
+<figure><img src="/.gitbook/assets/bwjoy3.png" alt=""><figcaption><p>为选定通道的模拟模式选项</p></figcaption></figure>
+
+* **模拟** - 通道用于模拟常见的模拟轴，并将在目标设备上列为选定的选项（例如：油门）
+  * 模拟轴选项为：**副翼**、**升降舵**、**方向舵**、**油门**、**加速**、**刹车**、**转向**、**方向键**
+
+按下**\[PAGE>]**按钮将带您进入**直升机设置**屏幕。

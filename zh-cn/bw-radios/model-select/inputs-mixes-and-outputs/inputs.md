@@ -1,69 +1,69 @@
-# Inputs
+# 输入
 
-The **Inputs** screen is where you map your physical radio controls (for example: sticks, sliders, and pots) to a software input to be used by the radio.  After the control has been mapped, it is then possible to apply modifiers to the inputs, such as a weight, offset or curve, which will then be applied anywhere that input is used. Although it is possible to also assign switches as inputs, it is normally not needed as switch outputs seldomly need to be modified by a weight, offset or curve. By default, EdgeTX will automatically map your controller sticks to Aileron, Elevator, Throttle, Rudder based on the default channel order defined in **Radio Setup**.
+**输入**屏幕是将物理遥控器控件（例如：摇杆、滑块和电位器）映射到软件输入以供遥控器使用的地方。控件映射后，可以对输入应用修饰符，例如权重、偏移或曲线，这些修饰符将在任何使用该输入的地方应用。虽然也可以将开关分配为输入，但通常不需要，因为开关输出很少需要通过权重、偏移或曲线进行修改。默认情况下，EdgeTX 会根据**无线电设置**中定义的默认通道顺序自动将控制器摇杆映射到副翼、升降舵、油门、方向舵。
 
 {% hint style="info" %}
-Your input channels may default to a different order based on the settings defined in **Radio Setup**.
+根据**无线电设置**中定义的设置，您的输入通道可能默认为不同的顺序。
 {% endhint %}
 
 {% hint style="info" %}
-The Inputs section is also commonly referred to as "**Dual Rates"** as it was previously called this in earlier versions of OpenTX.&#x20;
+输入部分通常也被称为“**双重速率**”，因为在早期版本的 OpenTX 中曾被这样称呼。
 {% endhint %}
 
-<figure><img src="/.gitbook/assets/bwinputs1.png" alt=""><figcaption><p>Inputs screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwinputs1.png" alt=""><figcaption><p>输入屏幕</p></figcaption></figure>
 
-The inputs screen shows you an overview of your configured inputs. Each row represents an input line and displays the following information from left to right: Input name, weight, activation switch, line name. These items are described in the [Input configuration page](inputs.md#input-configuration-page) area below.
+输入屏幕显示了您配置的输入的概览。每行代表一个输入行，并从左到右显示以下信息：输入名称、权重、激活开关、行名称。这些项目在下面的[输入配置页面](inputs.md#input-configuration-page)区域中进行了描述。
 
-Selecting an existing input line and pressing **\[Enter]** will toggle between **Copy/Paste** mode and **Move** mode. In **Copy/Paste** mode, a copy of the input line is made which can be pasted in the desired input line. In **Move** mode, the selected input can be moved to a different line. Press the **\[Return]** button to exit this mode.
+选择现有的输入行并按下**\[Enter]**将切换**复制/粘贴**模式和**移动**模式。在**复制/粘贴**模式下，将创建输入行的副本，可以将其粘贴到所需的输入行。在**移动**模式下，可以将选定的输入移动到不同的行。按下**\[Return]**按钮退出此模式。
 
-Selecting an empty input line and pressing **\[Enter]** will create a new input and open the input configuration page.&#x20;
+选择一个空的输入行并按下**\[Enter]**将创建一个新输入并打开输入配置页面。
 
-Selecting an existing input line and long-pressing **\[Enter]** will give you the following options:
+选择现有的输入行并长按**\[Enter]**将提供以下选项：
 
-* **Edit** - opens the input configuration page for that input line.
-* **Insert before** - Inserts a new input line before the selected input.
-* **Insert after**- Inserts a new input line after the selected input.
-* **Copy** - copies the selected input line.
-* **Move** - selects the input line to be moved. The input is moved using one of the paste commands after a new line is selected (i.e. cut & paste).&#x20;
-* **Delete** - deletes the selected input line.
-* **Paste before** - pastes the copied or moved input line before the selected input line.
-* **Paste after** - pastes the copied or moved input line before the selected input line.
+* **编辑** - 打开该输入行的输入配置页面。
+* **在前插入** - 在选定输入之前插入一个新输入行。
+* **在后插入** - 在选定输入之后插入一个新输入行。
+* **复制** - 复制选定的输入行。
+* **移动** - 选择要移动的输入行。输入使用粘贴命令之一在选择新行后移动（即剪切和粘贴）。
+* **删除** - 删除选定的输入行。
+* **在前粘贴** - 在选定输入行之前粘贴复制或移动的输入行。
+* **在后粘贴** - 在选定输入行之后粘贴复制或移动的输入行。
 
-<figure><img src="/.gitbook/assets/bwinputs2.png" alt=""><figcaption><p>Input Configuration Page</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwinputs2.png" alt=""><figcaption><p>输入配置页面</p></figcaption></figure>
 
-### Input configuration page
+### 输入配置页面
 
-The input configuration page allows you to edit the input configuration parameters. To the right of the configuration parameters, you can see a live graph that shows how your configuration options will affect the slope of the input.
+输入配置页面允许您编辑输入配置参数。在配置参数的右侧，您可以看到一个实时图表，显示您的配置选项将如何影响输入的斜率。
 
-**Input Name** - Name for the input. Three characters are possible.
+**输入名称** - 输入的名称。最多可以使用三个字符。
 
-**Line Name** - Name of the individual line in the input. Multiple physical inputs can be mapped to one input by adding an additional input line under the input.
+**行名称** - 输入中单个行的名称。可以通过在输入下添加额外的输入行，将多个物理输入映射到一个输入。
 
-**Source** - The physical control used for the input. In addition to physical controls, you can also specify MAX (always returns 100), MIN (always returns -100), cyclics, trim switches, channel values and more. Moving the physical control after the source has been selected will automatically map it to that input.
+**来源** - 用于输入的物理控件。除了物理控件，您还可以指定 MAX（始终返回 100）、MIN（始终返回 -100）、循环、微调开关、通道值等。在选择来源后移动物理控件将自动将其映射到该输入。
 
-**Weight** - Percentage value of the stick travel to use (often referred to as "rates"). Long-pressing here will switch from numerical value to a global variable.
+**权重** - 使用的摇杆行程的百分比值（通常称为“速率”）。长按此处将从数值切换到全局变量。
 
-**Offset** - The value added to or subtracted from the input source.
+**偏移** - 添加到或从输入来源中减去的值。
 
-**Curve** - Specifies the type of curve that will be used. The following curve options exist:
+**曲线** - 指定将使用的曲线类型。以下是曲线选项：
 
-* **Diff** - Multiplies only the range above or below the middle (0) by the specified %.
-* **Expo** -The input value is changed exponentially. Increasing the % will result in a gentle slope near the middle(0). Decreasing the % will result in a steep slope near the middle (0). With a % of 0, the slope will be linear.
-*   **Func** -
+* **差异** - 仅将中间（0）以上或以下的范围乘以指定的百分比。
+* **指数** - 输入值呈指数变化。增加百分比将在中间（0）附近产生平缓的斜率。减少百分比将在中间（0）附近产生陡峭的斜率。百分比为 0 时，斜率为线性。
+* **函数**
 
-    <table><thead><tr><th width="116">Function</th><th width="575">Slope Behavior</th></tr></thead><tbody><tr><td>---</td><td>The slope will be linear.</td></tr><tr><td>X>0</td><td>The range below the middle (0) is always 0. Above the middle (0), the slope is linear.</td></tr><tr><td>X&#x3C;0</td><td>The range above the middle (0) is always 0. Below the middle (0), the slope is linear.</td></tr><tr><td>|X|</td><td>The range above the middle (0), the reaction is linear. The sign is inverted in the range below the middle (0). The curve draws a V-shaped graph.</td></tr><tr><td>f>0</td><td>The range above the middle (0) is always +100. The range below the middle (0) is always 0. The output value will always be either 0 or +100.</td></tr><tr><td>f&#x3C;0</td><td>The range above the middle (0) is always 0. The range below the middle (0) is always -100. The output value will always be either 0 or -100.</td></tr><tr><td>|f|</td><td>The range above the middle (0) is always +100. The range below the middle (0) is always -100. The output value will always be either +100 or -100.</td></tr></tbody></table>
-* **Cstm** - assigns a custom-defined curve. See [Curves](../curves.md) for more information about custom-defined curves.
+    <table><thead><tr><th width="116">函数</th><th width="575">斜率行为</th></tr></thead><tbody><tr><td>---</td><td>斜率将是线性的。</td></tr><tr><td>X>0</td><td>中间（0）以下的范围始终为 0。中间（0）以上，斜率为线性。</td></tr><tr><td>X&#x3C;0</td><td>中间（0）以上的范围始终为 0。中间（0）以下，斜率为线性。</td></tr><tr><td>|X|</td><td>中间（0）以上的范围，反应为线性。中间（0）以下的范围，符号反转。曲线绘制出 V 形图。</td></tr><tr><td>f>0</td><td>中间（0）以上的范围始终为 +100。中间（0）以下的范围始终为 0。输出值将始终为 0 或 +100。</td></tr><tr><td>f&#x3C;0</td><td>中间（0）以上的范围始终为 0。中间（0）以下的范围始终为 -100。输出值将始终为 0 或 -100。</td></tr><tr><td>|f|</td><td>中间（0）以上的范围始终为 +100。中间（0）以下的范围始终为 -100。输出值将始终为 +100 或 -100。</td></tr></tbody></table>
+* **自定义** - 分配自定义定义的曲线。有关自定义定义曲线的更多信息，请参见[曲线](../curves.md)。
 
 {% hint style="info" %}
-Values for weight, offset and curve % can also be defined by a configured global values Selecting the **GV** button will display a list of configured global values to select from.
+权重、偏移和曲线百分比的值也可以由配置的全局值定义。选择**GV**按钮将显示配置的全局值列表以供选择。
 {% endhint %}
 
-**Modes** - Specifies which flight modes this input is active for.
+**模式** - 指定此输入在哪些飞行模式下激活。
 
-**Switch** - The switch that activates the input line. If no switches are defined, then it is always active.
+**开关** - 激活输入行的开关。如果未定义开关，则始终处于激活状态。
 
-**Side** - Specifies the input range for which this line setting is valid. If you select **---**, it will be valid in the entire range of Source values. If you select **x>0**, it will be valid in the upper half of the value of Source. If you select **x<0**, it will be valid in the lower half of the value of Source.
+**侧面** - 指定此行设置有效的输入范围。如果选择**---**，则在来源值的整个范围内有效。如果选择**x>0**，则在来源值的上半部分有效。如果选择**x<0**，则在来源值的下半部分有效。
 
-**Trim** - Specifies whether or not to include the trim values in this input. Additionally, you can select a different trim to use for this input.
+**微调** - 指定是否在此输入中包含微调值。此外，您可以选择用于此输入的不同微调。
 
-Pressing the **\[PAGE>]** button will take you to the **Mixes** screen.
+按下**\[PAGE>]**按钮将带您进入**混合**屏幕。

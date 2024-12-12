@@ -1,37 +1,36 @@
-# Outputs
+# 输出
 
-The **Outputs** screen is where final adjustments to the control data are made (including subtrims, curves, endpoint, and center values) before finally sending the control data to the RF module. This is where the channel center, limits (to prevent servo binding) and output direction are set.&#x20;
+**输出**屏幕是对控制数据进行最终调整的地方（包括子微调、曲线、端点和中心值），然后将控制数据发送到RF模块。在这里设置通道中心、限制（以防止舵机卡死）和输出方向。
 
 {% hint style="info" %}
-A **Trim** is a temporary adjustment to a flight control normally done while in operation with a trim switch. A **Subtrim** is a semi-permanant adjustment to a flight control that is normally configured when setting up the model in the output settings.&#x20;
+**微调**是通常在操作时通过微调开关进行的飞行控制的临时调整。**子微调**是通常在输出设置中设置模型时配置的飞行控制的半永久性调整。
 {% endhint %}
 
-<figure><img src="/.gitbook/assets/bwoutputs1.png" alt=""><figcaption><p>Outputs screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwoutputs1.png" alt=""><figcaption><p>输出屏幕</p></figcaption></figure>
 
-The output screen shows all the output channels. For each output line, it displays the values for the subtrim, minimum and maximum limits, direction, curve, and subtrim mode. After the last output line is the option **Trims=>Subtrims**. When this option is selected, it adds the current trim value to the subtrim value for each configured output. The trim value is then reset to zero.
+输出屏幕显示所有的输出通道。对于每个输出行，它显示子微调、最小和最大限制、方向、曲线和子微调模式的值。在最后一个输出行之后是选项**Trims=>Subtrims**。选择此选项时，它会将当前微调值添加到每个配置输出的子微调值中。然后微调值重置为零。
 
-Selecting an output line will give you the following options:
+选择一个输出行将提供以下选项：
 
-* **Edit** - Opens the output configuration screen.
-* **Reset** - Sets the subtrim value back to zero. The trim value is not changed.
-* **Cpy Trims -> Subtrim** - Adds the current trim value to the subtrim value.  The trim value is not changed.
-* **Cpy Sticks -> Subtrim** - Adds the current value of the stick deflection as the subtrim value.
-* **Cpy min/max to all -** Copies the settings in Min / Max field of selected channel to all other channels.
+* **编辑** - 打开输出配置屏幕。
+* **重置** - 将子微调值重置为零。微调值不变。
+* **复制微调 -> 子微调** - 将当前微调值添加到子微调值中。微调值不变。
+* **复制摇杆 -> 子微调** - 将当前摇杆偏转值添加为子微调值。
+* **复制最小/最大到所有** - 将所选通道的最小/最大字段中的设置复制到所有其他通道。
 
-<figure><img src="/.gitbook/assets/bwoutputs2.png" alt=""><figcaption><p>Outputs Configuration page</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwoutputs2.png" alt=""><figcaption><p>输出配置页面</p></figcaption></figure>
 
-The output configuration screen has the following configuration options:
+输出配置屏幕具有以下配置选项：
 
-* **Name** - Name for the Output up to 6 characters.
-* **Subtrim** - The subtrim value (max 100). It can also be set to a global variable by pressing the ldong-pressing the **\[Enter]** button to switch to GV Mode and then selecting the desire global variable.
-* **Min** - Minimum output limit. Commonly used to prevent servo binding on models that use servos for the control surfaces.
-* **Max** - Maximum output limit. Commonly used to prevent servo binding on models that use servos for the control surfaces.
-* **Direction**- Select **---** for normal output value, **INV** if you want to invert the output value.
-* **Curve** - Specify the custom curve (in any) that you want to use for this output. See **Curves** for more information about custom-defined curves.
-* **PPM Center** - Specify the pulse-width value for the center value of the output channel (between 1000 - 2000). Changing this will shift the entire output range, including upper and lower limits.
-* **Subtrim mode** - Defines how the subtrim value affects the min/max output values. There are two options:
-  * **△ (Center Only)** - Only the center value shifts. The upper and lower limits do not change. The reaction of the stick differs between the upper half and the lower half from midpoint.
-  * **= Symmetrical** - Both the upper and lower limits will shift according to the shift of the center value. The reaction of the stick is the same on both sides of the midpoint.&#x20;
+* **名称** - 输出的名称，最多6个字符。
+* **子微调** - 子微调值（最大100）。也可以通过长按**\[Enter]**按钮切换到GV模式，然后选择所需的全局变量来设置为全局变量。
+* **最小** - 最小输出限制。通常用于防止使用舵机控制表面的模型中的舵机卡死。
+* **最大** - 最大输出限制。通常用于防止使用舵机控制表面的模型中的舵机卡死。
+* **方向** - 选择**---**为正常输出值，选择**INV**如果您想反转输出值。
+* **曲线** - 指定要用于此输出的自定义曲线（如果有）。有关自定义定义曲线的更多信息，请参见**曲线**。
+* **PPM中心** - 指定输出通道中心值的脉冲宽度值（在1000 - 2000之间）。更改此值将移动整个输出范围，包括上限和下限。
+* **子微调模式** - 定义子微调值如何影响最小/最大输出值。有两个选项：
+  * **△ (仅中心)** - 只有中心值移动。上限和下限不变。摇杆的反应在中点的上半部分和下半部分之间不同。
+  * **= 对称** - 上限和下限将根据中心值的移动而移动。摇杆的反应在中点的两侧相同。
 
-Pressing the **\[PAGE>]** button will take you to the **Curves** screen.
-
+按下**\[PAGE>]**按钮将带您进入**曲线**屏幕。

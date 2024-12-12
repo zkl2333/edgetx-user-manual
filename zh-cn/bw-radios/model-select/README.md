@@ -1,30 +1,30 @@
-# Model Settings
+# 模型设置
 
-### Model Select
+### 模型选择
 
-Pressing the **\[MDL]** button from the Main view will open the **Model Select** screen. &#x20;
+从主视图按下 **\[MDL]** 按钮将打开 **模型选择** 屏幕。
 
-<figure><img src="/.gitbook/assets/bwmodelsel.png" alt=""><figcaption><p>Model Select screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwmodelsel.png" alt=""><figcaption><p>模型选择屏幕</p></figcaption></figure>
 
-Use the **\[Roller]** or **\[Dial]** to scroll through the model slots.
+使用 **\[滚轮]** 或 **\[旋钮]** 滚动浏览模型槽。
 
-Pressing **\[Enter]** on an empty model slot will give you the following options:
+在空模型槽上按下 **\[Enter]** 将提供以下选项：
 
-* **Create Model** - This option creates a new model with the default configuration options.
-* **Restore Model** - This option creates a new copy of a selected model that has been previously backed up.
+* **创建模型** - 此选项创建一个具有默认配置选项的新模型。
+* **恢复模型** - 此选项创建一个先前备份的选定模型的新副本。
 
-Pressing **\[Enter]** on an occupied model slot that is not the active model (not marked with an asterix **\***) will give you the following options:
+在非活动模型（未标记星号 **\***）的已占用模型槽上按下 **\[Enter]** 将提供以下选项：
 
-* **Select Model** - this option selects this model as the active model.
-* **Backup Model** - This option makes a copy of the model in the **Backup** folder on the SD Card.
-* **Copy Model** - This option makes an exact copy of the model and allows you to select which model slot it will be placed in.
-* **Move Model** - This option allows you to move the selected model to a different model slot.
-* **Delete Model** - This option deletes the selected model.
+* **选择模型** - 此选项将此模型选择为活动模型。
+* **备份模型** - 此选项在 SD 卡的 **Backup** 文件夹中创建模型的副本。
+* **复制模型** - 此选项创建模型的精确副本，并允许您选择其放置的模型槽。
+* **移动模型** - 此选项允许您将选定的模型移动到不同的模型槽。
+* **删除模型** - 此选项删除选定的模型。
 
-Pressing **\[Enter]** on an occupied model slot that is the active model (marked with an asterix **\***) will give you the following options:
+在活动模型（标记星号 **\***）的已占用模型槽上按下 **\[Enter]** 将提供以下选项：
 
-* **Move Model** - This option allows you to move the selected model to a different model slot.
-* **Copy Model** - This option makes an exact copy of the model and allows you to select which model slot it will be placed in.
-* **Backup Model** - This option makes a copy of the model in the **Backup** folder on the SD Card.
+* **移动模型** - 此选项允许您将选定的模型移动到不同的模型槽。
+* **复制模型** - 此选项创建模型的精确副本，并允许您选择其放置的模型槽。
+* **备份模型** - 此选项在 SD 卡的 **Backup** 文件夹中创建模型的副本。
 
-Pressing the **\[PAGE>]** button will take you to the **Setup** screen.
+按下 **\[PAGE>]** 按钮将带您进入 **设置** 屏幕。

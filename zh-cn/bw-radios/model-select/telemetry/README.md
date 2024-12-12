@@ -1,59 +1,57 @@
-# Telemetry
+# 遥测
 
-Telemetry is data received from the model to the radio from various sensors. These sensors may be included in the radio receiver or flight controller or may be separate sensors, such as GPS, variometer, or magnetometer. The received telemerty data can be displayed by EdgeTX in widgets, configured in alarms or audio call-outs.
+遥测是从模型接收到的来自各种传感器的数据，这些传感器可能包含在无线电接收器或飞行控制器中，也可能是独立的传感器，如GPS、变率计或磁力计。接收到的遥测数据可以通过EdgeTX在小部件中显示，配置在警报或音频播报中。
 
-The Telemetry screen is where you configure these sensors to use in EdgeTX.  Below are the following configuration options:
+遥测屏幕是您在EdgeTX中配置这些传感器的地方。以下是配置选项：
 
-**Sensors**
+**传感器**
 
+<figure><img src="/.gitbook/assets/bwtelemetry4 (2).png" alt=""><figcaption><p>遥测屏幕的传感器部分</p></figcaption></figure>
 
+所有先前配置的传感器都列在这里。通过点击**传感器**标签右侧的**箭头图标**可以折叠列表。当传感器列表被折叠时，配置的传感器数量将显示在**括号**中，例如：(6)。自模型加载或遥测值重置以来未接收到数据的传感器将显示**---**。当传感器接收到数据更新时，传感器值左侧的星号**\***将闪烁。实心星号**\***表示传感器正在接收定期更新。不再接收定期更新的传感器将不会标记星号**\***。请参阅[常见遥测传感器](../../../color-radios/model-settings/telemetry/common-telemetry-sensors.md)以获取EdgeTX中常用传感器的列表。
 
-<figure><img src="/.gitbook/assets/bwtelemetry4 (2).png" alt=""><figcaption><p>Sensors portion of the Telemetry screen</p></figcaption></figure>
+传感器列表下列出了以下选项。
 
-All previously configured sensors are listed here. The list is collapsible by clicking on the **arrow icon** to the right side of the **Sensors** label. The number of configured sensors will be displayed in **parentheses,** ex: (6), when the sensor list is collapsed. Sensors that have not received data since the model was loaded or the telemetry values were reset display **---** for the values. The asterisk **\*** to the left of the sensor value will flash when the sensor has received a data update. A solid asterisk**\*** indicates that the sensors that are receiving regular updates. Sensors that are no longer receiving regular updates will not be marked with the asterisk**\***. See [Common Telemetry Sensors](../../../color-radios/model-settings/telemetry/common-telemetry-sensors.md) for a list of commonly used sensors in EdgeTX.
-
-The following options are listed under the sensor list.
-
-* **Discover New:** When selected, it will look for new sensors on the model and automatically configure them. If the sensor list is collapsed when a new sensor is discovered, the newly found sensor will be visible on the sensor list (old sensors will remain collapesd/hidden).
-* **Add New:** When selected, it will create a new blank sensor for that must be configured manually.&#x20;
-* **Delete All:** This option will delete all previously configured sensors.
-* **No inst.** (ignore instances)**:** This option prevents multiple sensors from reporting the same telemetry data.
+* **发现新传感器：** 选择后，它将寻找模型上的新传感器并自动配置它们。如果在发现新传感器时传感器列表被折叠，新发现的传感器将在传感器列表中可见（旧传感器将保持折叠/隐藏）。
+* **添加新传感器：** 选择后，它将创建一个新的空白传感器，必须手动配置。
+* **删除所有：** 此选项将删除所有先前配置的传感器。
+* **忽略实例**（忽略实例）：此选项可防止多个传感器报告相同的遥测数据。
 
 {% hint style="info" %}
-If no sensors are listed in the sensors section, you may need to select **Discover New** to detect the sensors. Additionally, not all RF protocols transmit telemetry data.
+如果传感器部分中没有列出传感器，您可能需要选择**发现新传感器**来检测传感器。此外，并非所有RF协议都传输遥测数据。
 {% endhint %}
 
-If you long-press the **\[Enter]** button for a specific sensor, the following options will be displayed:&#x20;
+如果长按特定传感器的**\[Enter]**按钮，将显示以下选项：
 
-* **Edit**: Allows you to edit the sensor's configuration options.
-* **Copy**: Creates a copy of that sensor.
-* **Delete**: Deletes that sensor.
+* **编辑**：允许您编辑传感器的配置选项。
+* **复制**：创建该传感器的副本。
+* **删除**：删除该传感器。
 
-See the [Sensor Configuration](sensor-configuration-options.md) page for a detailed description of all the configuration options for setting up or editing sensors.
+请参阅[传感器配置](sensor-configuration-options.md)页面以获取设置或编辑传感器的所有配置选项的详细说明。
 
-**RX Status**
+**接收机状态**
 
-<figure><img src="/.gitbook/assets/bwtelemetry1.png" alt=""><figcaption><p>RSSI Portion of Telemetry screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtelemetry1.png" alt=""><figcaption><p>遥测屏幕的RSSI部分</p></figcaption></figure>
 
-Here you can configure the threshold for the RX alarms. The Rx-Stats label will change (Rx-Stats, RSSI, Rqly, Sgnl) depending on the protocol that is used with the model.
+在这里，您可以配置接收机警报的阈值。根据与模型使用的协议，Rx-Stats标签将更改（Rx-Stats、RSSI、Rqly、Sgnl）。
 
-* **Low alarm** - The threshold value when the "RF signal low" voice prompt will be played. The recommended value is 45.
-* **Critical alarm** - The threshold value when the "RF signal critical" voice prompt will be played. The recommended value is 42.
-* **Disable telemetry alarms** - When enabled, no alarm voice prompts will be played.
+* **低警报** - 播放“RF信号低”语音提示时的阈值。推荐值为45。
+* **关键警报** - 播放“RF信号关键”语音提示时的阈值。推荐值为42。
+* **禁用遥测警报** - 启用时，不会播放任何警报语音提示。
 
-**Variometer**
+**变率计**
 
 <figure><img src="/.gitbook/assets/bwtelemetry3.png" alt=""><figcaption></figcaption></figure>
 
-A variometer detects changes in the model altitude.  EdgeTX can alert the user of these altitude changes by providing a rising/lower pitched tone. Use the **Variometer** menu on the Radio Setup page to set the actual frequency and volume of the tone to be played. The following options exist to configure the variometer alarm.
+变率计检测模型高度的变化。EdgeTX可以通过提供升高/降低音调来提醒用户这些高度变化。使用无线电设置页面上的**变率计**菜单设置要播放的音调的实际频率和音量。以下选项用于配置变率计警报。
 
 {% hint style="info" %}
-You will need to use a **Vario** Special or Global Function to enable this functionality!
+您需要使用**Vario**特殊或全局功能来启用此功能！
 {% endhint %}
 
-* **Source** - Specifies the sensor to use as the variometer. It is selected from the telemetry sensors added in **Sensors** section.
-* **Range** - Specifies the ascent/descent range that will trigger the change in the Variometer beeping pitch. If climb/descent rate is within the range specified here, beeping pitch will change according to that value. When it goes beyond the range specified here, beeping pitch will stop changing. Units are meters/second or feet/second based on the **Units** setting on the **Radio Setup** page.
-* **Center** - Specify the range for ignoring changes in climb/descent rates. When the climb/descent rate is within the range specified here, the beeping pitch will not change.
-* **Tone/Silent** - Specifies whether to beep when climb/descent rate is within the range specified by **Center**.
+* **来源** - 指定用作变率计的传感器。从**传感器**部分添加的遥测传感器中选择。
+* **范围** - 指定将触发变率计蜂鸣音调变化的上升/下降范围。如果爬升/下降率在此处指定的范围内，蜂鸣音调将根据该值变化。当超出此处指定的范围时，蜂鸣音调将停止变化。单位为米/秒或英尺/秒，基于**无线电设置**页面上的**单位**设置。
+* **中心** - 指定忽略爬升/下降率变化的范围。当爬升/下降率在此处指定的范围内时，蜂鸣音调将不变。
+* **音调/静音** - 指定当爬升/下降率在**中心**指定的范围内时是否蜂鸣。
 
-Pressing the **\[PAGE>]** button will take you to the **Display** screen.
+按**\[PAGE>]**按钮将带您进入**显示**屏幕。

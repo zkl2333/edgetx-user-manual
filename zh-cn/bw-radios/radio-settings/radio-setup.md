@@ -1,165 +1,161 @@
-# Radio Setup
+# 电台设置
 
-<figure><img src="/.gitbook/assets/bwRadioSetup.png" alt=""><figcaption><p>Radio Setup</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwRadioSetup.png" alt=""><figcaption><p>电台设置</p></figcaption></figure>
 
-The **Radio Setup** screen is where you configure basic settings for your radio. It contains the following options:
+**电台设置**屏幕是配置电台基本设置的地方。它包含以下选项：
 
-**Date** - The current date.  This date is used for the SD card log files.
+**日期** - 当前日期。此日期用于SD卡日志文件。
 
-**Time** - The current time. This time is used for the SD card log files.
+**时间** - 当前时间。此时间用于SD卡日志文件。
 
-**Batt. range** - Sets the maximum and minimum voltage for the battery meter. This should be set based on the type of battery you are using.
+**电池范围** - 设置电池电压表的最大和最小电压。这应根据您使用的电池类型进行设置。
 
+<figure><img src="/.gitbook/assets/bwRadioSetup2.png" alt=""><figcaption><p>声音设置</p></figcaption></figure>
 
+### **声音**
 
-<figure><img src="/.gitbook/assets/bwRadioSetup2.png" alt=""><figcaption><p>Sound Settings</p></figcaption></figure>
+**模式** - 配置何时播放声音。
 
-### **Sound**&#x20;
+* **全部 -** 按下按钮时发出蜂鸣声，并在有警报或警告时播放声音。
+* **无按键 -** 按下按钮或转动滚轮时无蜂鸣声，但在有警报或警告时播放声音。也播放由特殊功能触发的声音。
+* **警报 -** 仅播放警报或警告声音。也播放由特殊功能触发的声音。
+* **静音 -** 不播放蜂鸣声或声音。
 
-**Mode** - configures when to play sounds.
+**音量 -** 电台的主音量。
 
-* **All -** Beeps when the buttons are pressed and sounds are played when there are alerts or warnings.
-* **No Key -** No beeps when buttons are pressed or the scroll wheel is turned but does play sounds when there are alerts or warnings. Also plays sounds triggered by special functions.
-* **Alarm -** Only plays alarm or warning sounds. Also plays sounds triggered by special functions.
-* **Quiet -** No Beeps or sounds are played.&#x20;
+**蜂鸣音量** - 不言自明
 
-**Volume -** The master volume for the radio.
+**蜂鸣长度** - 不言自明
 
-**Beep Volume** - Self-explanatory
+**蜂鸣音调** - 不言自明
 
-**Beep Length** - Self-explanatory
+**Wav音量 -** 警报和警告的音量以及通过**播放轨道**特殊功能播放的声音
 
-**Beep Pitch** - Self-explanatory
+**背景音量 -** 通过**BGMusic**特殊功能播放的背景.wav文件（音乐）的音量
 
-**Wav volume -** The volume for alerts and warnings and sounds that are played with the **Play track** special function
+<figure><img src="/.gitbook/assets/bwRadioSetup3 (1).png" alt=""><figcaption><p>变音器设置</p></figcaption></figure>
 
-**Bg volume -** The volume for background .wav files (music) that are played with the **BGMusic** special function
+### **变音器**
 
-<figure><img src="/.gitbook/assets/bwRadioSetup3 (1).png" alt=""><figcaption><p>Variometer Settings</p></figcaption></figure>
+**音量** - 变音器蜂鸣声的音量
 
-### **Vario  (Variometer)**
+**零音调** - 低音调频率
 
-**Volume** - Volume for variometer beeps
+**最大音调** - 高音调频率
 
-**Pitch zero** - Low pitch frequency
-
-**Pitch max** - High pitch frequency
-
-**Repeat Zero -** The time before the tone repeats in milliseconds
+**重复零 -** 音调重复前的时间，以毫秒为单位
 
 {% hint style="info" %}
-Note: In order for the variometer to function, it must be turned on via the **Vario** special or global function. See [Special Functions](../../color-radios/model-settings/special-functions.md) for more information on how to configure this.
+注意：为了使变音器功能正常，必须通过**变音器**特殊或全局功能打开。有关如何配置的更多信息，请参见[特殊功能](../../color-radios/model-settings/special-functions.md)。
 {% endhint %}
 
-<figure><img src="/.gitbook/assets/bwRadioSetup4.png" alt=""><figcaption><p>Haptic Settings</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwRadioSetup4.png" alt=""><figcaption><p>触觉设置</p></figcaption></figure>
 
-### Haptic
+### 触觉
 
-**Mode** - configures when the radio vibrates.
+**模式** - 配置电台何时振动。
 
-* **All -** Vibrates when the buttons are pressed and when there are alerts or warnings.
-* **No Key -** No vibrations when buttons are the pressed or scroll wheel is turned but does vibrate when there are alerts or warnings.&#x20;
-* **Alarm -** Only vibrates for alarms or warning sounds.
-* **Quiet -** No vibrations are made
+* **全部 -** 按下按钮时振动，以及在有警报或警告时振动。
+* **无按键 -** 按下按钮或转动滚轮时无振动，但在有警报或警告时振动。
+* **警报 -** 仅在警报或警告声音时振动。
+* **静音 -** 不振动
 
-**Length** - Duration of vibration.
+**长度** - 振动的持续时间。
 
-**Strength** - Strength of vibration
+**强度** - 振动的强度
 
-<figure><img src="/.gitbook/assets/bwRadioSetup5.png" alt=""><figcaption><p>Alarms Settings</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwRadioSetup5.png" alt=""><figcaption><p>警报设置</p></figcaption></figure>
 
-### Alarms
+### 警报
 
-**Battery Low** - Voltage to trigger low battery alarm.
+**电池低** - 触发低电池警报的电压。
 
-**Inactivity** - Time to trigger inactivity warning.
+**不活动** - 触发不活动警告的时间。
 
-**Memory low** - Enable/disable low memory warning.
+**内存低** - 启用/禁用低内存警告。
 
-**Sound Off** - An "alarms disabled" visual warning is displayed when the transmitter is turned on if the sound mode is set to quiet.
+**声音关闭** - 如果声音模式设置为静音，则在发射机打开时显示“警报已禁用”视觉警告。
 
-**RSSI Shutdown** - Checks if a receiver is still connected to the radio on attempted shutdown. Makes a audio and visual alert if one is detected.&#x20;
+**RSSI关机** - 在尝试关机时检查接收器是否仍连接到电台。如果检测到，则发出音频和视觉警报。
 
-<figure><img src="/.gitbook/assets/bwRadioSetup6.png" alt=""><figcaption><p>Backlight Settings</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwRadioSetup6.png" alt=""><figcaption><p>背光设置</p></figcaption></figure>
 
-### Backlight
+### 背光
 
-**Mode**
+**模式**
 
-* **Off** – Always off.
-* **Keys** – Turns on when buttons are pressed.
-* **Ctrl** – Turns on when sticks, switches, and knobs are used.
-* **Both** – Turns on when buttons, sticks, switches, and knobs are used.
-* **ON** – Always on.
+* **关闭** – 始终关闭。
+* **按键** – 按下按钮时打开。
+* **控制** – 使用摇杆、开关和旋钮时打开。
+* **两者** – 使用按钮、摇杆、开关和旋钮时打开。
+* **开启** – 始终开启。
 
-**Duration** - The length in seconds that the backlight is on. The minimum value is 5 seconds. The maximum value is 600 seconds.
+**持续时间** - 背光开启的秒数。最小值为5秒。最大值为600秒。
 
-**Brightness** - Adjusts the screen backlight brightness level.
+**亮度** - 调整屏幕背光亮度级别。
 
-**Alarm** - The backlight turns on when there are alarms or warnings.
+**警报** - 当有警报或警告时，背光会打开。
 
 <figure><img src="/.gitbook/assets/bwRadioSetup7.png" alt=""><figcaption></figcaption></figure>
 
-**Contrast** - For LCD displays, adjusts the screen contrast setting. For OLED displays. adjusts the OLED brightness level.
+**对比度** - 对于LCD显示器，调整屏幕对比度设置。对于OLED显示器，调整OLED亮度级别。
 
-**Splash Screen** - Duration to display the splash screen.
+**启动画面** - 显示启动画面的持续时间。
 
-**Startup Sound** - Toggles whether to enable/disable startup sound.
+**启动声音** - 切换是否启用/禁用启动声音。
 
-**Power On delay** - The delay between when the power button is pushed and when the radio turns on. The options are: **0s, 1s, 2s, 3s**
+**开机延迟** - 按下电源按钮与电台开机之间的延迟。选项有：**0s, 1s, 2s, 3s**
 
-**Pwr Off delay** - The delay between when the power button is pushed and when the radio shuts off. The options are: **0s, 1s, 2s, 3s, 4**s. _It is recommended to set at least a 1s delay in order to prevent the radio from being shut off in the case of an accidental button press._
+**关机延迟** - 按下电源按钮与电台关机之间的延迟。选项有：**0s, 1s, 2s, 3s, 4s**。_建议至少设置1秒的延迟，以防止因意外按下按钮而关闭电台。_
 
-**Owner ID** - Custom registration ID used only for users with ISRM modules.
+**所有者ID** - 仅用于具有ISRM模块的用户的自定义注册ID。
 
-**Time Zone** - The time offset from UTC where the radio is being used. Can be configured in 15 minute increments.
+**时区** - 电台使用的时间与UTC的偏移量。可以以15分钟为增量进行配置。
 
 <figure><img src="/.gitbook/assets/bwRadioSetup8.png" alt=""><figcaption></figcaption></figure>
 
-**Adjust RTC** - Adjust the transmitter's real-time clock to match the time determined by the GPS.
+**调整RTC** - 调整发射机的实时时钟以匹配GPS确定的时间。
 
-**GPS Coords** - The GPS coordinate format that will be displayed.
+**GPS坐标** - 将显示的GPS坐标格式。
 
-**Country code** - Used by some RF modules to ensure adherence to local regulatory RF requirements. Options are **America, Japan, Europe.**
+**国家代码** - 由某些RF模块使用，以确保遵守当地的RF法规要求。选项有**美国、日本、欧洲。**
 
-**Voice language** - Language for the voice pack. This setting and the voice pack folder on the SD card must match for the sounds to be played.
+**语音语言** - 语音包的语言。此设置和SD卡上的语音包文件夹必须匹配，以便播放声音。
 
-**Units** - Units of measure. Options are **metric** or **imperial**.
+**单位** - 测量单位。选项有**公制**或**英制**。
 
-**PPM Units** - Level of accuracy for PPM values are displyed. Options are **0.-** or **0.0**
+**PPM单位** - 显示PPM值的精确度级别。选项有**0.-**或**0.0**
 
-**Play delay** (sw. mid pos) - The minimum time in milliseconds a switch must be in the middle position before a special function will get activated. This is used to prevent the middle position from being activated on a three-position switch when switching from low position to high position.
+**播放延迟** (开关中间位置) - 开关必须处于中间位置的最短时间（以毫秒为单位），以便特殊功能被激活。这用于防止在从低位置切换到高位置时，三位置开关的中间位置被激活。
 
 <figure><img src="/.gitbook/assets/bwRadioSetup9.png" alt=""><figcaption></figcaption></figure>
 
-**USB Mode** - Sets the default action when a USB cable is plugged into the USB data port and the radio is powered on.  Options are: **Ask**, **Joystick**, **Storage**, and **Serial**.
+**USB模式** - 设置当USB数据端口插入USB电缆并打开电台时的默认操作。选项有：**询问**、**操纵杆**、**存储**和**串行**。
 
-**Def Chan Ord** - The default channel order for new models and the trainer screen.  The letters stand for: **A** = Aileron, **E** = Elevator, **T** = Throttle,  **R** = Rudder.  Changing this setting does not affect existing models. On Surface Radios, the letters stand for **S**=Steering, **T**=Throttle.
+**默认通道顺序** - 新模型和教练屏幕的默认通道顺序。字母代表：**A** = 副翼，**E** = 升降舵，**T** = 油门，**R** = 方向舵。更改此设置不会影响现有模型。在地面电台上，字母代表**S**=转向，**T**=油门。
 
-**RotEnc Mode** (Rotary Encoder Mode) - Sets the direction of the rotary encode for the Roller. The options are:
+**旋转编码器模式** (旋转编码器模式) - 设置滚轮的旋转方向。选项有：
 
-* **Normal** (default)
-* **Inverted** = Reverses the direction of the roller
-* **V-I H-N** = Vertical Inverted, Horizontal Normal
-* **V-I H-A** = Vertical Inverted, Horizontal Alternate (Inverted)
-* **V-N E-I** = Vertical Normal, Edit Inverted (inverted when editing text)
+* **正常** (默认)
+* **反转** = 反转滚轮的方向
+* **垂直反转，水平正常** = 垂直反转，水平正常
+* **垂直反转，水平备用** = 垂直反转，水平备用（反转）
+* **垂直正常，编辑反转** = 垂直正常，编辑反转（编辑文本时反转）
 
-**Mode** - The stick mode that will be used for the transmitter. Defined by what actions the left stick takes. The options are:
+**模式** - 发射机将使用的摇杆模式。由左摇杆执行的动作定义。选项有：
 
-<table><thead><tr><th width="181">Option</th><th width="168">Left stick  H</th><th width="149">Left stick  V</th><th width="133">Right stick H</th><th>Right stick V</th></tr></thead><tbody><tr><td>1: Left = Rud+Ele </td><td>Rudder (Yaw)</td><td>Elevator (Pitch)</td><td>Aileron (Roll)</td><td>Throttle</td></tr><tr><td>2: Left = Rud+Thr</td><td>Rudder (Yaw)</td><td>Throttle</td><td>Aileron (Roll)</td><td>Elevator (Pitch)</td></tr><tr><td>3: Left = Ail+Ele</td><td>Aileron (Roll)</td><td>Elevator (Pitch)</td><td>Rudder (Yaw)</td><td>Throttle</td></tr><tr><td>4: Left = Ail+Thr</td><td>Aileron (Roll)</td><td>Throttle</td><td>Rudder (Yaw)</td><td>Elevator (Pitch)</td></tr></tbody></table>
+<table><thead><tr><th width="181">选项</th><th width="168">左摇杆 H</th><th width="149">左摇杆 V</th><th width="133">右摇杆 H</th><th>右摇杆 V</th></tr></thead><tbody><tr><td>1: 左 = 方向+升降 </td><td>方向舵 (偏航)</td><td>升降舵 (俯仰)</td><td>副翼 (滚转)</td><td>油门</td></tr><tr><td>2: 左 = 方向+油门</td><td>方向舵 (偏航)</td><td>油门</td><td>副翼 (滚转)</td><td>升降舵 (俯仰)</td></tr><tr><td>3: 左 = 副翼+升降</td><td>副翼 (滚转)</td><td>升降舵 (俯仰)</td><td>方向舵 (偏航)</td><td>油门</td></tr><tr><td>4: 左 = 副翼+油门</td><td>副翼 (滚转)</td><td>油门</td><td>方向舵 (偏航)</td><td>升降舵 (俯仰)</td></tr></tbody></table>
 
+<figure><img src="/.gitbook/assets/bwEnabledFeatures.png" alt=""><figcaption><p>启用的功能</p></figcaption></figure>
 
+### 启用的功能
 
-<figure><img src="/.gitbook/assets/bwEnabledFeatures.png" alt=""><figcaption><p>Enabled Features</p></figcaption></figure>
-
-### Enabled Features
-
-The **Enabled Features** section of Radio Setup allows you to configure the _**Global**_ _**settings**_ for which tabs are visible in the Radio Setup and Model Settings area of EdgeTX. The configuration setting for the active model will show to the right of the checkbox. The model configuration will override the global configuration.
+电台设置的**启用的功能**部分允许您配置EdgeTX中电台设置和模型设置区域中可见的_**全局**_ _**设置**_。活动模型的配置设置将显示在复选框的右侧。模型配置将覆盖全局配置。
 
 {% hint style="info" %}
-_**Note:**_ Turning off a tab only hides the tab and does not change the items already configured in that tab.
+_**注意：**_ 关闭一个选项卡只会隐藏该选项卡，并不会更改该选项卡中已配置的项目。
 
-**EXCEPTION:** Turning off the Global / Special Functions tab will disable configured global / special functions for that model.
+**例外：** 关闭全局/特殊功能选项卡将禁用为该模型配置的全局/特殊功能。
 {% endhint %}
 
-Pressing the **\[PAGE>]** button will take you to the **Global Functions** screen.
+按下**\[PAGE>]**按钮将带您进入**全局功能**屏幕。

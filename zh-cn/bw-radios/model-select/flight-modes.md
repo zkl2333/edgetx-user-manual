@@ -1,65 +1,65 @@
-# Flight / Drive Modes
+# 飞行/驾驶模式
 
-Flight modes (FM) and Drive modes (DM) (on surface radios) allow you to have different trim settings for each flight/drive mode. Once multiple flight/drove modes are configured, you can adjust the trim settings in each flight/drive mode without affecting the trim settings in other flight/drive modes (unless they are configured to do so). There are nine possible Flight/Drive modes, with flight/drive Mode 0 being the default mode.
+飞行模式（FM）和驾驶模式（DM）（在地面无线电上）允许您为每个飞行/驾驶模式设置不同的微调设置。一旦配置了多个飞行/驾驶模式，您可以在每个飞行/驾驶模式中调整微调设置，而不会影响其他飞行/驾驶模式的微调设置（除非它们被配置为这样做）。共有九种可能的飞行/驾驶模式，飞行/驾驶模式0是默认模式。
 
-<figure><img src="/.gitbook/assets/bwFM.png" alt=""><figcaption><p>Flight Modes Overview screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwFM.png" alt=""><figcaption><p>飞行模式概览屏幕</p></figcaption></figure>
 
-The Flight/Drive Modes Overview screen shows an overview of the configured Flight/Drive Modes. The information below is displayed for each flight mode row:
+飞行/驾驶模式概览屏幕显示已配置的飞行/驾驶模式的概览。每个飞行模式行显示以下信息：
 
-* Mode #
-* Mode Name
-* Switch
-* Trim settings (RETA)
+* 模式编号
+* 模式名称
+* 开关
+* 微调设置（RETA）
 
-**Check FM Trims:** When check FM trim is pressed, the trims for the current flight/drive mode are temporarily disabled. This is used to test the impact of the current flight/drive mode’s trims on the outputs.
+**检查FM微调：** 当按下检查FM微调时，当前飞行/驾驶模式的微调将暂时禁用。这用于测试当前飞行/驾驶模式的微调对输出的影响。
 
-<figure><img src="/.gitbook/assets/bwFM2.png" alt=""><figcaption><p>Flight Mode Configuration screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwFM2.png" alt=""><figcaption><p>飞行模式配置屏幕</p></figcaption></figure>
 
-Selecting a flight/drive mode from the overview screen will open the configuration page, which has the following options:
+从概览屏幕中选择一个飞行/驾驶模式将打开配置页面，其中有以下选项：
 
-**Name:** The custom name for the flight mode. If configured, this name will be shown on the upper left position of the main screen next to the battery voltage.
+**名称：** 飞行模式的自定义名称。如果已配置，此名称将显示在主屏幕左上角的电池电压旁边。
 
-**Switch:** The trigger to enable that flight/drive mode. It can be a switch, pot, telemetry, trim or logical switch.
+**开关：** 启用该飞行/驾驶模式的触发器。可以是开关、旋钮、遥测、微调或逻辑开关。
 
-**Trims** - To configure the trims, select the trim that you want to configure (each column is one trim). Then scroll to select the flight/drive mode (**0-8**) that will provide the initial trim value and modifier (**=** or **+**). Select **--** to disable the trim.
+**微调** - 要配置微调，选择您要配置的微调（每列是一个微调）。然后滚动选择将提供初始微调值和修饰符的飞行/驾驶模式（**0-8**）。选择 **--** 以禁用微调。
 
-When **3P** is selected instead of the flight mode **(0-8)**, the trim will act as a 3 position momentary switch.
+当选择 **3P** 而不是飞行模式 **(0-8)** 时，微调将作为一个三位置瞬时开关。
 
-_**Modifier**_ - there are two possible value modifiers **=** and **+.** The **=** modifier uses the trim value directly from the selected flight/drive mode. The **+** modifier uses the trim value from the selected flight/drive mode and then adds the trim value from the flight/drive mode you are configuring.
+_**修饰符**_ - 有两种可能的值修饰符 **=** 和 **+**。**=** 修饰符直接使用所选飞行/驾驶模式的微调值。**+** 修饰符使用所选飞行/驾驶模式的微调值，然后加上您正在配置的飞行/驾驶模式的微调值。
 
-_Example 1:_ If you are configuring FM1 and set the value to =0, FM1 will have the trim value of the current value of the same trim in FM0. In this case, changes made to the trim in FM1 will also affect the trim in FM0 and vice-versa.
+_示例1：_ 如果您正在配置FM1并将值设置为=0，FM1将具有FM0中相同微调的当前值。在这种情况下，对FM1中微调的更改也会影响FM0中的微调，反之亦然。
 
-_Example 2:_ If you are configuring FM1 and set the value to +0, FM1 will have the trim value of the same trim in FM0, plus any trim changes made while in FM1. In this case, changes made to the trim in FM1 do not affect the trim in FM0. However, changes to trim values FM0 will affect trim values in FM1.
+_示例2：_ 如果您正在配置FM1并将值设置为+0，FM1将具有FM0中相同微调的值，加上在FM1中进行的任何微调更改。在这种情况下，对FM1中微调的更改不会影响FM0中的微调。然而，对FM0微调值的更改将影响FM1中的微调值。
 
-**Fade in:** Gradually change the trim value when this flight/drive mode is enabled. Specify the time in seconds (0.0 - 25.0) until the value change is completed.
+**淡入：** 启用此飞行/驾驶模式时逐渐更改微调值。指定完成值更改所需的时间（秒）（0.0 - 25.0）。
 
-**Fade out:** Gradually change the trim value when this flight/drive mode is disabled. Specify the time in seconds (0.0 - 25.0) until the value change is completed.
+**淡出：** 禁用此飞行/驾驶模式时逐渐更改微调值。指定完成值更改所需的时间（秒）（0.0 - 25.0）。
 
 {% hint style="info" %}
-If the trim is turned off (**--**) on the setup page, you will not be able to adjust it at all on the main view screen.
+如果在设置页面上关闭微调（**--**），您将无法在主视图屏幕上进行任何调整。
 {% endhint %}
 
-### Global Variables
+### 全局变量
 
-Global variables are variables whose values are shared across all the configuration screens of a model. Their values can be used in weights, offsets, differential, expo settings, outputs, and in logical switch comparisons.  The bottom portion of the flight/drive mode configuration screen shows an overview of each global variable for the selected flight/drive mode. For each global variable row, the following information is displayed:
+全局变量是其值在模型的所有配置屏幕中共享的变量。它们的值可以用于权重、偏移、差动、指数设置、输出和逻辑开关比较。飞行/驾驶模式配置屏幕的底部部分显示所选飞行/驾驶模式的每个全局变量的概览。每个全局变量行显示以下信息：
 
-* **Global Variable Number**: Displayed as **GV(1-9)**
-* **Global Variable Name**: User-defined name for the global variable - up to three characters.
-* **Mode:** Where the value of the global variable comes from. Options are:
-  * **Own:** the global variable value for the selected flight/drive mode is manually defined in the **Value** text field.
-  * **FM(1-9)** - global variable value for the selected flight/drive mode is inherited from the flight mode defined in the drop-down.
-* **Value**: The current value of the global variable.
+* **全局变量编号**：显示为 **GV(1-9)**
+* **全局变量名称**：用户定义的全局变量名称 - 最多三个字符。
+* **模式：** 全局变量的值来源。选项有：
+  * **Own：** 所选飞行/驾驶模式的全局变量值在 **值** 文本字段中手动定义。
+  * **FM(1-9)** - 所选飞行/驾驶模式的全局变量值继承自下拉菜单中定义的飞行模式。
+* **值：** 全局变量的当前值。
 
-You can edit the value of the global variable by changing the value in the value text field.  Selecting the global variable number will open the global variable configuration screen will give you the following options:
+您可以通过更改值文本字段中的值来编辑全局变量的值。选择全局变量编号将打开全局变量配置屏幕，提供以下选项：
 
-<figure><img src="/.gitbook/assets/bwfm3.png" alt=""><figcaption><p>Global Variables configuration screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwfm3.png" alt=""><figcaption><p>全局变量配置屏幕</p></figcaption></figure>
 
-* **Name** - Name for the global variable. Three characters are allowed.&#x20;
-* **Unit** - (optional) Allows you to add a **%** label to the displayed values when selected. It DOES NOT affect how the values are calculated.
-* **Precision** - Allows you to select the number precision options whole numbers (**0.-**) and decimal (**0.0**). The default value is **0.-**
-* **Min** - Defines the minimum that is allowed for the global variable.
-* **Max** - Defines the maximum value that is allowed for the global variable.
-* **Popup** - When enabled, a pop-up window will be displayed on the main screen when the value of this global variable changes during normal use.
-* **FM1 -> FM8** - Allows you to select the global variable inheritance for the flight/drive mode. **Long press** the field to switch between **Own** and **Inheritence** mode. In **Own** mode, you can define the global variable value for the selected flight mode. In **Inheritance** mode, you can select the Flight Mode that the global variable will inherit the value from.
+* **名称** - 全局变量的名称。允许三个字符。&#x20;
+* **单位** - （可选）允许您在选择时为显示的值添加 **%** 标签。它不影响值的计算方式。
+* **精度** - 允许您选择数字精度选项，整数（**0.-**）和小数（**0.0**）。默认值为 **0.-**
+* **最小值** - 定义全局变量允许的最小值。
+* **最大值** - 定义全局变量允许的最大值。
+* **弹出窗口** - 启用时，当此全局变量的值在正常使用期间更改时，主屏幕上将显示一个弹出窗口。
+* **FM1 -> FM8** - 允许您为飞行/驾驶模式选择全局变量继承。**长按**字段以在**Own**和**继承**模式之间切换。在**Own**模式下，您可以为所选飞行模式定义全局变量值。在**继承**模式下，您可以选择全局变量将继承值的飞行模式。
 
-Pressing the **\[PAGE>]** button will take you to the **Inputs** screen.
+按下 **\[PAGE>]** 按钮将带您进入 **输入** 屏幕。

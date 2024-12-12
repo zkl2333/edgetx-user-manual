@@ -1,36 +1,36 @@
-# Statistics
+# 统计
 
-<figure><img src="/.gitbook/assets/bwstats.png" alt=""><figcaption><p>Statistics screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwstats.png" alt=""><figcaption><p>统计屏幕</p></figcaption></figure>
 
-The **Statistics** screen presents you with statistics regarding radio usage. All data is reset once the radio is powered off. The following information is provided:
+**统计**屏幕为您提供有关无线电使用的统计信息。所有数据在无线电关闭后重置。提供以下信息：
 
-* **SES** - The amount of time that the radio has been turned on.&#x20;
-* **THR** - The amount of time that the throttle has been above the 0% stick position.
-* **TH%** - The amount of time that the throttle has been above the 50% stick position.
+* **SES** - 无线电已开启的时间量。
+* **THR** - 油门杆位置高于0%的时间量。
+* **TH%** - 油门杆位置高于50%的时间量。
 
-Long pressing the **\[Roller]** or **\[Dial]** button will reset the Statistics and Debug screens.
+长按**\[滚轮]**或**\[旋钮]**按钮将重置统计和调试屏幕。
 
-Pressing **\[PAGE>]** will take you to the **Debug** screens.
+按**\[PAGE>]**将带您进入**调试**屏幕。
 
 <div>
 
-<figure><img src="/.gitbook/assets/bwdebug.png" alt=""><figcaption><p>Debug screen 1</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwdebug.png" alt=""><figcaption><p>调试屏幕1</p></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/bwdebug2.png" alt=""><figcaption><p>Debug screen 1</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwdebug2.png" alt=""><figcaption><p>调试屏幕1</p></figcaption></figure>
 
 </div>
 
-The **Debug** screen provides data points used by the developers when debugging issues in the software. Most users will not find the information useful on this screen unless debugging issues with developers. The following debug information is provided.
+**调试**屏幕提供开发人员在调试软件问题时使用的数据点。除非与开发人员一起调试问题，否则大多数用户不会发现此屏幕上的信息有用。提供以下调试信息。
 
-* **Free mem** - Current free radio memory in bytes.
-* **Lua scripts**&#x20;
-  * **\[D] -** Maximum Lua duration in milliseconds.
-  * **\[I]** - Maximum Lua interval in milliseconds.
-* **TMix max** - Maximum mixer task duration.
-* **Free stack - \[Menu] / \[Mix] /\[Audio]**&#x20;
-  * **\[Menu]** - Minimum free stack memory for menu tasks.
-  * **\[Mix]** - Minimum free stack memory for mixer tasks.
-  * **\[Audio]** - Minimum free stack memory for audio tasks.
-* **Tlm RX Err** - Numer of received telemetry errors
+* **Free mem** - 当前无线电内存的空闲字节数。
+* **Lua 脚本**
+  * **\[D] -** 最大Lua持续时间（毫秒）。
+  * **\[I]** - 最大Lua间隔（毫秒）。
+* **TMix max** - 最大混合任务持续时间。
+* **Free stack - \[Menu] / \[Mix] /\[Audio]**
+  * **\[Menu]** - 菜单任务的最小空闲堆栈内存。
+  * **\[Mix]** - 混合任务的最小空闲堆栈内存。
+  * **\[Audio]** - 音频任务的最小空闲堆栈内存。
+* **Tlm RX Err** - 接收的遥测错误数量。

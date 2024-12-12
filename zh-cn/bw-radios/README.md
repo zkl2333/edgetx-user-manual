@@ -12,11 +12,11 @@ layout:
     visible: true
 ---
 
-# User Manual for Monochrome Screen Radios
+# 单色屏幕收音机用户手册
 
-<figure><img src="/.gitbook/assets/monoradios (1).png" alt=""><figcaption><p>EdgeTX supported monochrome screen radios</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/monoradios (1).png" alt=""><figcaption><p>EdgeTX支持的单色屏幕收音机</p></figcaption></figure>
 
-EdgeTX supports the following monochrome screen radios:
+EdgeTX支持以下单色屏幕收音机：
 
 * BETAFPV LiteRadio 3 Pro
 * FrSky QX7 / QX7S / QX7 ACCESS / QX7S ACCESS

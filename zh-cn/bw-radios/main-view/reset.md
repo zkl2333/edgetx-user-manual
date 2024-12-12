@@ -1,14 +1,14 @@
-# Reset
+# 重置
 
-Selecting **Reset** from the pop-up menu will give you the following options:
+从弹出菜单中选择**重置**将为您提供以下选项：
 
-**Reset flight** - When selected, this option:&#x20;
+**重置飞行** - 选择此选项时：&#x20;
 
-* Resets all timers configured with a persistence setting of **Flight** to zero.
-* Resets all discovered telemetry sensor values.
-* Resets all logical switch states
-* Triggers the same checks as loading the model  - i.e. throttle position, switch state, is failsafe set check, display pre-flight checklist if configured, stuck keys test, etc.
+* 将所有配置为**飞行**持久性设置的计时器重置为零。
+* 重置所有已发现的遥测传感器值。
+* 重置所有逻辑开关状态。
+* 触发与加载模型相同的检查 - 即油门位置、开关状态、是否设置失控保护检查、如果配置则显示飞行前检查清单、卡住的按键测试等。
 
-**Reset timer 1 / 2 / 3** - Resets only the selected timer to zero regardles of the configured persistence setting.
+**重置计时器 1 / 2 / 3** - 仅将选定的计时器重置为零，而不考虑配置的持久性设置。
 
-**Reset telemetry** - This option resets all discovered telemetry sensor values.
+**重置遥测** - 此选项将重置所有已发现的遥测传感器值。

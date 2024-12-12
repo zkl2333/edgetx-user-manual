@@ -1,5 +1,5 @@
-# Global Functions
+# 全局功能
 
-**Global functions** are special functions that apply to all models on the Radio. They are configured exactly as model **Special Functions** and the same functions are available. For more information about configuring Global Functions, refer to the [Special Functions](../model-select/special-functions.md) section as they are essentially the same.
+**全局功能** 是适用于无线电上所有模型的特殊功能。它们的配置方式与模型的 **特殊功能** 完全相同，并且可用的功能也相同。有关配置全局功能的更多信息，请参阅 [特殊功能](../model-select/special-functions.md) 部分，因为它们本质上是相同的。
 
-Pressing the **\[PAGE>]** button will take you to the **Trainer** screen.
+按下 **\[PAGE>]** 按钮将带您进入 **教练** 屏幕。

@@ -1,46 +1,46 @@
-# Mixes
+# 混控
 
-The **Mixes** screen  is where several Inputs can be combined into one "Channel Mix". These mixes are then assigned to a radio channel for output. This is also the place where switches, knobs or sliders are assigned to a channel for output. Similar to the Input section, it is also possible to assign a weight, offset or curve to a channel mix.
+**混控**屏幕是将多个输入组合成一个“通道混控”的地方。这些混控随后被分配到一个无线电通道进行输出。这也是分配开关、旋钮或滑块到通道进行输出的地方。与输入部分类似，也可以为通道混控分配权重、偏移或曲线。
 
-<figure><img src="/.gitbook/assets/bwmixes1.png" alt=""><figcaption><p>Mixes Page</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwmixes1.png" alt=""><figcaption><p>混控页面</p></figcaption></figure>
 
-The **Mixes** screen shows you an overview of your configured mixes. Each row represents a mixer line and displays the following information from left to right: channel, weight, input, mix name switch. These items are described in the [Mixes configuration options](mixes.md#mixes-configuration-options) area below.
+**混控**屏幕为您显示已配置混控的概览。每一行代表一个混控线，并从左到右显示以下信息：通道、权重、输入、混控名称、开关。这些项目在下面的[混控配置选项](mixes.md#mixes-configuration-options)区域中描述。
 
-Selecting an empty mix line and pressing **\[Enter]** will create a new mix and open the mixes configuration page.&#x20;
+选择一个空的混控行并按下**\[Enter]**将创建一个新的混控并打开混控配置页面。
 
-Selecting an existing mix line and pressing **\[Enter]** will toggle between **Copy/Paste** mode and **Move** mode. In **Copy/Paste** mode, a copy of the mix line is made, which can be pasted into the desired channel or mix line. In **Move** mode, the selected mix can be moved to a different channel. Press the **\[Return]** button to exit this mode.
+选择一个现有的混控行并按下**\[Enter]**将在**复制/粘贴**模式和**移动**模式之间切换。在**复制/粘贴**模式下，将创建混控行的副本，可以将其粘贴到所需的通道或混控行。在**移动**模式下，可以将选定的混控移动到不同的通道。按下**\[Return]**按钮退出此模式。
 
-Selecting an existing mix line and long-pressing **\[Enter]** will give you the following options:
+选择一个现有的混控行并长按**\[Enter]**将提供以下选项：
 
-* **Edit** - opens the mixes configuration page for that mix line.
-* **Insert before** - Inserts a new mix line before the selected mix.
-* **Insert after** - Inserts a new mix line after the selected mix.
-* **Copy** - copies the selected mix line.
-* **Move** - selects the mix line to be moved.
-* **Delete** - deletes the selected mix line.
+* **编辑** - 打开该混控行的混控配置页面。
+* **前插入** - 在选定的混控之前插入一个新的混控行。
+* **后插入** - 在选定的混控之后插入一个新的混控行。
+* **复制** - 复制选定的混控行。
+* **移动** - 选择要移动的混控行。
+* **删除** - 删除选定的混控行。
 
-<figure><img src="/.gitbook/assets/bwmixes2 (3).png" alt=""><figcaption><p>Mixes Configuration Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwmixes2 (3).png" alt=""><figcaption><p>混控配置屏幕</p></figcaption></figure>
 
-### Mixes Configuration Options
+### 混控配置选项
 
-The right portion of the mixes configuration page contains a graph that shows the channel range for the mix.
+混控配置页面的右侧部分包含一个图表，显示混控的通道范围。
 
-When the **edit** option is selected for a mix, the following configuration options are available:
+当为混控选择**编辑**选项时，可用的配置选项如下：
 
-* **Mix Name** - Name of the mix (optional). Up to 6 characters are allowed.
-* **Source** - The source for the mix. In addition to inputs, you can select sticks, pots, sliders, trims, physical and logical switches, heli mixer outputs, trainer import channel values, and other channels.
-* **Weight**- Percentage of the source value to use. Long-pressing here will switch from numerical value to a global variable.
-* **Offset** - The value added to or subtracted from the source.
-* **Trim** - Specifies whether or not to include the trim values in this mix. For the trim values to be included, the trim field for the relevant input must also be enabled on **INPUTS** screen.
-* **Curve** - Specifies the type of curve that will be used. See the **curve** section on the [Inputs](inputs.md) page for detailed explanations of the different curve types.&#x20;
-* **Switch** - The physical switch that activates this mix line (optional). If no switch is selected, then the mix will be active by default.
-* **Warning** -when selected, the radio will beep when this mix is active. You can choose from OFF or beep patterns 1, 2, 3.&#x20;
-* **Multiplex** - The multiplex setting defines how the current mixer line interacts with the others on the same channel. **Add** will add its output to them, **Multiply** will multiply the result of the lines above it, and **Replace** will replace anything that was done before it with its output.&#x20;
-* **Modes** - Specifies which flight modes this mix is active for. Visible modes are active.
-* **Delay up** - Creates a time delay in seconds between when the source value increases and when it is output.
-* **Delay down** -  Creates a time delay in seconds between when the source value decreases and when it is output.
-* **Slow prec** (precision) - Changes the precision for Slow up/dn between 0.0 and 0.00.
-* **Slow up** - Adjusts the transition speed for source value increases. Specify the time to transition from -100% to + 100% in seconds. You can specify a range from 0.00 seconds to 25.00 seconds.
-* **Slow down** - Adjusts the transition speed for source value decreases. Specify the time to transition from -100% to + 100% in seconds. You can specify a range from 0.00 seconds to 25.00 seconds.
+* **混控名称** - 混控的名称（可选）。最多允许6个字符。
+* **来源** - 混控的来源。除了输入，您还可以选择摇杆、旋钮、滑块、微调、物理和逻辑开关、直升机混控输出、教练输入通道值和其他通道。
+* **权重** - 使用来源值的百分比。长按此处将从数值切换到全局变量。
+* **偏移** - 添加到或从来源中减去的值。
+* **微调** - 指定是否在此混控中包含微调值。要包含微调值，相关输入的微调字段也必须在**输入**屏幕上启用。
+* **曲线** - 指定将使用的曲线类型。有关不同曲线类型的详细说明，请参见[输入](inputs.md)页面上的**曲线**部分。
+* **开关** - 激活此混控行的物理开关（可选）。如果未选择开关，则混控将默认激活。
+* **警告** - 选择时，当此混控激活时，无线电将发出蜂鸣声。您可以选择关闭或蜂鸣模式1、2、3。
+* **复合** - 复合设置定义当前混控行如何与同一通道上的其他行交互。**添加**将其输出添加到其他行，**乘法**将乘以上面行的结果，**替换**将用其输出替换之前所做的任何操作。
+* **模式** - 指定此混控在哪些飞行模式下激活。可见模式为激活状态。
+* **上延迟** - 创建来源值增加与输出之间的时间延迟（以秒为单位）。
+* **下延迟** - 创建来源值减少与输出之间的时间延迟（以秒为单位）。
+* **慢速精度** - 更改慢速上/下的精度在0.0和0.00之间。
+* **慢速上** - 调整来源值增加的过渡速度。指定从-100%到+100%的过渡时间（以秒为单位）。您可以指定0.00秒到25.00秒的范围。
+* **慢速下** - 调整来源值减少的过渡速度。指定从-100%到+100%的过渡时间（以秒为单位）。您可以指定0.00秒到25.00秒的范围。
 
-Pressing the **\[PAGE>]** button will take you to the **Outputs** screen.
+按下**\[PAGE>]**按钮将带您进入**输出**屏幕。

@@ -1,31 +1,31 @@
-# Curves
+# 曲线
 
-The **Curves** screen allows you to define custom curves to use in the Inputs, Mixes, or Output screens. The curves screen will show the configured custom curves, with a graphical representation of each curve.
+**曲线**屏幕允许您定义自定义曲线，以便在输入、混合或输出屏幕中使用。曲线屏幕将显示配置的自定义曲线，并提供每条曲线的图形表示。
 
-<figure><img src="/.gitbook/assets/bwcurves1.png" alt=""><figcaption><p>Curves Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwcurves1.png" alt=""><figcaption><p>曲线屏幕</p></figcaption></figure>
 
-Selecting one of the curves or empty curve slots will open the configuration page for that curve.
+选择其中一个曲线或空曲线槽将打开该曲线的配置页面。
 
-<figure><img src="/.gitbook/assets/bwcurves2.png" alt=""><figcaption><p>Curves Configuration Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwcurves2.png" alt=""><figcaption><p>曲线配置屏幕</p></figcaption></figure>
 
-### Curves Configuration
+### 曲线配置
 
-The curve configuration screen has the following configurable options:
+曲线配置屏幕具有以下可配置选项：
 
-* **Name** - Name for the curve. Only 3 characters are possible.
-* **Type** - Type of curve: Options are **Standard** and **Custom**
-  * **Standard** - Horizontal axis points are fixed values based on the number of points. Vertical axis points are adjustable.
-  * **Custom** - Both horizontal and vertical axes are adjustable.
-* **Count** - number of points in the curve. Press the **\[Enter]** button to modify the number of points. Long-pressing the **\[Enter]** button will give the following additional options:
-  * **Preset** - Allows you to set the curve to one of the preset slope values (-45 to 45 degrees in 15 degree increments). The curve will have 5 points, and smoothing is not enabled by default.
-  * **Mirror** - Mirrors the selected curve.
-  * **Clear** - Clears all curve values from the selected curve.
-* **Smooth** - When enabled, connects the points with curved lines instead of straight lines.
+* **名称** - 曲线的名称。只能使用3个字符。
+* **类型** - 曲线类型：选项有**标准**和**自定义**
+  * **标准** - 水平轴点是基于点数的固定值。垂直轴点是可调的。
+  * **自定义** - 水平和垂直轴都是可调的。
+* **点数** - 曲线中的点数。按下**\[Enter]**按钮以修改点数。长按**\[Enter]**按钮将提供以下附加选项：
+  * **预设** - 允许您将曲线设置为预设的斜率值（-45到45度，以15度为增量）。曲线将有5个点，默认情况下不启用平滑。
+  * **镜像** - 镜像选定的曲线。
+  * **清除** - 清除选定曲线的所有曲线值。
+* **平滑** - 启用时，用曲线连接点而不是直线。
 
-### Editing Curve Points
+### 编辑曲线点
 
-<figure><img src="/.gitbook/assets/bwcurves3.png" alt=""><figcaption><p>Editing Curve Points pop-up</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwcurves3.png" alt=""><figcaption><p>编辑曲线点弹出窗口</p></figcaption></figure>
 
-After the last configuration option (Smooth), you will automatically begin to scroll through the configured points on the curve. To change the values of the points, press the **\[Enter]** button and then adjust the values as desired. For **Standard** curves, you will only be able to adjust the Y value. For **Custom** curves, you can adjust both the X and Y values.
+在最后一个配置选项（平滑）之后，您将自动开始滚动查看曲线上的配置点。要更改点的值，请按**\[Enter]**按钮，然后根据需要调整值。对于**标准**曲线，您只能调整Y值。对于**自定义**曲线，您可以调整X和Y值。
 
-Pressing the **\[PAGE>]** button will take you to the **Logical Switches** screen.
+按下**\[PAGE>]**按钮将带您进入**逻辑开关**屏幕。

@@ -1,29 +1,29 @@
-# Radio Settings
+# 无线电设置
 
-### Tools
+### 工具
 
-Pressing the **\[SYS]** button from the Main view will open the **Tools** screen. &#x20;
+从主视图按下 **\[SYS]** 按钮将打开 **工具** 屏幕。
 
-The **Tools** page in Radio Settings is where you can select Lua script-based tools for execution. Lua scripts that are located on the SD card in the **Tools** folder will be listed here. Selecting a tool will execute it. By default, EdgeTX includes several tools. Other tools can be downloaded and added to the SD card as well.  The following tools are included in the default EdgeTX SD card.&#x20;
+无线电设置中的 **工具** 页面是您可以选择基于 Lua 脚本的工具进行执行的地方。位于 SD 卡 **Tools** 文件夹中的 Lua 脚本将在此列出。选择一个工具将执行它。默认情况下，EdgeTX 包含几个工具。其他工具可以下载并添加到 SD 卡中。以下工具包含在默认的 EdgeTX SD 卡中。
 
-### Wizard Loader
+### 向导加载器
 
 <div>
 
-<figure><img src="/.gitbook/assets/bwtools1.png" alt=""><figcaption><p>Setup Wizard</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtools1.png" alt=""><figcaption><p>设置向导</p></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/bwtools2.png" alt=""><figcaption><p>Setup Wizard Configuration menu</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtools2.png" alt=""><figcaption><p>设置向导配置菜单</p></figcaption></figure>
 
 </div>
 
-The Wizard Loader tool assists you in setting up a new model by running a setup wizard for a particular model type. Once the model type is selected, the wizard will take you through a series of prompts and then configure your selected model based on the information provided.&#x20;
+向导加载器工具通过为特定模型类型运行设置向导来帮助您设置新模型。一旦选择了模型类型，向导将引导您完成一系列提示，然后根据提供的信息配置您选择的模型。
 
-_**NOTE: The wizard does not create a new model, it only configures the currently selected model. You must manually create a new model first and then run the wizard. If you run this wizard on an already configured model, it will overwrite your model settings!**_
+_**注意：向导不会创建新模型，它只会配置当前选择的模型。您必须先手动创建一个新模型，然后运行向导。如果您在已配置的模型上运行此向导，它将覆盖您的模型设置！**_
 
 {% hint style="info" %}
-Additional EdgeTX compatible Lua scripts can be downloaded from: [https://github.com/EdgeTX/lua-scripts](https://github.com/EdgeTX/lua-scripts)
+可以从以下网址下载其他与 EdgeTX 兼容的 Lua 脚本：[https://github.com/EdgeTX/lua-scripts](https://github.com/EdgeTX/lua-scripts)
 {% endhint %}
 
-Pressing the **\[PAGE>]** button will take you to the **SD Card** screen.
+按下 **\[PAGE>]** 按钮将带您进入 **SD 卡** 屏幕。

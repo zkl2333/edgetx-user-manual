@@ -1,47 +1,47 @@
-# Display
+# 显示
 
-The **Display** screen is where you configure the telemetry screens shown when pressing the **\[Tele]** button from the main screen.
+**显示** 屏幕是配置从主屏幕按下 **\[Tele]** 按钮时显示的遥测屏幕的地方。
 
-You can configure up to Four telemetry screens. You can choose one of the following display types for each screen:
+您最多可以配置四个遥测屏幕。您可以为每个屏幕选择以下显示类型之一：
 
-**Nums** (Numbers) - The _**numbers**_ type displays the number value of the selected telemetry sensor or other configured object. The screen will be divided into two columns with four rows - each cell can display the data from a different sensor or object.  On the display screen, the top bar will show the model name, radio battery voltage, and time in addition to the configured cells. If _**Timer1**_ is configured in the model, then it will replace the model name in the top bar.
+**Nums**（数字）- _**数字**_ 类型显示所选遥测传感器或其他配置对象的数值。屏幕将分为两列四行 - 每个单元格可以显示来自不同传感器或对象的数据。在显示屏幕上，顶部栏将显示模型名称、无线电电池电压和时间，此外还有配置的单元格。如果在模型中配置了 _**Timer1**_，它将替换顶部栏中的模型名称。
 
 <div>
 
-<figure><img src="/.gitbook/assets/bwtel4.png" alt=""><figcaption><p>Display Numbers Configuration</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtel4.png" alt=""><figcaption><p>显示数字配置</p></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/bwtel1 (7).png" alt=""><figcaption><p>Display Screen with Numbers</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtel1 (7).png" alt=""><figcaption><p>带数字的显示屏幕</p></figcaption></figure>
 
 </div>
 
-**Bars** - The _**Bars**_ type displays a bar graph representing the value of the selected telemetry sensor or other configured object. The screen will be divided into four rows - each row can display the data from a different sensor or object. For each sensor, you must define the minimum and maximum values for the bars. On the display screen, the top bar will show the model name, radio battery voltage, and time in addition to the configured cells. If _**Timer1**_ is configured in the model, then it will replace the model name in the top bar. Additionally, a 5th bar will be shown at the bottom with the RSSI value.
+**Bars** - _**Bars**_ 类型显示一个条形图，表示所选遥测传感器或其他配置对象的值。屏幕将分为四行 - 每行可以显示来自不同传感器或对象的数据。对于每个传感器，您必须定义条形的最小值和最大值。在显示屏幕上，顶部栏将显示模型名称、无线电电池电压和时间，此外还有配置的单元格。如果在模型中配置了 _**Timer1**_，它将替换顶部栏中的模型名称。此外，底部将显示一个第5个条形，显示RSSI值。
 
 <div>
 
-<figure><img src="/.gitbook/assets/bwtel5.png" alt=""><figcaption><p>Display Bars Configuration</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtel5.png" alt=""><figcaption><p>显示条形配置</p></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/bwtel2 (2).png" alt=""><figcaption><p>Display Screen with Bars</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtel2 (2).png" alt=""><figcaption><p>带条形的显示屏幕</p></figcaption></figure>
 
 </div>
 
-**Script**-  The _**Script**_ type executes the telemetry Lua script that is configured. The telemetry Lua script must be located in the SD card folder: SD Card->Scripts->Telemetry in order to be available to be configured. &#x20;
+**Script** - _**Script**_ 类型执行配置的遥测Lua脚本。遥测Lua脚本必须位于SD卡文件夹中：SD卡->Scripts->Telemetry，以便可以配置。
 
 <div>
 
-<figure><img src="/.gitbook/assets/bwtel6.png" alt=""><figcaption><p>Display Script Configuration</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtel6.png" alt=""><figcaption><p>显示脚本配置</p></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/bwtel3.png" alt=""><figcaption><p>Display Screen with fm2m Lua Script</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtel3.png" alt=""><figcaption><p>带fm2m Lua脚本的显示屏幕</p></figcaption></figure>
 
 </div>
 
 {% hint style="info" %}
-Additional Lua scripts for EdgeTX can be found here: [https://github.com/EdgeTX/lua-scripts](https://github.com/EdgeTX/lua-scripts)&#x20;
+EdgeTX的其他Lua脚本可以在这里找到：[https://github.com/EdgeTX/lua-scripts](https://github.com/EdgeTX/lua-scripts)&#x20;
 {% endhint %}
 
-To configure the screens, scroll to the screen you want to configure and then press the **\[Enter]** button.  Then scroll to select the type of screen that you want to use and press the **\[Enter]** button to select it. Depending on the selected screen type, you can then configure the telemetry objects for each cell by scrolling to the desired object and selecting it by pressing the **\[Enter]** button. After all desired cells are configured, press the \[Return] button to exit out of the configuration menu.
+要配置屏幕，滚动到您想要配置的屏幕，然后按 **\[Enter]** 按钮。然后滚动选择您想要使用的屏幕类型，并按 **\[Enter]** 按钮选择它。根据所选的屏幕类型，您可以通过滚动到所需的对象并按 **\[Enter]** 按钮选择它来配置每个单元格的遥测对象。配置完所有所需的单元格后，按 \[Return] 按钮退出配置菜单。

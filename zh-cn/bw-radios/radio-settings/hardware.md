@@ -1,100 +1,97 @@
-# Hardware
+# 硬件
 
-The **Hardware** screen is where you configure hardware specific-settings for your radio. It shows all physical hardware objects (sticks, pots, switches) and allows for their modifications. It is also where you can calibrate your sticks and pots. It also contains additional configuration options.
+**硬件**屏幕是配置无线电硬件特定设置的地方。它显示所有物理硬件对象（摇杆、旋钮、开关），并允许对其进行修改。您还可以在此处校准摇杆和旋钮，并进行其他配置选项。
 
-<figure><img src="/.gitbook/assets/bwhardware1.png" alt=""><figcaption><p>Hardware Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwhardware1.png" alt=""><figcaption><p>硬件屏幕</p></figcaption></figure>
 
-### **Calibration**
+### **校准**
 
-To calibrate your physical radio controls (sticks, pots, sliders, & 6-position switch), highlight the **\[Calibration]** option and press the **\[Enter]** button. The radio will prompt you through the calibration steps.&#x20;
-
-{% hint style="info" %}
-For your gimbal calibration, use a left-to-right & up-to-down movement for the gimbals, not a circular movement! Additionally, use the normal amount of pressure at the endpoints. Excessive endpoint pressure will cause the gimbal to be miscalibrated. Also, do not forget to calibrate your 6-position switch!
-{% endhint %}
-
-### Inputs, Sticks, Pots, and Switches Buttons List
-
-Selecting one of the Axis, Pots, or Switches lines from the list will allow you to add a 3 character label to the control as well as change the type of control as needed. Additionally, you can invert the direction of the Pots by selecting the **->**
-
-### Additional hardware configuration options
-
-<figure><img src="/.gitbook/assets/bwhardware2.png" alt=""><figcaption><p>Hardware Screen</p></figcaption></figure>
-
-**Batt. Calib** (Battery Calibration) - Set this value to match the transmitter battery voltage. This ensures that the displayed battery voltage is accurate.
-
-**RTC Batt** - The current voltage of the RTC battery. The RTC (real time clock) battery keeps the radio's date and time accurate even when no main radio battery is present.
-
-**Check RTC** - When enabled, checks the RTC battery at startup and warns you if the battery voltage is low.
-
-**Audio Mute** - When enabled, puts the transmitter in mute mode until a sound needs to be played. This prevents interference noise from high-powered TX modules from coming out of the transmitter speakers.&#x20;
-
-**Internal RF Type** - Select the module type for the internal module bay. Options are: **Multi, XJT, ISRM, CRSF**.  When **CRSF** is selected, you can also select the baud rate. You can read more about baud rates [here](https://www.expresslrs.org/2.0/quick-start/transmitters/tx-prep/).
-
-**Sample Mode** (**External RF)**- Options are **Normal** and **OneBit**. The default setting of **Normal** should be used by most users. Only users of  X9D+ and X7 radios may want to use **OneBit** mode.
+要校准您的物理无线电控制（摇杆、旋钮、滑块和6位开关），请突出显示**\[校准]**选项并按**\[Enter]**按钮。无线电将引导您完成校准步骤。
 
 {% hint style="info" %}
-The X9D+ and X7 radios have a slow inverter that causes problems with the reception of fast UART signals, resulting in telemetry warnings and issues with LUA scripts using the CRSF protocol. A 10k resistor on the circuit board could be replaced to fix the issue, but this was not always effective. EdgeTX has developed OneBit Mode, which changes the UART sampling behavior to ignore slow leading edges, allowing the CRSF protocol to be run at the full 400k baud rate without hardware modifications to the radio.
+对于云台校准，请使用从左到右和从上到下的运动，而不是圆周运动！此外，在端点使用正常的压力。过大的端点压力会导致云台校准错误。也不要忘记校准您的6位开关！
 {% endhint %}
 
-#### **Bluetooth**
+### 输入、摇杆、旋钮和开关按钮列表
+
+从列表中选择一个轴、旋钮或开关行，您可以为控制添加一个3个字符的标签，并根据需要更改控制类型。此外，您可以通过选择**->**来反转旋钮的方向。
+
+### 其他硬件配置选项
+
+<figure><img src="/.gitbook/assets/bwhardware2.png" alt=""><figcaption><p>硬件屏幕</p></figcaption></figure>
+
+**电池校准** - 设置此值以匹配发射机电池电压。这确保显示的电池电压准确。
+
+**RTC电池** - RTC电池的当前电压。RTC（实时时钟）电池即使在没有主无线电电池的情况下也能保持无线电的日期和时间准确。
+
+**检查RTC** - 启用时，在启动时检查RTC电池，并在电池电压低时警告您。
+
+**音频静音** - 启用时，将发射机置于静音模式，直到需要播放声音。这可以防止高功率TX模块的干扰噪声从发射机扬声器中传出。
+
+**内部RF类型** - 为内部模块槽选择模块类型。选项有：**Multi, XJT, ISRM, CRSF**。选择**CRSF**时，您还可以选择波特率。您可以在[这里](https://www.expresslrs.org/2.0/quick-start/transmitters/tx-prep/)阅读更多关于波特率的信息。
+
+**采样模式**（**外部RF**）- 选项有**Normal**和**OneBit**。大多数用户应使用默认设置**Normal**。只有X9D+和X7无线电的用户可能希望使用**OneBit**模式。
 
 {% hint style="info" %}
-_**Note:** This option is only visible on custom compiled versions of EdgeTX with the **Bluetooth** flag enabled._
+X9D+和X7无线电有一个慢速逆变器，这会导致接收快速UART信号时出现问题，导致使用CRSF协议的遥测警告和LUA脚本问题。可以更换电路板上的10k电阻来解决问题，但这并不总是有效。EdgeTX开发了OneBit模式，该模式改变了UART采样行为以忽略慢速前沿，允许CRSF协议在全400k波特率下运行，而无需对无线电进行硬件修改。
 {% endhint %}
 
-**Mode - mode that the bluetooth module will be used in. The options are:**
-
-* **---** - Off
-* **Telemetry** - used for sending telemtry data over bluetooth.
-* **Trainer** - used for bluetooth trainer mode
-
-One a mode is selected, you will see the following information:
-
-* **PIN Code** - PIN code for bluetooth device in the radio (visible in **Telemetry** mode only)
-* **Local addr -** Identifying address of the bluetooth device in the radio.
-* **Dist addr -** Identifying address of bluetooth device that radio is connected to.
-
-**Name -** the name the bluetooth device will be seen as.
-
-**Serial Port** - Displays a list of available auxiliary serial ports that can be configured and used. The listed ports are based on the ports that are available in the particular radio hardware. The ports listed below are for example only and may not be present in your radio.
-
-*   **AUX1** - First available auxiliary serial port can be configured with the below options:
-
-    * **OFF** - Turned off.
-    * **Telem Mirror** - The same telemetry data that goes to the external module bay is sent to the serial port.&#x20;
-    * **Telemetry In** - Receive telemetry data over the serial port.
-    * **SBUS Trainer** - Connect the Instructor and Student radios over the serial port.
-    * **LUA** - Send/receive data to/from Lua script.
-    * **GPS** - Receive GPS telemetry data over the serial port.
-    * **CLI** - Send commands to the radio via the command line.&#x20;
-
-
-* **USB-VCP** - Virtual COM Port. This is one of the options presented when connecting your radio to the PC with most radios. Is often set to 'CLI' for radios with internal ExpressLRS RF modules in order to do firmware updates.
-
-**ADC Filter** - Enables or disables the ADC Filter. This filter can also be enabled/disabled per model in the model settings.
+#### **蓝牙**
 
 {% hint style="info" %}
-The ADC filter is a filter for the proportional channels (sticks, pots, sliders), smoothing out smaller fast movements that occur due to noise in the system electronics. Normally, this filter should be _disabled_ for models with flight controllers.&#x20;
+_**注意：**此选项仅在启用了**蓝牙**标志的自定义编译版本的EdgeTX中可见。_
 {% endhint %}
 
-**RAS** - (Formerly SWR) Reflected antenna signal. Lower numbers are better, with a 1:1 ratio being theoretically the best. Not supported by all RF Protocols.
+**模式 - 蓝牙模块将使用的模式。选项有：**
 
-### Debug
+* **---** - 关闭
+* **遥测** - 用于通过蓝牙发送遥测数据。
+* **教练** - 用于蓝牙教练模式
 
-The debug section allows for testing and debugging of the analog controls and keys.
+选择模式后，您将看到以下信息：
+
+* **PIN码** - 无线电中蓝牙设备的PIN码（仅在**遥测**模式下可见）
+* **本地地址** - 无线电中蓝牙设备的识别地址。
+* **远程地址** - 无线电连接的蓝牙设备的识别地址。
+
+**名称** - 蓝牙设备将显示的名称。
+
+**串行端口** - 显示可配置和使用的可用辅助串行端口列表。列出的端口基于特定无线电硬件中可用的端口。以下列出的端口仅为示例，可能不在您的无线电中存在。
+
+* **AUX1** - 第一个可用的辅助串行端口可以配置以下选项：
+
+  * **关闭** - 关闭。
+  * **遥测镜像** - 发送到外部模块槽的相同遥测数据也发送到串行端口。
+  * **遥测输入** - 通过串行端口接收遥测数据。
+  * **SBUS教练** - 通过串行端口连接教练和学生无线电。
+  * **LUA** - 发送/接收数据到/从Lua脚本。
+  * **GPS** - 通过串行端口接收GPS遥测数据。
+  * **CLI** - 通过命令行向无线电发送命令。
+
+* **USB-VCP** - 虚拟COM端口。这是将无线电连接到PC时大多数无线电提供的选项之一。通常设置为'CLI'，用于内部ExpressLRS RF模块的无线电，以进行固件更新。
+
+**ADC滤波器** - 启用或禁用ADC滤波器。此滤波器也可以在模型设置中按模型启用/禁用。
+
+{% hint style="info" %}
+ADC滤波器是比例通道（摇杆、旋钮、滑块）的滤波器，平滑由于系统电子噪声引起的较小快速运动。通常，对于具有飞行控制器的模型，应禁用此滤波器。
+{% endhint %}
+
+**RAS** - （以前称为SWR）反射天线信号。数字越低越好，理论上1:1的比率是最好的。并非所有RF协议都支持。
+
+### 调试
+
+调试部分允许测试和调试模拟控制和按键。
 
 <div>
 
-<figure><img src="/.gitbook/assets/bwhardware3.png" alt=""><figcaption><p>Debug Analogs screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwhardware3.png" alt=""><figcaption><p>调试模拟屏幕</p></figcaption></figure>
 
- 
-
-<figure><img src="/.gitbook/assets/bwhardware4.png" alt=""><figcaption><p>Debug Keys screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwhardware4.png" alt=""><figcaption><p>调试按键屏幕</p></figcaption></figure>
 
 </div>
 
-**Debug Analogs**  - These screens will show you the data for your analog controls (Sticks, Sliders, Pots, 6-position switch). There are two views - Calibrated Analogs, Raw Analogs (5 Hz).
+**调试模拟** - 这些屏幕将显示您的模拟控制（摇杆、滑块、旋钮、6位开关）的数据。有两个视图 - 校准模拟，原始模拟（5 Hz）。
 
-**Debug Keys** - This screen will show you the digital data for your keys, switches, trims, and the rotary encoder (roller).
+**调试按键** - 此屏幕将显示您的按键、开关、微调和旋转编码器（滚轮）的数字数据。
 
-Pressing the **\[PAGE>]** button will take you to the **Version** screen.
+按**\[PAGE>]**按钮将带您进入**版本**屏幕。
