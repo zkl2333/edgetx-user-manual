@@ -1,15 +1,15 @@
-# Enabled Features
+# 已启用功能
 
-<figure><img src="/.gitbook/assets/enabledfeatures.png" alt=""><figcaption><p>Enabled Features</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/enabledfeatures.png" alt=""><figcaption><p>已启用功能</p></figcaption></figure>
 
-The **Enabled Features** section of **Model Setup** allows you to configure which tabs are visible in the selected model's radio setup and model settings area of EdgeTX. You can select the following options:
+**模型设置** 中的 **已启用功能** 部分允许您配置在 EdgeTX 的选定模型的无线电设置和模型设置区域中可见的选项卡。您可以选择以下选项：
 
-* **Global** - When selected, the tab will take the global value configured in the **Enabled Features** area in **Radio Setup**. The configured global value will display next to the option.
-* **On** - When selected, this tab will be visible when this model is loaded.
-* **Off** -  When selected, this tab will not be visible when this model is loaded.
+- **全局** - 选择此选项时，选项卡将采用在 **无线电设置** 中 **已启用功能** 区域配置的全局值。配置的全局值将显示在选项旁边。
+- **开** - 选择此选项时，加载此模型时将显示此选项卡。
+- **关** - 选择此选项时，加载此模型时将不显示此选项卡。
 
 {% hint style="info" %}
-_**Note:**_ Turning off a tab only hides the tab and does not change the items already configured in that tab.
+_**注意：**_ 关闭选项卡仅隐藏选项卡，不会更改已在该选项卡中配置的项目。
 
-**EXCEPTION:** Turning off the Global / Special Functions tab will disable configured global / special functions for that model.
+**例外情况：** 关闭全局 / 特殊功能选项卡将禁用该模型的配置的全局 / 特殊功能。
 {% endhint %}

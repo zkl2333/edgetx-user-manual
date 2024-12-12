@@ -1,17 +1,17 @@
-# Throttle
+# 油门
 
-<figure><img src="/.gitbook/assets/throttle.png" alt=""><figcaption><p>Throttle page settings</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/throttle.png" alt=""><figcaption><p>油门页面设置</p></figcaption></figure>
 
-EdgeTX has to possibility to select a specific source and trim for the model throttle and allows for the following configuration options:
+EdgeTX 具有选择特定来源和修剪模型油门的可能性，并允许进行以下配置选项：
 
-**Reverse:** When enabled, this option reverses the output direction of the configured throttle channel.
+**反向：** 启用此选项会颠倒配置的油门通道的输出方向。
 
-**Source:** The source that will be used for the throttle.&#x20;
+**来源：** 将用于油门的来源。
 
-**Trim idle only**: When enabled, the throttle trim will only affect the bottom portion of the throttle band.&#x20;
+**仅修剪怠速：** 启用此选项后，油门修剪仅会影响油门范围的底部部分。
 
 {% hint style="info" %}
-For example, with **Trim idle only** enabled, the throttle stick at the lowest point might have a value of -80 and the center point will still be 0 and the highest point of 100. Without this enabled, the throttle stick at the lowest point might have a value of -80 however, the center point will be 20 and the highest point of 100.&#x20;
+例如，启用**仅修剪怠速**后，油门杆在最低点可能为 -80，中间点仍为 0，最高点为 100。若未启用此选项，油门杆在最低点可能为 -80，但中间点为 20，最高点为 100。
 {% endhint %}
 
-**Trim switch:** The trim switch that will be used to trim the throttle. It is possible to substitute the throttle trim switch with the aileron, rudder, or elevator trim switches.
+**修剪开关：** 将用于修剪油门的修剪开关。可以用副翼、方向舵或升降舵修剪开关替代油门修剪开关。

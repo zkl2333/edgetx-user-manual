@@ -1,9 +1,9 @@
-# Channel Monitor
+# 通道监视器
 
-The Channel Monitor shows both the output value (top bar) and mix value (bottom bar) for each of the 32 radio channels, spread across 4 pages of 8. &#x20;
+通道监视器显示32个无线电通道的输出值（顶部条）和混合值（底部条），分布在8个通道的4个页面上。&#x20;
 
-<figure><img src="/.gitbook/assets/channelmonitor.png" alt=""><figcaption><p>Channels Monitor</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/channelmonitor.png" alt=""><figcaption><p>通道监视器</p></figcaption></figure>
 
-The 5th page of the channel monitor is the logical switches monitor. On this page, you will see the status (activated/non-activated) of all logical switches. Logical switches that are activated are highlighted.&#x20;
+通道监视器的第5页是逻辑开关监视器。在此页面上，您将看到所有逻辑开关的状态（已激活/未激活）。已激活的逻辑开关会被突出显示。&#x20;
 
-<figure><img src="/.gitbook/assets/channelmonitor2.png" alt=""><figcaption><p>Logical Switches Monitor</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/channelmonitor2.png" alt=""><figcaption><p>逻辑开关监视器</p></figcaption></figure>

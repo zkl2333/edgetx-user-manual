@@ -1,33 +1,78 @@
-# Sensor Configuration Options
+# EdgeTX User Manual
 
-The below options can be configured for sensors:
+## Introduction
 
-* **Name:** Name of the sensor - up to 4 characters.
-* **Type:** Options are **custom** or **calculated**. Custom sensors are defined by the hardware. Calculated sensors are a sensors whose value is calculated using other sensors values. See below for more information on calculated sensors.
-* **ID:** This number indicates what type of sensore it is. It contains two parts. The first part is the ID number which defines the sensor type. The second part is the instance number for the hardware. If multiple sensors of the same type are configures, the instance numbers must be unique.
-* **Unit:** The unit for the sensor. This unit is used when the sensor value is displayed on the screen or read aloud.
-* **Precison:** Specifies the number of digits after the decimal point when the sensor value is displayed on the screen. The number is truncated based on this setting.
-* **Ratio:** Specifies the ratio value to multiply with the sensor value as needed by some sensors.
-* **Offset:** Specifies the offset value to add to the sensor value.
-* **Auto Offset:** When selected, the first received value is used as offset. You can use the [Reset telemetry](../../reset-telemetry.md) option to reset the offset on already configured sensors.
-* **Positive:** When selected, the value of the sensor will be displayed only when it is a positive number. Displays zero when the sensor value becomes a negative number.
-* **Filter:** When selected, the sensor value becomes a rolling average of the last 5 received values.
-* **Logs:**  When selected, the value of this sensor will be saved in the log file. SD Card logging is configured in [Special Functions](../special-functions.md) or Global Functions.
+EdgeTX is a powerful and flexible open-source firmware for radio-controlled models. It provides advanced features and customization options to suit a wide range of model types and user preferences.
 
-Calculated sensors contain the additional configuration options:
+## Flight Modes
 
-* **Formula:** Type of calculation to use. Options include:
-  * **Add:** Add the values of up to 4 designated sensors.
-  * **Average:** Calculates the average value of up to four designated sensors.&#x20;
-  * **Minimum:** Find the minimum value of up to 4 designated sensors.
-  * **Maximum:** Find the maximum value of up to 4 designated sensors.
-  * **Multiply:** Multiplies the value of 2 sensors.
-  * **Totalize:** Calculate the cumulative value of one sensor.
-  * **Cell:** This is the formula for FrSKY Lipo battery sensor. It displays cell voltage specified by the number in "Cell index" field.\
-    If you specify "Lowest" in "Cell index" field, the voltage of the cell with the lowest is displayed. \
-    If you specify "Highest" in "Cell index" field, the voltage of the cell with the highest is displayed.\
-    If you specify "Delta" in "Cell index" field, the voltage difference between lowest and highest cell is displayed
-  * **Consumpt:** Calculates the power consumption (mAh) by cumulatively add the values of current sensor.
-  * **Distance:** Calculates the distance between the receiver and the radio using GPS sensor and altimeter values.
-* **Source 1, 2, 3, 4:** The sensors that will provide the argument values that are used in the formula defined above.
-* **Persistent:** When selected the sensor values will be saved when switching between models or powering down the radio.
+Flight modes allow you to configure different settings for your model that can be quickly switched during flight. EdgeTX supports multiple flight modes that can be customized to adjust various parameters such as rates, expo, and auxiliary channel functions.
+
+### Creating a New Flight Mode
+
+To create a new flight mode:
+
+1. Navigate to the **Flight Modes** menu in the transmitter.
+2. Select an unused flight mode slot.
+3. Configure the desired settings for the new flight mode, such as rates, expo, and switch assignment.
+4. Save the settings.
+
+### Switching Flight Modes
+
+To switch between flight modes during flight, assign a switch on your transmitter to the desired flight mode.
+
+## Mixing
+
+Mixing allows you to combine different control inputs to achieve the desired model behavior. EdgeTX supports various types of mixing, including elevon, V-tail, and custom mixes.
+
+### Setting Up Mixing
+
+To set up mixing:
+
+1. Navigate to the **Mixers** menu in the transmitter.
+2. Select an unused mixer line.
+3. Choose the input and output channels for the mix.
+4. Configure the mix type and values.
+5. Save the mix settings.
+
+### Activating Mixing
+
+Once mixing is set up, activate it by assigning a switch or control input to trigger the mix.
+
+## Conclusion
+
+EdgeTX offers a wide range of features and customization options to enhance your radio-controlled modeling experience. By utilizing flight modes and mixing, you can tailor your model's behavior to suit your flying style and preferences.
+
+# 传感器配置选项
+
+以下选项可配置传感器：
+
+- **名称：** 传感器的名称 - 最多4个字符。
+- **类型：** 选项为**自定义**或**计算**。自定义传感器由硬件定义。计算传感器是使用其他传感器值计算值的传感器。有关计算传感器的更多信息，请参见下文。
+- **ID：** 此数字指示传感器的类型。它包含两部分。第一部分是定义传感器类型的ID号。第二部分是硬件的实例编号。如果配置了多个相同类型的传感器，则实例编号必须是唯一的。
+- **单位：** 传感器的单位。当传感器值显示在屏幕上或朗读时使用此单位。
+- **精度：** 指定传感器值显示在屏幕上时小数点后的位数。根据此设置截断数字。
+- **比率：** 指定与传感器值相乘的比率值，根据某些传感器的需要。
+- **偏移：** 指定要添加到传感器值的偏移值。
+- **自动偏移：** 选择时，第一个接收到的值将用作偏移量。您可以使用[重置遥测](../../reset-telemetry.md)选项来重置已配置传感器的偏移量。
+- **正数：** 选择时，仅当传感器值为正数时才显示传感器的值。当传感器值变为负数时，显示零。
+- **滤波器：** 选择时，传感器值将成为最后5个接收到的值的滚动平均值。
+- **日志：** 选择时，此传感器的值将保存在日志文件中。SD卡记录在[特殊功能](../special-functions.md)或全局功能中配置。
+
+计算传感器包含以下附加配置选项：
+
+- **公式：** 要使用的计算类型。选项包括：
+  - **加法：** 将最多4个指定传感器的值相加。
+  - **平均值：** 计算最多四个指定传感器的平均值。
+  - **最小值：** 找到最多4个指定传感器的最小值。
+  - **最大值：** 找到最多4个指定传感器的最大值。
+  - **乘法：** 将2个传感器的值相乘。
+  - **累计：** 计算一个传感器的累积值。
+  - **单元：** 这是FrSKY锂电池传感器的公式。它显示由“单元索引”字段中指定的单元电压。\
+    如果在“单元索引”字段中指定“最低”，则显示具有最低电压的单元的电压。\
+    如果在“单元索引”字段中指定“最高”，则显示具有最高电压的单元的电压。\
+    如果在“单元索引”字段中指定“Δ”，则显示最低和最高单元之间的电压差异。
+  - **消耗：** 通过累加当前传感器的值来计算功耗（mAh）。
+  - **距离：** 使用GPS传感器和高度计值计算接收器和无线电之间的距离。
+- **来源1、2、3、4：** 将提供用于上述定义的公式中使用的参数值的传感器。
+- **持久性：** 选择时，传感器值在模型之间切换或关闭无线电时将被保存。

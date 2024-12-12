@@ -1,27 +1,27 @@
-# Trims
+# 裁剪
 
-<figure><img src="/.gitbook/assets/trims.png" alt=""><figcaption><p>Trims settings page</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/trims.png" alt=""><figcaption><p>裁剪设置页面</p></figcaption></figure>
 
-Trims are used adjust the center position of a given stick axis. EdgeTX has the following time configuration options:
+裁剪用于调整给定摇杆轴的中心位置。EdgeTX具有以下时间配置选项：
 
-**Reset** - This resets all trim values to zero.
+**重置** - 将所有裁剪值重置为零。
 
-**Trim Step:** Defines the amount of increase/decrease in trim when the trim switch is pressed.&#x20;
+**裁剪步进：** 定义了在按下裁剪开关时裁剪增加/减少的量。
 
-* Course = 1.6%
-* Medium = 0.8%
-* Fine = 0.4%
-* Extra Fine = 0.2%
-* Exponential = 0.2% near the center and the step value increases exponentially as the distance from the center increases.
+- 粗略 = 1.6%
+- 中等 = 0.8%
+- 精细 = 0.4%
+- 额外精细 = 0.2%
+- 指数 = 靠近中心为0.2%，随着距离中心的增加，步进值呈指数增长。
 
-**Extended Trims**: Increases the maximum trim adjustment value from **±**25% to **±**100%.
+**扩展裁剪：** 将最大裁剪调整值从**±**25%增加到**±**100%。
 
 {% hint style="info" %}
-When switching from extended trims to normal trims, the extended trim value will remain until the trim is adjusted, then it will jump to the max/min normal trim value.
+从扩展裁剪切换到普通裁剪时，扩展裁剪值将保持，直到裁剪被调整，然后跳到最大/最小普通裁剪值。
 {% endhint %}
 
-**Display trims:** Option to display the numerical trim value on the trim bar. Options are:
+**显示裁剪：** 选项以在裁剪条上显示数值裁剪值。
 
-* **No -** Does not display the numerical trim value on the trim bar
-* **Yes** - Displays the numerical trim value on the trim bar once the trim is no longer at zero.
-* **Change -** Momentarily displays the numerical trim value on the trim bar (2 seconds) once the trim is no longer at zero.
+- **否 -** 不在裁剪条上显示数值裁剪值
+- **是 -** 一旦裁剪不再为零，就在裁剪条上显示数值裁剪值。
+- **更改 -** 一旦裁剪不再为零，瞬间在裁剪条上显示数值裁剪值（2秒）。

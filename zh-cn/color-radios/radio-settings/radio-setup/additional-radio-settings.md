@@ -1,130 +1,155 @@
-# Additional Radio settings
+# EdgeTX User Manual
 
-Selecting one of the 6 buttons on the **Radio Setup** screen will take you to one of the additional setting screens below.
+## Introduction
 
-Many of the additional settings here are self-explanatory. Only those settings needing clarification will be mentioned below.
+Welcome to the EdgeTX User Manual. This manual will guide you through the setup and configuration of your radio-controlled models using EdgeTX flight controller system.
 
-### Sound
+## Features
 
-<figure><img src="/.gitbook/assets/Sound.png" alt=""><figcaption><p>Sound Options</p></figcaption></figure>
+- Intuitive user interface
+- Support for a wide range of radio-controlled models
+- Customizable themes and layouts
+- Open-source software for flexibility and customization
 
-**Mode** - configures when to play sounds.
+## Getting Started
 
-* **All -** Beeps when the buttons are pressed and sounds are played when there are alerts or warnings.
-* **No Key -** No beeps when buttons are pressed or the scroll wheel is turned but does play sounds when there are alerts or warnings. Also plays sounds triggered by special functions.
-* **Alarm -** Only plays alarm or warning sounds. Also plays sounds triggered by special functions.
-* **Quiet -** No Beeps or sounds are played.&#x20;
+To get started with EdgeTX, follow these steps:
 
-**Volume**
+1. Download the latest EdgeTX firmware from the official website.
+2. Flash the firmware to your radio transmitter following the instructions provided.
+3. Configure your radio-controlled model settings using the intuitive user interface.
+4. Customize themes and layouts to suit your preferences.
+5. Start flying your model with EdgeTX!
 
-The master volume for the radio.
+For more information and updates, visit the [EdgeTX website](https://edgetx.org/).
 
-**Wav volume**
+# 附加无线电设置
 
-The volume for alerts and warnings and sounds that are played with the **Play track** special function
+在**无线电设置**屏幕上选择其中一个6个按钮将带您进入以下其中一个附加设置屏幕。
 
-**Background volume**
+这里的许多附加设置都是不言自明的。只有那些需要澄清的设置将在下面提到。
 
-The volume for background .wav files (music) that are played with the **BGMusic** special function&#x20;
+### 声音
 
-### Variometer
+<figure><img src="/.gitbook/assets/Sound.png" alt=""><figcaption><p>声音选项</p></figcaption></figure>
 
-<figure><img src="/.gitbook/assets/variometer.png" alt=""><figcaption><p>Variometer options</p></figcaption></figure>
+**模式** - 配置何时播放声音。
 
-**Repeat Zero**
+* **全部 -** 按下按钮时发出蜂鸣声，当有警报或警告时播放声音。
+* **无按键 -** 按下按钮或滚轮时不发出蜂鸣声，但在有警报或警告时会播放声音。还会播放由特殊功能触发的声音。
+* **警报 -** 仅播放警报或警告声音。还会播放由特殊功能触发的声音。
+* **静音 -** 不发出蜂鸣声或声音。&#x20;
 
-The time before the tone repeats in milliseconds.
+**音量**
+
+无线电的主音量。
+
+**Wav 音量**
+
+警报和警告的音量以及与**播放曲目**特殊功能一起播放的声音。
+
+**背景音量**
+
+背景.wav文件（音乐）的音量，与**BGMusic**特殊功能一起播放。&#x20;
+
+### 高度计
+
+<figure><img src="/.gitbook/assets/variometer.png" alt=""><figcaption><p>高度计选项</p></figcaption></figure>
+
+**重复零点**
+
+在毫秒内重复音调之前的时间。
 
 {% hint style="info" %}
-Note: In order for the variometer to function, it must be turned on via the **Vario** special or global function. See [Special Functions](../../model-settings/special-functions.md) for more information on how to configure this.
+注意：为了使高度计正常工作，必须通过**Vario**特殊或全局功能打开它。有关如何配置此功能的更多信息，请参阅[特殊功能](../../model-settings/special-functions.md)。
 {% endhint %}
 
-### Haptic
+### 触觉反馈
 
-<figure><img src="/.gitbook/assets/haptic.png" alt=""><figcaption><p>Haptic (vibration) options</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/haptic.png" alt=""><figcaption><p>触觉（振动）选项</p></figcaption></figure>
 
-**Mode** - configures when the radio vibrates.
+**模式** - 配置无线电何时振动。
 
-* **All -** Vibrates when the buttons are pressed and when there are alerts or warnings.
-* **No Key -** No vibrations when buttons are the pressed or scroll wheel is turned but does vibrate when there are alerts or warnings.&#x20;
-* **Alarm -** Only vibrates for alarms or warning sounds.
-* **Quiet -** No vibrations are made.
+* **全部 -** 按下按钮时振动，当有警报或警告时也会振动。
+* **无按键 -** 按下按钮或滚轮时不振动，但在有警报或警告时会振动。&#x20;
+* **警报 -** 仅对警报或警告声音振动。
+* **静音 -** 不会振动。
 
-### Alarms
+### 警报
 
-<figure><img src="/.gitbook/assets/alarms.png" alt=""><figcaption><p>Alarm options</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/alarms.png" alt=""><figcaption><p>警报选项</p></figcaption></figure>
 
-#### Sound Off
+#### 关闭声音
 
-An "alarms disabled" visual warning is displayed when the transmitter is turned on if the sound mode is set to quiet.
+如果声音模式设置为静音，则在打开发射机时会显示“警报已禁用”的视觉警告。
 
-#### Check RSSI on Shutdown
+#### 关闭关于关机时的RSSI
 
-Checks if a receiver is still connected to the radio on attempted shutdown. Makes a audio and visual alert if one is detected.&#x20;
+在尝试关闭时检查接收机是否仍连接到无线电。如果检测到一个接收机，则会发出音频和视觉警报。&#x20;
 
-### Backlight
+### 背光
 
-<figure><img src="/.gitbook/assets/backlight.png" alt=""><figcaption><p>Backlight options</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/backlight.png" alt=""><figcaption><p>背光选项</p></figcaption></figure>
 
-**Mode**
+**模式**
 
-* **Off** – Always off.
-* **Keys** – Turns on when buttons are pressed.
-* **Ctrl** – Turns on when sticks, switches, and knobs are used.
-* **Both** – Turns on when buttons, sticks, switches, and knobs are used.
-* **ON** – Always on.
+* **关闭** – 始终关闭。
+* **按键** – 按下按钮时打开。
+* **控制** – 使用摇杆、开关和旋钮时打开。
+* **全部** – 使用按钮、摇杆、开关和旋钮时打开。
+* **开启** – 始终打开。
 
-#### Time&#x20;
+#### 时间&#x20;
 
-The length in seconds that the backlight is on. The minimum value is 5 seconds. The maximum value is 600 seconds.
+背光打开的时间长度（秒）。最小值为5秒。最大值为600秒。
 
-#### Alarm
+#### 警报
 
-The backlight turns on when there are alarms or warnings.
+当有警报或警告时，背光会打开。
 
 ### GPS
 
-<figure><img src="/.gitbook/assets/gps.png" alt=""><figcaption><p>GPS options</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/gps.png" alt=""><figcaption><p>GPS选项</p></figcaption></figure>
 
 {% hint style="info" %}
-The GPS configuration settings are only for when a GPS has been installed on the radio, not the model's GPS.
+GPS配置设置仅适用于在无线电上安装了GPS，而不是模型的GPS。
 {% endhint %}
 
-#### Time Zone:
+#### 时区：
 
-The time offset from UTC where the radio is being used. Can be configured in 15 minute increments.
+无线电使用的与UTC的时间偏移量。可以按15分钟的增量进行配置。
 
-#### Adjust RTC
+#### 调整RTC
 
-Adjust the transmitter's real-time clock to match the time determined by the GPS.
+调整发射机的实时时钟以匹配GPS确定的时间。
 
-#### Coordinate Format
+#### 坐标格式
 
-The GPS coordinate format that will be displayed.
+将显示的GPS坐标格式。
 
-### Enabled Features
+### 已启用功能
 
-<figure><img src="/.gitbook/assets/EnabledFeatures.png" alt=""><figcaption><p>Enabled Reatures</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/EnabledFeatures.png" alt=""><figcaption><p>已启用功能</p></figcaption></figure>
 
-The **Enabled Features** section of Radio Setup allows you to configure the _**Global**_ _**settings**_ for which tabs are visible in the Radio Setup and Model Settings area of EdgeTX. The configuration setting for the active model will show to the right of the toggle switch. The model configuration will override the global configuration.
+**已启用功能**部分的无线电设置允许您配置EdgeTX的无线电设置和模型设置区域中可见的_**全局**_ _**设置**_。活动模型的配置设置将显示在切换开关的右侧。模型配置将覆盖全局配置。
 
 {% hint style="info" %}
-_**Note:**_ Turning off a tab only hides the tab and does not change the items already configured in that tab.
+_**注意：**_ 关闭选项卡只会隐藏该选项卡，不会更改已在该选项卡中配置的项目。
 
-**EXCEPTION:** Turning off the Global / Special Functions tab will disable configured global / special functions for that model.
+**例外：**关闭全局/特殊功能选项卡将禁用该模型的配置的全局/特殊功能。
 {% endhint %}
 
-### Manage Models
+### 管理模型
 
-<figure><img src="/.gitbook/assets/RSManageModels.png" alt=""><figcaption><p>Manage Models settings</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/RSManageModels.png" alt=""><figcaption><p>管理模型设置</p></figcaption></figure>
 
-**Model quick select** - Affects Manage Model screen. Both options require you first to select the desired model using the scroll wheel or short tap.
+**模型快速选择** - 影响管理模型屏幕。两个选项都要求您首先使用滚轮或短按选择所需的模型。
 
-* When OFF: short/long tap (short/long ENTER) on the selected model will show the menu, where you can "Select model" to set it to active.
-* When ON: short tap (short ENTER) on the selected model will set it active immediately. To activate the menu, make a long tap or long ENTER.
+* 当关闭时：对所选模型进行短/长按（短/长按ENTER）将显示菜单，您可以在菜单中“选择模型”以将其设置为活动模型。
+* 当打开时：对所选模型进行短按（短按ENTER）将立即将其设置为活动模型。要激活菜单，请长按或长按ENTER。
 
-**Label select** - '**Multi select**' or '**Single select**' (Multi select is the default). If Single select is chosen then only a single label can be selected.
+**标签选择** - '**多选**' 或 '**单选**'（多选是默认设置）。如果选择单选，则只能选择一个标签。
 
-**Label matching** - '**Match all**' or '**Match any**' (Match all is the default). Match all is the current logic - only models having all selected labels are shown. Match any will show models with any of the selected labels.
+**标签匹配** - '**匹配所有**' 或 '**匹配任意**'（匹配所有是默认设置）。匹配所有是当前逻辑 - 仅显示具有所有选定标签的模型。匹配任意将显示具有任何选定标签的模型。
 
-**Favorites matching** - Only available when '**Match any'** is selected for Label matching. Options are '**Must match**' and '**Optional match**' (Must match is the default). Only applies when 'Favorites' is in one of the selected labels. If 'Must match' is selected then only shows models that have Favorites AND the other selections. If 'Optional match' is selected then models that match Favorites OR any of the other labels are shown.
+**收藏夹匹配** - 仅在标签匹配选择为 '**匹配任意**' 时可用。选项为 '**必须匹配**' 和 '**可选匹配**'（必须匹配是默认设置）。仅当'收藏夹'在所选标签中时才适用。如果选择了'必须匹配'，则仅显示具有收藏夹和其他选择的模型。如果选择了'可选匹配'，则显示与收藏夹匹配或任何其他标签的模型。

@@ -1,28 +1,28 @@
-# Trainer
+# 辅导员
 
-The **Trainer** screen in Radio Settings is used to configure how the radio in Master mode will handle the signals from the radio in Slave mode.
+在无线电设置中的**辅导员**屏幕用于配置主模式下的无线电如何处理从从模式下的无线电接收的信号。
 
-<figure><img src="/.gitbook/assets/trainer2.png" alt=""><figcaption><p>Trainer Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/trainer2.png" alt=""><figcaption><p>辅导员屏幕</p></figcaption></figure>
 
-For each of the four main control inputs (Ail, Ele, Thr, Rud), the following options can be configured (for each row, from left to right).
+对于每个主要控制输入（副翼，升降，油门，方向舵），可以配置以下选项（对于每行，从左到右）。
 
-* **Mode -** How the radio in Master mode will handle the signals from the radio in Slave mode.&#x20;
-  * **OFF** - Stick values from the radio in Master mode will be used - no input from the radio in Slave mode.
-  * **Add -** Adds the stick values from both the radios in Master and Slave modes.
-  * **Replace -** Replaces the stick values from the radio in Master mode with the stick values from the radio in Slave mode. (Default)
-* **Source channel** - The channel from the radio in Slave mode that is mapped the control input.
-* **Weight** - Percentage of stick travel to use of the radio in Slave mode. Use negative values to change the stick direction.
-* **Cal (calibrate)**- Sets the center stick value of the radio in Slave mode.
-* **Multiplier** - This value changes the weight of all the sticks together.&#x20;
+* **模式 -** 主模式下的无线电如何处理从从模式下的无线电接收的信号。
+  * **关闭** - 使用主模式下的无线电的摇杆值 - 没有从从模式下的无线电输入。
+  * **添加 -** 将主模式和从模式下的无线电的摇杆值相加。
+  * **替换 -** 用从从模式下的无线电的摇杆值替换主模式下的无线电的摇杆值。（默认）
+* **源通道** - 映射到控制输入的从模式下的无线电的通道。
+* **权重** - 使用从模式下的无线电的摇杆行程的百分比。使用负值改变摇杆方向。
+* **校准** - 设置从模式下的无线电的中心摇杆值。
+* **倍增器** - 此值改变所有摇杆的权重。
 
 {% hint style="info" %}
-The trim from the radio in Master mode is usually used. Set the trims on the radio in Slave mode to their center.
+通常使用主模式下的无线电的微调。将从模式下的无线电的微调设置为中心位置。
 {% endhint %}
 
 {% hint style="info" %}
-The radio in Master mode is the one that gets bound to the model receiver.
+主模式下的无线电是绑定到模型接收机的无线电。
 {% endhint %}
 
 {% hint style="info" %}
-A virtual trainer switch (**Tnr**) can be selected as switch to activate a special function or curve. The switch is ON when the trainer link is active.
+可以选择虚拟辅导员开关（**Tnr**）作为激活特殊功能或曲线的开关。当辅导员链接激活时，开关为打开状态。
 {% endhint %}

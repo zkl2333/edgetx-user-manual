@@ -1,29 +1,28 @@
-# Statistics
+# 统计信息
 
-<figure><img src="/.gitbook/assets/stats1.png" alt=""><figcaption><p>Statistics screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/stats1.png" alt=""><figcaption><p>统计信息屏幕</p></figcaption></figure>
 
-The **Statistics** screen presents you with statistics regarding radio usage. Except for Battery, all data is reset once the radio is powered off. The following information is provided:
+**统计信息** 屏幕向您展示有关无线电使用情况的统计数据。除了电池之外，所有数据在关闭无线电电源后将被重置。提供以下信息：
 
-* **Session** - The amount of time that the radio has been turned on.&#x20;
-* **Battery** - The amount of time that the radio has been on since the last reset.
-* **Throttle** - The amount of time that the throttle has was above the 0% stick position.
-* **Throttle %** - The amount of time that the throttle has was above the 50% stick position.
-* **Timer** - The current values of Timer 1, Timer 2, Timer 3.
+- **会话** - 无线电打开的时间。
+- **电池** - 自上次重置以来无线电打开的时间。
+- **油门** - 油门在0%杆位以上的时间。
+- **油门%** - 油门在50%杆位以上的时间。
+- **计时器** - 计时器1、计时器2、计时器3的当前值。
 
-<figure><img src="/.gitbook/assets/stats2.png" alt=""><figcaption><p>Debug Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/stats2.png" alt=""><figcaption><p>调试屏幕</p></figcaption></figure>
 
-The debug screen provides data points used by the developers when debugging issues in the software. Most users will not find the information useful on this screen unless debugging issues with developers. The following debug information is provided.
+调试屏幕提供了开发人员在调试软件问题时使用的数据点。除非与开发人员一起调试问题，大多数用户在此屏幕上不会发现信息有用。提供以下调试信息。
 
-* **TMix max** - Maximum mixer task duration.
-* **Free mem** - Current free radio memory in bytes.
-* **Lua scripts**&#x20;
-  * **Duration(ms) -** Maximum Lua duration in milliseconds.
-  * **Interval(ms)** - Maximum Lua interval in milliseconds.
-  * **Script(B)** - Memory used by LUA scripts.
-  * **Widget(B)** - Memory used by LUA widgets.
-  * **Extra(B)** - Memory used by LUA bitmap functions.
-* **Free stack**
-  * **\[Menu]** - Minimum free stack memory for menu tasks.
-  * **\[Mix]** - Minimum free stack memory for mixer tasks.
-  * **\[Audio]** - Minimum free stack memory for audio tasks.
-
+- **TMix max** - 最大混合器任务持续时间。
+- **Free mem** - 当前无线电内存中的可用空闲空间（以字节为单位）。
+- **Lua 脚本**
+  - **持续时间(ms) -** Lua 最大持续时间（以毫秒为单位）。
+  - **间隔时间(ms)** - Lua 最大间隔时间（以毫秒为单位）。
+  - **脚本(B)** - Lua 脚本使用的内存。
+  - **小部件(B)** - Lua 小部件使用的内存。
+  - **额外(B)** - Lua 位图函数使用的内存。
+- **Free stack**
+  - **\[菜单]** - 菜单任务的最小空闲堆栈内存。
+  - **\[混合]** - 混合器任务的最小空闲堆栈内存。
+  - **\[音频]** - 音频任务的最小空闲堆栈内存。

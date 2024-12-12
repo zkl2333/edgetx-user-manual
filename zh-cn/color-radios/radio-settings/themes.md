@@ -1,28 +1,57 @@
-# Themes
+## Welcome to EdgeTX
 
-<figure><img src="/.gitbook/assets/themes.png" alt=""><figcaption><p>Themes Screen</p></figcaption></figure>
+### Introduction
 
-The **Theme** screen allows you to apply different colored themes to your radio. By default, the EdgeTX SD card comes with the themes shown above. Long pressing on a selected theme will give you the following options:
+EdgeTX is an open-source firmware for radio-controlled models. It is based on the popular OpenTX firmware with additional features and improvements.
 
-* **Set Active** - Sets the selected theme as the active theme.
-* **Edit** - Opens the theme editor to edit the selected theme.
-* **Duplicate** - Makes a copy of the selected theme.
-* **Delete** - Deletes the selected theme.
+### Features
 
-<figure><img src="/.gitbook/assets/themes2.png" alt=""><figcaption><p>Edit Theme Screen</p></figcaption></figure>
+- Intuitive and user-friendly interface
+- Support for a wide range of radio-controlled models
+- Customizable themes and sound packs
+- Advanced mixing and scripting capabilities
+- Built-in support for telemetry and Lua scripts
 
-Selecting the **Details** button will open the Edit Theme Details screen. Here you can edit the name, author and description of the them.
+### Getting Started
 
-<figure><img src="/.gitbook/assets/themes4.png" alt=""><figcaption><p>Edit Theme Details Screen</p></figcaption></figure>
+To get started with EdgeTX, follow these steps:
 
-To edit a theme in the **Theme Editor**, select the color variable from the list on the left side of the screen. Once you do, the **Edit Color** screen will be shown.&#x20;
+1. Download the latest EdgeTX firmware from the official website.
+2. Flash the firmware to your radio transmitter following the instructions provided.
+3. Configure your radio settings and model setup using the intuitive interface.
+4. Explore the advanced features and customization options to tailor EdgeTX to your preferences.
 
-<figure><img src="/.gitbook/assets/themes3 (1).jpg" alt=""><figcaption><p>Edit Color Screen</p></figcaption></figure>
+### Support
 
-Select the color using either the color scales on the left side of the screen. You can choose between the RGB and HSV color scales with the buttons at the upper right side of the screen.&#x20;
+For help and support with EdgeTX, visit the official website or join the community forums to connect with other users and developers.
 
-Once you have your desired color, press the theme logo in the upper left corner to go back to the **Edit Theme** screen to select another color variable to edit. Once you are finished, press the theme logo to exit the Theme Editor and save your changes.
+Happy flying with EdgeTX!
+
+# 主题
+
+<figure><img src="/.gitbook/assets/themes.png" alt=""><figcaption><p>主题界面</p></figcaption></figure>
+
+**主题** 屏幕允许您为您的遥控器应用不同的彩色主题。默认情况下，EdgeTX SD 卡带有上面显示的主题。长按所选主题将显示以下选项：
+
+- **设置为活动主题** - 将所选主题设置为活动主题。
+- **编辑** - 打开主题编辑器以编辑所选主题。
+- **复制** - 复制所选主题。
+- **删除** - 删除所选主题。
+
+<figure><img src="/.gitbook/assets/themes2.png" alt=""><figcaption><p>编辑主题界面</p></figcaption></figure>
+
+选择 **详情** 按钮将打开编辑主题详情屏幕。在这里，您可以编辑主题的名称、作者和描述。
+
+<figure><img src="/.gitbook/assets/themes4.png" alt=""><figcaption><p>编辑主题详情界面</p></figcaption></figure>
+
+要在 **主题编辑器** 中编辑主题，请从屏幕左侧的列表中选择颜色变量。一旦选择，将显示 **编辑颜色** 屏幕。
+
+<figure><img src="/.gitbook/assets/themes3 (1).jpg" alt=""><figcaption><p>编辑颜色界面</p></figcaption></figure>
+
+使用屏幕左侧的颜色刻度之一选择颜色。您可以在屏幕右上角的按钮之间选择 RGB 和 HSV 颜色刻度。
+
+选择所需颜色后，按主题标志返回到 **编辑主题** 屏幕以选择另一个要编辑的颜色变量。完成后，按主题标志退出主题编辑器并保存更改。
 
 {% hint style="info" %}
-You can find more user-created themes and additional theme creation resources here: [https://github.com/EdgeTX/themes](https://github.com/EdgeTX/themes)
+您可以在此处找到更多用户创建的主题和其他主题创建资源：[https://github.com/EdgeTX/themes](https://github.com/EdgeTX/themes)
 {% endhint %}

@@ -1,86 +1,116 @@
-# Manage Models
+## Welcome to EdgeTX
 
-The Manage Models screen allows you to create new models, select which model is active, create and apply model labels, and create model templates.
+### Introduction
 
-<figure><img src="/.gitbook/assets/ManageModels1.png" alt=""><figcaption><p>Manage Models screen</p></figcaption></figure>
+EdgeTX is an open-source firmware for radio-controlled models. It is based on the popular OpenTX firmware and offers a wide range of features and customization options for your RC transmitter.
 
-### Selecting & managing existing models&#x20;
+### Features
 
-The active model's name will be highlighted (yellow in this case) and displayed on the screen's top bar. Double-tapping an active model will give you the following options:
+- Intuitive user interface
+- Support for a variety of protocols
+- Customizable themes and sound packs
+- Advanced mixing capabilities
+- Telemetry support
+- Lua scripting
 
-* **Duplicate model** - This option creates an exact duplicate of the model with the same name. Changes to the model name or other settings need to be made in the [Model Settings ](model-settings/)tab.
-* **Label Model** - When this option is selected, all configured labels will be displayed and can be selected for this model. More Information about [Model Labels](select-model.md#model-labels) is below.&#x20;
-* **Save as template** - this option saves a copy of the model as a model template.
+### Getting Started
+
+To install EdgeTX on your transmitter, follow these steps:
+
+1. Download the latest EdgeTX firmware for your specific transmitter model from the official EdgeTX website.
+2. Use a compatible SD card reader to transfer the firmware files to the root directory of your transmitter's SD card.
+3. Insert the SD card into your transmitter and follow the on-screen instructions to flash the firmware.
+
+### Updating EdgeTX
+
+To update EdgeTX to the latest version, simply repeat the installation process with the new firmware files.
+
+### Conclusion
+
+EdgeTX is a powerful firmware that can enhance your RC flying experience. Explore its features, experiment with different settings, and tailor your transmitter to suit your preferences. Happy flying!
+
+# 管理模型
+
+管理模型屏幕允许您创建新模型，选择活动模型，创建和应用模型标签以及创建模型模板。
+
+<figure><img src="/.gitbook/assets/ManageModels1.png" alt=""><figcaption><p>管理模型屏幕</p></figcaption></figure>
+
+### 选择和管理现有模型
+
+活动模型的名称将被突出显示（在此情况下为黄色），并显示在屏幕顶部的工具栏上。双击活动模型将为您提供以下选项：
+
+* **复制模型** - 此选项将创建一个具有相同名称的模型的精确副本。对模型名称或其他设置的更改需要在[模型设置](model-settings/)选项卡中进行。
+* **标记模型** - 选择此选项后，将显示所有配置的标签，并可为此模型选择。有关[模型标签](select-model.md#model-labels)的更多信息在下面。
+* **另存为模板** - 此选项将模型的副本保存为模型模板。
 
 {% hint style="info" %}
-Changes to models saved as templates do not update the templates themselves.
+保存为模板的模型的更改不会更新模板本身。
 {% endhint %}
 
-Double-tapping on a non-active model (unhighlighted) will give you the following options:
+双击非活动模型（未突出显示）将为您提供以下选项：
 
-* **Select model** - this option selects this model as the active model.
-* **Duplicate model** - same as described above.
-* **Delete model** - this option moves the model to the deleted folder on the SD Card. _Only models that are not active can be deleted._
-* **Label model** - same as described above.
-* **Save as template** - same as described above.
+* **选择模型** - 此选项将选择此模型作为活动模型。
+* **复制模型** - 如上所述。
+* **删除模型** - 此选项将将模型移动到SD卡上的已删除文件夹中。_只有非活动模型才能被删除。_
+* **标记模型** - 如上所述。
+* **另存为模板** - 如上所述。
 
-### Creating a new model
+### 创建新模型
 
-To create a new model, select the **New Model** button in the upper right corner. You will then be presented with the following options:&#x20;
+要创建新模型，请选择右上角的**新建模型**按钮。然后将呈现以下选项：
 
-<figure><img src="/.gitbook/assets/screenshot_tx16s_24-05-13_09-10-02.png" alt=""><figcaption><p>New model options</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/screenshot_tx16s_24-05-13_09-10-02.png" alt=""><figcaption><p>新模型选项</p></figcaption></figure>
 
-* **Blank Model** - This will create a blank model with only the default options configured.
-* **1.Wizard** - This will launch the new model wizard and create the model as configured in the wizard.&#x20;
-* **2.Personal** - This option will allow you to select one of your saved model templates and then create a copy of it as a new model.
-* **3.SoarETX** and **4.SoarETXv2** - This will display pre-configured model templates for radio-controlled model sailplanes.
-* Any additional folders you have created in **/TEMPLATES** on the SD card will also be shown here. If any of the above buttons are not shown, the SD card pack has not been installed or updated correctly.&#x20;
+* **空白模型** - 这将创建一个仅配置了默认选项的空白模型。
+* **1.向导** - 这将启动新模型向导，并按照向导中配置的方式创建模型。
+* **2.个人** - 此选项将允许您选择您保存的模型模板之一，然后将其复制为新模型。
+* **3.SoarETX** 和 **4.SoarETXv2** - 这将显示预配置的无线电遥控滑翔机模型模板。
+* 在SD卡上的**/TEMPLATES**中创建的任何其他文件夹也将显示在此处。如果上述任何按钮未显示，则SD卡包未正确安装或更新。
 
 
+### 模型标签
 
-### Model Labels
+模型标签允许您为每个模型分配一个或多个标签。然后，您可以根据所选标签筛选在**管理模型**屏幕中显示的模型。这使得拥有许多配置模型的人更容易找到它们。默认情况下，**收藏夹**和**未标记**标签会自动创建。所有模型在分配标签之前都被视为**未标记**。
 
-Model labels allow you to give each model one or more labels. You are then able to filter the models displayed in the **Manage Models** screen based on the labels that you select. This allows people with many configured models to find them easier.  By default, the **Favorites** and **Unlabeled** labels are created automatically. All models are considered **unlabeled** until a label is applied to them.
+### 使用标签筛选模型
 
-### Filtering models using labels
+要根据其标签筛选可见模型，请从左侧列中选择筛选器或筛选器。它将自动过滤掉不具有这些模型标签的模型。有关筛选器的工作原理或配置高级筛选选项的更多信息，请参阅：[其他无线电设置](radio-settings/radio-setup/additional-radio-settings.md)
 
-To filter the visible models based on their labels, select the filter or filters from the left column. It will automatically filter out the models that do not have those model labels. For more information on how the filters work or to configure advanced filtering options, see: [Additional Radio settings](radio-settings/radio-setup/additional-radio-settings.md)
+### 为模型分配标签
 
-### Assigning labels to models
+要为模型分配标签，请双击模型或在选择模型时按**\[Enter]**，然后选择**标记模型**。选择后，将显示所有配置的标签，可以为此模型选择一个或多个标签。应用于模型的标签将用_**勾选**_图标标记。
 
-To assign a label to a model, double-tap on the model or press **\[Enter]** when the model is selected and then select **Label Models**. Once selected, all configured labels will be displayed and one or more labels can be selected for this model. Labels applied to the model will be designated with a _**check**_ icon.
+### 创建新模型标签
 
-### Creating new model labels
+要创建新模型标签，请选择屏幕左下角的**新建**按钮。将出现**输入标签**弹出窗口，您可以输入所需的标签名称。选择**保存**以保存新标签。
 
-To create a new model label, select the **New** button on the bottom left of the screen. The **Enter Label** pop-up will appear and you can enter the desired label name. Select **Save** to save the new label.
+### 编辑模型标签
 
-### Editing model labels
+长按\[Enter]或长按所需标签，将显示以下选项菜单：
 
-Long press \[Enter] or long tap on desired label and you be shown a menu with the following options:
+* 重命名标签 - 更改标签名称
+* 删除标签 - 从标签列表和所有已分配该标签的模型中删除标签。
+* 上移 - 将标签移到列表中较高的位置
+* 下移 - 将标签移到列表中较低的位置
 
-* Rename Label - change the label's name
-* Delete Label - Deletes the label from the label list and from all models that have it assigned.&#x20;
-* Move Up - positions the label higher on the list&#x20;
-* Move Down - - positions the label lower on the list
+### 对模型进行排序
 
-### Sorting models
+标签列表下方的下拉菜单用于对筛选后的模型进行排序。模型可以按照以下方式进行排序：
 
-The drop-down menu below the label list is for sorting the filtered models. Models can be sorted as described below:
+* 名称 A-Z
+* 名称 Z-A
+* 最少使用
+* 最多使用
 
-* Name A-Z
-* Name Z-A
-* Least Used
-* Most Used
+### 选择模型列表的布局
 
-### Selecting the layout for the model list
+在管理模型页面中，有4种模型列表布局：
 
-There are 4 layouts for the model list in the Manage Models page:
+<figure><img src="/.gitbook/assets/MMLayouts.png" alt=""><figcaption><p>模型列表布局</p></figcaption></figure>
 
-<figure><img src="/.gitbook/assets/MMLayouts.png" alt=""><figcaption><p>Model List Layouts</p></figcaption></figure>
+* 大图像（2x2）- 默认布局
+* 小图像（3x3）
+* 仅名称，2列（2x6）
+* 仅名称，1列（1x6）
 
-* Large image (2x2) - Default layout
-* Small image (3x3)
-* Name only, 2 columns (2x6)
-* Name only, 1 column (1x6)
-
-The layout can be changed by pressing the **Layout** button (next to the **New** button), which will cycle through the available layouts.
+可以通过按**布局**按钮（位于**新建**按钮旁边）来更改布局，该按钮将循环显示可用布局。

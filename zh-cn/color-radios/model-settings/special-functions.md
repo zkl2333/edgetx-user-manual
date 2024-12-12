@@ -1,112 +1,136 @@
-# Special Functions
+## Welcome to EdgeTX
 
-The **Special Functions** section of Model Setup, as the name implies, is where you can configure the special functions that are included in EdgeTX. These special functions add additional functionality beyond normal model controls such as enabling trainer mode, playing a sound, adjusting the radio backlight, adjusting radio volume, etc. On the special functions screen you will see all configured special functions as well as some of the configured options such as function name, activation switch, if the function is enabled, and other configuration options.
+### Introduction
 
-<figure><img src="/.gitbook/assets/specialfunctions.png" alt=""><figcaption><p>Special Functions</p></figcaption></figure>
+EdgeTX is an open-source firmware for radio-controlled models. It is based on the popular OpenTX firmware with additional features and improvements.
 
-Selecting the **+** button will allow you to select an unused special function to configure and the special function configuration window will appear. See [configuring special functions](special-functions.md#configuring-special-functions) below for information about configuring new special functions.
+### Features
 
-Selecting an already configured special function will give you the following options:
+- **Customizable Interface**: EdgeTX allows users to customize the user interface to suit their preferences.
+- **Advanced Flight Controller Support**: EdgeTX is compatible with a wide range of flight controllers, providing flexibility for various types of models.
+- **Telemetry Integration**: Users can easily integrate telemetry systems to monitor real-time data during flights.
+- **Voice Alerts**: EdgeTX supports voice alerts to provide audible notifications during flight.
+- **Cross-platform Compatibility**: EdgeTX is compatible with multiple platforms, including Windows, macOS, and Linux.
 
-* **Edit** - Opens the special function configuration page
-* **Copy** - Copies the selected special function
-* **Paste** - Pastes a copied special function to the selected special function. Note: this will overwrite the value of the selected special function with the copied special function.
-* **Insert** - Inserts a blank special function above the selected special function
-* **Clear** - Clears all configured options from the selected special function.
-* **Delete** - Deletes the selected special function.
-* **Enable** - Enables special function
-* **Disable** - Disables special function&#x20;
+### Getting Started
 
-### Configuring Special Functions
+To get started with EdgeTX, follow these steps:
 
-All special functions have the configuration options below. Additional options may be added based on the selected function. See the **Functions** section below for these additional options.
+1. Download the latest EdgeTX firmware from the official website.
+2. Install the firmware on your radio transmitter following the instructions provided.
+3. Configure your radio transmitter settings according to your model and preferences.
+4. Perform a range check and verify all controls before flying your model.
 
-* **Trigger**- The switch that will make the special function active.
-* **Function** - The function that will be used. See below for function descriptions.
-* **Enable** - Toggle on / off to enable the function. To be able to activate the special function by a switch, it must be enabled. Disabled special functions will not function regardless of the configured switch position.
+For more information and support, visit the EdgeTX website at [edgetx.org](https://edgetx.org).
 
-### Functions
+# 特殊功能
 
-Below are all the available functions in EdgeTX, what they do, as well as what other configuration options exist specifically for that function.
+**特殊功能** 部分位于模型设置中，正如其名称所示，您可以在这里配置包含在 EdgeTX 中的特殊功能。这些特殊功能增加了超出正常模型控制的附加功能，例如启用训练模式、播放声音、调整无线电背光、调整无线电音量等。在特殊功能屏幕上，您将看到所有已配置的特殊功能以及一些配置选项，如功能名称、激活开关、功能是否已启用以及其他配置选项。
 
-**Override** (Channel Override) - Overrides the defined channel with the defined value.
+<figure><img src="/.gitbook/assets/specialfunctions.png" alt=""><figcaption><p>特殊功能</p></figcaption></figure>
 
-* **CH** - Channel to be overridden
-* **Value** - Value to replace the normal channel value. (Range -100 to +100)
+选择 **+** 按钮将允许您选择一个未使用的特殊功能进行配置，然后将出现特殊功能配置窗口。有关配置新特殊功能的信息，请参见下面的 [配置特殊功能](special-functions.md#configuring-special-functions)。
 
-**Trainer -** Enables trainer mode.
+选择已配置的特殊功能将为您提供以下选项：
 
-* **Value** - Specifies which controls will be given over to the student. Options include **Sticks** (all sticks), **Rud** (Rudder), **Ele** (Elevator), **Thr** (Throttle), **Ail** (Aileron), and **Chans** (all channels).&#x20;
+- **编辑** - 打开特殊功能配置页面
+- **复制** - 复制所选特殊功能
+- **粘贴** - 将复制的特殊功能粘贴到所选特殊功能。注意：这将用复制的特殊功能覆盖所选特殊功能的值。
+- **插入** - 在所选特殊功能上方插入一个空白特殊功能
+- **清除** - 清除所选特殊功能的所有配置选项。
+- **删除** - 删除所选特殊功能。
+- **启用** - 启用特殊功能
+- **禁用** - 禁用特殊功能；
 
-**Inst. Trim** (Instant Trim)- Sets all trims to the current values of their respective sticks.
+### 配置特殊功能
 
-**Reset** (Reset Timer)- Resets the timer or telemetry specified in the value back to their initial values.
+所有特殊功能都具有以下配置选项。根据所选功能，可能会添加其他选项。有关这些附加选项，请参见下面的 **功能** 部分。
 
-* **Reset** - Options are **Timer 1, Timer 2, Timer 3, Flight,** and **Telemetry.** See[ **Reset Telemetry**](../reset-telemetry.md) for more information on what data is reset for each option.
+- **触发器** - 使特殊功能激活的开关。
+- **功能** - 将要使用的功能。有关功能描述，请参见下面的功能描述。
+- **启用** - 切换开 / 关以启用功能。要通过开关激活特殊功能，必须启用它。禁用的特殊功能将不会起作用，无论配置的开关位置如何。
 
-**Set** (Set Timer) - Sets the specified timer to the specified value.
+### 功能
 
-* **Timer** - Options are **Timer 1, Timer 2, Timer 3**
-* **Value** - The range is 00:00:00 to 08:59:59&#x20;
+以下是 EdgeTX 中所有可用功能，它们的作用，以及专门为该功能存在的其他配置选项。
 
-**Adjust** (Adjust Global Variable) - Changes the value of the specified global variable.
+**覆盖**（通道覆盖）- 使用指定值覆盖定义的通道。
 
-* **Global var** - Select the global variable that you want to adjust.
-* **Mode** - Select the mode to change the global variable. Options are: **Constant, Mixer Source, Global var, Inc/Decrement**
-  * **Constant** - Sets the specified global variable to the defined constant value.
-  * **Mixer Source** - Sets the specified global variable to the defined mixer source value.
-  * **Global Var** - Sets the specified global variable to the defined global variable value.
-  * **Inc/Decrement** - Increments/decrements the specified global variable by the specified amount.
+- **CH** - 要覆盖的通道
+- **值** - 替换正常通道值的值。 （范围 -100 到 +100）
 
-**Volume** - Changes the radio volume. The change source is specified in the Volume dropdown.
+**训练者** - 启用训练模式。
 
-**SetFailsafe** - Sets the custom failsafe values for the selected module (Internal/External) to the current stick position when activated. For this option to work, the Failsafe mode for the RF module must be set to **custom**.
+- **值** - 指定将授予学生的控件。选项包括 **Sticks**（所有摇杆）、**Rud**（方向舵）、**Ele**（升降舵）、**Thr**（油门）、**Ail**（副翼）和 **Chans**（所有通道）。；
 
-**Play Sound** - Plays the sound selected in the value field when activated.
+**Inst. Trim**（即时微调）- 将所有微调设置为各自摇杆当前值。
 
-* **Value** - Sound to play. Possible values are **Beep1/2/3, Warn1/2, Cheep, Ratata, Tick, Siren, Ring, SciFi, Robot, Chirp, Tada, Crickt, AlmClk**. _Note: SD card sound pack is not required._
-* **Repeat** - Frequency to repeat the sound. Options are **!1x** (do not play at startup even if the switch is active), **1x** (play once), **1s** thru **60s** (play every xx seconds).
+**重置**（重置计时器）- 将值中指定的计时器或遥测重置为其初始值。
 
-**Play Track** - Plays the .wav sound file selected in the value field when activated.
+- **重置** - 选项为 **计时器 1、计时器 2、计时器 3、飞行** 和 **遥测**。有关每个选项重置的数据，请参见 [**重置遥测**](../reset-telemetry.md)。
 
-* **Value** - .wav sound file to play from the SD card.
-* **Repeat** - Frequency to repeat the track. Options are **!1x** (do not play at startup even if the switch is active),  **1x** (play once), **1s** thru **60s** (play every xx seconds).
+**设置**（设置计时器）- 将指定计时器设置为指定值。
 
-**Play Value -** Announces the value of the selected element in the value field.
+- **计时器** - 选项为 **计时器 1、计时器 2、计时器 3**
+- **值** - 范围为 00:00:00 到 08:59:59；
 
-* **Value** - The source for the value to announce. It can be an input, stick, pot, slider, trim, physical and logical switch, trainer import channel value, global variable, telemetry sensor or channel.
-* **Repeat** - Frequency to repeat the announcement. Options are **!1x** (do not announce at startup even if the switch is active), **1x** (announce once), **1s** thru **60s** (announce every xx seconds).
+**调整**（调整全局变量）- 更改指定全局变量的值。
 
-**Lua Script** - Executes the Lua script defined in the value field. The Lua script must be located in /SCRIPTS/FUNCTIONS/ folder on the SD card. Lua scripts that display information on the screen cannot be executed with this special function.
+- **全局变量** - 选择要调整的全局变量。
+- **模式** - 选择要更改全局变量的模式。选项为：**常量、混音源、全局变量、增加/减少**
+  - **常量** - 将指定的全局变量设置为定义的常量值。
+  - **混音源** - 将指定的全局变量设置为定义的混音源值。
+  - **全局变量** - 将指定的全局变量设置为定义的全局变量值。
+  - **增加/减少** - 将指定的全局变量增加/减少指定数量。
 
-* **Value** - LUA script file to play from the SD card.
-* **Repeat** - Frequency to repeat the Lua script. Options are: **ON** (repeat indefinately as long as switch is active) or **1x** (once)
+**音量** - 更改无线电音量。更改源在音量下拉菜单中指定。
 
-**BgMusic** - Plays the .wav file selected in the value field on a loop when enabled. The file shall be in the SOUNDS/(language)/ folder on the SD card.
+**设置失控保护** - 将选定模块（内部/外部）的自定义失控保护值设置为激活时当前摇杆位置。要使此选项起作用，RF 模块的失控保护模式必须设置为 **custom**。
 
-**BgMusic II** - Temporarily pauses the .wav file playback specified in the **BgMusic**
+**播放声音** - 激活时播放值字段中选择的声音。
 
-**Vario** - Enables the variometer beeping sound for the ascent and descent of the model.
+- **值** - 要播放的声音。可能的值为 **Beep1/2/3、Warn1/2、Cheep、Ratata、Tick、Siren、Ring、SciFi、Robot、Chirp、Tada、Crickt、AlmClk**。_注意：不需要 SD 卡声音包。_
+- **重复** - 重复声音的频率。选项为 **!1x**（即使开关激活，也不要在启动时播放）、**1x**（播放一次）、**1s** 到 **60s**（每 xx 秒播放一次）。
 
-**Haptic** - Causes the radio to vibrate (haptic feedback) when enabled.
+**播放轨道** - 激活时播放值字段中选择的 .wav 声音文件。
 
-* **Value** - Type of vibration pattern. Options are: 0 - 4.
-* **Repeat** - Frequency to repeat the vibration pattern. Options are **!1x** (do not vibrate at startup even if the switch is active), **1x** (vibrate once), **1s** thru **60s** (vibrate every xx seconds).
+- **值** - 要从 SD 卡播放的 .wav 声音文件。
+- **重复** - 重复轨道的频率。选项为 **!1x**（即使开关激活，也不要在启动时播放）、**1x**（播放一次）、**1s** 到 **60s**（每 xx 秒播放一次）。
 
-**SD Logs** - Creates a log .csv file of the radio and telemetry values in the LOGS folder on the SD Card. The radio will create a new entry into the log file based on the frequency configured in the **Interval** setting.  The value options are **0.1s** - **25.5s.** Each time the function is activated the radio will create a new log file provided that the function is activated at least as long as the value setting. **Note:** Logging will not start if SD card has less than 50mb of free space.&#x20;
+**播放值** - 在值字段中选择的元素的值。
 
-**Backlight** - Adjusts the brightness of the radio screen based on the source defined in the value dropdown. Brightness is limited to the On / Off values configured in the **Radio Setup -> Backlight Screen.**
+- **值** - 要宣布值的来源。它可以是输入、摇杆、旋钮、滑块、微调、物理和逻辑开关、训练导入通道值、全局变量、遥测传感器或通道。
+- **重复** - 重复宣布的频率。选项为 **!1x**（即使开关激活，也不要在启动时宣布）、**1x**（宣布一次）、**1s** 到 **60s**（每 xx 秒宣布一次）。
 
-**Screenshot** -  Creates screenshot as a .bmp file in the SCREENSHOT folder on the SD Card.
+**Lua 脚本** - 执行值字段中定义的 Lua 脚本。Lua 脚本必须位于 SD 卡上的 /SCRIPTS/FUNCTIONS/ 文件夹中。无法使用此特殊功能执行在屏幕上显示信息的 Lua 脚本。
 
-**RacingMode** - Enables racing mode (low latency) for FrSky Archer RS receivers. Racing mode must also be enabled in External RF Module Settings.
+- **值** - 从 SD 卡播放的 LUA 脚本文件。
+- **重复** - 重复 Lua 脚本的频率。选项为：**ON**（只要开关激活，就无限重复）或 **1x**（一次）
 
-**No Touch** - Disables the touch interface for touchscreen-enabled radios.
+**背景音乐** - 在启用时循环播放值字段中选择的 .wav 文件。文件必须位于 SD 卡上的 SOUNDS/(language)/ 文件夹中。
 
-**Set Main Screen** - Changes the current visible screen to the screen number defined.
+**背景音乐 II** - 暂时暂停在 **背景音乐** 中指定的 .wav 文件的播放。
 
-* **Value** - The screen number as defined in the [Screens settings.](../screen-settings/)
-* **Repeat** - When the switch remains active, the repeat value determines how often the special function will change the screen to the defined screen. Options are **!1x** (do not change at startup even if the switch is active), **1x** (change once), **1s** thru **60s** (change every xx seconds). This is useful because when the switch has been activated, the user can still manually switch screens, and then it will change back to the defined screen after the defined duration.
+**Vario** - 启用模型上升和下降的变速器哔哔声。
 
-**Audio Amp Off** - Disables the Audio Amplifier so that no sound comes from the speaker, including annoying feedback or interferance. This option is only available on select radios.
+**触觉反馈** - 启用时使无线电振动（触觉反馈）。
 
+- **值** - 振动模式的类型。选项为：0 - 4。
+- **重复** - 重复振动模式的频率。选项为 **!1x**（即使开关激活，也不要在启动时振动）、**1x**（振动一次）、**1s** 到 **60s**（每 xx 秒振动一次）。
+
+**SD 日志** - 在 SD 卡的 LOGS 文件夹中创建无线电和遥测值的日志 .csv 文件。无线电将根据 **间隔** 设置的频率为日志文件创建新条目。值选项为 **0.1s** - **25.5s.** 每次激活该功能时，只要至少激活了与值设置相同的时间，无线电就会创建一个新的日志文件。**注意：**如果 SD 卡剩余空间少于 50mb，则不会开始记录。；
+
+**背光** - 根据值下拉菜单中定义的源调整无线电屏幕的亮度。亮度受限于在 **无线电设置 -> 背光屏幕** 中配置的开 / 关值。
+
+**截图** - 在 SD 卡的 SCREENSHOT 文件夹中创建 .bmp 文件的截图。
+
+**竞速模式** - 为 FrSky Archer RS 接收器启用竞速模式（低延迟）。还必须在外部 RF 模块设置中启用竞速模式。
+
+**无触摸** - 禁用触摸屏幕启用的无线电的触摸界面。
+
+**设置主屏幕** - 将当前可见屏幕更改为定义的屏幕号码。
+
+- **值** - 如 [屏幕设置](../screen-settings/) 中定义的屏幕号码。
+- **重复** - 当开关保持激活时，重复值确定特殊功能将多久将屏幕更改为定义的屏幕。选项为 **!1x**（即使开关激活，也不要在启动时更改）、**1x**（更改一次）、**1s** 到 **60s**（每 xx 秒更改一次）。这很有用，因为一旦开关被激活，用户仍然可以手动切换屏幕，然后在定义的持续时间后将其更改回定义的屏幕。
+
+**音频放大器关闭** - 禁用音频放大器，使扬声器不发出声音，包括恼人的反馈或干扰。此选项仅适用于部分无线电。

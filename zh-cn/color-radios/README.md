@@ -12,11 +12,11 @@ layout:
     visible: true
 ---
 
-# User Manual for Color Screen Radios
+# 彩屏遥控器用户手册
 
-<figure><img src="/.gitbook/assets/colorradios.png" alt=""><figcaption><p>EdgeTX supported color screen radios</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/colorradios.png" alt=""><figcaption><p>EdgeTX支持的彩屏遥控器</p></figcaption></figure>
 
-EdgeTX supports the following color screen radios:
+EdgeTX支持以下彩屏遥控器：
 
 * FlySky NV14 / EL18
 * FlySky PL18 / PL18 EV

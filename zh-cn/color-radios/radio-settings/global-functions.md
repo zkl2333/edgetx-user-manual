@@ -1,3 +1,3 @@
-# Global Functions
+# 全局功能
 
-**Global functions** are special functions that apply to all models on the Radio. They are configured exactly as model **Special Functions** and the same functions are available. For more information about configuring Global Functions, refer to the [Special Functions](../model-settings/special-functions.md) section as they are essentially the same.
+**全局功能** 是应用于遥控器上所有模型的特殊功能。它们的配置方式与模型的**特殊功能**完全相同，并且提供相同的功能。有关配置全局功能的更多信息，请参考[特殊功能](../model-settings/special-functions.md)部分，因为它们本质上是相同的。

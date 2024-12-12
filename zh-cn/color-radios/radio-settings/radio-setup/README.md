@@ -1,46 +1,77 @@
-# Radio Setup
+## Welcome to EdgeTX
 
-<figure><img src="/.gitbook/assets/RadioSetup.png" alt=""><figcaption><p>Radio Setup Screen</p></figcaption></figure>
+### Introduction
 
-The **Radio Setup** screen is where you configure basic settings for your radio. It contains the following options:
+EdgeTX is an open-source firmware for radio-controlled models. It is based on the popular OpenTX firmware and offers a wide range of features and customization options for your RC transmitter.
 
-**Date** - The current date. This date is used for the SD card log files.
+### Features
 
-**Time** - The current time. This time is used for the SD card log files.
+- **Intuitive Interface**: EdgeTX provides a user-friendly interface for easy navigation and setup.
+- **Advanced Customization**: Customize your transmitter settings and model configurations to suit your preferences.
+- **Telemetry Support**: Monitor real-time telemetry data from your model while in flight.
+- **Multi-Protocol Support**: EdgeTX supports multiple protocols, allowing you to control a variety of models with one transmitter.
+- **Open-Source**: EdgeTX is open-source, allowing for community contributions and continuous improvement.
 
-**Additional Settings Buttons** - Additional configuration options for the named areas are available when selecting these buttons.  More information about these configuration settings is on the next page - [Additional Radio Settings](additional-radio-settings.md)
+### Getting Started
 
-**Splash Screen** - Duration that the splash screen will be displayed.
+To get started with EdgeTX, follow these steps:
 
-**Startup Sound** - Toggles whether to enable/disable startup sound.
+1. **Download**: Download the latest EdgeTX firmware for your transmitter model from the official website.
+2. **Installation**: Follow the installation instructions provided on the website to flash the firmware to your transmitter.
+3. **Configuration**: Configure your transmitter settings and model configurations using the intuitive interface.
+4. **Calibration**: Calibrate your transmitter sticks and switches to ensure accurate control of your model.
+5. **Testing**: Perform a range check and test flight controls before flying your model.
 
-**Pwr Off delay** - The delay between when the power button is pushed and when the radio shuts off. The options are: **0s, 1s, 2s, 3s, 4**s. _It is recommended to set at least a 1s delay in order to prevent the radio from being shut off in the case of an accidental button press._
+### Support
 
-**Owner ID** - Custom registration ID used only for users with ISRM modules.
+For support and community discussions, visit the EdgeTX website and forums. Join the community to share your experiences and learn from other users.
 
-**Country code** - Used by some RF modules to ensure adherence to local regulatory RF requirements. Options are **America, Japan, Europe.**
+### Conclusion
 
-**Voice language** - Language for the voice pack. This setting and the voice pack folder on the SD card must match for the sounds to be played.
+EdgeTX is a powerful firmware that enhances your RC flying experience with its advanced features and customization options. Explore the possibilities with EdgeTX and take your radio-controlled modeling to the next level.
 
-**Units** - Units of measure. Options are **metric** or **imperial**.
+# 无线电设置
 
-**PPM Units** - Level of accuracy for PPM values are displyed. Options are **0.-** or **0.0**
+<figure><img src="/.gitbook/assets/RadioSetup.png" alt=""><figcaption><p>无线电设置屏幕</p></figcaption></figure>
 
-**Play delay** (sw. mid pos) - The minimum time in milliseconds a switch must be in the middle position before a special function will get activated. This is used to prevent the middle position from being activated on a three-position switch when switching from low position to high position.
+**无线电设置** 屏幕是您配置无线电基本设置的地方。它包含以下选项：
 
-**USB Mode** - Sets the default action when a USB cable is plugged into the USB data port and the radio is powered on. Options are: **Ask**, **Joystick**, **Storage**, and **Serial**.
+- **日期** - 当前日期。此日期用于 SD 卡日志文件。
 
-**Hats Mode:** how the hat switches will function (_**NV14 & EL18  only**_).
+- **时间** - 当前时间。此时间用于 SD 卡日志文件。
 
-* **Trims** **only**: The Trim hat switches will be used to adjust the trim values only.
-* **Keys only**: The Trim hat switches will be used to navigate the menu options (as described below)
-* **Switchable**: Trim hat switch functionality can be changed between **Trims** and **Keys** on-the-fly.
+- **附加设置按钮** - 选择这些按钮时，可获得命名区域的附加配置选项。有关这些配置设置的更多信息，请参阅下一页 - [附加无线电设置](additional-radio-settings.md)
 
-**Rotary Encoder Mode** - Set to **Normal** by default. The **Inverted** option reverses the direction of the roller.
+- **启动画面** - 启动画面显示的持续时间。
 
-**Default Channel Order** - The default channel order for new models and the trainer screen. The letters stand for: **A** = Aileron (Roll), **E** = Elevator (Pitch), **T** = Throttle, **R** = Rudder (Yaw). Changing this setting does not affect existing models.
+- **启动音效** - 切换是否启用/禁用启动音效。
 
-**Mode** - The stick mode that will be used for the transmitter. Defined by what actions the left stick takes. The options are:
+- **关机延迟** - 电源按钮按下和无线电关闭之间的延迟时间。选项有：**0秒，1秒，2秒，3秒，4秒**。_建议设置至少 1 秒的延迟，以防止在意外按下按钮的情况下关闭无线电。_
 
-<table><thead><tr><th width="181">Option</th><th width="148">Left stick  H</th><th width="149">Left stick  V</th><th width="133">Right stick H</th><th>Right stick V</th></tr></thead><tbody><tr><td>1: Left = Rud+Ele </td><td>Rudder (Yaw)</td><td>Elevator (Pitch)</td><td>Aileron (Roll)</td><td>Throttle</td></tr><tr><td>2: Left = Rud+Thr</td><td>Rudder (Yaw)</td><td>Throttle</td><td>Aileron (Roll)</td><td>Elevator (Pitch)</td></tr><tr><td>3: Left = Ail+Ele</td><td>Aileron (Roll)</td><td>Elevator (Pitch)</td><td>Rudder (Yaw)</td><td>Throttle</td></tr><tr><td>4: Left = Ail+Thr</td><td>Aileron (Roll)</td><td>Throttle</td><td>Rudder (Yaw)</td><td>Elevator (Pitch)</td></tr></tbody></table>
+- **所有者 ID** - 仅供使用 ISRM 模块的用户使用的自定义注册 ID。
 
+- **国家代码** - 一些射频模块使用的国家代码，以确保遵守当地的射频监管要求。选项为 **美国，日本，欧洲**。
+
+- **语音语言** - 语音包的语言。此设置和 SD 卡上的语音包文件夹必须匹配，才能播放声音。
+
+- **单位** - 测量单位。选项为 **公制** 或 **英制**。
+
+- **PPM 单位** - PPM 值的精度级别。选项为 **0.-** 或 **0.0**
+
+- **播放延迟**（开关中间位置） - 开关必须在中间位置的最短时间（以毫秒为单位），才能激活特殊功能。这用于防止在从低位置切换到高位置时，三位置开关的中间位置被激活。
+
+- **USB 模式** - 插入 USB 数据端口并打开无线电时的默认操作。选项为：**询问**，**游戏手柄**，**存储** 和 **串行**。
+
+- **帽子开关模式**：帽子开关的功能方式（_**仅适用于 NV14 和 EL18**_）。
+
+  - **仅修正**：修正帽子开关仅用于调整修正值。
+  - **仅键盘**：修正帽子开关用于导航菜单选项（如下所述）
+  - **可切换**：修正帽子开关功能可以在 **修正** 和 **键盘** 之间动态切换。
+
+- **旋转编码器模式** - 默认设置为 **正常**。**反转** 选项会颠倒滚轮的方向。
+
+- **默认通道顺序** - 新模型和训练屏幕的默认通道顺序。字母代表：**A** = 副翼（滚转），**E** = 升降舵（俯仰），**T** = 油门，**R** = 方向舵（偏航）。更改此设置不会影响现有模型。
+
+- **模式** - 用于发射机的摇杆模式。由左摇杆采取的动作定义。选项为：
+
+<table><thead><tr><th width="181">选项</th><th width="148">左摇杆 H</th><th width="149">左摇杆 V</th><th width="133">右摇杆 H</th><th>右摇杆 V</th></tr></thead><tbody><tr><td>1: 左 = 方向+升降</td><td>方向舵（偏航）</td><td>升降舵（俯仰）</td><td>副翼（滚转）</td><td>油门</td></tr><tr><td>2: 左 = 方向+油门</td><td>方向舵（偏航）</td><td>油门</td><td>副翼（滚转）</td><td>升降舵（俯仰）</td></tr><tr><td>3: 左 = 副翼+升降</td><td>副翼（滚转）</td><td>升降舵（俯仰）</td><td>方向舵（偏航）</td><td>油门</td></tr><tr><td>4: 左 = 副翼+油门</td><td>副翼（滚转）</td><td>油门</td><td>方向舵（偏航）</td><td>升降舵（俯仰）</td></tr></tbody></table>

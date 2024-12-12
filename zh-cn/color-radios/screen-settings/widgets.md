@@ -1,214 +1,240 @@
-# Widgets
+## Welcome to EdgeTX
+
+### Introduction
+
+EdgeTX is an open-source firmware for radio-controlled models. It is based on the popular OpenTX firmware and offers a wide range of features and customization options for your RC transmitter.
+
+### Features
+
+- **Intuitive Interface**: EdgeTX provides a user-friendly interface for easy navigation and setup.
+- **Advanced Customization**: Customize your transmitter settings and model configurations to suit your preferences.
+- **Cross-platform Support**: EdgeTX is compatible with various radio transmitter hardware.
+- **Open Source**: EdgeTX is open-source, allowing for community contributions and continuous improvement.
+
+### Getting Started
+
+To get started with EdgeTX, follow these steps:
+
+1. **Download**: Download the latest EdgeTX firmware for your specific radio transmitter model from the official EdgeTX website.
+2. **Installation**: Follow the installation instructions provided on the website to flash the EdgeTX firmware onto your transmitter.
+3. **Configuration**: Configure your transmitter settings and model configurations using the intuitive EdgeTX interface.
+4. **Calibration**: Calibrate your transmitter controls and sensors to ensure accurate operation.
+
+### Support
+
+For support and assistance with EdgeTX, visit the official EdgeTX website or join the EdgeTX community forums to connect with other users and developers.
+
+Thank you for choosing EdgeTX for your radio-controlled model needs!
+
+# 小部件
 
 {% hint style="info" %}
-After a widget has been setup, long pressing on the widget will give you the two menu options: **Full screen** and **Widget** settings. For some widgets, full-screen mode will offer additional functionality. To exit out of full-screen mode, long-press the RTN / Back button.
+设置小部件后，长按小部件将显示两个菜单选项：**全屏**和**小部件**设置。对于某些小部件，全屏模式将提供额外功能。要退出全屏模式，请长按 RTN / 返回按钮。
 {% endhint %}
 
-Below are descriptions and configuration options for widgets included with EdgeTX.
+以下是包含在 EdgeTX 中的小部件的描述和配置选项。
 
-### BattAnalog
+### 电池模拟
 
-<figure><img src="/.gitbook/assets/wid_battanal.png" alt=""><figcaption><p>BattAnalog Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_battanal.png" alt=""><figcaption><p>电池模拟小部件</p></figcaption></figure>
 
-Displays a graphical representation of the charge level of a Lipo/Li-ion. It will automatically detect the cell count of the battery. It works with telemetry where only the total battery voltage is received. The configurable options are:
+显示 Lipo/Li-ion 电池的充电水平的图形表示。它将自动检测电池的单体数量。它适用于仅接收总电池电压的遥测。可配置的选项包括：
 
-* **Sensor** - Sensor for the battery voltage to use.
-* **Color** - Opens the color picker to choose the color for the text.
-* **Show\_Total\_Voltage** - Shows total battery voltage (instead of calculated cell voltage) when enabled.
-* **Lithium\_Ion** - Adjusts the minumum battery voltage used in calculating the remaining battery percentage from 3.0 to 2.8 when enabled.
+* **传感器** - 用于电池电压的传感器。
+* **颜色** - 打开颜色选择器以选择文本的颜色。
+* **显示总电压** - 启用时显示总电池电压（而不是计算的单体电压）。
+* **锂离子** - 启用时，将调整用于计算剩余电池百分比的最低电池电压从 3.0 调整到 2.8。
 
-### BattCheck
+### 电池检查
 
-<figure><img src="/.gitbook/assets/wid_battcheck.png" alt=""><figcaption><p>BattCheck Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_battcheck.png" alt=""><figcaption><p>电池检查小部件</p></figcaption></figure>
 
-Displays a graphical representation of the charge level of a Lipo/Li-ion. It works with telemetry where individual cell voltage is received, such as FLVSS liPo Voltage Sensor. The configurable options are:
+显示 Lipo/Li-ion 电池的充电水平的图形表示。它适用于接收单体电压的遥测，例如 FLVSS 锂电压传感器。可配置的选项包括：
 
-* **Sensor** - Sensor for the battery voltage to use.
-* **Color** - Opens the color picker to choose the color for the text.
-* **Shadow** - When enabled, adds a shadow to the text.
-* **LowestCell** - When enabled, shows only the voltage of the lowest cell (vs. showing all cell voltages).
-* **Lithium\_Ion** - Adjusts the minimum battery voltage used in calculating the remaining battery percentage from 3.0 to 2.8 when enabled.
+* **传感器** - 用于电池电压的传感器。
+* **颜色** - 打开颜色选择器以选择文本的颜色。
+* **阴影** - 启用时，向文本添加阴影。
+* **最低单体** - 启用时，仅显示最低单体的电压（而不是显示所有单体电压）。
+* **锂离子** - 启用时，将调整用于计算剩余电池百分比的最低电池电压从 3.0 调整到 2.8。
 
-### Counter
+### 计数器
 
-<figure><img src="/.gitbook/assets/wid_counter.png" alt=""><figcaption><p>Counter Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_counter.png" alt=""><figcaption><p>计数器小部件</p></figcaption></figure>
 
-A counter that incrementally counts. The configurable options are:
+逐渐计数的计数器。可配置的选项包括：
 
-* **Color** - Opens the color picker to choose the color for the text.
-* **Shadow** - When enabled, adds a shadow to the text.
+* **颜色** - 打开颜色选择器以选择文本的颜色。
+* **阴影** - 启用时，向文本添加阴影。
 
-### **Event Demo**
+### **事件演示**
 
 <div>
 
-<figure><img src="/.gitbook/assets/widgets5.jpg" alt=""><figcaption><p>Counter and Event Demo Widgets</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/widgets5.jpg" alt=""><figcaption><p>计数器和事件演示小部件</p></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/widgets6.jpg" alt=""><figcaption><p>Event Demo Widget Full Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/widgets6.jpg" alt=""><figcaption><p>事件演示小部件全屏</p></figcaption></figure>
 
 </div>
 
-Demonstrates handling of key and touch events in full screen mode. For demo purposed only. The configurable options are:
+演示全屏模式下按键和触摸事件的处理。仅用于演示目的。可配置的选项包括：
 
-* **Size** - Changes the size of the box in full screen mode.
+* **大小** - 更改全屏模式中框的大小。
 
-### **Flights**&#x20;
+### **飞行次数**
 
-<figure><img src="/.gitbook/assets/wid_flights.png" alt=""><figcaption><p>Flights Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_flights.png" alt=""><figcaption><p>飞行次数小部件</p></figcaption></figure>
 
-Counts your number of flights. It will give you a verbal queue when the flight has started, finished as well as the total flights for the model.&#x20;
+计算您的飞行次数。它会在飞行开始、结束以及模型的总飞行次数时给出语音提示。
 
-The configurable options are:
+可配置的选项包括：
 
-* **switch** - Designated Arm/Safe switch.
-* **motor\_channel** - Channel for the motor.
-* **min\_flight\_duration** - Minimum flight duration for the flight to be counted.
-* **text\_color** - Opens the color picker to choose the color for the text.
-* **debug** - When enabled, shows status information on the widget.
+* **开关** - 指定的武装/安全开关。
+* **电机通道** - 电机的通道。
+* **最短飞行持续时间** - 飞行被计数的最短飞行持续时间。
+* **文本颜色** - 打开颜色选择器以选择文本的颜色。
+* **调试** - 启用时，在小部件上显示状态信息。
 
-_**Additional notes regarding this widget:**_
+_**关于此小部件的附加说明：**_
 
-The flight is considered successful if after 30sec the engine is above 25%, telemetry is active (to indicated that the model connected), and safe switch ON. The flight is considered ended after 8 seconds of battery disconnection (detected by no telemetry) -- warning: do NOT use this widget if model is using GV9 (GV9 FM0 is where the flight count is stored)!
+如果在 30 秒后引擎超过 25%、遥测激活（表示模型已连接）且安全开关打开，则飞行被视为成功。如果电池断开连接 8 秒后（通过无遥测检测），则飞行被视为结束 -- 警告：如果模型使用 GV9（GV9 FM0 是存储飞行次数的地方），请勿使用此小部件！
 
-The widget assumes the following: the model has a motor, the motor is activated on channel 3 (can be configured in settings), there is telemetry with one of the above \[RSSI|RxBt|A1|A2|1RSS|2RSS|RQly], there is a safe switch (arm switch), and global variable GV9 is free (i.e. not used).
+该小部件假定以下情况：模型有一个电机，电机在通道 3 上激活（可以在设置中配置），有一个带有以下之一的遥测 \[RSSI|RxBt|A1|A2|1RSS|2RSS|RQly]，有一个安全开关（武装开关），全局变量 GV9 是空闲的（即未使用）。
 
-### Gauge
+### 计量表
 
-<figure><img src="/.gitbook/assets/wid_gauge (1).png" alt=""><figcaption><p>Gauge Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_gauge (1).png" alt=""><figcaption><p>计量表小部件</p></figcaption></figure>
 
-Shows a bar graph for the source value. The configurable options are:
+显示源值的条形图。可配置的选项包括：
 
-* **Source** - Source for the gauge.
-* **Min** - Minimum value for the gauge. This value will be 0%&#x20;
-* **Max** - Maximum value for the gauge. This value will be 100%&#x20;
-* **Color** - Opens the color picker to choose the color for the gauge text and bar.
+* **源** - 计量表的来源。
+* **最小** - 计量表的最小值。此值将为 0%。
+* **最大** - 计量表的最大值。此值将为 100%。
+* **颜色** - 打开颜色选择器以选择计量表文本和条的颜色。
 
-### **Gauge Rotary**
+### **旋转计量表**
 
-<figure><img src="/.gitbook/assets/wid_gaugerotary.png" alt=""><figcaption><p>Gauge Rotary Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_gaugerotary.png" alt=""><figcaption><p>旋转计量表小部件</p></figcaption></figure>
 
-&#x20;A configurable analog style gauge with a needle. Also shows the minimum and maximum values that were read by the gauge with green and red needles. The configurable options are:
+可配置的模拟样式计量表，带有指针。还显示了计量表读取的最小和最大值，绿色和红色指针。可配置的选项包括：
 
-* **Source** - Source for the gauge.
-* **Min** - The minimum (lowest) gauge value.
-* **Max** - The maximum (highest) gauge value.
-* **HighasGreen** - **Enable** for a sensor where high values are good. **Disable** for sensor where low values are good.
-* **Precision** - The precision of the number value to display in decimals.&#x20;
+* **源** - 计量表的来源。
+* **最小** - 计量表的最小值。
+* **最大** - 计量表的最大值。
+* **高值为绿色** - 对于高值为好的传感器启用。对于低值为好的传感器禁用。
+* **精度** - 要在小数点后显示的数字值的精度。
 
-### **Ghost**
+### **幽灵**
 
-<figure><img src="/.gitbook/assets/wid_ghost.jpg" alt=""><figcaption><p>Ghost Widget Normal Mode and VTX Mode</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_ghost.jpg" alt=""><figcaption><p>幽灵小部件普通模式和 VTX 模式</p></figcaption></figure>
 
-The Ghost widget will display RF receiver or video transmitter telemetry data based on the mode that is configured.&#x20;
+幽灵小部件将根据配置的模式显示 RF 接收器或视频发射器的遥测数据。
 
-In normal mode, the widget provides RF Mode (RFMD), Frame Rate (FRATE), Link Quality (RQLY), and Transmit Power (TPWR)&#x20;
+在普通模式下，小部件提供 RF 模式（RFMD）、帧速率（FRATE）、链路质量（RQLY）和发送功率（TPWR）
 
-In video mode, the widget provides Video Band (VBAN), Video Frequency (VFRQ), Video channel (VCHAN), and Video Power (VPWR)
+在视频模式下，小部件提供视频频段（VBAN）、视频频率（VFRQ）、视频通道（VCHAN）和视频功率（VPWR）
 
-### **LibGUI Demo**
+### **LibGUI 演示**
 
-<figure><img src="/.gitbook/assets/wid_libgui.jpg" alt=""><figcaption><p>LibGUI Demo Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_libgui.jpg" alt=""><figcaption><p>LibGUI 演示小部件</p></figcaption></figure>
 
-This widget is a demo for the LibGUI library. This library is not normally run by itself. Instead, it provides interactive functions to other Lua scripts that use it. The widget must be run in full-screen mode to demo the library's functionality.
+此小部件是 LibGUI 库的演示。该库通常不会单独运行。相反，它为使用它的其他 Lua 脚本提供交互功能。必须在全屏模式下运行小部件以演示库的功能。
 
-### **Model info**
+### **模型信息**
 
-<figure><img src="/.gitbook/assets/wid_modelinfo (1).png" alt=""><figcaption><p>Model Info Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_modelinfo (1).png" alt=""><figcaption><p>模型信息小部件</p></figcaption></figure>
 
-Displays the selected model name and picture (if configured in model settings). The configurable options are:
+显示所选模型的名称和图片（如果在模型设置中配置）。可配置的选项包括：
 
-* **Color** - Opens the color picker to choose the color for the name text.
-* **Size** - Size for the name text. Options are STD (Default), BOLD, XXS, XS, L, XL, XXL
-* **Fill background?** - Adds a solid background color to the widget when enabled
-* **BG Color** - Opens the color picker to choose the color for the background.
-* **Use Theme Color** - When enabled, overrides the text color with the text color of the configured theme.
+* **颜色** - 打开颜色选择器以选择名称文本的颜色。
+* **大小** - 名称文本的大小。选项为 STD（默认）、BOLD、XXS、XS、L、XL、XXL
+* **填充背景？** - 启用时，向小部件添加实心背景颜色
+* **背景颜色** - 打开颜色选择器以选择背景的颜色。
+* **使用主题颜色** - 启用时，将文本颜色覆盖为配置的主题文本颜色。
 
-### **Outputs**&#x20;
+### **输出**
 
-<figure><img src="/.gitbook/assets/wid_outputs.png" alt=""><figcaption><p>Outputs Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_outputs.png" alt=""><figcaption><p>输出小部件</p></figcaption></figure>
 
-Shows the channel output values in a bar graph. The number of channels that are displayed is dependent on the size of the widget. The configurable options are:
+以条形图显示通道输出值。显示的通道数量取决于小部件的大小。可配置的选项包括：
 
-* **First channel** - selects the first channel to display in the widget.
-* **Fill background** - Adds a solid background color to the widget when enabled
-* **BG Color** - Opens the color picker to choose the color for the background.
-* **Text Color** - Opens the color picker to choose the color for the text.
-* **Color** -  Opens the color picker to choose the color for the output bars.
+* **第一个通道** - 选择要在小部件中显示的第一个通道。
+* **填充背景** - 启用时，向小部件添加实心背景颜色
+* **背景颜色** - 打开颜色选择器以选择背景的颜色。
+* **文本颜色** - 打开颜色选择器以选择文本的颜色。
+* **颜色** - 打开颜色选择器以选择输出条的颜色。
 
-### Serial Power Port Demo
+### 串行电源端口演示
 
-<figure><img src="/.gitbook/assets/wid_serialpower.png" alt=""><figcaption><p>Serial Power Port Demo Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_serialpower.png" alt=""><figcaption><p>串行电源端口演示小部件</p></figcaption></figure>
 
-A demo widget to show you how the power port can be used. It must be run in full screen mode.
+演示小部件，显示电源端口的使用方式。必须在全屏模式下运行。
 
 ### **SOARETX**
 
-<figure><img src="/.gitbook/assets/wid_soaretx.jpg" alt=""><figcaption><p>SoarETX Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_soaretx.jpg" alt=""><figcaption><p>SoarETX 小部件</p></figcaption></figure>
 
-The EdgeTX version of the SoarOTX tool.  It is a package of sailplane models for EdgeTX transmitters. It provides Lua scripts for timing and scorekeeping, graphing of log data (e.g. altitude graphs), and model configuration.
+EdgeTX 版本的 SoarOTX 工具。这是 EdgeTX 发射机的滑翔机模型包。它提供了用于计时和记分、日志数据图形化（例如高度图）和模型配置的 Lua 脚本。
 
-For more information about the configuration and use of this widget please see  [https://github.com/jfrickmann/SoarOTX/wiki/SoarETX-for-color-radios](https://github.com/jfrickmann/SoarOTX/wiki/SoarETX-for-color-radios).
+有关此小部件的配置和使用的更多信息，请参阅 [https://github.com/jfrickmann/SoarOTX/wiki/SoarETX-for-color-radios](https://github.com/jfrickmann/SoarOTX/wiki/SoarETX-for-color-radios)。
 
-A demo of this tool can be seen here: [https://www.youtube.com/watch?v=5NSvxUNKM\_c](https://www.youtube.com/watch?v=5NSvxUNKM\_c)
+可以在此处观看此工具的演示：[https://www.youtube.com/watch?v=5NSvxUNKM\_c](https://www.youtube.com/watch?v=5NSvxUNKM\_c)
 
-### **Text**
+### **文本**
 
-<figure><img src="/.gitbook/assets/wid_text.png" alt=""><figcaption><p>Text Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_text.png" alt=""><figcaption><p>文本小部件</p></figcaption></figure>
 
-Displays a user-customizable text field. The configurable options are:
+显示用户可自定义的文本字段。可配置的选项包括：
 
-* **Text** - Text to display
-* **Color** - Opens the color picker to choose the color for the text.&#x20;
-* **Size** - Size for the text. Options are STD (Default), BOLD, XXS, XS, L, XL, XXL
-* **Shadow** - When enabled, adds a shadow to the text.
-* **Alignment** - Alignment of the text in the text box. Options are: Left, Center, Right
+* **文本** - 要显示的文本
+* **颜色** - 打开颜色选择器以选择文本的颜色。
+* **大小** - 文本的大小。选项为 STD（默认）、BOLD、XXS、XS、L、XL、XXL
+* **阴影** - 启用时，向文本添加阴影。
+* **对齐** - 文本框中文本的对齐方式。选项为：左、中、右
 
-### **Timer**
+### **计时器**
 
-<figure><img src="/.gitbook/assets/wid_timer.png" alt=""><figcaption><p>Timer Widget</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_timer.png" alt=""><figcaption><p>计时器小部件</p></figcaption></figure>
 
-Displays the selected timer. No configurable options other than timer selection.
+显示所选计时器。除了选择计时器之外，没有其他可配置选项。
 
+### **计时器2**
 
+<figure><img src="/.gitbook/assets/wid_timer2.png" alt=""><figcaption><p>计时器2 小部件</p></figcaption></figure>
 
-### **Timer2**&#x20;
+显示所选计时器，计时器文本根据所选小部件网格的大小进行缩放，并具有以下配置选项：
 
-<figure><img src="/.gitbook/assets/wid_timer2.png" alt=""><figcaption><p>Timer2 Widget</p></figcaption></figure>
+* **文本颜色** - 打开颜色选择器以选择文本的颜色。
+* **计时器** - 要显示的计时器。
+* **使用天数** - 启用时，当时间值超过 24 小时时显示天数。
 
-Displays the selected timer with the timer text scaled based on the select widget size and has the following configuration options:
+### **TxGPStest**
 
-* **TextColor** - Opens the color picker to choose the color for the text.
-* **Timer** - Timer to display.
-* **use\_days** - Shows days when the time value is over 24 hours when enabled.
+<figure><img src="/.gitbook/assets/wid_gpstest.png" alt=""><figcaption><p>TxGPSTest 小部件</p></figcaption></figure>
 
-### **TxGPStest**&#x20;
+以文本格式显示 GPS 信息。没有可配置选项。
 
-<figure><img src="/.gitbook/assets/wid_gpstest.png" alt=""><figcaption><p>TxGPSTest Widget</p></figcaption></figure>
+### **数值**
 
-Displays GPS Information in text format. There are no configurable options.
+<figure><img src="/.gitbook/assets/wid_value.png" alt=""><figcaption><p>数值小部件</p></figcaption></figure>
 
-### **Value**
+以文本形式显示定义的源值的数值。可配置的选项包括：
 
-<figure><img src="/.gitbook/assets/wid_value.png" alt=""><figcaption><p>Value Widget</p></figcaption></figure>
+* **源** - 要显示的文本的来源
+* **颜色** - 打开颜色选择器以选择文本的颜色。用户可以在 RGB 和 HSV 颜色模型之间选择颜色。还可以选择配置的主题系统颜色之一。
+* **阴影** - 启用时，向文本添加阴影。
+* **对齐标签** - 对齐标签文本。选项包括：**左**、**中**、**右**
+* **对齐数值** - 对齐值文本。选项包括：**左**、**中**、**右**
 
-Displays a numeric value of the defined source as text. The configurable options are:
+### 数值2
 
-* **Source** - source for the text to be displayed
-* **Color** - Opens the color picker to choose the color for the text. User can choose between RGB and HSV color model to choose the color. You can also select one of the configured theme system colors.
-* **Shadow** - When enabled, adds a shadow to the text.
-* **Align Label** - Aligns the label text.  Options include: **Left**, **Center**, **Right**
-* **Align Value** - Aligns the value text. Options include: **Left**, **Center**, **Right**
+<figure><img src="/.gitbook/assets/wid_value2.png" alt=""><figcaption><p>数值2 小部件</p></figcaption></figure>
 
-### Value2
+以文本形式显示定义的遥测源的数值。文本将根据所选小部件网格的大小进行缩放。小部件将检测飞行结束（不再接收遥测）后，将显示配置的遥测传感器的最小值和最大值。
 
-<figure><img src="/.gitbook/assets/wid_value2.png" alt=""><figcaption><p>Value2 Widget</p></figcaption></figure>
+可配置的选项包括：
 
-Displays a numeric value of the defined telemetry source as text. The text will scale based on the size of the widget grid that is selected. The widget will detect the end of the flight (by no longer receiving telemtry) and will then display the min and max values of the configured telemetry sensor.
-
-The configurable options are:
-
-* **Source** - Telemetry source for the text to be displayed
-* **Color** - Opens the color picker to choose the color for the text. User can choose between RGB and HSV color model to choose the color. You can also select one of the configured theme system colors.
-* **PostFix** - Appends a text label after the configured telemetry name label.
+* **源** - 要显示的文本的遥测源
+* **颜色** - 打开颜色选择器以选择文本的颜色。用户可以在 RGB 和 HSV 颜色模型之间选择颜色。还可以选择配置的主题系统颜色之一。
+* **后缀** - 在配置的遥测名称标签后附加文本标签。

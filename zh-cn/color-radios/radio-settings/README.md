@@ -1,14 +1,14 @@
-# Radio Settings
+# 无线电设置
 
-The Radio **Settings** section contains all the options to configure your radio. Across the top of the page you will see icons that will take you to different pages of radio settings when selected. The default screen for the radio settings is the [Tools ](tools.md)screen.&#x20;
+**无线电设置** 部分包含了配置您的无线电的所有选项。在页面顶部，您会看到一些图标，当选中时，它们将带您到不同的无线电设置页面。无线电设置的默认屏幕是 [工具](tools.md) 屏幕。
 
-Icons at the top of the radio settings screen include (in order from left to right):
+无线电设置屏幕顶部的图标包括（从左到右的顺序）：
 
-* [Tools](tools.md)
-* [SD Card](sd-card.md)
-* [Radio Setup](radio-setup/)
-* [Themes](themes.md)
-* [Global Functions](global-functions.md)
-* [Trainer](../model-settings/model-setup/trainer.md)
-* [Hardware](hardware.md)
-* [Version](version.md)
+- [工具](tools.md)
+- [SD 卡](sd-card.md)
+- [无线电设置](radio-setup/)
+- [主题](themes.md)
+- [全局功能](global-functions.md)
+- [训练者](../model-settings/model-setup/trainer.md)
+- [硬件](hardware.md)
+- [版本](version.md)

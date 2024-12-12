@@ -1,45 +1,75 @@
-# Tools
+## Welcome to EdgeTX
 
-<figure><img src="/.gitbook/assets/tools.jpg" alt=""><figcaption><p>Tools Screen</p></figcaption></figure>
+### Introduction
 
-The **Tools** page in Radio Settings is where you can select Lua script-based tools for execution. Lua scripts that are located on the SD card in the **Tools** folder will be listed here. Selecting a tool will execute it in full-screen mode. By default, EdgeTX includes several tools. Other tools can be downloaded and added to the SD card as well.  The following tools are included in the default EdgeTX SD card.&#x20;
+EdgeTX is an open-source firmware for radio-controlled models. It is based on the popular OpenTX firmware and offers a wide range of features and customization options for your RC transmitter.
 
-#### Model Locator (by RSSI)
+### Features
 
-<figure><img src="/.gitbook/assets/rssi.jpg" alt=""><figcaption><p>Model Locator tool</p></figcaption></figure>
+- **Intuitive Interface**: EdgeTX provides a user-friendly interface that is easy to navigate.
+- **Customizable**: You can customize almost every aspect of your transmitter's settings to suit your preferences.
+- **Cross-platform**: EdgeTX is compatible with multiple hardware platforms, giving you flexibility in choosing your hardware.
+- **Open Source**: Being open-source, EdgeTX allows for community contributions and continuous improvement.
 
-The Model Locator tool helps to find a lost model based on the RSSI (if still available). The widget produces an audio representation (variometer style) of the RSSI from the lost model. The widget will also display the RSSI in a visible colorized bar (0-100%).
+### Getting Started
 
-#### Spectrum (INT)
+To get started with EdgeTX, follow these steps:
 
-<figure><img src="/.gitbook/assets/spectrum-int.jpg" alt=""><figcaption><p>Spectrum Analyzer (INT) tool</p></figcaption></figure>
+1. **Download**: Download the latest EdgeTX firmware for your transmitter model from the official website.
+2. **Installation**: Follow the installation instructions provided on the website to flash the firmware onto your transmitter.
+3. **Configuration**: Configure your transmitter settings using the intuitive interface provided by EdgeTX.
+4. **Calibration**: Calibrate your transmitter controls to ensure accurate operation.
 
-The Spectrum Analyzer tool will show the strength of signals in the 2.4GHz band. It uses the internal MULTI-Module as a 2.4GHz spectrum analyzer.
+### Support
 
-The display shows frequencies on the 2.4GHz spectrum, from 2400MHz to 2480MHz. The X (horizontal) axis shows the frequency in MHz and the Y (vertical) axis shows relative signal strength.
+For support and community interaction, visit the EdgeTX website and forums. Join the community to stay updated on the latest developments, share your experiences, and get help from other users.
 
-**T:** Frequency at the center of the plot (fixed at 2440MHz)\
-**S:** Bandwidth of the plot (fixed at 80MHz)\
-**T:** Position of the cursor (vertical line)
+### Conclusion
 
-Pressing **ENT** and scrolling left and right allows the **T** value to be changed, which will move the vertical line to highlight a specific frequency.
+Enjoy using EdgeTX for your radio-controlled models and explore the endless possibilities it offers for customization and control.
 
-#### Wizard Loader
+# 工具
+
+<figure><img src="/.gitbook/assets/tools.jpg" alt=""><figcaption><p>工具页面</p></figcaption></figure>
+
+在无线电设置中的**工具**页面是您可以选择基于Lua脚本的工具进行执行的地方。位于SD卡上**工具**文件夹中的Lua脚本将在此处列出。选择一个工具将在全屏模式下执行它。默认情况下，EdgeTX 包含几个工具。其他工具也可以下载并添加到SD卡中。以下工具包含在默认的EdgeTX SD卡中。
+
+#### 模型定位器（通过RSSI）
+
+<figure><img src="/.gitbook/assets/rssi.jpg" alt=""><figcaption><p>模型定位器工具</p></figcaption></figure>
+
+模型定位器工具可帮助根据RSSI（如果仍然可用）找到丢失的模型。该小部件会产生一个音频表示（变高仪样式）来自丢失模型的RSSI。该小部件还会显示可见的着色条形RSSI（0-100%）。
+
+#### 频谱（INT）
+
+<figure><img src="/.gitbook/assets/spectrum-int.jpg" alt=""><figcaption><p>频谱分析仪（INT）工具</p></figcaption></figure>
+
+频谱分析仪工具将显示2.4GHz频段中信号的强度。它使用内部MULTI-Module作为2.4GHz频谱分析仪。
+
+显示显示2.4GHz频谱上的频率，从2400MHz到2480MHz。X（水平）轴显示MHz中的频率，Y（垂直）轴显示相对信号强度。
+
+**T:** 绘图中心的频率（固定在2440MHz）\
+**S:** 绘图的带宽（固定在80MHz）\
+**T:** 光标的位置（垂直线）
+
+按下**ENT**并左右滚动允许更改**T**值，这将移动垂直线以突出显示特定频率。
+
+#### 向导加载器
 
 <div>
 
-<figure><img src="/.gitbook/assets/wizard1.jpg" alt=""><figcaption><p>Wizard Loader tool</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wizard1.jpg" alt=""><figcaption><p>向导加载器工具</p></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/wizard2.jpg" alt=""><figcaption><p>Plane Wizard</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wizard2.jpg" alt=""><figcaption><p>飞机向导</p></figcaption></figure>
 
 </div>
 
-The Wizard Loader tool assists you in setting up a new model by running a setup wizard for a particular model type. Once the model type is selected, the wizard will take you through a series of prompts and then configure your selected model based on the information provided.&#x20;
+向导加载器工具通过运行特定模型类型的设置向导来帮助您设置新模型。选择模型类型后，向导将引导您完成一系列提示，然后根据提供的信息配置您选择的模型。
 
-_**NOTE: The wizard does not create a new model, it only configures the currently selected model. You must manually create a new model first and then run the wizard. If you run this wizard on an already configured model, it will overwrite your model settings!**_
+_**注意：该向导不会创建新模型，它只会配置当前选择的模型。您必须手动先创建一个新模型，然后运行该向导。如果您在已配置的模型上运行此向导，它将覆盖您的模型设置！**_
 
 {% hint style="info" %}
-Additional EdgeTX compatible Lua scripts can be downloaded from: [https://github.com/EdgeTX/lua-scripts](https://github.com/EdgeTX/lua-scripts)
+可从以下链接下载其他EdgeTX兼容的Lua脚本：[https://github.com/EdgeTX/lua-scripts](https://github.com/EdgeTX/lua-scripts)
 {% endhint %}

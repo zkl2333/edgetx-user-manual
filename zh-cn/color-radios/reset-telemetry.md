@@ -1,14 +1,14 @@
-# Reset Telemetry
+# 重置遥测
 
-<figure><img src="/.gitbook/assets/resettelemetry.jpg" alt=""><figcaption><p>Reset telemetry screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/resettelemetry.jpg" alt=""><figcaption><p>重置遥测屏幕</p></figcaption></figure>
 
-**Reset flight** - When selected, this option:&#x20;
+**重置飞行** - 当选择此选项时，会执行以下操作：  
 
-* Resets all timers configured with a persistence setting of **Flight** to zero.
-* Resets all discovered telemetry sensor values.
-* Resets all logical switch states
-* Triggers the same checks as loading the model  - i.e. throttle position, switch state, is failsafe set check, display pre-flight checklist if configured, stuck keys test, etc.
+* 将所有配置为**飞行**持久性设置的计时器重置为零。
+* 重置所有已发现的遥测传感器值。
+* 重置所有逻辑开关状态。
+* 触发与加载模型相同的检查 - 即油门位置、开关状态、失控设置检查、如果已配置则显示飞行前检查表、卡键测试等。
 
-**Reset timer 1 / 2 / 3** - Resets only the selected timer to zero regardles of the configured persistence setting.
+**重置计时器 1 / 2 / 3** - 仅将所选计时器重置为零，而不考虑配置的持久性设置。
 
-**Reset telemetry** - This option resets all discovered telemetry sensor values.
+**重置遥测** - 此选项将重置所有已发现的遥测传感器值。

@@ -1,85 +1,112 @@
-# Hardware
+## Welcome to EdgeTX
 
-<figure><img src="/.gitbook/assets/hardware.png" alt=""><figcaption><p>Hardware Screen</p></figcaption></figure>
+### Introduction
 
-The **Hardware** screen is where you configure hardware specific-settings for your radio. It contains the following configuration options:
+EdgeTX is an open-source firmware for radio-controlled models. It is based on the popular OpenTX firmware with additional features and improvements.
 
-**Battery meter range** - Sets the maximum and minimum voltage for the battery meter. This should be set based on the type of battery you are using.
+### Features
 
-**Battery Calibration** - Set this value to match the transmitter battery voltage.
+- Intuitive user interface
+- Support for a wide range of radio-controlled models
+- Customizable themes and sound packs
+- Advanced flight controller system integration
 
-**Check RTC voltage** - When enabled, checks the RTC battery at startup and warns you if the battery voltage is low.
+### Getting Started
 
-**ADC Filter** - Enables or disables the ADC Filter. This filter can also be enabled/disabled per model in the model settings.
+To install EdgeTX on your radio transmitter, follow these steps:
+
+1. Download the latest EdgeTX firmware from the official website.
+2. Connect your radio transmitter to your computer using a USB cable.
+3. Flash the EdgeTX firmware to your radio transmitter using a firmware flashing tool.
+
+### Configuration
+
+After installing EdgeTX, you can configure your radio transmitter settings using the built-in menu system. Customize your model setups, flight modes, and other preferences to suit your needs.
+
+For more information and support, visit the EdgeTX website at [edgetx.org](https://edgetx.org).
+
+# 硬件
+
+<figure><img src="/.gitbook/assets/hardware.png" alt=""><figcaption><p>硬件屏幕</p></figcaption></figure>
+
+**硬件** 屏幕是您配置无线电硬件特定设置的地方。它包含以下配置选项：
+
+**电池仪表范围** - 设置电池仪表的最大和最小电压。这应根据您使用的电池类型进行设置。
+
+**电池校准** - 将此值设置为与发射机电池电压相匹配。
+
+**检查RTC电压** - 启用时，在启动时检查RTC电池并在电池电压过低时发出警告。
+
+**ADC滤波器** - 启用或禁用ADC滤波器。此滤波器也可以在模型设置中针对每个模型启用/禁用。
 
 {% hint style="info" %}
-The ADC filter is a filter for the proportional channels (sticks, pots, sliders), smoothing out smaller fast movements that occur due to noise in the system electronics. Normally, this filter should be _disabled_ for models with flight controllers.&#x20;
+ADC滤波器是用于比例通道（摇杆、旋钮、滑块）的滤波器，平滑系统电子设备中由于噪声而产生的较小快速运动。通常，对于带有飞行控制器的模型，此滤波器应该被禁用。
 {% endhint %}
 
-**Mute if no sound: -** When enabled, puts the transmitter in mute mode until a sound needs to be played. This prevents interference noise from high-powered TX modules from coming out of the transmitter speakers.&#x20;
+**无声时静音：-** 启用后，将发射机置于静音模式，直到需要播放声音。这可以防止高功率TX模块的干扰噪音从发射机扬声器中传出。
 
-### **Internal RF Type**
+### **内部RF类型**
 
-Select the module type for the internal module bay. Options are: **Multi, XJT, ISRM, CRSF**.  When **CRSF** is selected, you can also select the baud rate. You can read more about baud rates [here](https://www.expresslrs.org/2.0/quick-start/transmitters/tx-prep/).
+选择内部模块插槽的模块类型。选项包括：**Multi, XJT, ISRM, CRSF**。选择 **CRSF** 后，还可以选择波特率。您可以在[此处](https://www.expresslrs.org/2.0/quick-start/transmitters/tx-prep/)了解有关波特率的更多信息。
 
-### **External RF Sample Mode**&#x20;
+### **外部RF采样模式**
 
-Options are Normal and OneBit. The default setting of **Normal** should be used by most users. Only users of  X9D+ and X7 radios may want to use **OneBit** mode.
+选项为Normal和OneBit。大多数用户应使用默认设置的 **Normal**。只有X9D+和X7无线电的用户可能希望使用 **OneBit** 模式。
 
 {% hint style="info" %}
-The X9D+ and X7 radios have a slow inverter that causes problems with the reception of fast UART signals, resulting in telemetry warnings and issues with LUA scripts using the CRSF protocol. A 10k resistor on the circuit board could be replaced to fix the issue, but this was not always effective. EdgeTX has developed OneBit Mode, which changes the UART sampling behavior to ignore slow leading edges, allowing the CRSF protocol to be run at the full 400k baud rate without hardware modifications to the radio.
+X9D+和X7无线电具有慢反相器，导致接收快速UART信号时出现问题，导致遥测警告和使用CRSF协议的LUA脚本出现问题。电路板上的10k电阻可能被更换以修复问题，但这并不总是有效。EdgeTX开发了OneBit模式，它改变了UART采样行为以忽略慢上升沿，允许CRSF协议以完整的400k波特率运行，而无需对无线电进行硬件修改。
 {% endhint %}
 
-### **Bluetooth**
+### **蓝牙**
 
 {% hint style="info" %}
-_**Note:** This option is only visible on custom compiled versions of EdgeTX with the **Bluetooth** flag enabled._
+_**注意：**此选项仅在启用了**蓝牙**标志的EdgeTX自定义编译版本中可见。_
 {% endhint %}
 
-**Mode - mode that the bluetooth module will be used in. The options are:**
+**模式 - 蓝牙模块将使用的模式。选项包括：**
 
-* **---** - Off
-* **Telemetry** - used for sending telemtry data over bluetooth.
-* **Trainer** - used for bluetooth trainer mode
+* **---** - 关闭
+* **遥测** - 用于通过蓝牙发送遥测数据。
+* **训练器** - 用于蓝牙训练模式
 
-**Name -** the name the bluetooth device will be seen as.
+**名称 -** 蓝牙设备将显示为的名称。
 
-**Settings Cog Icon** - when selected will show you:
+**设置齿轮图标** - 选择后将显示：
 
-* **PIN Code** - PIN code for bluetooth device in the radio (visible in **Telemetry** mode only)
-* **Local addr -** Identifying address of the bluetooth device in the radio.
-* **Dist addr -** Identifying address of bluetooth device that radio is connected to.
+* **PIN码** - 无线电中蓝牙设备的PIN码（仅在**遥测**模式下可见）
+* **本地地址 -** 无线电中蓝牙设备的标识地址。
+* **远程地址 -** 无线电连接到的蓝牙设备的标识地址。
 
-### **Serial Port**&#x20;
+### **串口**
 
-Displays a list of available auxiliary serial ports that can be configured and used. The listed ports are based on the ports that are available in the particular radio hardware. The ports listed below are for example only and may not be present in your radio.
+显示可配置和使用的可用辅助串口列表。所列端口基于特定无线电硬件中可用的端口。下面列出的端口仅为示例，可能不会出现在您的无线电中。
 
-* **AUX1** - First available auxiliary serial port can be configured with the below options:
-  * **OFF** - Turned off.
-  * **Telem Mirror** - The same telemetry data that goes to the external module bay is sent to the serial port.&#x20;
-  * **Telemetry In** - Receive telemetry data over the serial port.
-  * **SBUS Trainer** - Connect the Instructor and Student radios over the serial port.
-  * **LUA** - Send/receive data to/from Lua script.
-  * **GPS** - Receive GPS telemetry data over the serial port.
-  * **CLI** - Send commands to the radio via the command line.&#x20;
-  *   **External Module** - This allows configuring the external access mod on runtime rather than by compilation option. First, configure the hardware port (only available on `AUX1` as `AUX2` has no TX DMA)\
+* **AUX1** - 可配置的第一个可用辅助串口，可使用以下选项配置：
+  * **关闭** - 关闭。
+  * **遥测镜像** - 发送到外部模块插槽的相同遥测数据通过串口发送。
+  * **遥测输入** - 通过串口接收遥测数据。
+  * **SBUS训练器** - 通过串口连接教练机和学生机。
+  * **LUA** - 与Lua脚本发送/接收数据。
+  * **GPS** - 通过串口接收GPS遥测数据。
+  * **CLI** - 通过命令行向无线电发送命令。
+  * **外部模块** - 这允许在运行时配置外部访问模块，而不是通过编译选项。首先配置硬件端口（仅在`AUX1`上可用，因为`AUX2`没有TX DMA）\
       [![Screenshot 2022-10-15 at 20 46 59](https://user-images.githubusercontent.com/1050031/196003113-a1e4a38e-c007-4b49-b691-d806ff5e7600.png)](https://user-images.githubusercontent.com/1050031/196003113-a1e4a38e-c007-4b49-b691-d806ff5e7600.png)
 
-      Then the module can be chosen:\
+      然后可以选择模块：\
       [![Screenshot 2022-10-15 at 20 47 42](https://user-images.githubusercontent.com/1050031/196003145-41fd9f94-22b6-4646-b77a-ade379d15965.png)](https://user-images.githubusercontent.com/1050031/196003145-41fd9f94-22b6-4646-b77a-ade379d15965.png)
-  * **AUX2** - Second available auxiliary serial port (depending on hardware), which has the same options as AUX1, except for External Module&#x20;
-  * **USB-VCP** - Virtual COM Port. This is one of the options presented when connecting your radio to the PC with most radios. Is often set to 'CLI' for radios with internal ExpressLRS RF modules in order to do firmware updates.
-* **Port Power** - Enables or disables the power output on the power supply pins next to serial ports that are available on some radios (presently only TX16S has this feature).
+  * **AUX2** - 第二个可用的辅助串口（取决于硬件），具有与AUX1相同的选项，但不包括外部模块。
+  * **USB-VCP** - 虚拟COM端口。连接大多数无线电到PC时显示的选项之一。通常对于带有内部ExpressLRS RF模块的无线电设置为“CLI”，以进行固件更新。
+* **端口电源** - 启用或禁用一些无线电上可用的串口旁边的电源输出引脚上的电源输出（目前只有TX16S具有此功能）。
 
-### Inputs
+### 输入
 
-**Calibration** - For calibrating your physical radio controls (sticks, pots, sliders, & 6-position switch). The radio will prompt you through the calibration steps.&#x20;
+**校准** - 用于校准您的物理无线电控件（摇杆、旋钮、滑块和6位开关）。无线电将引导您完成校准步骤。
 
 {% hint style="info" %}
-For your gimbal calibration, use a left-to-right & up-to-down movement for the gimbals, not a circular movement! Additionally, use the normal amount of pressure at the endpoints. Excessive endpoint pressure will cause the gimbal to be miscalibrated. Also, do not forget to calibrate your 6-position switch!
+对于您的万向节校准，请使用左右和上下移动进行校准，而不是进行圆形运动！此外，使用端点处的正常压力。过大的端点压力会导致万向节校准错误。还不要忘记校准您的6位开关！
 {% endhint %}
 
-#### Axis, Pots, and Switches Buttons
+#### 轴、旋钮和开关按钮
 
 <div>
 
@@ -95,22 +122,22 @@ For your gimbal calibration, use a left-to-right & up-to-down movement for the g
 
 </div>
 
-Selecting one of the Axis, Pots, or Switches buttons will open the configuration screen.  On these screens, you will see all the physical radio controls pre-defined by EdgeTX.  Here you can add a 3 character label to the control as well as change the type of control as needed.  Addionally, controls listed under the Pots screen can also be configured to be inverted.
+选择轴、旋钮或开关按钮之一将打开配置屏幕。在这些屏幕上，您将看到EdgeTX预定义的所有物理无线电控件。在这里，您可以为控件添加一个3字符标签，并根据需要更改控件类型。此外，在旋钮屏幕下列出的控件也可以配置为反转。
 
-### Debug
+### 调试
 
 <div>
 
-<figure><img src="/.gitbook/assets/hardware4.png" alt=""><figcaption><p>Analog Debug Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/hardware4.png" alt=""><figcaption><p>模拟调试屏幕</p></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/hardware5 (1).jpg" alt=""><figcaption><p>Switches Test Screen</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/hardware5 (1).jpg" alt=""><figcaption><p>开关测试屏幕</p></figcaption></figure>
 
 </div>
 
-The debug section allows for testing and debugging of the analog controls and keys.
+调试部分允许测试和调试模拟控件和按键。
 
-**Analogs**  - These screens will show you the data for your analog controls (Sticks, Sliders, Pots, 6-position switch) and the touch screen on your radio. There are four views - Calibrated analog, Filtered Raw Analog with deviation, Unfiltered raw analog, and Min Max and range.&#x20;
+**模拟**  - 这些屏幕将显示您的模拟控件（摇杆、滑块、旋钮、6位开关）和无线电触摸屏的数据。有四个视图 - 校准的模拟、带偏差的滤波原始模拟、未经滤波的原始模拟和最小值、最大值和范围。 
 
-**Keys** - This screen will show you the digital data for your keys, switches, trims, and the rotary encoder (roller).
+**按键** - 此屏幕将显示您的按键、开关、微调和旋转编码器（滚轮）的数字数据。

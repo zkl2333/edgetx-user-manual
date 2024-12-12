@@ -1,14 +1,14 @@
-# Heli Setup
+# 直升机设置
 
-The **Heli Setup** page in Model Settings is an optional page that is available on custom-compiled versions of EdgeTX. The heli setup page is often used for collective pitch mixing (CCPM) used in flybared helicopters where the receiver directly controls the swashplate servos. Most flybarless helicopters do not need to configure this page. The outputs of the CCPM mixer are CYC1, CYC2, and CYC3, which need to be assigned to an output channel on the Mixes screen.
+在模型设置中的**直升机设置**页面是EdgeTX的自定义编译版本中提供的一个可选页面。直升机设置页面通常用于飞翼桨直升机中使用的集体桨距混控（CCPM），其中接收机直接控制平衡板舵机。大多数无桨直升机不需要配置此页面。CCPM混频器的输出为CYC1、CYC2和CYC3，需要在混频屏幕上将其分配给一个输出通道。
 
-<figure><img src="/.gitbook/assets/helisetup.jpg" alt=""><figcaption><p>Heli Setup page</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/helisetup.jpg" alt=""><figcaption><p>直升机设置页面</p></figcaption></figure>
 
-The heli setup page has the following configuration options:
+直升机设置页面具有以下配置选项：
 
-* **Swash Type** - Swash type for your model. Options are **120, 120x, 140, and 90.**
-* **Swash Ring** - Set the swash ring limit only as needed. **1** = maximum limit -> **100** or **0** = no limit.&#x20;
-* **Long. cyc. source** - Select source input.
-* **Lateral cyc.source** -Select source input.
-* **Coll. pitch source** - Select source input.&#x20;
-* **Weight** - Percentage value of the stick travel to use.&#x20;
+- **平衡板类型** - 您模型的平衡板类型。选项有**120、120x、140和90**。
+- **平衡板限位** - 仅在需要时设置平衡板限位。**1** = 最大限位 -> **100** 或 **0** = 无限制。
+- **纵向循环源** - 选择源输入。
+- **横向循环源** - 选择源输入。
+- **集体桨距源** - 选择源输入。
+- **权重** - 使用的摇杆行程的百分比值。
