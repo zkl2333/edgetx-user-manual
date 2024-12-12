@@ -14,9 +14,9 @@ layout:
 
 # 彩屏遥控器用户手册
 
-<figure><img src="/.gitbook/assets/colorradios.png" alt=""><figcaption><p>EdgeTX支持的彩屏遥控器</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/colorradios.png" alt=""><figcaption><p>EdgeTX 支持的彩屏遥控器</p></figcaption></figure>
 
-EdgeTX支持以下彩屏遥控器：
+EdgeTX 支持以下彩屏遥控器：
 
 * FlySky NV14 / EL18
 * FlySky PL18 / PL18 EV

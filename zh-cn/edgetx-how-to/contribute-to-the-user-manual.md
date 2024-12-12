@@ -1,12 +1,12 @@
-# Contribute to the User Manual
+# 贡献用户手册
 
-### How to contribute
+### 如何贡献
 
-1. Go to our github repositiory, located here: [https://github.com/EdgeTX/edgetx-user-manual](https://github.com/EdgeTX/edgetx-user-manual)
-2. For small changes to the user manual or correction or addition to a how-to page, please create a new issue in Github and explain in detail what you think needs to be changed and how.&#x20;
-3. To submit new How-to articles, please prepare your article in either MS word or Google Doc format. For consistency, please use screenshots from the EdgeTX simulator for pictures. Picture resolution should be 480 x 272 pixels if possible. Submit your article as an issue with the proposed article attached. From there it will be reviewed and once accepted, added to the knowledge base by one of the Editors. If you would like to work on one of the requested How-to articles from the issues list, please make a comment in the issue that you are working on it so that nobody else does as well. Once complete, attach your work to the issue for review.
-4. To make a recommendation for a future How-to article, please make an issue via Github.
+1. 前往我们的 GitHub 仓库，地址在这里：[https://github.com/EdgeTX/edgetx-user-manual](https://github.com/EdgeTX/edgetx-user-manual)
+2. 对于用户手册的小改动或对操作指南页面的更正或补充，请在 GitHub 中创建一个新问题，并详细说明您认为需要更改的内容以及如何更改。&#x20;
+3. 要提交新的操作指南文章，请以 MS Word 或 Google Doc 格式准备您的文章。为保持一致性，请使用 EdgeTX 模拟器的截图作为图片。图片分辨率应尽可能为 480 x 272 像素。将您的文章作为问题提交，并附上拟议的文章。然后它将被审核，一旦被接受，将由编辑之一添加到知识库中。如果您想处理问题列表中请求的操作指南文章之一，请在问题中发表评论，说明您正在处理，以免其他人也这样做。完成后，将您的工作附加到问题中以供审核。
+4. 要为未来的操作指南文章提出建议，请通过 GitHub 创建一个问题。
 
-### Translations
+### 翻译
 
-If you would like to contribute a translated version of the user manual, please create an [issue ](https://github.com/EdgeTX/edgetx-user-manual/issues/new/choose)in the EdgeTX/edgetx-user-manual respository and attach the translated manual (in .pdf format) to it. Alternately, you can create your own gitbook account, clone the english manual on your account and translate it. If you choose this way, you can simply attach the Gitbook link to the issue.
+如果您想贡献用户手册的翻译版本，请在 EdgeTX/edgetx-user-manual 仓库中创建一个[问题](https://github.com/EdgeTX/edgetx-user-manual/issues/new/choose)，并附上翻译后的手册（.pdf 格式）。或者，您可以创建自己的 Gitbook 账户，在您的账户上克隆英文手册并进行翻译。如果您选择这种方式，您可以简单地将 Gitbook 链接附加到问题中。

@@ -1,19 +1,19 @@
-# Set-up wireless trainer with a Multi -protocol module
+# 使用多协议模块设置无线教练
 
-#### Prerequisites
+#### 先决条件
 
-In order to setup a wireless trainer connection with the Multi-protocolm Module, you will need the following:
+为了使用多协议模块设置无线教练连接，您需要以下设备：
 
-* A student radio with a FrSky D16 capable TX module
-* An instructor radio with:&#x20;
-  * A Multi-protocol module to serve as the RX
-  * An additional TX module to use to communicate with the model (protocol does not matter, but must match the protocol use by the RX on the model)
+* 一台具有 FrSky D16 功能的 TX 模块的学生电台
+* 一台教练电台，具备：  
+  * 一个用作 RX 的多协议模块
+  * 一个用于与模型通信的额外 TX 模块（协议无关，但必须与模型上的 RX 使用的协议匹配）
 
-#### Setup
+#### 设置
 
-Ensure that the model is bound to the desired TX module and operational on the instructor radio.
+确保模型已绑定到所需的 TX 模块，并在教练电台上正常运行。
 
-On the Instructor radio, configure the **Trainer** section of **Radio Settings**. See [Trainer](../color-radios/radio-settings/trainer.md) section for more information on how to set this page up.
+在教练电台上，配置 **Radio Settings** 中的 **Trainer** 部分。有关如何设置此页面的更多信息，请参见 [Trainer](../color-radios/radio-settings/trainer.md) 部分。
 
 <div>
 
@@ -25,7 +25,7 @@ On the Instructor radio, configure the **Trainer** section of **Radio Settings**
 
 </div>
 
-On the Instructor radio, configure the **Trainer** section of **Model Settings**. For the **Mode**, select **Master/Multi**
+在教练电台上，配置 **Model Settings** 中的 **Trainer** 部分。对于 **Mode**，选择 **Master/Multi**
 
 <div>
 
@@ -37,7 +37,7 @@ On the Instructor radio, configure the **Trainer** section of **Model Settings**
 
 </div>
 
-On the Instructor radio, configure the special function _**Trainer**_. Designate a switch to activate the mode and make sure the function is enabled.
+在教练电台上，配置特殊功能 _**Trainer**_。指定一个开关来激活模式，并确保功能已启用。
 
 <div>
 
@@ -49,7 +49,7 @@ On the Instructor radio, configure the special function _**Trainer**_. Designate
 
 </div>
 
-On the Instructor radio, configure the **Internal RF** and **External RF** sections in **Model Setup**. The RF Module's mode that will communicate with the Student radio should be set to _**Multi, FRSkyRX**_ and RF Protocol: _**Multi**_. Also, configure a receiver number. Both the Instructor and Student radios need to use this same receiver number. The other RX module should be configured to communicate with the model.
+在教练电台上，配置 **Model Setup** 中的 **Internal RF** 和 **External RF** 部分。与学生电台通信的 RF 模块模式应设置为 _**Multi, FRSkyRX**_ 和 RF Protocol: _**Multi**_。还需配置一个接收机编号。教练和学生电台都需要使用相同的接收机编号。另一个 RX 模块应配置为与模型通信。
 
 <div>
 
@@ -61,7 +61,7 @@ On the Instructor radio, configure the **Internal RF** and **External RF** secti
 
 </div>
 
-One the Student radio, configure either the Internal RF or External RF (which ever module will be used) to communicate to the Instructor radio. If using a multi-protocol module it should be set to _**Multi, FRSkyX**_ and RF Protocol: _**D16**_. Configure the receiver number to the same number configured in the step above.
+在学生电台上，配置内部 RF 或外部 RF（将使用的模块）以与教练电台通信。如果使用多协议模块，应设置为 _**Multi, FRSkyX**_ 和 RF Protocol: _**D16**_。将接收机编号配置为上一步中配置的相同编号。
 
 <div>
 
@@ -73,7 +73,7 @@ One the Student radio, configure either the Internal RF or External RF (which ev
 
 </div>
 
-On the Student radio, no configuration of the **Trainer** section in the **Model Settings** or **Radio Settings** is necessary, leave the **Mode** option in the **Trainer** section of **Model Settings** configured to **Off**.
+在学生电台上，无需配置 **Model Settings** 或 **Radio Settings** 中的 **Trainer** 部分，将 **Model Settings** 中 **Trainer** 部分的 **Mode** 选项配置为 **Off**。
 
 <div>
 
@@ -85,6 +85,6 @@ On the Student radio, no configuration of the **Trainer** section in the **Model
 
 </div>
 
-**Trainer mode is now configured.**
+**教练模式现已配置。**
 
-You can test this by watching the channel monitor on the Instructor radio, activating trainer mode via the configured switch and moving the sticks on the student radio. If configured correctly, you should see the stick movements from the student radio on the channel monitor on the Instructor radio.
+您可以通过观察教练电台上的通道监视器来测试这一点，通过配置的开关激活教练模式，并移动学生电台上的摇杆。如果配置正确，您应该在教练电台的通道监视器上看到来自学生电台的摇杆移动。

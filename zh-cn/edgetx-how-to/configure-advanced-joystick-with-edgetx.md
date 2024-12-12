@@ -1,137 +1,137 @@
-# Configure Advanced Joystick with EdgeTX
+# 使用 EdgeTX 配置高级操纵杆
 
-### General
+### 通用
 
-1. Please try the **classic mode first**. Handling joystick input has undergone many different designs. For example Windows has 6 joystick APIs - all with different quirks.
-2. **Interface mode Gamepad** is usually the right one.
-3. To ease switching between Advanced and Classic mode try using **channels 1 - 8 for axis** and **channels 9 - 32 for buttons**.
-4. After **changing the joystick** configuration you likely have to disconnect and then reconnect the USB cable. Otherwise systems might still use the old joystick description to read the new data.
+1. 请先尝试**经典模式**。处理操纵杆输入经历了许多不同的设计。例如，Windows 有 6 种操纵杆 API——每种都有不同的特点。
+2. **接口模式 Gamepad** 通常是正确的选择。
+3. 为了方便在高级和经典模式之间切换，尝试使用**通道 1 - 8 作为轴**，**通道 9 - 32 作为按钮**。
+4. 在**更改操纵杆**配置后，您可能需要断开并重新连接 USB 电缆。否则，系统可能仍会使用旧的操纵杆描述来读取新数据。
 
-### Analog Axis
+### 模拟轴
 
-1. Most modern applications use the **USB HID ID** to identify the meaning of an axis.
-2. Legacy applications frequently use the **order** the axis where configured in.
-3. A few applications use the **reverse order** the axis where configured in.
-4. **Duplicate axis** are rarely supported. Some APIs do support two Slider axis.
-5. **Inverted axis**: Many applications expect the left and right Y axis to go the other way. The direction can be reversed with Weight -100% or in the advanced Joystick configuration.
-6. **Windows** does support "axis" and "sim". However mixing both types is not always supported.
-7. **Linux** maps following inputs onto the same axis and uses the input value with the lowest channel number.
-   * sim Thr + axis Slider → ABS\_THROTTLE
-   * sim Rud + axis Dial → ABS\_RUDDER
-   * axis Wheel + sim Steer → ABS\_WHEEL
-8. **Android** treats **sim Acc** and **sim Brk** as half axis. EdgeTX channel outputs \[-100%, 0% and +100%] are interpreted by Android as \[0%, 50% and 100%]. Consider following configuration if your physical input is one analog stick:
-   * sim Acc = input (axis 1: Offset -50%, Func "x>0") mixed with (Weight 200%)
-   * sim Brk = input (axis 1: Offset -50%, Func "x<0") mixed with (Weight -200%)
+1. 大多数现代应用程序使用 **USB HID ID** 来识别轴的含义。
+2. 传统应用程序通常使用轴的**配置顺序**。
+3. 一些应用程序使用轴的**反向顺序**。
+4. **重复轴**很少被支持。一些 API 支持两个滑块轴。
+5. **反向轴**：许多应用程序期望左右 Y 轴方向相反。可以通过权重 -100% 或在高级操纵杆配置中反转方向。
+6. **Windows** 支持“轴”和“模拟”。然而，混合使用这两种类型并不总是被支持。
+7. **Linux** 将以下输入映射到同一轴，并使用具有最低通道号的输入值。
+   * 模拟油门 + 轴滑块 → ABS\_THROTTLE
+   * 模拟方向舵 + 轴拨盘 → ABS\_RUDDER
+   * 轴轮 + 模拟转向 → ABS\_WHEEL
+8. **Android** 将 **模拟加速** 和 **模拟刹车** 视为半轴。EdgeTX 通道输出 \[-100%, 0% 和 +100%] 被 Android 解释为 \[0%, 50% 和 100%]。如果您的物理输入是一个模拟摇杆，请考虑以下配置：
+   * 模拟加速 = 输入 (轴 1: 偏移 -50%, 函数 "x>0") 混合 (权重 200%)
+   * 模拟刹车 = 输入 (轴 1: 偏移 -50%, 函数 "x<0") 混合 (权重 -200%)
 
-#### Common Axis Mapping
+#### 常见轴映射
 
-| channel | Android   | Betaflight  | Dualsense | EdgeTX Classic | EdgeTX pre 2.9 |
-| ------- | --------- | ----------- | --------- | -------------- | -------------- |
-| CH1     | axis X    | axis X      | axis X    | axis X         | axis X         |
-| CH2     | axis Y    | axis Y      | axis Y    | axis Y         | axis Y         |
-| CH3     | axis Z    | axis Z      | axis Z    | axis Z         | axis Z         |
-| CH4     | axis rotZ | axis rotX   | axis rotZ | axis rotX      | axis rotX      |
-| CH5     | sim Brk   | axis rotZ   | axis rotX | axis rotY      | axis rotY      |
-| CH6     | sim Acc   | axis rotY   | axis rotY | axis rotZ      | axis rotZ      |
-| CH7     |           | axis Slider |           | axis Slider    | axis Slider    |
-| CH8     | sim Dpad  | axis Dial   | sim Dpad  | axis Dial      | axis Slider    |
+| 通道 | Android   | Betaflight  | Dualsense | EdgeTX 经典 | EdgeTX 2.9 之前 |
+| ---- | --------- | ----------- | --------- | ----------- | -------------- |
+| CH1  | 轴 X      | 轴 X        | 轴 X      | 轴 X        | 轴 X           |
+| CH2  | 轴 Y      | 轴 Y        | 轴 Y      | 轴 Y        | 轴 Y           |
+| CH3  | 轴 Z      | 轴 Z        | 轴 Z      | 轴 Z        | 轴 Z           |
+| CH4  | 轴 rotZ   | 轴 rotX     | 轴 rotZ   | 轴 rotX     | 轴 rotX        |
+| CH5  | 模拟刹车 | 轴 rotZ     | 轴 rotX   | 轴 rotY     | 轴 rotY        |
+| CH6  | 模拟加速 | 轴 rotY     | 轴 rotY   | 轴 rotZ     | 轴 rotZ        |
+| CH7  |           | 轴滑块      |           | 轴滑块      | 轴滑块         |
+| CH8  | 模拟方向键 | 轴拨盘      | 模拟方向键 | 轴拨盘      | 轴滑块         |
 
-Similar layouts:
+类似布局：
 
-| other controller | use layout     |
-| ---------------- | -------------- |
-| OpenTX           | EdgeTX pre 2.9 |
-| Orqa FPV.Ctrl    | EdgeTX pre 2.9 |
-| Stadia           | Android        |
-| XBox             | Android        |
+| 其他控制器 | 使用布局       |
+| ---------- | -------------- |
+| OpenTX     | EdgeTX 2.9 之前 |
+| Orqa FPV.Ctrl | EdgeTX 2.9 之前 |
+| Stadia     | Android        |
+| XBox       | Android        |
 
-#### sim Dpad
+#### 模拟方向键
 
-Sim Dpad emulates a **directional pad** also known as **hat switch** or point of view switch. Most application decode the 8 ordinal directions and "center". Some applications only decode the 4 cardinal directions and "center" (e.g. Northeast is treated as North).
+模拟方向键模拟一个**方向键**，也称为**帽开关**或视角开关。大多数应用程序解码 8 个方向和“中心”。一些应用程序只解码 4 个基本方向和“中心”（例如，东北被视为北）。
 
-| direction  | from    | to     |
-| ---------- | ------- | ------ |
-| North      | -100.0% | -88.1% |
-| Northeast  | -88.0%  | -76.4% |
-| East       | -76.3%  | -64.6% |
-| Southeast  | -64.6%  | -52.9% |
-| South      | -52.8%  | -41.2% |
-| Southwest  | -41.1%  | -29.5% |
-| West       | -29.4%  | -17.8% |
-| Northwest  | -17.7%  | -6.1%  |
-| **Center** | -6.0%   | 5.7%   |
-| North      | 5.8%    | 17.4%  |
-| Northeast  | 17.5%   | 29.1%  |
-| East       | 29.2%   | 40.8%  |
-| Southeast  | 40.9%   | 52.5%  |
-| South      | 52.6%   | 64.3%  |
-| Southwest  | 64.4%   | 76.0%  |
-| West       | 76.1%   | 87.7%  |
-| Northwest  | 87.8%   | 100.0% |
+| 方向      | 从      | 到      |
+| --------- | ------- | ------- |
+| 北        | -100.0% | -88.1%  |
+| 东北      | -88.0%  | -76.4%  |
+| 东        | -76.3%  | -64.6%  |
+| 东南      | -64.6%  | -52.9%  |
+| 南        | -52.8%  | -41.2%  |
+| 西南      | -41.1%  | -29.5%  |
+| 西        | -29.4%  | -17.8%  |
+| 西北      | -17.7%  | -6.1%   |
+| **中心**  | -6.0%   | 5.7%    |
+| 北        | 5.8%    | 17.4%   |
+| 东北      | 17.5%   | 29.1%   |
+| 东        | 29.2%   | 40.8%   |
+| 东南      | 40.9%   | 52.5%   |
+| 南        | 52.6%   | 64.3%   |
+| 西南      | 64.4%   | 76.0%   |
+| 西        | 76.1%   | 87.7%   |
+| 西北      | 87.8%   | 100.0%  |
 
-#### Axis IDs
+#### 轴 ID
 
-| EdgeTX      | HID name    | USB HID ID |
-| ----------- | ----------- | ---------- |
-| axis X      | X           | 0x00010030 |
-| axis Y      | Y           | 0x00010031 |
-| axis Z      | Z           | 0x00010032 |
-| axis rotX   | Rx          | 0x00010033 |
-| axis rotY   | Ry          | 0x00010034 |
-| axis rotZ   | Rz          | 0x00010035 |
-| axis Slider | Slider      | 0x00010036 |
-| axis Dial   | Dial        | 0x00010037 |
-| axis Wheel  | Wheel       | 0x00010038 |
-| sim Ail     | Aileron     | 0x000200B0 |
-| sim Ele     | Elevator    | 0x000200B8 |
-| sim Rud     | Rudder      | 0x000200BA |
-| sim Thr     | Throttle    | 0x000200BB |
-| sim Acc     | Accelerator | 0x000200C4 |
-| sim Brk     | Brake       | 0x000200C5 |
-| sim Steer   | Steering    | 0x000200C8 |
-| sim Dpad    | Hat switch  | 0x00010039 |
+| EdgeTX      | HID 名称     | USB HID ID |
+| ----------- | ------------ | ---------- |
+| 轴 X        | X            | 0x00010030 |
+| 轴 Y        | Y            | 0x00010031 |
+| 轴 Z        | Z            | 0x00010032 |
+| 轴 rotX     | Rx           | 0x00010033 |
+| 轴 rotY     | Ry           | 0x00010034 |
+| 轴 rotZ     | Rz           | 0x00010035 |
+| 轴滑块      | Slider       | 0x00010036 |
+| 轴拨盘      | Dial         | 0x00010037 |
+| 轴轮        | Wheel        | 0x00010038 |
+| 模拟副翼    | Aileron      | 0x000200B0 |
+| 模拟升降舵  | Elevator     | 0x000200B8 |
+| 模拟方向舵  | Rudder       | 0x000200BA |
+| 模拟油门    | Throttle     | 0x000200BB |
+| 模拟加速    | Accelerator  | 0x000200C4 |
+| 模拟刹车    | Brake        | 0x000200C5 |
+| 模拟转向    | Steering     | 0x000200C8 |
+| 模拟方向键  | Hat switch   | 0x00010039 |
 
-### Buttons
+### 按钮
 
-1. Buttons are **identified** by their USB HID ID.
-2. The **meaning** of a specific button ID is not standardized.
-3. **Duplicate buttons** (_e.g. button 1, button 1_) are not supported. The button with the higher channel number is used.
-4. **Buttons as axis**: Some applications need analog button information. Use a mixer to forward the digital button state to an analog axis.
-5. **Ghost buttons**: For Joysticks and Gamepads the required minimum amount of buttons is automatically created. Similarly if only button 15 is configured the missing buttons 0 - 14 are automatically created. These buttons have no input and are always off.
-6. **Android** generally supports buttons 0 to 14 with the same mapping as Linux. Support for buttons in bold is [mandatory](https://source.android.com/docs/compatibility/14/android-14-cdd#7261\_button\_mappings) for all Android devices.
-7. **Widows** generally supports buttons 0 to 9 with the same mapping as Xbox.
+1. 按钮通过其 USB HID ID **识别**。
+2. 特定按钮 ID 的**含义**没有标准化。
+3. **重复按钮**（例如，按钮 1，按钮 1）不被支持。使用通道号较高的按钮。
+4. **按钮作为轴**：一些应用程序需要模拟按钮信息。使用混合器将数字按钮状态转发到模拟轴。
+5. **幽灵按钮**：对于操纵杆和游戏手柄，自动创建所需的最小按钮数量。同样，如果只配置了按钮 15，则自动创建缺失的按钮 0 - 14。这些按钮没有输入，始终关闭。
+6. **Android** 通常支持按钮 0 到 14，与 Linux 的映射相同。对加粗按钮的支持是所有 Android 设备的[强制性](https://source.android.com/docs/compatibility/14/android-14-cdd#7261\_button\_mappings)。
+7. **Windows** 通常支持按钮 0 到 9，与 Xbox 的映射相同。
 
 | EdgeTX    | **Android** / Linux         | Dualsense | **Windows** / XBox | USB HID ID |
 | --------- | --------------------------- | --------- | ------------------ | ---------- |
-| button 0  | **BTN\_A** - 304            | square    | **A**              | 0x00090001 |
-| button 1  | **BTN\_B** - 305            | cross     | **B**              | 0x00090002 |
-| button 2  | BTN\_C - 305                | circle    | **X**              | 0x00090003 |
-| button 3  | **BTN\_X** - 307            | triangle  | **Y**              | 0x00090004 |
-| button 4  | **BTN\_Y** - 308            | L1        | **left bumper**    | 0x00090005 |
-| button 5  | BTN\_Z - 309                | R1        | **right bumper**   | 0x00090006 |
-| button 6  | **BTN\_TL** - 310           | L2        | **back**           | 0x00090007 |
-| button 7  | **BTN\_TR** - 311           | R2        | **start**          | 0x00090008 |
-| button 8  | BTN\_TL2 - 312              | create    | **left stick**     | 0x00090009 |
-| button 9  | BTN\_TR2 - 313              | options   | **right stick**    | 0x0009000A |
-| button 10 | BTN\_SELECT - 314           | L3        | left trigger       | 0x0009000B |
-| button 11 | BTN\_START - 315            | R3        | right trigger      | 0x0009000C |
-| button 12 | BTN\_MODE - 316             | home      | guide              | 0x0009000D |
-| button 13 | **BTN\_THUMBL** - 317       | touchpad  |                    | 0x0009000E |
-| button 14 | **BTN\_THUMBR** - 318       | mute      |                    | 0x0009000F |
-| button 15 |                             |           |                    | 0x00090010 |
-| button 16 | BTN\_TRIGGER\_HAPPY1 - 704  |           |                    | 0x00090011 |
-| button 17 | BTN\_TRIGGER\_HAPPY2 - 705  |           |                    | 0x00090012 |
-| button 18 | BTN\_TRIGGER\_HAPPY3 - 706  |           |                    | 0x00090013 |
-| button 19 | BTN\_TRIGGER\_HAPPY4 - 708  |           |                    | 0x00090014 |
-| button 20 | BTN\_TRIGGER\_HAPPY5 - 709  |           |                    | 0x00090015 |
-| button 21 | BTN\_TRIGGER\_HAPPY6 - 710  |           |                    | 0x00090016 |
-| button 22 | BTN\_TRIGGER\_HAPPY7 - 711  |           |                    | 0x00090017 |
-| button 23 | BTN\_TRIGGER\_HAPPY8 - 712  |           |                    | 0x00090018 |
-| button 24 | BTN\_TRIGGER\_HAPPY9 - 713  |           |                    | 0x00090019 |
-| button 25 | BTN\_TRIGGER\_HAPPY10 - 714 |           |                    | 0x0009001A |
-| button 26 | BTN\_TRIGGER\_HAPPY11 - 715 |           |                    | 0x0009001B |
-| button 27 | BTN\_TRIGGER\_HAPPY12 - 716 |           |                    | 0x0009001C |
-| button 28 | BTN\_TRIGGER\_HAPPY13 - 717 |           |                    | 0x0009001D |
-| button 29 | BTN\_TRIGGER\_HAPPY14 - 718 |           |                    | 0x0009001E |
-| button 30 | BTN\_TRIGGER\_HAPPY15 - 719 |           |                    | 0x0009001F |
-| button 31 | BTN\_TRIGGER\_HAPPY16 - 720 |           |                    | 0x00090020 |
+| 按钮 0    | **BTN\_A** - 304            | 方形      | **A**              | 0x00090001 |
+| 按钮 1    | **BTN\_B** - 305            | 十字      | **B**              | 0x00090002 |
+| 按钮 2    | BTN\_C - 305                | 圆形      | **X**              | 0x00090003 |
+| 按钮 3    | **BTN\_X** - 307            | 三角形    | **Y**              | 0x00090004 |
+| 按钮 4    | **BTN\_Y** - 308            | L1        | **左肩键**         | 0x00090005 |
+| 按钮 5    | BTN\_Z - 309                | R1        | **右肩键**         | 0x00090006 |
+| 按钮 6    | **BTN\_TL** - 310           | L2        | **返回**           | 0x00090007 |
+| 按钮 7    | **BTN\_TR** - 311           | R2        | **开始**           | 0x00090008 |
+| 按钮 8    | BTN\_TL2 - 312              | 创建      | **左摇杆**         | 0x00090009 |
+| 按钮 9    | BTN\_TR2 - 313              | 选项      | **右摇杆**         | 0x0009000A |
+| 按钮 10   | BTN\_SELECT - 314           | L3        | 左触发器           | 0x0009000B |
+| 按钮 11   | BTN\_START - 315            | R3        | 右触发器           | 0x0009000C |
+| 按钮 12   | BTN\_MODE - 316             | 主页面    | 导航               | 0x0009000D |
+| 按钮 13   | **BTN\_THUMBL** - 317       | 触摸板    |                    | 0x0009000E |
+| 按钮 14   | **BTN\_THUMBR** - 318       | 静音      |                    | 0x0009000F |
+| 按钮 15   |                             |           |                    | 0x00090010 |
+| 按钮 16   | BTN\_TRIGGER\_HAPPY1 - 704  |           |                    | 0x00090011 |
+| 按钮 17   | BTN\_TRIGGER\_HAPPY2 - 705  |           |                    | 0x00090012 |
+| 按钮 18   | BTN\_TRIGGER\_HAPPY3 - 706  |           |                    | 0x00090013 |
+| 按钮 19   | BTN\_TRIGGER\_HAPPY4 - 708  |           |                    | 0x00090014 |
+| 按钮 20   | BTN\_TRIGGER\_HAPPY5 - 709  |           |                    | 0x00090015 |
+| 按钮 21   | BTN\_TRIGGER\_HAPPY6 - 710  |           |                    | 0x00090016 |
+| 按钮 22   | BTN\_TRIGGER\_HAPPY7 - 711  |           |                    | 0x00090017 |
+| 按钮 23   | BTN\_TRIGGER\_HAPPY8 - 712  |           |                    | 0x00090018 |
+| 按钮 24   | BTN\_TRIGGER\_HAPPY9 - 713  |           |                    | 0x00090019 |
+| 按钮 25   | BTN\_TRIGGER\_HAPPY10 - 714 |           |                    | 0x0009001A |
+| 按钮 26   | BTN\_TRIGGER\_HAPPY11 - 715 |           |                    | 0x0009001B |
+| 按钮 27   | BTN\_TRIGGER\_HAPPY12 - 716 |           |                    | 0x0009001C |
+| 按钮 28   | BTN\_TRIGGER\_HAPPY13 - 717 |           |                    | 0x0009001D |
+| 按钮 29   | BTN\_TRIGGER\_HAPPY14 - 718 |           |                    | 0x0009001E |
+| 按钮 30   | BTN\_TRIGGER\_HAPPY15 - 719 |           |                    | 0x0009001F |
+| 按钮 31   | BTN\_TRIGGER\_HAPPY16 - 720 |           |                    | 0x00090020 |

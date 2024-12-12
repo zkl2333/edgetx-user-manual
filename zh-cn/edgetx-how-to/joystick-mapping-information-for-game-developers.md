@@ -1,25 +1,25 @@
-# Joystick Mapping Information for Game Developers
+# 游戏开发者的操纵杆映射信息
 
-### General
+### 概述
 
-1. EdgeTX can output joystick / gamepad information via USB HID with ID (VID\_1209\&PID\_4F54 / 1209:4F54).
-2. EdgeTX performs configurable input processing including dead bands, mixing, and non-linear scaling.
-3. A wide variety of [controllers](https://edgetx.org/supportedradios/) run EdgeTX. By default all devices output the same "Classic Joystick" report format with 8 analog axis and 24 digital buttons.
-4. Buttons are digital (0 = off, 1 = on).
-5. Analog axis have 11 bit resoultion.
+1. EdgeTX 可以通过 USB HID 输出操纵杆/游戏手柄信息，ID 为 (VID\_1209\&PID\_4F54 / 1209:4F54)。
+2. EdgeTX 执行可配置的输入处理，包括死区、混合和非线性缩放。
+3. 多种[控制器](https://edgetx.org/supportedradios/)运行 EdgeTX。默认情况下，所有设备输出相同的“经典操纵杆”报告格式，具有 8 个模拟轴和 24 个数字按钮。
+4. 按钮是数字的（0 = 关，1 = 开）。
+5. 模拟轴具有 11 位分辨率。
 
 ### Linux: evdev
 
-Linux's [evdev API](https://www.kernel.org/doc/html/latest/input/input.html) uses **open** (fcntl.h) with **/dev/input/event**\[...] and **read** (unistd.h) to read **input\_event** (linux/joystick.h).
+Linux 的 [evdev API](https://www.kernel.org/doc/html/latest/input/input.html) 使用 **open** (fcntl.h) 与 **/dev/input/event**\[...] 和 **read** (unistd.h) 来读取 **input\_event** (linux/joystick.h)。
 
-#### identity
+#### 身份识别
 
-1. EVIOCGID : device\_id.vendor is 4617 / 0x1209
-2. EVIOCGID : device\_id.product is 20308 / 0x4F54
+1. EVIOCGID : device\_id.vendor 是 4617 / 0x1209
+2. EVIOCGID : device\_id.product 是 20308 / 0x4F54
 
-#### input labels
+#### 输入标签
 
-| EdgeTX | event name           | event code          |
+| EdgeTX | 事件名称             | 事件代码            |
 | ------ | -------------------- | ------------------- |
 | CH1    | ABS\_X               | EV\_ABS 0           |
 | CH2    | ABS\_Y               | EV\_ABS 1           |
@@ -44,7 +44,7 @@ Linux's [evdev API](https://www.kernel.org/doc/html/latest/input/input.html) use
 | CH21   | BTN\_MODE            | EV\_KEY 316 / 0x13C |
 | CH22   | BTN\_THUMBL          | EV\_KEY 317 / 0x13D |
 | CH23   | BTN\_THUMBR          | EV\_KEY 318 / 0x13E |
-| CH24   | (no name)            | EV\_KEY 319 / 0x13F |
+| CH24   | (无名称)             | EV\_KEY 319 / 0x13F |
 | CH25   | BTN\_TRIGGER\_HAPPY1 | EV\_KEY 704 / 0x2C0 |
 | CH26   | BTN\_TRIGGER\_HAPPY2 | EV\_KEY 705 / 0x2C1 |
 | CH27   | BTN\_TRIGGER\_HAPPY3 | EV\_KEY 706 / 0x2C2 |
@@ -56,34 +56,34 @@ Linux's [evdev API](https://www.kernel.org/doc/html/latest/input/input.html) use
 
 ### Linux: joystick
 
-Linux's [joystick API](https://www.kernel.org/doc/html/latest/input/joydev/index.html) uses **open** (fcntl.h) with **/dev/input/js** and **read** (unistd.h) to read **js\_event** (linux/joystick.h).
+Linux 的 [joystick API](https://www.kernel.org/doc/html/latest/input/joydev/index.html) 使用 **open** (fcntl.h) 与 **/dev/input/js** 和 **read** (unistd.h) 来读取 **js\_event** (linux/joystick.h)。
 
-#### identity
+#### 身份识别
 
-JSIOCGNAME is "EdgeTX \[...] Joystick" or "OpenTX \[...] Joystick". The middle part ("\[...]") is device specific.
+JSIOCGNAME 是 "EdgeTX \[...] Joystick" 或 "OpenTX \[...] Joystick"。中间部分 ("\[...]") 是设备特定的。
 
-#### input labels
+#### 输入标签
 
-| EdgeTX | read js\_event       |
-| ------ | -------------------- |
-| CH1    | JS\_EVENT\_AXIS 0    |
-| CH2    | JS\_EVENT\_AXIS 1    |
-| \[...] | \[...]               |
-| CH8    | JS\_EVENT\_AXIS 7    |
-| CH9    | JS\_EVENT\_BUTTON 0  |
-| CH10   | JS\_EVENT\_BUTTON 1  |
-| \[...] | \[...]               |
-| CH32   | JS\_EVENT\_BUTTON 23 |
+| EdgeTX | 读取 js\_event     |
+| ------ | ------------------ |
+| CH1    | JS\_EVENT\_AXIS 0  |
+| CH2    | JS\_EVENT\_AXIS 1  |
+| \[...] | \[...]             |
+| CH8    | JS\_EVENT\_AXIS 7  |
+| CH9    | JS\_EVENT\_BUTTON 0|
+| CH10   | JS\_EVENT\_BUTTON 1|
+| \[...] | \[...]             |
+| CH32   | JS\_EVENT\_BUTTON 23|
 
 ### Windows: DirectInput
 
-Windows's [DirectInput](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ee416842\(v=vs.85\)) uses IDirectInputDevice8::**GetDeviceState** to read **DIJOYSTATE** (dinput.h). DIJOYSTATE2 (c\_dfDIJoystick2) outputs the same information.
+Windows 的 [DirectInput](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ee416842\(v=vs.85\)) 使用 IDirectInputDevice8::**GetDeviceState** 来读取 **DIJOYSTATE** (dinput.h)。DIJOYSTATE2 (c\_dfDIJoystick2) 输出相同的信息。
 
-#### identity
+#### 身份识别
 
-DIDEVICEINSTANCE.guidProduct starts with "4F541209-". The trailing part of the GUID is device specific.
+DIDEVICEINSTANCE.guidProduct 以 "4F541209-" 开头。GUID 的后续部分是设备特定的。
 
-#### input labels
+#### 输入标签
 
 | EdgeTX | DIJOYSTATE      |
 | ------ | --------------- |
@@ -102,14 +102,14 @@ DIDEVICEINSTANCE.guidProduct starts with "4F541209-". The trailing part of the G
 
 ### Windows: Multimedia
 
-Windows' [Multimedia API](https://learn.microsoft.com/en-us/windows/win32/api/joystickapi/) uses **joyGetPosEx** to read **JOYINFOEX** (joystickapi.h). The older joyGetPos / JOYINFO only support CH1-CH3 and CH9-CH32 with the same mapping as the newer JOYINFOEX.
+Windows 的 [Multimedia API](https://learn.microsoft.com/en-us/windows/win32/api/joystickapi/) 使用 **joyGetPosEx** 来读取 **JOYINFOEX** (joystickapi.h)。较旧的 joyGetPos / JOYINFO 仅支持 CH1-CH3 和 CH9-CH32，映射与较新的 JOYINFOEX 相同。
 
-#### identity
+#### 身份识别
 
-1. JOYCAPS.wMid is 4617 / 0x1209
-2. JOYCAPS.wPid is 20308 / 0x4F54
+1. JOYCAPS.wMid 是 4617 / 0x1209
+2. JOYCAPS.wPid 是 20308 / 0x4F54
 
-#### input labels
+#### 输入标签
 
 | EdgeTX | JOYINFOEX            |
 | ------ | -------------------- |
@@ -117,10 +117,10 @@ Windows' [Multimedia API](https://learn.microsoft.com/en-us/windows/win32/api/jo
 | CH2    | dwYpos               |
 | CH3    | dwZpos               |
 | CH4    | dwVpos               |
-| CH5    | (not available)      |
+| CH5    | (不可用)             |
 | CH6    | dwRpos               |
 | CH7    | dwUpos               |
-| CH8    | (not available)      |
+| CH8    | (不可用)             |
 | CH9    | dwButtons & 0x000001 |
 | CH10   | dwButtons & 0x000002 |
 | CH11   | dwButtons & 0x000004 |
@@ -129,14 +129,14 @@ Windows' [Multimedia API](https://learn.microsoft.com/en-us/windows/win32/api/jo
 
 ### Windows: Raw Input
 
-Windows' [Raw Input API](https://learn.microsoft.com/en-us/windows/win32/inputdev/about-raw-input) uses **GetRawInputData** (WinUser.h), **HidP\_GetUsageValue** and **HidP\_GetUsages** (hidpi.h).
+Windows 的 [Raw Input API](https://learn.microsoft.com/en-us/windows/win32/inputdev/about-raw-input) 使用 **GetRawInputData** (WinUser.h)，**HidP\_GetUsageValue** 和 **HidP\_GetUsages** (hidpi.h)。
 
-#### identity
+#### 身份识别
 
-1. RID\_DEVICE\_INFO\_HID.dwVendorId is 4617 / 0x1209
-2. RID\_DEVICE\_INFO\_HID.dwProductId is 20308 / 0x4F54
+1. RID\_DEVICE\_INFO\_HID.dwVendorId 是 4617 / 0x1209
+2. RID\_DEVICE\_INFO\_HID.dwProductId 是 20308 / 0x4F54
 
-#### input labels
+#### 输入标签
 
 | EdgeTX | HidP\_Get\[...]Value     | UsagePage | Usage  |
 | ------ | ------------------------ | --------- | ------ |
@@ -155,14 +155,14 @@ Windows' [Raw Input API](https://learn.microsoft.com/en-us/windows/win32/inputde
 
 ### Windows: Windows.Gaming.Input
 
-Windows' [RawGameController](https://learn.microsoft.com/en-us/uwp/api/windows.gaming.input.rawgamecontroller) uses **winrt::Windows::Gaming::Input::RawGameController** (winrt/Windows.Gaming.Input.h).
+Windows 的 [RawGameController](https://learn.microsoft.com/en-us/uwp/api/windows.gaming.input.rawgamecontroller) 使用 **winrt::Windows::Gaming::Input::RawGameController** (winrt/Windows.Gaming.Input.h)。
 
-#### identity
+#### 身份识别
 
-1. RawGameController::HardwareVendorId is 4617 / 0x1209
-2. RawGameController::HardwareProductId is 20308 / 0x4F54
+1. RawGameController::HardwareVendorId 是 4617 / 0x1209
+2. RawGameController::HardwareProductId 是 20308 / 0x4F54
 
-#### input labels
+#### 输入标签
 
 | EdgeTX | GetCurrentReading |
 | ------ | ----------------- |

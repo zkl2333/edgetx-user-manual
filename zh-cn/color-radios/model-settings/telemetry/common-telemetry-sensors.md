@@ -1,58 +1,9 @@
-## Welcome to EdgeTX
-
-### Introduction
-
-EdgeTX is an open-source firmware for radio-controlled models. It is based on the popular OpenTX software and offers a wide range of features and customization options for your RC transmitter.
-
-### Features
-
-- **Customizable Interface**: Personalize your transmitter's interface to suit your preferences.
-- **Advanced Mixing**: Create complex control setups with ease.
-- **Telemetry Support**: Monitor real-time data from your model.
-- **Lua Scripting**: Customize your transmitter's behavior using Lua scripts.
-- **Wireless Trainer**: Train with other pilots using the wireless trainer function.
-- **Crossfire Integration**: Seamlessly integrate with TBS Crossfire systems.
-
-### Getting Started
-
-To get started with EdgeTX, follow these steps:
-
-1. Download the latest EdgeTX firmware for your transmitter model from the official website.
-2. Flash the firmware to your transmitter following the instructions provided.
-3. Configure your transmitter settings to match your model and preferences.
-4. Explore the various features and customization options available in EdgeTX.
-
-For more information and support, visit the EdgeTX website at [edgetx.org](https://edgetx.org).
-
 # 常见遥测传感器
 
-以下传感器是常用的，并且通常会被EdgeTX自动检测到：
+以下传感器是常用的，并且通常由 EdgeTX 自动检测：
 
-| 名称   | 描述                               | 数据来源            |
-|--------|------------------------------------|---------------------|
-| 1RSS   | 接收信号强度天线1 (RSSI)            | 接收机              |
-| 2RSS   | 接收信号强度天线2 (RSSI)            | 接收机              |
-| Rqly   | 接收机链路质量 (有效数据包)         | 接收机              |
-| RSNR   | 接收机信噪比                       | 接收机              |
-| RFMD   | 接收机数据包速率                   | 接收机              |
-| TPWR   | 发射机发射功率                     | 发射机              |
-| TRSS   | 发射机信号强度天线                 | 发射机              |
-| TQly   | 发射机链路质量 (有效数据包)         | 发射机              |
-| TSNR   | 发射机信噪比                       | 发射机              |
-| ANT    | 仅用于调试的传感器                 | 发射机              |
-| GPS    | GPS坐标                           | GPS / 飞控器        |
-| Alt    | GPS高度                           | GPS / 飞控器        |
-| Sats   | GPS卫星数量                        | GPS / 飞控器        |
-| Hdg    | 磁性方向                           | GPS / 飞控器        |
-| RXBt   | 电池电压                           | 飞控器              |
-| Curr   | 电流                               | 飞控器              |
-| Capa   | 电流消耗                           | 飞控器              |
-| Ptch   | 飞控俯仰角                         | 飞控器              |
-| Roll   | 飞控横滚角                         | 飞控器              |
-| Yaw    | 飞控偏航角                         | 飞控器              |
-| FM     | 飞行模式                           | 飞控器              |
-| VSPD   | 垂直速度                           | 带气压计的飞控器    |
+<table><thead><tr><th width="107">名称</th><th width="419.3333333333333">描述</th><th>数据来源</th></tr></thead><tbody><tr><td>1RSS</td><td>接收信号强度天线 1 (RSSI)</td><td>接收机</td></tr><tr><td>2RSS</td><td>接收信号强度天线 2 (RSSI)</td><td>接收机</td></tr><tr><td>Rqly</td><td>接收机链路质量（有效数据包）</td><td>接收机</td></tr><tr><td>RSNR</td><td>接收机信噪比</td><td>接收机</td></tr><tr><td>RFMD</td><td>接收机数据包速率</td><td>接收机</td></tr><tr><td>TPWR</td><td>发射机发射功率</td><td>发射机</td></tr><tr><td>TRSS</td><td>发射机信号强度天线</td><td>发射机</td></tr><tr><td>TQly</td><td>发射机链路质量（有效数据包）</td><td>发射机</td></tr><tr><td>TSNR</td><td>发射机信噪比</td><td>发射机</td></tr><tr><td>ANT</td><td>仅用于调试的传感器</td><td>发射机</td></tr><tr><td>GPS</td><td>GPS 坐标</td><td>GPS / 飞控</td></tr><tr><td>Alt</td><td>GPS 高度</td><td>GPS / 飞控</td></tr><tr><td>Sats</td><td>已获取的 GPS 卫星</td><td>GPS / 飞控</td></tr><tr><td>Hdg</td><td>磁性方向</td><td>GPS / 飞控</td></tr><tr><td>RXBt</td><td>电池电压</td><td>飞控</td></tr><tr><td>Curr</td><td>电流消耗</td><td>飞控</td></tr><tr><td>Capa</td><td>电流消耗量</td><td>飞控</td></tr><tr><td>Ptch</td><td>飞控俯仰角</td><td>飞控</td></tr><tr><td>Roll</td><td>飞控横滚角</td><td>飞控</td></tr><tr><td>Yaw</td><td>飞控偏航角</td><td>飞控</td></tr><tr><td>FM</td><td>飞行模式</td><td>飞控</td></tr><tr><td>VSPD</td><td>垂直速度</td><td>带气压计的飞控</td></tr></tbody></table>
 
 {% hint style="info" %}
-每个传感器都有两个自动生成的传感器，用于显示其最小值和最大值。它们的名称相同，只是在末尾添加了负号和正号。例如：**RXBt +** 这显示了传感器在飞行过程中达到的最大值。使用[重置遥测](../../reset-telemetry.md)或飞行功能将会将此值重置为0。
+每个传感器都有两个自动生成的传感器，用于其最小值和最大值。它们共享相同的名称，并在末尾添加负号和正号。例如：**RXBt +** 这显示了传感器在飞行期间达到的最大值。使用 [重置遥测](../../reset-telemetry.md) 或飞行功能将此值重置为 0。
 {% endhint %}

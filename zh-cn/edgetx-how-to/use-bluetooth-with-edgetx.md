@@ -1,39 +1,39 @@
-# Use Bluetooth with EdgeTX
+# 在 EdgeTX 中使用蓝牙
 
-The support for Bluetooth in EdgeTX is limited to:
+EdgeTX 中对蓝牙的支持仅限于：
 
-* Bluetooth Trainer Mode
-* Bluetooth Telemetry Streaming
+* 蓝牙教练模式
+* 蓝牙遥测流
 
-The following Bluetooth options are **not** supported.
+以下蓝牙选项**不**支持。
 
-* Bluetooth Audio
-* Wireless file access and transfers
-* Bluetooth joystick
+* 蓝牙音频
+* 无线文件访问和传输
+* 蓝牙操纵杆
 
-### Firmware
+### 固件
 
-To use Bluetooth, you will need a custom compiled version of EdgeTX that needs to be built with the **BLUETOOTH=YES** CMake flag. You can create customized versions of EdgeTX using the CloudBuild tab on the[ EdgeTX Buddy website](https://buddy.edgetx.org/).
+要使用蓝牙，您需要一个自定义编译的 EdgeTX 版本，该版本需要使用 **BLUETOOTH=YES** CMake 标志进行构建。您可以使用 [EdgeTX Buddy 网站](https://buddy.edgetx.org/)上的 CloudBuild 选项卡创建 EdgeTX 的自定义版本。
 
-Once the correct version of EdgeTX firmware is installed in your radio, the Bluetooth configuration options will be available on the **Hardware** page of **Radio** Settings.
+一旦在您的遥控器中安装了正确版本的 EdgeTX 固件，蓝牙配置选项将在**无线电**设置的**硬件**页面上可用。
 
-### Hardware
+### 硬件
 
-The only off-the-shelf bluetooth modules supported by EdgeTX are:&#x20;
+EdgeTX 支持的唯一现成蓝牙模块是：
 
-[FrSky Bluetooth Module](https://de.aliexpress.com/item/4001192317700.html?gatewayAdapt=glo2deu)
+[FrSky 蓝牙模块](https://de.aliexpress.com/item/4001192317700.html?gatewayAdapt=glo2deu)
 
-[FrSky ACCESS PARA Wireless Module](https://www.horusrc.com/en/frsky-horus-x10-para-wireless-module.html)
+[FrSky ACCESS PARA 无线模块](https://www.horusrc.com/en/frsky-horus-x10-para-wireless-module.html)
 
-You can also create your own Bluetooth module by purchasing an ESP32 development kit and flashing it with the firmware from following project:[ https://btwifimod.gitbook.io/untitled/getting-started/hardware](https://btwifimod.gitbook.io/untitled/getting-started/hardware)
+您还可以通过购买 ESP32 开发套件并使用以下项目的固件对其进行刷写来创建自己的蓝牙模块：[https://btwifimod.gitbook.io/untitled/getting-started/hardware](https://btwifimod.gitbook.io/untitled/getting-started/hardware)
 
-### Telemetry Applications
+### 遥测应用
 
-The [INAV Telemetry Viewer app](https://play.google.com/store/apps/details?id=crazydude.com.telemetry) can be used on your Android smartphone to view your telemetry data over bluetooth.
+[INAV Telemetry Viewer 应用](https://play.google.com/store/apps/details?id=crazydude.com.telemetry)可以在您的 Android 智能手机上使用，以通过蓝牙查看您的遥测数据。
 
-### Other Important Notes:
+### 其他重要注意事项：
 
-* Bluetooth is only supported on radios that have at least one AUX serial port.
-* The compile time option **Bluetooth** will reserve one AUX port (on radios with 2 AUX ports, AUX2 is reserved for Bluetooth) and it will NOT be available in the normal user interface for other purposes.
-* EdgeTX Bluetooth trainer or telemetry has nothing to do with internal or external RF module Bluetooth functionality.
-* EdgeTX Bluetooth can NOT be used for Bluetooth joystick functionality at the moment.
+* 蓝牙仅支持至少有一个 AUX 串口的遥控器。
+* 编译时选项 **Bluetooth** 将保留一个 AUX 端口（在有 2 个 AUX 端口的遥控器上，AUX2 保留用于蓝牙），并且在正常用户界面中将不可用于其他用途。
+* EdgeTX 蓝牙教练或遥测与内部或外部 RF 模块的蓝牙功能无关。
+* 目前 EdgeTX 蓝牙不能用于蓝牙操纵杆功能。

@@ -1,23 +1,23 @@
-# Disable Touchscreen
+# 禁用触摸屏
 
-There are various reasons on why you may want to disable the touchscreen. Unintentional touches during a flight could change your model configuration which can be a risk.
+有多种原因可能导致您想要禁用触摸屏。在飞行过程中，意外触碰可能会改变您的模型配置，从而带来风险。
 
-Therefore we can create a [global function](../color-radios/radio-settings/global-functions.md) or[ special function](../color-radios/model-settings/special-functions.md) using the **No Touch** feature to disable and enable the touch feature. While global functions apply to all models, the special function is defined on individual models.
+因此，我们可以创建一个[全局功能](../color-radios/radio-settings/global-functions.md)或[特殊功能](../color-radios/model-settings/special-functions.md)，使用 **No Touch** 功能来禁用和启用触摸功能。全局功能适用于所有模型，而特殊功能则在单个模型上定义。
 
-## Disable touch screen with a global function
+## 使用全局功能禁用触摸屏
 
-In the following example we use switch SF to disable the touch screen with a global function.
+在以下示例中，我们使用开关 SF 通过全局功能禁用触摸屏。
 
-<figure><img src="/.gitbook/assets/create-no-touch-global-function.png" alt=""><figcaption><p>create a global function to disable touch with switch SF</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/create-no-touch-global-function.png" alt=""><figcaption><p>创建一个全局功能以使用开关 SF 禁用触摸</p></figcaption></figure>
 
-<figure><img src="/.gitbook/assets/show-no-touch-global-function.png" alt=""><figcaption><p>show the global function</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/show-no-touch-global-function.png" alt=""><figcaption><p>显示全局功能</p></figcaption></figure>
 
-## Disable touch screen with a special function
+## 使用特殊功能禁用触摸屏
 
-Customizable switches or logical switches cannot be used in global functions. But we can use a special function to enable and disable the touch screen with a customizable switch.
+自定义开关或逻辑开关不能用于全局功能。但我们可以使用特殊功能通过自定义开关启用和禁用触摸屏。
 
-<figure><img src="/.gitbook/assets/list-customizable-switches-mo-touch.png" alt=""><figcaption><p>setup of customizable switches</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/list-customizable-switches-mo-touch.png" alt=""><figcaption><p>自定义开关的设置</p></figcaption></figure>
 
-<figure><img src="/.gitbook/assets/show-no-touch-special-function.png" alt=""><figcaption><p>create a special function to disable touch with SW1</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/show-no-touch-special-function.png" alt=""><figcaption><p>创建一个特殊功能以使用 SW1 禁用触摸</p></figcaption></figure>
 
-<figure><img src="/.gitbook/assets/show-no-touch-special-function.png" alt=""><figcaption><p>list of special functions</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/show-no-touch-special-function.png" alt=""><figcaption><p>特殊功能列表</p></figcaption></figure>

@@ -1,95 +1,67 @@
-## Welcome to EdgeTX
+# USB Joystick
 
-### Introduction
+USB Joystick 有两种可能的模式，**经典** 和 **高级**。&#x20;
 
-EdgeTX is an open-source firmware for radio-controlled models. It is based on the popular OpenTX firmware and offers a wide range of features and customization options for your RC transmitter.
+<figure><img src="/.gitbook/assets/usbjoystick1.png" alt=""><figcaption><p>USB Joystick 经典模式</p></figcaption></figure>
 
-### Features
-
-- **Intuitive Interface**: EdgeTX provides a user-friendly interface for easy navigation and setup.
-- **Advanced Customization**: Customize your transmitter settings and flight modes to suit your preferences.
-- **Telemetry Support**: Monitor real-time telemetry data from your model while in flight.
-- **Cross-platform Compatibility**: EdgeTX is compatible with a wide range of RC transmitters, including those from popular brands like FrSky and Jumper.
-
-### Getting Started
-
-To get started with EdgeTX, follow these steps:
-
-1. **Download**: Download the latest EdgeTX firmware for your RC transmitter model from the official EdgeTX website.
-2. **Installation**: Follow the installation instructions provided on the website to flash the firmware onto your transmitter.
-3. **Configuration**: Configure your transmitter settings and model setups using the intuitive EdgeTX interface.
-4. **Calibration**: Calibrate your transmitter sticks and switches to ensure accurate control of your model.
-
-### Support
-
-For support and troubleshooting, visit the EdgeTX website or join the EdgeTX community forums to connect with other users and developers.
-
-Thank you for choosing EdgeTX! Happy flying!
-
-# USB手柄
-
-USB手柄有两种可能的模式，**经典**和**高级**。
-
-<figure><img src="/.gitbook/assets/usbjoystick1.png" alt=""><figcaption><p>USB手柄经典模式</p></figcaption></figure>
-
-在**经典模式**下，无线电配置的输出通道将按照数字顺序发送到目标设备，并映射到设备预配置的USB控制器轴和按钮。以下是Microsoft Windows的默认通道映射。
+在 **经典模式** 中，电台配置的输出通道将按数字顺序发送到目标设备，并映射到设备预配置的 USB 控制器轴和按钮。以下是 Microsoft Windows 的默认通道映射。
 
 {% hint style="info" %}
-如果将无线电用作USB手柄，则内部和外部射频模块都应该关闭。当配置为此时，混频器在手柄模式下运行时会以1000Hz运行（这对于F.Sim竞争者是必需的）。此外，它还会在统计/调试屏幕中显示混频器运行时间。这将导致连接到计算机时性能提高。
+如果将电台用作 USB Joystick，内部和外部 RF 模块都应关闭。当配置为这种模式时，混频器在 Joystick 模式下将以 1000Hz 运行（这是 F.Sim 竞争者所需的）。此外，它还在统计/调试屏幕中显示混频器运行时间。这将在通过 USB 连接到计算机时提高性能。&#x20;
 {% endhint %}
 
-* Ch1 - X轴
-* Ch2 - Y轴
-* Ch3 - Z轴
-* Ch4 - X旋转
-* Ch5 - Y旋转
-* Ch6 - Z旋转
-* Ch7 - 拨号
-* Ch8 - 滑块
-* CH9 - CH32 - 按钮1 - 24
+* Ch1 - X 轴
+* Ch 2 - Y 轴
+* Ch 3 - Z 轴
+* Ch4 - X 旋转
+* Ch 5 - Y 旋转
+* Ch 6 - Z 旋转
+* Ch 7 - 旋钮
+* Ch 8 - 滑块
+* CH 9 - Ch 32 - 按钮 1 - 24
 
-<figure><img src="/.gitbook/assets/usbjoystick.png" alt=""><figcaption><p>USB手柄高级模式</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/usbjoystick.png" alt=""><figcaption><p>USB Joystick 高级模式</p></figcaption></figure>
 
-在**高级模式**下，您可以配置以下选项：
+在 **高级模式** 中，您可以配置以下选项：
 
-**接口模式：** 这指示目标设备（您将无线电连接到的设备）您正在连接的设备类型。选项有**手柄**，**游戏手柄**，**多轴**。
+**接口模式：** 这表示给目标设备（您将发射机连接到的设备）您正在连接的设备类型。选项有 **Joystick**，**Gamepad**，**MultiAxis.** &#x20;
 
 {% hint style="info" %}
-**注意：** 目前在MS Windows中存在一个限制，可能会限制您的无线电只能被检测为手柄，无论在此选项中选择了什么。在MacOS、Linux和Android中，此功能正常。
+**注意：** 目前在 MS Windows 中存在一个限制，可能会限制您的发射机仅被检测为 Joystick，无论在此选项中选择了什么。在 MacOS、Linux 和 Android 中，这个功能正常。
 {% endhint %}
 
-**圆形切割**：对于轴对（X-Y，Z-rX）：默认情况下，轴对的范围是一个矩形区域。使用此选项，轴将被限制在一个圆形区域内（就像游戏手柄控制器通常是的）。选项有：**无** 或 **X-Y，Z-rX** 或 **X-Y，rX-rY** 或 **X-Y，Z-rZ**
+**圆形裁剪**：对于轴对（X-Y，Z-rX）：默认情况下，轴对的范围是一个矩形区域。使用此选项，轴将被限制在一个圆形区域内（如游戏手柄控制器常见的那样）。选项有：**无** 或 **X-Y, Z-rX** 或 **X-Y, rX-rY** 或 **X-Y, Z-rZ**
 
-**输出通道1-32**
+**输出通道 1-32**
 
-**模式：** 对于每个输出通道，您可以选择要为该通道使用的模式。可用选项为**无**，**按钮**，**轴**，**模拟**。
+**模式**：对于每个输出通道，您可以选择要用于该通道的模式。可用选项有 **无**，**Btn**，**Axis**，**Sim**。
 
-**无** - 通道未使用
+**无** - 通道不使用
 
-<figure><img src="/.gitbook/assets/usbjoystick2.png" alt=""><figcaption><p>所选通道的按钮模式选项</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/usbjoystick2.png" alt=""><figcaption><p>为选定通道的按钮模式选项</p></figcaption></figure>
 
-**按钮** - 通道用于模拟按钮。配置选项包括：
+**Btn** - 通道用于模拟按钮。配置选项包括：
 
-* **反转** - 反转输出通道信号。选项为：**开** / **关**
+* **反转** - 反转输出通道信号。选项有：**开** / **关**
 * **按钮模式** -
-  * **正常** - 多位置开关的每个位置都由一个按钮表示。当前开关状态由连续按钮按压表示。
-  * **脉冲** - 类似于“正常”模式。但是，与连续按钮按压不同，它由短暂按钮按压表示。
-  * **SWEmu** - 切换开关模拟按键。第一次按下打开虚拟按钮，第二次按下关闭它。
-  * **Delta** - 输出通道的变化由2个按钮表示。当输出值减少时，按下第一个按钮。当输出值增加时，按下第二个按钮。如果没有变化，则不会按下任何按钮。
-  * **Companion** - 在使用您的无线电控制EdgeTX Companion模拟器时应选择此选项。它允许多位置开关在模拟器中正常工作。
-* **位置** - 将模拟的按钮类型。
-  * **按压** - 仅映射到一个按钮
-  * **2POS - 8 POS** - 将映射到开关具有的按钮数量（例如：3POS将映射到3个按钮）。
-* **按钮编号：** 输出将映射到并发送到目标设备的按钮编号。
+  * **正常** - 多位置开关的每个位置由一个按钮表示。当前开关状态由一个连续的按钮按下表示。
+  * **脉冲** - 类似于“正常”模式。然而，代替连续的按钮按下，它由一个短暂的按钮按下表示。
+  * **SWEmu** - 切换开关模拟一个按键按钮。第一次按下打开虚拟按钮，第二次按下关闭它。
+  * **Delta** - 输出通道的变化由两个按钮表示。当输出值减少时，第一个按钮被按下。当输出值增加时，第二个按钮被按下。如果没有变化，则没有按钮被按下。
+  * **Companion** - 当使用发射机在 EdgeTX Companion 中控制模拟器时，应选择此选项。它允许多位置开关在模拟器中正常工作。
+* **位置** - 将被模拟的按钮类型。&#x20;
+  * **推 -** 只会映射到一个按钮
+  * **2POS - 8 POS** - 将映射到开关拥有的按钮数量（例如：3POS 将映射到 3 个按钮）。
+* **按钮编号：** 输出将被映射到的按钮编号，并作为目标设备发送。
 
-<figure><img src="/.gitbook/assets/usbjoystick3.png" alt=""><figcaption><p>所选通道的轴模式选项</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/usbjoystick3.png" alt=""><figcaption><p>为选定通道的轴模式选项</p></figcaption></figure>
 
-**轴 -** 通道用于模拟轴，并将映射到目标设备的默认轴之一。
+**轴 -** 通道用于模拟一个轴，并将映射到目标设备的一个默认轴。
 
-* 轴选项为：X，Y，Z，rotX（旋转X），rotY，rotZ
+* 轴选项有：X, Y, Z, rotX（旋转 x）, rotY, rotZ
 
-<figure><img src="/.gitbook/assets/usbjoystick4.png" alt=""><figcaption><p>所选通道的模拟模式选项</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/usbjoystick4.png" alt=""><figcaption><p>为选定通道的模拟模式选项</p></figcaption></figure>
 
-**模拟 -** 通道用于模拟常见的模拟轴，并将在目标设备上列出为所选选项（例如：Thr）
+**模拟 -** 通道用于模拟一个常见的模拟轴，并将在目标设备上列为选定的选项（例如：Thr）
 
-* 模拟轴选项为：**Ail**，**Ele**，**Rud**，**Thr**，**Acc**，**Brk**，**Steer**，**Dpad**
+* 模拟轴选项有：**Ail**，**Ele**，**Rud**，**Thr**，**Acc**，**Brk**，**Steer**，**Dpad**
