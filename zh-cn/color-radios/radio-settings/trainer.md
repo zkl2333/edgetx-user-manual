@@ -2,7 +2,7 @@
 
 在无线电设置中的 **教练** 屏幕用于配置主控模式下的无线电如何处理从控模式下无线电的信号。
 
-<figure><img src="/.gitbook/assets/trainer2.png" alt=""><figcaption><p>教练屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/trainer2.png" alt=""><figcaption><p>教练屏幕</p></figcaption></figure>
 
 对于四个主要控制输入（副翼、升降舵、油门、方向舵），可以配置以下选项（每行从左到右）。
 

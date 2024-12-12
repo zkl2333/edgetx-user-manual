@@ -2,7 +2,7 @@
 
 管理模型屏幕允许您创建新模型，选择哪个模型是活动的，创建和应用模型标签，以及创建模型模板。
 
-<figure><img src="/.gitbook/assets/ManageModels1.png" alt=""><figcaption><p>管理模型屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/ManageModels1.png" alt=""><figcaption><p>管理模型屏幕</p></figcaption></figure>
 
 ### 选择和管理现有模型
 
@@ -28,7 +28,7 @@
 
 要创建新模型，请选择右上角的 **新建模型** 按钮。然后您将看到以下选项：
 
-<figure><img src="/.gitbook/assets/screenshot_tx16s_24-05-13_09-10-02.png" alt=""><figcaption><p>新模型选项</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/screenshot_tx16s_24-05-13_09-10-02.png" alt=""><figcaption><p>新模型选项</p></figcaption></figure>
 
 * **空白模型** - 这将创建一个仅配置了默认选项的空白模型。
 * **1.向导** - 这将启动新模型向导，并根据向导中配置的内容创建模型。
@@ -74,7 +74,7 @@
 
 在管理模型页面中，模型列表有 4 种布局：
 
-<figure><img src="/.gitbook/assets/MMLayouts.png" alt=""><figcaption><p>模型列表布局</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/MMLayouts.png" alt=""><figcaption><p>模型列表布局</p></figcaption></figure>
 
 * 大图像 (2x2) - 默认布局
 * 小图像 (3x3)

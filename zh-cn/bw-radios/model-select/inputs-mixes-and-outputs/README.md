@@ -2,4 +2,4 @@
 
 为了支持多种不同类型的无线电发射机，EdgeTX 使用了一种通用的控制数据流，可以应用于任何无线电发射机。在此数据流中，无线电的任何物理控制（摇杆、开关、滑块、旋钮）都可以映射到软件中的一个输入。这些输入可以直接分配或与其他输入组合成一个单一的混控。这些混控可以通过应用权重、偏移和曲线进行修改，然后分配一个通道进行输出。在最终将控制数据发送到 RF 模块之前，进行最终的调整（包括子微调、曲线、端点和中心值）。下方的流程图展示了此控制数据流的视觉总结。关于此流程的详细信息，请参阅以下章节：[输入](inputs.md)、[混控](mixes.md) 和 [输出](../../user-inteface.md)。
 
-<figure><img src="/.gitbook/assets/inputflow.jpg" alt=""><figcaption><p>控制数据流</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/inputflow.jpg" alt=""><figcaption><p>控制数据流</p></figcaption></figure>

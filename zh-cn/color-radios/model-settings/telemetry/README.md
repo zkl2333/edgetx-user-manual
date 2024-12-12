@@ -2,7 +2,7 @@
 
 遥测是从模型接收到的来自各种传感器的数据。这些传感器可能包含在无线电接收器或飞行控制器中，或者可能是单独的传感器，如 GPS、变率计或磁力计。接收到的遥测数据可以通过 EdgeTX 在小部件中显示，配置在警报或音频提示中。
 
-<figure><img src="/.gitbook/assets/telemetry.png" alt=""><figcaption><p>模型设置中的遥测屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/telemetry.png" alt=""><figcaption><p>模型设置中的遥测屏幕</p></figcaption></figure>
 
 ### **传感器**
 

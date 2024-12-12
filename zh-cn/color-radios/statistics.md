@@ -1,6 +1,6 @@
 # 统计
 
-<figure><img src="/.gitbook/assets/stats1.png" alt=""><figcaption><p>统计屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/stats1.png" alt=""><figcaption><p>统计屏幕</p></figcaption></figure>
 
 **统计** 屏幕为您提供有关遥控器使用情况的统计信息。除了电池，所有数据在遥控器关闭后都会重置。提供以下信息：
 
@@ -10,7 +10,7 @@
 * **油门 %** - 油门杆位置高于 50% 的时间量。
 * **计时器** - 计时器 1、计时器 2、计时器 3 的当前值。
 
-<figure><img src="/.gitbook/assets/stats2.png" alt=""><figcaption><p>调试屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/stats2.png" alt=""><figcaption><p>调试屏幕</p></figcaption></figure>
 
 调试屏幕提供开发人员在调试软件问题时使用的数据点。除非与开发人员一起调试问题，否则大多数用户不会发现此屏幕上的信息有用。提供以下调试信息。
 

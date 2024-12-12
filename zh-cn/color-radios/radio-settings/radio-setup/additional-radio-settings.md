@@ -6,7 +6,7 @@
 
 ### 声音
 
-<figure><img src="/.gitbook/assets/Sound.png" alt=""><figcaption><p>声音选项</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/Sound.png" alt=""><figcaption><p>声音选项</p></figcaption></figure>
 
 **模式** - 配置何时播放声音。
 
@@ -29,7 +29,7 @@
 
 ### 高度计
 
-<figure><img src="/.gitbook/assets/variometer.png" alt=""><figcaption><p>高度计选项</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/variometer.png" alt=""><figcaption><p>高度计选项</p></figcaption></figure>
 
 **重复零**
 
@@ -41,7 +41,7 @@
 
 ### 触觉
 
-<figure><img src="/.gitbook/assets/haptic.png" alt=""><figcaption><p>触觉（振动）选项</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/haptic.png" alt=""><figcaption><p>触觉（振动）选项</p></figcaption></figure>
 
 **模式** - 配置电台何时振动。
 
@@ -52,7 +52,7 @@
 
 ### 警报
 
-<figure><img src="/.gitbook/assets/alarms.png" alt=""><figcaption><p>警报选项</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/alarms.png" alt=""><figcaption><p>警报选项</p></figcaption></figure>
 
 #### 声音关闭
 
@@ -64,7 +64,7 @@
 
 ### 背光
 
-<figure><img src="/.gitbook/assets/backlight.png" alt=""><figcaption><p>背光选项</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/backlight.png" alt=""><figcaption><p>背光选项</p></figcaption></figure>
 
 **模式**
 
@@ -84,7 +84,7 @@
 
 ### GPS
 
-<figure><img src="/.gitbook/assets/gps.png" alt=""><figcaption><p>GPS 选项</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/gps.png" alt=""><figcaption><p>GPS 选项</p></figcaption></figure>
 
 {% hint style="info" %}
 GPS 配置设置仅适用于电台上安装了 GPS 的情况，而不是模型的 GPS。
@@ -104,7 +104,7 @@ GPS 配置设置仅适用于电台上安装了 GPS 的情况，而不是模型�
 
 ### 启用功能
 
-<figure><img src="/.gitbook/assets/EnabledFeatures.png" alt=""><figcaption><p>启用功能</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/EnabledFeatures.png" alt=""><figcaption><p>启用功能</p></figcaption></figure>
 
 电台设置的 **启用功能** 部分允许您配置 EdgeTX 中电台设置和模型设置区域中可见的选项卡的 _**全局**_ _**设置**_。 活动模型的配置设置将显示在切换开关的右侧。 模型配置将覆盖全局配置。
 
@@ -116,7 +116,7 @@ _**注意：**_ 关闭选项卡只会隐藏选项卡，不会更改该选项卡�
 
 ### 管理模型
 
-<figure><img src="/.gitbook/assets/RSManageModels.png" alt=""><figcaption><p>管理模型设置</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/RSManageModels.png" alt=""><figcaption><p>管理模型设置</p></figcaption></figure>
 
 **模型快速选择** - 影响管理模型屏幕。 两个选项都需要您首先使用滚轮或短按选择所需的模型。
 

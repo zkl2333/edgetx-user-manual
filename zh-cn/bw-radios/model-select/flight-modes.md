@@ -2,7 +2,7 @@
 
 飞行模式（FM）和驾驶模式（DM）（在地面无线电上）允许您为每个飞行/驾驶模式设置不同的微调设置。一旦配置了多个飞行/驾驶模式，您可以在每个飞行/驾驶模式中调整微调设置，而不会影响其他飞行/驾驶模式的微调设置（除非它们被配置为这样做）。共有九种可能的飞行/驾驶模式，飞行/驾驶模式0是默认模式。
 
-<figure><img src="/.gitbook/assets/bwFM.png" alt=""><figcaption><p>飞行模式概览屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwFM.png" alt=""><figcaption><p>飞行模式概览屏幕</p></figcaption></figure>
 
 飞行/驾驶模式概览屏幕显示已配置的飞行/驾驶模式的概览。每个飞行模式行显示以下信息：
 
@@ -13,7 +13,7 @@
 
 **检查FM微调：** 当按下检查FM微调时，当前飞行/驾驶模式的微调将暂时禁用。这用于测试当前飞行/驾驶模式的微调对输出的影响。
 
-<figure><img src="/.gitbook/assets/bwFM2.png" alt=""><figcaption><p>飞行模式配置屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwFM2.png" alt=""><figcaption><p>飞行模式配置屏幕</p></figcaption></figure>
 
 从概览屏幕中选择一个飞行/驾驶模式将打开配置页面，其中有以下选项：
 
@@ -52,7 +52,7 @@ _示例2：_ 如果您正在配置FM1并将值设置为+0，FM1将具有FM0中�
 
 您可以通过更改值文本字段中的值来编辑全局变量的值。选择全局变量编号将打开全局变量配置屏幕，提供以下选项：
 
-<figure><img src="/.gitbook/assets/bwfm3.png" alt=""><figcaption><p>全局变量配置屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwfm3.png" alt=""><figcaption><p>全局变量配置屏幕</p></figcaption></figure>
 
 * **名称** - 全局变量的名称。允许三个字符。&#x20;
 * **单位** - （可选）允许您在选择时为显示的值添加 **%** 标签。它不影响值的计算方式。

@@ -1,6 +1,6 @@
 # 计时器 1/2/3
 
-<figure><img src="/.gitbook/assets/timers.png" alt=""><figcaption><p>计时器配置页面</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/timers.png" alt=""><figcaption><p>计时器配置页面</p></figcaption></figure>
 
 EdgeTX 提供 3 个可以自定义编程的计时器。以下是配置选项。
 

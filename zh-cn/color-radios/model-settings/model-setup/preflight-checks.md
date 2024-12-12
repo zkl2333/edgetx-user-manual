@@ -1,6 +1,6 @@
 # 启动前检查
 
-<figure><img src="/.gitbook/assets/prestart checks.png" alt=""><figcaption><p>启动前检查页面</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/prestart checks.png" alt=""><figcaption><p>启动前检查页面</p></figcaption></figure>
 
 每当加载一个新模型时，EdgeTX 将根据此页面上配置的检查进行飞行前检查。如果任何检查未通过，EdgeTX 将给用户一个音频和视觉警告，必须在使用模型前确认。以下飞行前检查是可配置的：
 

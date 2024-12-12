@@ -1,6 +1,6 @@
 # 教练
 
-<figure><img src="/.gitbook/assets/trainer1.png" alt=""><figcaption><p>教练屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/trainer1.png" alt=""><figcaption><p>教练屏幕</p></figcaption></figure>
 
 **教练** 屏幕是您可以配置 CPPM 直通模式和方法的地方。启用后，这允许处于 _**从属**_ 模式的电台的 CPPM 信号传递到处于主控模式的另一个电台，然后将信号传递到它所连接的模型。CPPM 直通可以用于多种不同的用途，例如：连接头部跟踪器、教练/学生训练模式，以及控制需要比标准发射机更多摇杆输入的复杂模型。
 

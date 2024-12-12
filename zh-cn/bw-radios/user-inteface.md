@@ -1,6 +1,6 @@
 # 用户界面
 
-<figure><img src="/.gitbook/assets/bwUserinterface.png" alt=""><figcaption><p>用于无线电菜单导航的常用按钮</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwUserinterface.png" alt=""><figcaption><p>用于无线电菜单导航的常用按钮</p></figcaption></figure>
 
 以下按钮通常用于导航 EdgeTX。如果您的无线电没有这些按钮，请参考[制造商文档](https://drive.google.com/drive/folders/1HPqNbVZT9yzQsHoVKRPTM1YFeBXevYS9?usp=sharing)查看您的无线电具体的按钮配置。
 

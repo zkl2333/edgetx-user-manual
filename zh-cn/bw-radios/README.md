@@ -14,7 +14,7 @@ layout:
 
 # 单色屏幕收音机用户手册
 
-<figure><img src="/.gitbook/assets/monoradios (1).png" alt=""><figcaption><p>EdgeTX支持的单色屏幕收音机</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/monoradios (1).png" alt=""><figcaption><p>EdgeTX支持的单色屏幕收音机</p></figcaption></figure>
 
 EdgeTX支持以下单色屏幕收音机：
 

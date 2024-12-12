@@ -19,11 +19,11 @@
 
 1. 安装 STM32CubeProgrammer 工具（需要在 STMicroelectronics 网站创建一个免费账号）。在关闭的情况下将遥控器插入电脑，以进入 DFU 模式。如果您不确定遥控器是否需要按住引导/DFU 按钮插入 USB，请检查 [访问 DFU 和引导加载器模式](../edgetx-how-to/access-dfu-and-bootloader-mode.md) 页面。
 2. 启动 STM32CubeProgrammer 工具。如果工具已经打开，请确认界面如下（点击图片可查看大图）：\
-   ![STM32CubeProgrammer 主界面](../.gitbook/assets/2024-08-28_11-46.png)\
+   ![STM32CubeProgrammer 主界面](..//edgetx-static.zkl2333.com/2024-08-28_11-46.png)\
    \
    确保设备类型 (1) 显示为 USB，然后按下连接按钮 (2)。如果端口字段为空，请尝试点击刷新按钮 (3)。
 3. 转到 "Option bytes" 页面 (1)，然后选择 User Configuration (2)。检查 "BFB2" (3) 的状态。如果勾选了，请取消勾选，如图所示，然后点击应用按钮 (4)。随后，点击 "Disconnect" 按钮并断开遥控器。\
-   ![STM32CubeProgrammer: 选项字节](../.gitbook/assets/2024-08-28_11-44.png)
+   ![STM32CubeProgrammer: 选项字节](..//edgetx-static.zkl2333.com/2024-08-28_11-44.png)
 4. 如果问题是这个，完成后您的遥控器应该可以正常启动。
 
 </details>

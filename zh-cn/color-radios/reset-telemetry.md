@@ -1,6 +1,6 @@
 # 重置遥测
 
-<figure><img src="/.gitbook/assets/resettelemetry.jpg" alt=""><figcaption><p>重置遥测屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/resettelemetry.jpg" alt=""><figcaption><p>重置遥测屏幕</p></figcaption></figure>
 
 **重置飞行** - 选择此选项时：&#x20;
 

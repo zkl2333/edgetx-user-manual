@@ -2,7 +2,7 @@
 
 **硬件**屏幕是配置无线电硬件特定设置的地方。它显示所有物理硬件对象（摇杆、旋钮、开关），并允许对其进行修改。您还可以在此处校准摇杆和旋钮，并进行其他配置选项。
 
-<figure><img src="/.gitbook/assets/bwhardware1.png" alt=""><figcaption><p>硬件屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwhardware1.png" alt=""><figcaption><p>硬件屏幕</p></figcaption></figure>
 
 ### **校准**
 
@@ -18,7 +18,7 @@
 
 ### 其他硬件配置选项
 
-<figure><img src="/.gitbook/assets/bwhardware2.png" alt=""><figcaption><p>硬件屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwhardware2.png" alt=""><figcaption><p>硬件屏幕</p></figcaption></figure>
 
 **电池校准** - 设置此值以匹配发射机电池电压。这确保显示的电池电压准确。
 
@@ -84,9 +84,9 @@ ADC滤波器是比例通道（摇杆、旋钮、滑块）的滤波器，平滑�
 
 <div>
 
-<figure><img src="/.gitbook/assets/bwhardware3.png" alt=""><figcaption><p>调试模拟屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwhardware3.png" alt=""><figcaption><p>调试模拟屏幕</p></figcaption></figure>
 
-<figure><img src="/.gitbook/assets/bwhardware4.png" alt=""><figcaption><p>调试按键屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwhardware4.png" alt=""><figcaption><p>调试按键屏幕</p></figcaption></figure>
 
 </div>
 

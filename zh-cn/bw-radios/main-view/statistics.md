@@ -1,6 +1,6 @@
 # 统计
 
-<figure><img src="/.gitbook/assets/bwstats.png" alt=""><figcaption><p>统计屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwstats.png" alt=""><figcaption><p>统计屏幕</p></figcaption></figure>
 
 **统计**屏幕为您提供有关无线电使用的统计信息。所有数据在无线电关闭后重置。提供以下信息：
 
@@ -14,11 +14,11 @@
 
 <div>
 
-<figure><img src="/.gitbook/assets/bwdebug.png" alt=""><figcaption><p>调试屏幕1</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwdebug.png" alt=""><figcaption><p>调试屏幕1</p></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/bwdebug2.png" alt=""><figcaption><p>调试屏幕1</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwdebug2.png" alt=""><figcaption><p>调试屏幕1</p></figcaption></figure>
 
 </div>
 

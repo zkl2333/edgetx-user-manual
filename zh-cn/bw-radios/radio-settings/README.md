@@ -10,11 +10,11 @@
 
 <div>
 
-<figure><img src="/.gitbook/assets/bwtools1.png" alt=""><figcaption><p>设置向导</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwtools1.png" alt=""><figcaption><p>设置向导</p></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/bwtools2.png" alt=""><figcaption><p>设置向导配置菜单</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwtools2.png" alt=""><figcaption><p>设置向导配置菜单</p></figcaption></figure>
 
 </div>
 

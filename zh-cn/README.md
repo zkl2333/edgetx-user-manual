@@ -14,7 +14,7 @@ layout:
 
 # EdgeTX 用户手册 v2.10
 
-<figure><img src="/.gitbook/assets/logos (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/logos (1).png" alt=""><figcaption></figcaption></figure>
 
 如果您想为本手册做出贡献，请访问 [如何贡献用户手册](edgetx-how-to/contribute-to-the-user-manual.md) 页面。
 

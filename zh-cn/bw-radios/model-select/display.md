@@ -8,11 +8,11 @@
 
 <div>
 
-<figure><img src="/.gitbook/assets/bwtel4.png" alt=""><figcaption><p>显示数字配置</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwtel4.png" alt=""><figcaption><p>显示数字配置</p></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/bwtel1 (7).png" alt=""><figcaption><p>带数字的显示屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwtel1 (7).png" alt=""><figcaption><p>带数字的显示屏幕</p></figcaption></figure>
 
 </div>
 
@@ -20,11 +20,11 @@
 
 <div>
 
-<figure><img src="/.gitbook/assets/bwtel5.png" alt=""><figcaption><p>显示条形配置</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwtel5.png" alt=""><figcaption><p>显示条形配置</p></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/bwtel2 (2).png" alt=""><figcaption><p>带条形的显示屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwtel2 (2).png" alt=""><figcaption><p>带条形的显示屏幕</p></figcaption></figure>
 
 </div>
 
@@ -32,11 +32,11 @@
 
 <div>
 
-<figure><img src="/.gitbook/assets/bwtel6.png" alt=""><figcaption><p>显示脚本配置</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwtel6.png" alt=""><figcaption><p>显示脚本配置</p></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/bwtel3.png" alt=""><figcaption><p>带fm2m Lua脚本的显示屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwtel3.png" alt=""><figcaption><p>带fm2m Lua脚本的显示屏幕</p></figcaption></figure>
 
 </div>
 

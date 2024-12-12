@@ -1,6 +1,6 @@
 # 模型设置
 
-<figure><img src="/.gitbook/assets/modelsetup (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/modelsetup (1).png" alt=""><figcaption></figcaption></figure>
 
 **模型设置** 屏幕包含配置模型的所有选项。在页面顶部，您会看到一些图标，选择后将带您进入不同的模型设置页面。模型设置的默认屏幕是[模型设置](model-setup/ "mention")屏幕。
 

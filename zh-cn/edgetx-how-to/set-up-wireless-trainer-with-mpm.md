@@ -17,11 +17,11 @@
 
 <div>
 
-<figure><img src="/.gitbook/assets/mpmt1.png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/mpmt1.png" alt="" width="360"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/mpmt7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/mpmt7.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -29,11 +29,11 @@
 
 <div>
 
-<figure><img src="/.gitbook/assets/mpmt2.png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/mpmt2.png" alt="" width="360"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/mpmt8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/mpmt8.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -41,11 +41,11 @@
 
 <div>
 
-<figure><img src="/.gitbook/assets/mpmt3.png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/mpmt3.png" alt="" width="360"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/mpmt9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/mpmt9.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -53,11 +53,11 @@
 
 <div>
 
-<figure><img src="/.gitbook/assets/mpmt4.png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/mpmt4.png" alt="" width="360"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/mpmt10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/mpmt10.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -65,11 +65,11 @@
 
 <div>
 
-<figure><img src="/.gitbook/assets/mpmt5.png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/mpmt5.png" alt="" width="360"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/mpmt11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/mpmt11.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -77,11 +77,11 @@
 
 <div>
 
-<figure><img src="/.gitbook/assets/mpmt6 (2).png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/mpmt6 (2).png" alt="" width="360"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/mpmt12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/mpmt12.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

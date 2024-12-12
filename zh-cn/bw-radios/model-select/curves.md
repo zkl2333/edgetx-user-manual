@@ -2,11 +2,11 @@
 
 **曲线**屏幕允许您定义自定义曲线，以便在输入、混合或输出屏幕中使用。曲线屏幕将显示配置的自定义曲线，并提供每条曲线的图形表示。
 
-<figure><img src="/.gitbook/assets/bwcurves1.png" alt=""><figcaption><p>曲线屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwcurves1.png" alt=""><figcaption><p>曲线屏幕</p></figcaption></figure>
 
 选择其中一个曲线或空曲线槽将打开该曲线的配置页面。
 
-<figure><img src="/.gitbook/assets/bwcurves2.png" alt=""><figcaption><p>曲线配置屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwcurves2.png" alt=""><figcaption><p>曲线配置屏幕</p></figcaption></figure>
 
 ### 曲线配置
 
@@ -24,7 +24,7 @@
 
 ### 编辑曲线点
 
-<figure><img src="/.gitbook/assets/bwcurves3.png" alt=""><figcaption><p>编辑曲线点弹出窗口</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwcurves3.png" alt=""><figcaption><p>编辑曲线点弹出窗口</p></figcaption></figure>
 
 在最后一个配置选项（平滑）之后，您将自动开始滚动查看曲线上的配置点。要更改点的值，请按**\[Enter]**按钮，然后根据需要调整值。对于**标准**曲线，您只能调整Y值。对于**自定义**曲线，您可以调整X和Y值。
 

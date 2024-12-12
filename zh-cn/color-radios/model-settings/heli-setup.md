@@ -2,7 +2,7 @@
 
 在模型设置中的 **直升机设置** 页面是 EdgeTX 自定义编译版本中的一个可选页面。直升机设置页面通常用于集体俯仰混控（CCPM），用于接收机直接控制旋翼盘舵机的有横轴的直升机。大多数无横轴直升机不需要配置此页面。CCPM 混控器的输出为 CYC1、CYC2 和 CYC3，需要在混控屏幕上分配到一个输出通道。
 
-<figure><img src="/.gitbook/assets/helisetup.jpg" alt=""><figcaption><p>直升机设置页面</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/helisetup.jpg" alt=""><figcaption><p>直升机设置页面</p></figcaption></figure>
 
 直升机设置页面具有以下配置选项：
 

@@ -1,6 +1,6 @@
 # 设置
 
-<figure><img src="/.gitbook/assets/bwsetup.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwsetup.png" alt=""><figcaption></figcaption></figure>
 
 **设置**屏幕是您开始配置模型的地方。它包含以下设置：
 
@@ -56,7 +56,7 @@
 * **语音** - 无线电将在指定时间开始每秒倒计时。
 * **触觉** - 无线电将在指定时间开始每秒振动。
 
-<figure><img src="/.gitbook/assets/Bwsetup1.png" alt=""><figcaption><p>功能开关</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/Bwsetup1.png" alt=""><figcaption><p>功能开关</p></figcaption></figure>
 
 ### **功能开关**&#x20;
 
@@ -94,7 +94,7 @@
 与硬件6-POS实现（Horus, TX16S, ...）不同，软件管理的开关不能用作模拟源，它们是具有↑或↓位置的单独开关。可以通过组合混音器线实现以前的6P源的行为。
 {% endhint %}
 
-<figure><img src="/.gitbook/assets/setup2.png" alt=""><figcaption><p>修整设置</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/setup2.png" alt=""><figcaption><p>修整设置</p></figcaption></figure>
 
 ### **修整**
 
@@ -114,7 +114,7 @@
 * 超精细 = 0.2%
 * 指数 = 在中心附近为0.2%，随着距离中心的增加，步长值呈指数增加。
 
-<figure><img src="/.gitbook/assets/bwsetup3 (1).png" alt=""><figcaption><p>油门设置</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwsetup3 (1).png" alt=""><figcaption><p>油门设置</p></figcaption></figure>
 
 ### **油门**
 
@@ -136,7 +136,7 @@
 在地面无线电（例如：MT-12）上，油门修整对反向油门范围没有影响，并对整个前向油门范围有一些影响。
 {% endhint %}
 
-<figure><img src="/.gitbook/assets/BWPrestartChecks.png" alt=""><figcaption><p>启动前检查选项</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/BWPrestartChecks.png" alt=""><figcaption><p>启动前检查选项</p></figcaption></figure>
 
 ### 启动前检查
 
@@ -205,7 +205,7 @@ ADC滤波器是比例通道（摇杆、电位器、滑块）的滤波器，平�
 * **从/蓝牙** - 使用蓝牙连接的从属模式（如果无线电中安装）。
 * **主/多协议** - 使用额外外部安装的多协议模块进行连接的主模式。有关此设置的更多信息，请参阅[set-up-wireless-trainer-with-mpm.md](../../edgetx-how-to/set-up-wireless-trainer-with-mpm.md "mention")
 
-<figure><img src="/.gitbook/assets/bwsetup5 (1).png" alt=""><figcaption><p>启用功能选项</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwsetup5 (1).png" alt=""><figcaption><p>启用功能选项</p></figcaption></figure>
 
 ### 启用功能
 
@@ -221,7 +221,7 @@ _**注意：**_ 关闭选项卡只会隐藏选项卡，不会更改该选项卡�
 **例外：** 关闭全局/特殊功能选项卡将禁用为该模型配置的全局/特殊功能。
 {% endhint %}
 
-<figure><img src="/.gitbook/assets/bwjoy4.png" alt=""><figcaption><p>USB操纵杆高级模式设置</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwjoy4.png" alt=""><figcaption><p>USB操纵杆高级模式设置</p></figcaption></figure>
 
 ### USB操纵杆
 
@@ -259,7 +259,7 @@ _**注意：**_ 关闭选项卡只会隐藏选项卡，不会更改该选项卡�
 
 * **无** - 通道不使用
 
-<figure><img src="/.gitbook/assets/bwjoy1.png" alt=""><figcaption><p>为选定通道的按钮模式选项</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwjoy1.png" alt=""><figcaption><p>为选定通道的按钮模式选项</p></figcaption></figure>
 
 * **按钮** - 通道用于模拟按钮。配置选项包括：
   * **反转** - 反转输出通道信号。选项为：**开启** / **关闭**
@@ -274,12 +274,12 @@ _**注意：**_ 关闭选项卡只会隐藏选项卡，不会更改该选项卡�
       * **2POS - 8 POS** - 将映射到开关具有的按钮数量（例如：3POS将映射到3个按钮）。
   * **按钮编号：** 输出将映射到的按钮编号，并发送到目标设备。
 
-<figure><img src="/.gitbook/assets/bwjoy2.png" alt=""><figcaption><p>为选定通道的轴模式选项</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwjoy2.png" alt=""><figcaption><p>为选定通道的轴模式选项</p></figcaption></figure>
 
 * **轴** - 通道用于模拟轴，并将映射到目标设备的默认轴之一。
   * 轴选项为：**X**、**Y**、**Z**、**rotX**（旋转X）、**rotY**、**rotZ**
 
-<figure><img src="/.gitbook/assets/bwjoy3.png" alt=""><figcaption><p>为选定通道的模拟模式选项</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwjoy3.png" alt=""><figcaption><p>为选定通道的模拟模式选项</p></figcaption></figure>
 
 * **模拟** - 通道用于模拟常见的模拟轴，并将在目标设备上列为选定的选项（例如：油门）
   * 模拟轴选项为：**副翼**、**升降舵**、**方向舵**、**油门**、**加速**、**刹车**、**转向**、**方向键**

@@ -2,7 +2,7 @@
 
 **混控**屏幕是将多个输入组合成一个“通道混控”的地方。这些混控随后被分配到一个无线电通道进行输出。这也是分配开关、旋钮或滑块到通道进行输出的地方。与输入部分类似，也可以为通道混控分配权重、偏移或曲线。
 
-<figure><img src="/.gitbook/assets/bwmixes1.png" alt=""><figcaption><p>混控页面</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwmixes1.png" alt=""><figcaption><p>混控页面</p></figcaption></figure>
 
 **混控**屏幕为您显示已配置混控的概览。每一行代表一个混控线，并从左到右显示以下信息：通道、权重、输入、混控名称、开关。这些项目在下面的[混控配置选项](mixes.md#mixes-configuration-options)区域中描述。
 
@@ -19,7 +19,7 @@
 * **移动** - 选择要移动的混控行。
 * **删除** - 删除选定的混控行。
 
-<figure><img src="/.gitbook/assets/bwmixes2 (3).png" alt=""><figcaption><p>混控配置屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwmixes2 (3).png" alt=""><figcaption><p>混控配置屏幕</p></figcaption></figure>
 
 ### 混控配置选项
 

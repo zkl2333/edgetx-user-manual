@@ -4,21 +4,21 @@
 
 <div>
 
-<figure><img src="/.gitbook/assets/bwview1.png" alt=""><figcaption><p>屏幕 1</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwview1.png" alt=""><figcaption><p>屏幕 1</p></figcaption></figure>
 
-<figure><img src="/.gitbook/assets/bwview2.png" alt=""><figcaption><p>屏幕 2</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwview2.png" alt=""><figcaption><p>屏幕 2</p></figcaption></figure>
 
-<figure><img src="/.gitbook/assets/BWScreen6 (1).png" alt=""><figcaption><p>屏幕 2（地面无线电）</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/BWScreen6 (1).png" alt=""><figcaption><p>屏幕 2（地面无线电）</p></figcaption></figure>
 
 </div>
 
 <div>
 
-<figure><img src="/.gitbook/assets/bwview3.png" alt=""><figcaption><p>屏幕 3</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwview3.png" alt=""><figcaption><p>屏幕 3</p></figcaption></figure>
 
-<figure><img src="/.gitbook/assets/bwview4.png" alt=""><figcaption><p>屏幕 4</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwview4.png" alt=""><figcaption><p>屏幕 4</p></figcaption></figure>
 
-<figure><img src="/.gitbook/assets/bwview5.png" alt=""><figcaption><p>屏幕 5</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/bwview5.png" alt=""><figcaption><p>屏幕 5</p></figcaption></figure>
 
 </div>
 

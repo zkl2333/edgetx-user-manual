@@ -2,7 +2,7 @@
 
 为了方便输入文本和数字，EdgeTX 使用虚拟文本和数字键盘，可以通过触摸屏或滚轮进行交互。此外，还有映射到硬件按钮的快捷键，如下所述：
 
-<figure><img src="/.gitbook/assets/keyboard1.png" alt=""><figcaption><p>虚拟文本键盘</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/keyboard1.png" alt=""><figcaption><p>虚拟文本键盘</p></figcaption></figure>
 
 ### 使用硬件键的文本键盘快捷键。
 
@@ -29,7 +29,7 @@
 * **\[TELE]** = 切换大小写
 * **长按 \[TELE]** = 删除
 
-<figure><img src="/.gitbook/assets/Keyboard2.png" alt=""><figcaption><p>虚拟数字键盘</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/Keyboard2.png" alt=""><figcaption><p>虚拟数字键盘</p></figcaption></figure>
 
 ### 使用硬件键的数字键盘快捷键。
 

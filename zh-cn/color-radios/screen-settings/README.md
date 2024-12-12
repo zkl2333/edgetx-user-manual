@@ -2,7 +2,7 @@
 
 EdgeTX 的 **屏幕设置** 部分是您可以自定义主视图并添加额外视图（最多 10 个）的地方。 从主导航菜单中选择 **屏幕设置** 时，将打开 **主视图 1**。 如果已添加其他主视图，您可以从屏幕顶部的数字选项卡中选择它们以调整其设置。 所有主视图选项卡都有以下配置选项，并且是单独配置的：
 
-<figure><img src="/.gitbook/assets/screenssettings.jpg" alt=""><figcaption><p>主视图 1 屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/screenssettings.jpg" alt=""><figcaption><p>主视图 1 屏幕</p></figcaption></figure>
 
 * **布局** - 选择小部件的屏幕布局。 可以将屏幕分为最多两列和最多 4 行，每个单元格中都有一个小部件。
 * **设置小部件** - 请参阅下面的[设置小部件](./#setting-up-widgets)。
@@ -12,7 +12,7 @@ EdgeTX 的 **屏幕设置** 部分是您可以自定义主视图并添加额外�
 * **微调** - 切换所选主视图上是否可见微调条。
 * **镜像** - 切换是否镜像所选的小部件布局。
 
-<figure><img src="/.gitbook/assets/screenssettings2.jpg" alt=""><figcaption><p>用户界面屏幕</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/screenssettings2.jpg" alt=""><figcaption><p>用户界面屏幕</p></figcaption></figure>
 
 选择主视图 1 选项卡左侧的用户界面按钮将打开用户界面配置屏幕。 它包含以下选项：
 
@@ -21,11 +21,11 @@ EdgeTX 的 **屏幕设置** 部分是您可以自定义主视图并添加额外�
 
 <div>
 
-<figure><img src="/.gitbook/assets/screenssettings3.jpg" alt=""><figcaption><p>顶部栏小部件设置</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/screenssettings3.jpg" alt=""><figcaption><p>顶部栏小部件设置</p></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/screenssettings4.jpg" alt=""><figcaption><p>主视图小部件设置</p></figcaption></figure>
+<figure><img src="//edgetx-static.zkl2333.com/screenssettings4.jpg" alt=""><figcaption><p>主视图小部件设置</p></figcaption></figure>
 
 </div>
 
