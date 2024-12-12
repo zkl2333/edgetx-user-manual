@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: true
----
-
 # EdgeTX 用户手册 v2.10
 
 <figure><img src="https://edgetx-static.zkl2333.com/logos%20(1).png" alt=""><figcaption></figcaption></figure>

@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: true
----
-
 # 单色屏幕收音机用户手册
 
 <figure><img src="https://edgetx-static.zkl2333.com/monoradios (1).png" alt=""><figcaption><p>EdgeTX支持的单色屏幕收音机</p></figcaption></figure>

@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: true
----
-
 # 彩屏遥控器用户手册
 
 <figure><img src="https://edgetx-static.zkl2333.com/colorradios.png" alt=""><figcaption><p>EdgeTX 支持的彩屏遥控器</p></figcaption></figure>
