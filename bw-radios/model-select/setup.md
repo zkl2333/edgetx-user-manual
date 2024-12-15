@@ -100,7 +100,7 @@ Unlike hardware 6-POS implementation (Horus, TX16S,...), software managed switch
 
 **E.Limits (Extended Limits)** **-** When enabled, it increases the minimum and maximum range for the output values to -150 and 150. Extended limits are necessary if the full range of the control surface cannot be reached with standard limits.
 
-**E. Trims) Extended Trims -** Increases the maximum trim adjustment value from **±**25% to **±**100%.
+**E. Trims) Extended Trims -** Increases the maximum trim adjustment value from **±**&#x32;5% to **±**&#x31;00%.
 
 **Reset** - This resets all trim values to zero.
 
