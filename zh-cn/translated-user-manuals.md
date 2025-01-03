@@ -6,6 +6,12 @@
 以下手册由社区成员提交，并未经过 EdgeTX 团队的准确性验证。尽管我们相信贡献者已尽最大努力确保准确性，但请您在使用时自行承担风险。
 {% endhint %}
 
+### 中文 / Chinese
+
+Credit: zkl2333
+
+[https://zkl2333.gitbook.io/edgetx-user-manual](https://zkl2333.gitbook.io/edgetx-user-manual)
+
 ### 德语 / Deutsch
 
 贡献者: Heiner#1063
