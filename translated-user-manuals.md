@@ -6,17 +6,19 @@ Below are links to community translated versions of the EdgeTX User Manual.
 The manuals below are community submitted and have not been verified for accuracy by the EdgeTX team. While we are confident that the contributors have done their best to ensure their accuracy, you use them at your own risk.
 {% endhint %}
 
+### Chinese / 中国人
+
+Credit: zkl2333
+
+[https://zkl2333.gitbook.io/edgetx-user-manual](https://zkl2333.gitbook.io/edgetx-user-manual)
+
 ### German / Deutsch
 
 Credit: Heiner#1063
 
-{% file src=".gitbook/assets/EdgeTx v2.9 Benutzerhandbuch Farbe (1).pdf" %}
-User Manual for Color Radios in German
-{% endfile %}
+{% file src=".gitbook/assets/EdgeTx v2.10 Benutzerhandbuch Farbe.pdf" %}
 
-{% file src=".gitbook/assets/EdgeTx v2.9 Benutzerhandbuch Schwarz Weiß.pdf" %}
-User Manual for Monochrome Radios in German
-{% endfile %}
+{% file src=".gitbook/assets/EdgeTx v2.10 Benutzerhandbuch Schwarz Weiß.pdf" %}
 
 ### Russian / Русский
 

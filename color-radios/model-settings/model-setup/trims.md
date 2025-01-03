@@ -14,7 +14,7 @@ Trims are used adjust the center position of a given stick axis. EdgeTX has the 
 * Extra Fine = 0.2%
 * Exponential = 0.2% near the center and the step value increases exponentially as the distance from the center increases.
 
-**Extended Trims**: Increases the maximum trim adjustment value from **±**25% to **±**100%.
+**Extended Trims**: Increases the maximum trim adjustment value from **±**&#x32;5% to **±**&#x31;00%.
 
 {% hint style="info" %}
 When switching from extended trims to normal trims, the extended trim value will remain until the trim is adjusted, then it will jump to the max/min normal trim value.

@@ -4,15 +4,7 @@ The configuration settings for both the Internal and External RF pages work the 
 
 The Internal / External RF modules are "active" for a model when the buttons are yellow and inactive when they are white.
 
-<div>
-
-<figure><img src="../../../.gitbook/assets/internalrf.png" alt=""><figcaption><p>Internal RF with multi-protocol module selected</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/externalrf.png" alt=""><figcaption><p>External RF with CRSF selected</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/internalrf.png" alt=""><figcaption><p>Internal RF with multi-protocol module selected</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/externalrf.png" alt=""><figcaption><p>External RF with CRSF selected</p></figcaption></figure></div>
 
 #### Receiver number
 
@@ -67,7 +59,7 @@ If using the radio in gamepad mode, both internal and external RF modules should
   * **Bind** - This puts the transmitter into bind mode. When in this mode the transmitter will make a chirp sound every 2.5 seconds.
   * **Range** . This puts the transmitter into range check mode. When in this mode, the RSSI value is displayed and a sound is made every 5 seconds.
   * **RF Power** - The output power for the transmitter module. The options change based on the selected mode.
-* **R9M Access    Note:** In order for the mode **R9M ACCESS** to be visible in the mode dropdown**,** the AUX1 or AUX2 serial port must be configured to **External Module** on the [Hardware](../../radio-settings/hardware.md) page.&#x20;
+* **R9M Access    Note:** In order for the mode **R9M ACCESS** to be visible in the mode dropdow&#x6E;**,** the AUX1 or AUX2 serial port must be configured to **External Module** on the [Hardware](../../radio-settings/hardware.md) page.&#x20;
   * **Channel Range** - Channels that will be used.
   * **Failsafe Mode** - The receiver will use this setting when the transmitter signal is not being received (signal loss).
     * **Not Set** - failsafe mode is not set.&#x20;
