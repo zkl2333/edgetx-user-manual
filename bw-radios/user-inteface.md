@@ -20,4 +20,7 @@ The buttons below are commonly used to navigate EdgeTX. If your radio does not h
   The roller is used to navigate through menu options. &#x20;
 * **\[Enter]** - Accept \
   \- Used to select option, function or accept value\
-  \- Push **\[Roller]** or **\[Dial]** button to select or enter.
+  \- Push **\[Roller]** or **\[Dial]** button to select or enter
+
+_**Note**_: When editing text, you can often hold down **\[Roller]** or **\[Dial]** to change the between uppper and lower case.
+
