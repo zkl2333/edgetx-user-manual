@@ -6,7 +6,7 @@ Below are links to community translated versions of the EdgeTX User Manual.
 The manuals below are community submitted and have not been verified for accuracy by the EdgeTX team. While we are confident that the contributors have done their best to ensure their accuracy, you use them at your own risk.
 {% endhint %}
 
-### Chinese / 中国人
+### Chinese / 中文
 
 Credit: zkl2333
 
