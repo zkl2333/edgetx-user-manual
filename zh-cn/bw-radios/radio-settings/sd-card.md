@@ -4,7 +4,7 @@
 
 **SD 卡**屏幕显示 SD 卡的内容，允许您浏览文件夹并与其中的文件交互。每个文件夹都包含一个 README.txt 文件，说明该文件夹中适合存放哪种类型的文件。在文件夹中选择一个文件后，根据所选文件的类型，您可以执行以下操作：
 
-* **分配位图** - 将所选图像文件分配为当前选定模型的模型图片。
+* **分配位图** - 将所选图像文件分配为当前选定模型的模型图片（适用于 212x128 "宽屏" 遥控器）。
 * **复制** - 复制所选文件。
 * **删除** - 删除所选文件。
 * **执行** - 执行 Lua 脚本，适用于以 **.lua** 结尾的文件。
@@ -64,8 +64,8 @@ _注意：此文件夹仅适用于 212x64 显示屏的遥控器。_
 
 此文件夹及其子文件夹存放 Lua 脚本。默认包含以下子文件夹。您可以从 [https://github.com/EdgeTX/lua-scripts](https://github.com/EdgeTX/lua-scripts) 下载其他 Lua 脚本。
 
-* **Functions** - 存放可以通过 [特殊功能](../../color-radios/model-settings/special-functions.md) **Lua 脚本** 激活的函数 Lua 脚本。默认情况下此文件夹为空（除 README.txt 文件外）。更多关于函数 Lua 脚本的信息，请参考：[Function Scripts](https://luadoc.edgetx.org/part\_i\_-\_script\_type\_overview/function\_scripts)。
-* **Mixes** - 存放 Lua 混控脚本。默认情况下此文件夹为空（除 README.txt 文件外）。更多关于混控 Lua 脚本的信息，请参考：[Custom Mixer Scripts](https://luadoc.edgetx.org/part\_i\_-\_script\_type\_overview/mix)。
+* **Functions** - 存放可以通过 [特殊功能](../../color-radios/model-settings/special-functions.md) **Lua 脚本** 激活的函数 Lua 脚本。默认情况下此文件夹为空（除 README.txt 文件外）。更多关于函数 Lua 脚本的信息，请参考：[Function Scripts](https://luadoc.edgetx.org/part_i_-_script_type_overview/function_scripts)。
+* **Mixes** - 存放 Lua 混控脚本。默认情况下此文件夹为空（除 README.txt 文件外）。更多关于混控 Lua 脚本的信息，请参考：[Custom Mixer Scripts](https://luadoc.edgetx.org/part_i_-_script_type_overview/mix)。
 * **RGBLED** - 存放控制 RGB LED 的 Lua 脚本（如果硬件支持）。
 * **Tools** - 存放在 [工具](../../color-radios/radio-settings/tools.md) 屏幕中可用的 Lua 脚本。
 * **Wizards** - 存放在 [工具](../../color-radios/radio-settings/tools.md) 屏幕中可用的向导 Lua 脚本。

@@ -4,7 +4,7 @@
 
 **版本**屏幕显示有关当前使用的EdgeTX版本的信息：
 
-<figure><img src="/.gitbook/assets/bwversion1.png" alt=""><figcaption><p>版本屏幕</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bw128_radio_setup_version.png" alt=""><figcaption><p>版本屏幕</p></figcaption></figure>
 
 * **FW** - 固件名称
 * **VERS** - 固件版本
@@ -25,4 +25,4 @@
 
 要查看当前选择的模型的激活RX模块的信息，突出显示**\[模块 / RX 版本]**选项并按**\[Enter]**按钮。
 
-<figure><img src="/.gitbook/assets/bwview3.png" alt=""><figcaption><p>模块 / RX 版本屏幕</p></figcaption></figure>
+<div><figure><img src="/.gitbook/assets/bw128_radio_setup_version_module_internal.png" alt=""><figcaption><p>模块 / RX 版本屏幕 - 内部 ELRS</p></figcaption></figure> <figure><img src="/.gitbook/assets/bw128_radio_setup_version_module_external.png" alt=""><figcaption><p>模块 / RX 版本屏幕 - 外部 FrSky R9 ACCESS</p></figcaption></figure></div>
