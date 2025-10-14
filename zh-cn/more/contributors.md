@@ -11,3 +11,4 @@
 * [https://www.apollomaniacs.com](https://www.apollomaniacs.com/ipod/howto_ar_drone_opentx_en.htm)
 * [https://doc.open-tx.org/opentx-taranis-manual/](https://doc.open-tx.org/opentx-taranis-manual/)
 * [https://rc-soar.com/](https://rc-soar.com/)
+* [Alexander Gnauck](https://github.com/agnauck)
