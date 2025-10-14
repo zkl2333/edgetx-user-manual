@@ -1,7 +1,7 @@
 # 目录
 
-* [EdgeTX 用户手册 v2.10](README.md)
-* [自 v2.9 以来的更改摘要](summary_of_changes.md)
+* [EdgeTX 用户手册 v2.11](README.md)
+* [自 v2.10 以来的更改摘要](summary_of_changes.md)
 * [安装和更新 EdgeTX](installing-and-updating-edgetx/README.md)
   * [使用 EdgeTX Buddy 从 OpenTX 迁移到 EdgeTX](installing-and-updating-edgetx/update-from-opentx-to-edgetx.md)
   * [使用引导加载器从 OpenTX 迁移到 EdgeTX](installing-and-updating-edgetx/migrate-from-opentx-to-edgetx-using-the-bootloader.md)
