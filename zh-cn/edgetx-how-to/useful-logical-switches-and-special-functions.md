@@ -8,7 +8,7 @@
 
 按 \[MDL] 按钮打开模型设置屏幕并导航到[逻辑开关](../color-radios/model-settings/logical-switches.md)选项卡。创建一个新的逻辑开关，配置如下：
 
-<figure><img src="../.gitbook/assets/howto-batt-alert-screen1.png" alt=""><figcaption><p>为低电压警报创建逻辑开关 LS1</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/howto-batt-alert-screen1.png" alt=""><figcaption><p>为低电压警报创建逻辑开关 LS1</p></figcaption></figure>
 
 * **功能** 使用 **a\<x**
 * **V1** 是您要用于此警报的遥测传感器。在此示例中，我们使用 RxBt 遥测传感器
@@ -17,7 +17,7 @@
 
 当发射机电池低于 7.4V 并持续 10 秒时，此逻辑开关将激活。
 
-<figure><img src="../.gitbook/assets/howto-batt-alert-screen2.png" alt=""><figcaption><p>低电压警报的逻辑开关</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/howto-batt-alert-screen2.png" alt=""><figcaption><p>低电压警报的逻辑开关</p></figcaption></figure>
 
 **步骤 2：** 创建一个[特殊功能](../color-radios/model-settings/special-functions.md)，在逻辑开关激活后播报电池值。
 
@@ -29,4 +29,4 @@
 * **重复**：设置重复播报的频率。在此示例中为每 10 秒一次
 * **启用**：启用特殊功能使其生效
 
-<figure><img src="../.gitbook/assets/howto-batt-alert-screen3.png" alt=""><figcaption><p>每 10 秒播放一次低电压值的特殊功能</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/howto-batt-alert-screen3.png" alt=""><figcaption><p>每 10 秒播放一次低电压值的特殊功能</p></figcaption></figure>
