@@ -23,6 +23,8 @@
       * [油门](color-radios/model-settings/model-setup/throttle.md)
       * [启用功能](color-radios/model-settings/model-setup/enabled-features.md)
       * [USB 游戏手柄](color-radios/model-settings/model-setup/usb-joystick.md)
+      * [可自定义开关](color-radios/model-settings/model-setup/customizable-switches.md)
+      * [其他](color-radios/model-settings/model-setup/other.md)
     * [直升机配置](color-radios/model-settings/heli-setup.md)
     * [飞行模式](color-radios/model-settings/flight-modes.md)
     * [输入、混控和输出](color-radios/model-settings/inputs-mixes-and-outputs/README.md)
@@ -33,6 +35,7 @@
     * [全局变量](color-radios/model-settings/global-variables.md)
     * [逻辑开关](color-radios/model-settings/logical-switches.md)
     * [特殊功能](color-radios/model-settings/special-functions.md)
+    * [自定义脚本](color-radios/model-settings/custom-scripts.md)
     * [遥测](color-radios/model-settings/telemetry/README.md)
       * [传感器配置选项](color-radios/model-settings/telemetry/sensor-configuration-options.md)
       * [常见遥测传感器](color-radios/model-settings/telemetry/common-telemetry-sensors.md)
@@ -90,6 +93,8 @@
 * [为游戏开发者提供的手柄映射信息](edgetx-how-to/joystick-mapping-information-for-game-developers.md)
 * [禁用触摸屏](edgetx-how-to/disable-touchscreen.md)
 * [使用微调开关调整全局变量](edgetx-how-to/use-trims-as-switches.md)
+* [配置低电量警报](edgetx-how-to/useful-logical-switches-and-special-functions.md)
+* [高级音频功能](edgetx-how-to/advanced-audio-features.md)
 
 ## 更多
 
