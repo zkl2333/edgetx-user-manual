@@ -1,13 +1,15 @@
 # 用户界面
 
-<figure><img src="/.gitbook/assets/bwUserinterface.png" alt=""><figcaption><p>用于无线电菜单导航的常用按钮</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwUserinterface.png" alt="" width="375"><figcaption><p>用于遥控器菜单导航的常用按钮（例如 RM Zorro）</p></figcaption></figure>
 
-以下按钮通常用于导航 EdgeTX。如果您的无线电没有这些按钮，请参考[制造商文档](https://drive.google.com/drive/folders/1HPqNbVZT9yzQsHoVKRPTM1YFeBXevYS9?usp=sharing)查看您的无线电具体的按钮配置。
+<figure><img src="/.gitbook/assets/tpro_buttons.png" alt="" width="361"><figcaption><p>用于遥控器菜单导航的常用按钮（例如 Jumper TPro）</p></figcaption></figure>
+
+以下按钮通常用于导航 EdgeTX。如果您的遥控器没有这些按钮，请参考[制造商文档](https://drive.google.com/drive/folders/1HPqNbVZT9yzQsHoVKRPTM1YFeBXevYS9?usp=sharing)查看您的遥控器具体的按钮配置。
 
 ### **按钮：**
 
 * **\[SYS]** - 系统按钮\
-  \- 从主屏幕短按 **\[SYS]** 按钮可进入[工具](radio-settings/)页面的无线电设置菜单。
+  \- 从主屏幕短按 **\[SYS]** 按钮可进入[工具](radio-settings/)页面的遥控器设置菜单。
 * **\[MDL]** - 模型按钮\
   \- 从主屏幕短按 **\[MDL]** 按钮可进入[模型选择](model-select/)页面的模型菜单。
 * **\[RTN] -** 返回 / 返回\
@@ -20,6 +22,4 @@
   滚轮用于浏览菜单选项。&#x20;
 * **\[Enter]** - 接受\
   \- 用于选择选项、功能或接受数值\
-  \- 按下 **\[滚轮]** 或 **\[拨盘]** 按钮选择或输入
-
-_**注意**_：编辑文本时，通常可以按住 **\[滚轮]** 或 **\[拨盘]** 来切换大小写。
+  \- 按下 **\[滚轮]** 或 **\[拨盘]** 按钮选择或输入。
