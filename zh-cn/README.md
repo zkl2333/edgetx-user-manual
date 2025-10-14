@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# EdgeTX 用户手册 v2.10
+# EdgeTX 用户手册 v2.11
 
 <figure><img src="/.gitbook/assets/logos (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -36,4 +36,4 @@ layout:
 
 请参阅 [贡献者](more/contributors.md) 部分以获取直接或间接贡献者的名单。
 
-#### EdgeTX 用户手册 © 2024，由 EdgeTX 创作，采用 CC BY-SA 4.0 授权。要查看该许可证的副本，请访问 http://creativecommons.org/licenses/by-sa/4.0/
+#### EdgeTX 用户手册 © 2025，由 EdgeTX 创作，采用 CC BY-SA 4.0 授权。要查看该许可证的副本，请访问 http://creativecommons.org/licenses/by-sa/4.0/
