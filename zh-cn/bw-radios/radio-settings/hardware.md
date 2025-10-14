@@ -6,10 +6,14 @@
 
 ### **校准**
 
-要校准您的物理无线电控制（摇杆、旋钮、滑块和6位开关），请突出显示**\[校准]**选项并按**\[Enter]**按钮。无线电将引导您完成校准步骤。
+要校准您的物理遥控器控制（摇杆、旋钮、滑块，某些情况下还包括6位开关），请突出显示**\[校准]**选项并按**\[Enter]**按钮。遥控器将引导您完成校准步骤。
 
 {% hint style="info" %}
-对于云台校准，请使用从左到右和从上到下的运动，而不是圆周运动！此外，在端点使用正常的压力。过大的端点压力会导致云台校准错误。也不要忘记校准您的6位开关！
+对于云台/轴校准，请使用从左到右和从上到下的运动，而不是圆周运动！此外，在端点使用正常的压力。过大的端点压力会导致云台/轴校准错误。
+{% endhint %}
+
+{% hint style="info" %}
+如果您的遥控器有6位开关（不要与可自定义开关混淆 - 这些不需要校准），校准此开关的步骤是：在提示校准摇杆/轴、旋钮和滑块等模拟输入时，从左到右依次按下每个按钮，每次按下之间暂停一秒钟。
 {% endhint %}
 
 ### 输入、摇杆、旋钮和开关按钮列表
@@ -18,7 +22,7 @@
 
 ### 其他硬件配置选项
 
-<figure><img src="/.gitbook/assets/bwhardware2.png" alt=""><figcaption><p>硬件屏幕</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwhardware2 (1).png" alt=""><figcaption><p>硬件屏幕</p></figcaption></figure>
 
 **电池校准** - 设置此值以匹配发射机电池电压。这确保显示的电池电压准确。
 
@@ -82,13 +86,7 @@ ADC滤波器是比例通道（摇杆、旋钮、滑块）的滤波器，平滑�
 
 调试部分允许测试和调试模拟控制和按键。
 
-<div>
-
-<figure><img src="/.gitbook/assets/bwhardware3.png" alt=""><figcaption><p>调试模拟屏幕</p></figcaption></figure>
-
-<figure><img src="/.gitbook/assets/bwhardware4.png" alt=""><figcaption><p>调试按键屏幕</p></figcaption></figure>
-
-</div>
+<div><figure><img src="/.gitbook/assets/bwhardware3.png" alt=""><figcaption><p>调试模拟屏幕</p></figcaption></figure> <figure><img src="/.gitbook/assets/bwhardware4.png" alt=""><figcaption><p>调试按键屏幕</p></figcaption></figure></div>
 
 **调试模拟** - 这些屏幕将显示您的模拟控制（摇杆、滑块、旋钮、6位开关）的数据。有两个视图 - 校准模拟，原始模拟（5 Hz）。
 

@@ -73,41 +73,25 @@ _**注意：** 此选项仅在启用了 **Bluetooth** 标志的自定义编译�
 
 ### 输入
 
-**校准** - 用于校准您的物理无线电控制（摇杆、旋钮、滑块和 6 位开关）。无线电将提示您完成校准步骤。&#x20;
+**校准** - 用于校准您的物理遥控器控制（摇杆、旋钮、滑块和6位开关）。遥控器将提示您完成校准步骤。
 
 {% hint style="info" %}
-对于您的云台校准，使用从左到右和从上到下的运动，而不是圆周运动！此外，在端点使用正常的压力。过大的端点压力会导致云台校准错误。另外，不要忘记校准您的 6 位开关！
+对于您的云台/轴校准，使用从左到右和从上到下的运动，而不是圆周运动！此外，在端点使用正常的压力。过大的端点压力会导致云台/轴校准错误。
+{% endhint %}
+
+{% hint style="info" %}
+如果您的遥控器有6位开关（不要与可自定义开关混淆 - 这些不需要校准），校准此开关的步骤是：在提示校准摇杆/轴、旋钮和滑块等模拟输入时，从左到右依次按下每个按钮，每次按下之间暂停一秒钟。
 {% endhint %}
 
 #### 轴、旋钮和开关按钮
 
-<div>
+<div><figure><img src="/.gitbook/assets/Axis.png" alt=""><figcaption></figcaption></figure> <figure><img src="/.gitbook/assets/Pots.png" alt=""><figcaption></figcaption></figure> <figure><img src="/.gitbook/assets/Switches.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="/.gitbook/assets/Axis.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="/.gitbook/assets/Pots.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="/.gitbook/assets/Switches.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-选择轴、旋钮或开关按钮之一将打开配置屏幕。在这些屏幕上，您将看到 EdgeTX 预定义的所有物理无线电控制。在这里，您可以为控制添加一个 3 个字符的标签，并根据需要更改控制类型。此外，列在旋钮屏幕下的控制也可以配置为反转。
+选择轴、旋钮或开关按钮之一将打开配置屏幕。在这些屏幕上，您将看到 EdgeTX 预定义的所有物理遥控器控制。在这里，您可以为控制添加一个 3 个字符的标签，并根据需要更改控制类型。此外，列在旋钮屏幕下的控制也可以配置为反转。
 
 ### 调试
 
-<div>
-
-<figure><img src="/.gitbook/assets/hardware4.png" alt=""><figcaption><p>模拟调试屏幕</p></figcaption></figure>
-
- 
-
-<figure><img src="/.gitbook/assets/hardware5 (1).jpg" alt=""><figcaption><p>开关测试屏幕</p></figcaption></figure>
-
-</div>
+<div><figure><img src="/.gitbook/assets/hardware4.png" alt=""><figcaption><p>模拟调试屏幕</p></figcaption></figure> <figure><img src="/.gitbook/assets/hardware5 (1).jpg" alt=""><figcaption><p>开关测试屏幕</p></figcaption></figure></div>
 
 调试部分允许测试和调试模拟控制和按键。
 
