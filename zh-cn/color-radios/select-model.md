@@ -48,7 +48,7 @@ metaLinks:
 
 ### 使用标签过滤模型
 
-要根据标签过滤可见模型，请从左侧列中选择过滤器。它将自动过滤掉没有这些模型标签的模型。有关过滤器如何工作或配置高级过滤选项的更多信息，请参见：[附加无线电设置](radio-settings/radio-setup/additional-radio-settings.md)
+要根据标签过滤可见模型，请从左侧列中选择过滤器。它将自动过滤掉没有这些模型标签的模型。有关过滤器如何工作或配置高级过滤选项的更多信息，请参见：[附加无线电设置](radio-settings/radio-settings/additional-radio-settings.md)
 
 ### 为模型分配标签
 

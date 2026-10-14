@@ -15,7 +15,7 @@ EdgeTX 的用户界面可以通过物理按钮、触摸界面或两者结合进�
 * **\[SYS]** - 系统按钮\
   \- 短按 **\[SYS]** 按钮进入[遥控器设置](../radio-settings/)页面。&#x20;
 
-  \- 长按 **\[SYS]** 按钮进入[遥控器设置](../radio-settings/radio-setup/)页面。
+  \- 长按 **\[SYS]** 按钮进入[遥控器设置](../radio-settings/radio-settings/)页面。
 * **\[MDL]** - 模型按钮\
   \- 短按 **\[MDL]** 按钮进入[模型设置](../model-settings/)页面\
   \- 长按 **\[MDL]** 按钮进入[选择模型](../select-model.md)页面
@@ -72,10 +72,10 @@ EdgeTX 的用户界面可以通过物理按钮、触摸界面或两者结合进�
 
 触摸屏幕左上角的 EdgeTX 图标以打开主导航菜单。触摸所需的菜单选项以选择它。
 
-<figure><img src="/.gitbook/assets/mainmenu.png" alt=""><figcaption><p>主导航菜单</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/colorlcd_main_menu.png" alt=""><figcaption><p>主导航菜单</p></figcaption></figure>
 
 {% hint style="info" %}
-对于在 **Models** 文件夹中有有效模型检查表文件的模型，在 **Manage Models** 图标后会添加一个 **Model Notes** 图标。
+对于在 **Models** 文件夹中有有效模型检查表文件的模型，在 **Manage Models** 图标后会添加一个 **Model Notes** 图标。有关模型备注的更多信息，请参见[此处](../../edgetx-how-to/model-notes-and-checklists.md)。
 {% endhint %}
 
 从主屏幕按下滚轮也将打开主导航菜单。然后，您可以使用滚轮滚动到所需的菜单选项，并通过按下滚轮进行选择。

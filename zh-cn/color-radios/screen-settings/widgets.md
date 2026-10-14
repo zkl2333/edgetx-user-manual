@@ -83,7 +83,7 @@ _**关于此小组件的附加说明：**_
 
 ### 仪表
 
-<figure><img src="/.gitbook/assets/wid_gauge (1).png" alt=""><figcaption><p>仪表小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_gauge.png" alt=""><figcaption><p>仪表小组件</p></figcaption></figure>
 
 显示源值的条形图。可配置选项包括：
 
@@ -116,7 +116,7 @@ _**关于此小组件的附加说明：**_
 
 ### **LibGUI 演示**
 
-<figure><img src="/.gitbook/assets/wid_libgui.jpg" alt=""><figcaption><p>LibGUI 演示小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/widgets10.jpg" alt=""><figcaption><p>LibGUI 演示小组件</p></figcaption></figure>
 
 此小组件是 LibGUI 库的演示。此库通常不单独运行。相反，它为使用它的其他 Lua 脚本提供交互功能。小组件必须在全屏模式下运行以演示库的功能。
 
@@ -152,7 +152,7 @@ _**关于此小组件的附加说明：**_
 
 ### **SOARETX**
 
-<figure><img src="/.gitbook/assets/wid_soaretx.jpg" alt=""><figcaption><p>SoarETX 小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/widgets11.jpg" alt=""><figcaption><p>SoarETX 小组件</p></figcaption></figure>
 
 EdgeTX 版本的 SoarOTX 工具。它是 EdgeTX 发射机的滑翔机模型包。它提供用于计时和记分的 Lua 脚本、日志数据的图形化（例如高度图）和模型配置。
 
