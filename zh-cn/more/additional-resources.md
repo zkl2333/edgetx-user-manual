@@ -1,5 +1,8 @@
 ---
 description: 以下是一些额外的有用资源
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/more/additional-resources
 ---
 
 # 额外资源

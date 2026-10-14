@@ -1,5 +1,9 @@
 ---
 description: 模型独立和模型依赖的音频！
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/edgetx-how-to/advanced-audio-features
 ---
 
 # 高级音频功能

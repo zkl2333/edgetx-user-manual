@@ -1,5 +1,9 @@
 ---
 description: 使用 NV14、EL18、PL18 和 PL18EV 上的微调帽开关导航菜单
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/user-interface/trim-navigation
 ---
 
 # 微调导航

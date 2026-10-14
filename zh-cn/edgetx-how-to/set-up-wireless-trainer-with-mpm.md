@@ -84,7 +84,7 @@ metaLinks:
 
 <div>
 
-<figure><img src="/.gitbook/assets/mpmt6 (2).png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/mpmt6.png" alt="" width="360"><figcaption></figcaption></figure>
 
  
 

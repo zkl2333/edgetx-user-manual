@@ -1,20 +1,10 @@
 ---
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: true
+metaLinks: {}
 ---
 
-# EdgeTX 用户手册 v2.11
+# EdgeTX 用户手册 v2.12
 
-<figure><img src="/.gitbook/assets/logos (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/logos.png" alt=""><figcaption></figcaption></figure>
 
 如果您想为本手册做出贡献，请访问 [如何贡献用户手册](edgetx-how-to/contribute-to-the-user-manual.md) 页面。
 
@@ -32,7 +22,7 @@ layout:
 
 本知识库的这一部分包含指向 EdgeTX 用户可能感兴趣的额外资源的链接。这里链接的外部页面并非由 EdgeTX 维护，但它们可能是与 EdgeTX 相关的其他信息的有用来源。
 
-#### 特别感谢直接或间接为本知识库做出贡献的人员 <a href="#special-thanks-to-those-that-contributed-to-this-knowledge-base-either-directly-or-indirectly." id="special-thanks-to-those-that-contributed-to-this-knowledge-base-either-directly-or-indirectly."></a>
+#### 特别感谢直接或间接为本知识库做出贡献的人员 <a href="#special-thanks-to-those-that-contributed-to-this-knowledge-base-either-directly-or-indirectly" id="special-thanks-to-those-that-contributed-to-this-knowledge-base-either-directly-or-indirectly"></a>
 
 请参阅 [贡献者](more/contributors.md) 部分以获取直接或间接贡献者的名单。
 

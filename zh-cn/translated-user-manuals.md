@@ -16,7 +16,7 @@ metaLinks:
 
 贡献者: Heiner#1063
 
-{% file src="/.gitbook/assets/EdgeTx v2.9 Benutzerhandbuch Farbe (1).pdf" %}
+{% file src="/.gitbook/assets/EdgeTx v2.11 Benutzerhandbuch Farbe.pdf" %}
 德语版彩屏遥控器用户手册
 {% endfile %}
 
