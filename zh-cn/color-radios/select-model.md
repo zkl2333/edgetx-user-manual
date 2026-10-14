@@ -28,7 +28,7 @@
 
 要创建新模型，请选择右上角的 **新建模型** 按钮。然后您将看到以下选项：
 
-<figure><img src="/.gitbook/assets/screenshot_tx16s_24-05-13_09-10-02.png" alt=""><figcaption><p>新模型选项</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/new_model_options.png" alt=""><figcaption><p>新模型选项</p></figcaption></figure>
 
 * **空白模型** - 这将创建一个仅配置了默认选项的空白模型。
 * **1.向导** - 这将启动新模型向导，并根据向导中配置的内容创建模型。

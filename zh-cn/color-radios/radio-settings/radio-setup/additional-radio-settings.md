@@ -6,7 +6,7 @@
 
 ### 声音
 
-<figure><img src="/.gitbook/assets/Sound.png" alt=""><figcaption><p>声音选项</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/radio-settings-sound.png" alt=""><figcaption><p>声音选项</p></figcaption></figure>
 
 **模式** - 配置何时播放声音。
 
@@ -104,7 +104,7 @@ GPS 配置设置仅适用于电台上安装了 GPS 的情况，而不是模型�
 
 ### 启用功能
 
-<figure><img src="/.gitbook/assets/EnabledFeatures.png" alt=""><figcaption><p>启用功能</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/radio-settings-enabled-features.png" alt=""><figcaption><p>启用功能</p></figcaption></figure>
 
 电台设置的 **启用功能** 部分允许您配置 EdgeTX 中电台设置和模型设置区域中可见的选项卡的 _**全局**_ _**设置**_。 活动模型的配置设置将显示在切换开关的右侧。 模型配置将覆盖全局配置。
 
