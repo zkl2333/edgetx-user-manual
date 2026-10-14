@@ -13,7 +13,7 @@ metaLinks:
 
 1. 确保将遥控器连接到电脑时，遥控器是 **关闭** 的。如果您收到关于选择 USB 模式的提示，您将无法更新。DFU 模式（用于刷写固件）仅在遥控器关闭的情况下插入 USB 时才能运行。
 2. 您的遥控器是否有引导/DFU 按钮？请查看 [访问 DFU 和引导加载器模式](../edgetx-how-to/access-dfu-and-bootloader-mode.md) 页面，确认您的遥控器是否需要在插入 USB 时按住某个按钮。
-3. 您可能遇到了驱动问题。如果您使用的是 Windows，可以首先尝试 [ImpulseRC Driver Fixer](https://impulserc.com/pages/downloads) 工具。另外，您也可以访问 STMicroelectronics 网站，下载免费的 [STM32CubeProgrammer 工具](https://www.st.com/en/development-tools/stm32cubeprog.html#get-software)，其中包含必要的驱动程序，适用于所有主要操作系统。请注意，该工具需要在 STMicroelectronics 网站注册一个免费账号，这是用于编程所有支持的遥控器微控制器的官方工具。
+3. 您可能遇到了驱动问题。如果您使用的是 Windows，可以首先尝试 [ImpulseRC Driver Fixer](https://github.com/ImpulseRC/ImpulseRC_Driver_Fixer) 工具。另外，您也可以访问 STMicroelectronics 网站，下载免费的 [STM32CubeProgrammer 工具](https://www.st.com/en/development-tools/stm32cubeprog.html#get-software)，其中包含必要的驱动程序，适用于所有主要操作系统。请注意，该工具需要在 STMicroelectronics 网站注册一个免费账号，这是用于编程所有支持的遥控器微控制器的官方工具。
 4. 尝试更换 USB 数据线。并非所有数据线都是一样的，有些数据线仅支持充电功能。
 
 #### **我更新了 EdgeTX，但现在我的遥控器无法开机或行为异常**
@@ -36,3 +36,13 @@ metaLinks:
 </details>
 
 3. 如果您仍然无法解决问题，可以参考这个指南：[如何修复变砖的遥控器](https://github.com/EdgeTX/edgetx/wiki/Unbrick-your-radio)。
+
+#### 刷写在接近结束时卡住
+
+这是一个在 OpenTX 中就已存在的随机问题。它很难调试和修复，但很容易规避：
+
+1. 断开电池（是的，在_这种_情况下是安全的）
+2. 等待大约 10 秒
+3. 重新连接电池
+4. 以引导加载器模式启动遥控器（向内按住水平微调，按下电源按钮，看到引导加载器菜单后松开所有按键）
+5. 重新开始刷写

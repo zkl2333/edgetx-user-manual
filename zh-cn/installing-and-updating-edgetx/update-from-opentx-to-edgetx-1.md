@@ -38,7 +38,7 @@ metaLinks:
 <figure><img src="/.gitbook/assets/update4.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**注意：** 如果无法选择 STM32 BOOTLOADER，通常说明您的电脑驱动程序存在问题。您可以安装 **ImpulseRC Driver Fixer** 来修复驱动程序。下载链接：[https://impulserc.blob.core.windows.net/utilities/ImpulseRC\_Driver\_Fixer.exe](https://impulserc.blob.core.windows.net/utilities/ImpulseRC\_Driver\_Fixer.exe)
+**注意：** 如果无法选择 STM32 BOOTLOADER，通常说明您的电脑驱动程序存在问题。您可以安装 [**ImpulseRC Driver Fixer**](https://impulserc.blob.core.windows.net/utilities/ImpulseRC_Driver_Fixer.exe) 来修复驱动程序。
 {% endhint %}
 
 {% hint style="info" %}

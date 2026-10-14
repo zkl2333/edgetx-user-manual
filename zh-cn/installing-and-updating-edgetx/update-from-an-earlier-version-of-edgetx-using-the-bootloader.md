@@ -47,10 +47,6 @@ metaLinks:
 
 同时按住微调开关 T4 和 T1 并按电源按钮，将遥控器启动至引导加载器模式。
 
-{% hint style="info" %}
-对于 Jumper T-Pro，您需要按住 Boot0 按钮并插入 USB 才能进入 DFU 模式。
-{% endhint %}
-
 进入 EdgeTX 引导加载器后，选择 **写入固件** 选项。选择保存到 SD 卡上的 EdgeTX 固件文件，长按刷写。
 
 {% hint style="info" %}

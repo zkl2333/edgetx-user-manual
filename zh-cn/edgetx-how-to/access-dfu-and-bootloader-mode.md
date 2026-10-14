@@ -29,6 +29,22 @@ metaLinks:
 
 **DFU**: 关闭遥控发射器。按住 DFU 按钮并插入 USB 线缆，释放 DFU 按钮。
 
+### FlySky Noble+ (NB4+)
+
+<figure><img src="/.gitbook/assets/nb4p-dfu-reset.png" alt="" width="563"><figcaption></figcaption></figure>
+
+**Bootloader:** 按住标有 SW1 的两个按钮（位于握把两侧）并打开遥控器电源。进入 Bootloader 后即可松开。使用 TR3 滚动，左侧 SW1 作为 RTN，右侧 SW1 作为 ENTER（从背面看）。
+
+**DFU:** 在遥控器和电池仓（外置电池组）均关机的状态下，按住握把左侧（从背面看）的 DFU 按钮，同时将 USB 连接到遥控器（通过其外置电池组）。
+
+### FlySky PA01
+
+<figure><img src="/.gitbook/assets/pa01_dfu.png" alt=""><figcaption></figcaption></figure>
+
+**Bootloader:** 关闭遥控发射器。将两个水平微调（T1 和 T4）向内拉，并按下电源按钮。
+
+**DFU:** 关闭遥控发射器。将遥控器翻转过来，使其背面朝向您。取下左侧电池盖。用不导电的物体（例如塑料）按住 DFU 按钮，然后插入 USB 线缆。松开 DFU 按钮。如果操作正确，散热风扇将全速运转。
+
 ### FlySky PL18 / PL18 EV
 
 <figure><img src="/.gitbook/assets/PL18Dfu.png" alt="" width="375"><figcaption><p>PL18 PL18 EV DFU 按钮</p></figcaption></figure>
@@ -36,6 +52,14 @@ metaLinks:
 **Bootloader**: 关闭遥控发射器。将两个水平微调（TR7 和 TR8）一起拉并按下两个电源按钮。
 
 **DFU**: 关闭遥控发射器。按住 DFU 按钮并插入 USB 线缆，释放 DFU 按钮。
+
+### FlySky ST16
+
+**Bootloader:** 关闭遥控发射器。将两个水平微调（TR3 和 TR4）一起拉并按下电源按钮。
+
+**DFU:** 关闭遥控发射器。按住 DFU 按钮（下图中圈出的位置）并插入 USB 线缆，释放 DFU 按钮。
+
+<figure><img src="/.gitbook/assets/st16_DFU_button.png" alt=""><figcaption></figcaption></figure>
 
 ### iFlight Commando8
 
@@ -95,6 +119,12 @@ metaLinks:
 
 **DFU**: 关闭遥控发射器。按住 DFU 按钮并插入 USB 线缆，释放 DFU 按钮。
 
+### RadioMaster GX12
+
+**Bootloader**: 关闭遥控发射器。将两个水平微调开关一起拉并按下电源按钮。
+
+**DFU**: 关闭遥控发射器。将 USB 线缆插入遥控器顶部的 USB 端口（电源按钮 LED 应亮起）。按住 SG（左上肩部开关），然后按下并松开电源按钮（只需短按）。之后即可松开 SG。
+
 ### RadioMaster MT12
 
 **Bootloader**: 关闭遥控发射器。将两个微调 T1 和 T2 一起拉并按下电源按钮。
@@ -107,7 +137,13 @@ metaLinks:
 
 **DFU**: 关闭遥控发射器。将 USB 线缆插入遥控器顶部的 USB 端口。
 
-### RadioMaster (其他所有 - Boxer, T12, Zorro, TX16S)
+### RadioMaster TX15 / TX16S MK3 / GX15
+
+**Bootloader**: 关闭遥控发射器。将两个水平微调开关一起拉并按下电源按钮。
+
+**DFU**: 关闭遥控发射器。将 USB 线缆插入遥控器顶部的 USB 端口（电源按钮 LED 应亮起）。短按 SYSTEM（SYS）按钮，遥控器即进入 DFU 模式。
+
+### RadioMaster (其他所有 - Boxer, TX12, Zorro, TX16S MK1/MK2)
 
 **Bootloader**: 关闭遥控发射器。将两个水平微调开关一起拉并按下电源按钮。
 

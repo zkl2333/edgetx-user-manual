@@ -47,3 +47,7 @@ metaLinks:
 [使用 EdgeTX Buddy 从早期版本的 EdgeTX 更新](update-from-opentx-to-edgetx-1.md)
 
 [使用引导加载器从早期版本的 EdgeTX 更新](update-from-an-earlier-version-of-edgetx-using-the-bootloader.md)
+
+### 更新使用 STM32H7 微控制器的遥控器
+
+基于 STM32H7 的遥控器的更新过程与其他遥控器略有不同，因此其更新过程和选项[单独进行了说明](updating-your-stm32h7-radio.md)。
