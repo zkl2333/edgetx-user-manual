@@ -21,6 +21,10 @@ metaLinks:
 如果在游戏手柄模式下使用遥控器，则应关闭内部和外部 RF 模块。这将在通过 USB 连接到计算机时提高性能。
 {% endhint %}
 
+#### Antenna（天线，部分遥控器）
+
+在可切换内置/外置天线的遥控器上，如果[硬件](../../radio-settings/hardware.md)页面中的 **Antenna** 设置为 **Per model**，则此内部 RF 页面会出现一个 **Antenna** 字段，可为该模型单独选择 **Internal**（内置）或 **External**（外置）。
+
 #### 模式选项
 
 * **关闭** - 不使用 RF 模块

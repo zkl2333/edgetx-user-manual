@@ -24,3 +24,5 @@ metaLinks:
 <figure><img src="../../.gitbook/assets/color_model_custom-lua_edit.png" alt=""><figcaption><p>混控脚本的输入和输出</p></figcaption></figure>
 
 这是一个混控脚本示例，它接受一个源和常量值，并有两个输出，这些输出可在混控器中作为源选择。
+
+选择空行可以从 SD 卡的 `/SCRIPTS/MIXES/` 中选择一个 **Script/File（脚本/文件）**，并为其指定 **Name（名称）**。选定后，脚本定义的 **Inputs（输入）** 和 **Outputs（输出）** 会自动列出并可进行配置（输入可设置为某个源、常量或其他值；输出按脚本中的定义命名）。长按已有的脚本行会提供 **Edit（编辑）** 和 **Delete（删除）** 选项。如果出现 **Script Error（脚本错误）** 或其文件缺失（**Needs File**），脚本行会显示状态指示。

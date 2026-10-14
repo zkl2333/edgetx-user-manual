@@ -15,6 +15,7 @@ metaLinks:
 
 * **编辑** - 打开所选全局变量的全局变量配置屏幕。
 * **清除** - 清除所选全局变量的所有飞行模式的全局变量值。
+* **重置** - 将所有飞行模式设置为继承飞行模式 0（FM0）的值，并将 FM0 自身的值重置为 0。
 
 <figure><img src="/.gitbook/assets/GVE.png" alt=""><figcaption><p>全局变量配置屏幕。</p></figcaption></figure>
 
