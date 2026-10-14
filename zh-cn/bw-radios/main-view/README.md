@@ -14,7 +14,7 @@ metaLinks:
 
 <figure><img src="/.gitbook/assets/bwview2.png" alt=""><figcaption><p>屏幕 2</p></figcaption></figure>
 
-<figure><img src="/.gitbook/assets/BWScreen6 (1).png" alt=""><figcaption><p>屏幕 2（地面无线电）</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/BWScreen6.png" alt=""><figcaption><p>屏幕 2（地面遥控器）</p></figcaption></figure>
 
 </div>
 
@@ -42,7 +42,7 @@ metaLinks:
 
 从主视图屏幕长按 **\[滚轮]** 或 **\[旋钮]** 按钮将显示一个弹出菜单，其中包含以下选项：
 
-* **查看备注 -** 显示配置的模型检查表。此选项仅在 **Models** 文件夹中有有效的模型检查表文件时可见。
+* **查看备注 -** 显示配置的模型检查表。此选项仅在 **Models** 文件夹中有有效的模型检查表文件时可见。有关模型备注的更多信息，请参见[此处](../../edgetx-how-to/model-notes-and-checklists.md)。
 * **重置** - 请参阅[重置](reset.md)页面。
 * **统计** - 请参阅[统计](statistics.md)页面。
 * **关于** - 显示遥控器使用的 EdgeTX 固件版本。

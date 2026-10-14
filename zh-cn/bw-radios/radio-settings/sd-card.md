@@ -74,8 +74,8 @@ _注意：此文件夹仅适用于 212x64 显示屏的遥控器。_
 * **Functions** - 存放可以通过 [特殊功能](../../color-radios/model-settings/special-functions.md) **Lua 脚本** 激活的函数 Lua 脚本。默认情况下此文件夹为空（除 README.txt 文件外）。更多关于函数 Lua 脚本的信息，请参考：[Function Scripts](https://luadoc.edgetx.org/part_i_-_script_type_overview/function_scripts)。
 * **Mixes** - 存放 Lua 混控脚本。默认情况下此文件夹为空（除 README.txt 文件外）。更多关于混控 Lua 脚本的信息，请参考：[Custom Mixer Scripts](https://luadoc.edgetx.org/part_i_-_script_type_overview/mix)。
 * **RGBLED** - 存放控制 RGB LED 的 Lua 脚本（如果硬件支持）。
-* **Tools** - 存放在 [工具](../../color-radios/radio-settings/tools.md) 屏幕中可用的 Lua 脚本。
-* **Wizards** - 存放在 [工具](../../color-radios/radio-settings/tools.md) 屏幕中可用的向导 Lua 脚本。
+* **Tools** - 存放在 [工具](../../color-radios/radio-settings/apps.md) 屏幕中可用的 Lua 脚本。
+* **Wizards** - 存放在 [工具](../../color-radios/radio-settings/apps.md) 屏幕中可用的向导 Lua 脚本。
 
 ### SOUNDS
 

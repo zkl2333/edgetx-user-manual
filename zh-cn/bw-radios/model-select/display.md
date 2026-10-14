@@ -19,7 +19,7 @@ metaLinks:
 
  
 
-<figure><img src="/.gitbook/assets/bwtel1 (7).png" alt=""><figcaption><p>带数字的显示屏幕</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/bwtel1 (5).png" alt=""><figcaption><p>带数字的显示屏幕</p></figcaption></figure>
 
 </div>
 

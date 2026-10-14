@@ -55,7 +55,7 @@
   * [重置遥测](color-radios/reset-telemetry.md)
   * [统计信息](color-radios/statistics.md)
 * [单色屏幕遥控器用户手册](bw-radios/README.md)
-  * [用户界面](bw-radios/user-inteface.md)
+  * [用户界面](bw-radios/user-interface.md)
   * [主视图](bw-radios/main-view/README.md)
     * [重置](bw-radios/main-view/reset.md)
     * [统计信息](bw-radios/main-view/statistics.md)
