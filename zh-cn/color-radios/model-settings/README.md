@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings
+---
+
 # 模型设置
 
 <figure><img src="/.gitbook/assets/modelsetup (1).png" alt=""><figcaption></figcaption></figure>

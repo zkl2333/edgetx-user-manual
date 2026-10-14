@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/installing-and-updating-edgetx
+---
+
 # 安装和更新 EdgeTX
 
 您可以通过多种方式在遥控器上安装或更新 EdgeTX。可以使用在线工具 EdgeTX Buddy，也可以通过引导加载器方法手动安装/更新引导加载器和固件。这两种方法各有优劣，具体选择取决于个人偏好。

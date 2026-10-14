@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/installing-and-updating-edgetx/migrate-from-opentx-to-edgetx-using-the-bootloader
+---
+
 # 使用引导加载器从 OpenTX 迁移到 EdgeTX
 
 要从 OpenTX 更新到 EdgeTX，您需要在计算机上安装 OpenTX 和 EdgeTX Companion。您可以通过以下链接下载 OpenTX Companion：[https://downloads.open-tx.org/2.3/release/companion/](https://downloads.open-tx.org/2.3/release/companion/)。EdgeTX Companion 可通过以下链接下载：[https://github.com/EdgeTX/edgetx/releases](https://github.com/EdgeTX/edgetx/releases)（文件名格式：edgetx-cpn-\[操作系统]-\[版本].zip）。

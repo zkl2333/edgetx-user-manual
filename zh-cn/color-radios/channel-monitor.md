@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/channel-monitor
+---
+
 # 通道监视器
 
 通道监视器显示每个32个无线电通道的输出值（顶部条）和混合值（底部条），分布在4页，每页8个。

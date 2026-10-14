@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/model-select/display
+---
+
 # 显示
 
 **显示** 屏幕是配置从主屏幕按下 **\[Tele]** 按钮时显示的遥测屏幕的地方。

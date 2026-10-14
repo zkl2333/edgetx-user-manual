@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/inputs-mixes-and-outputs/mixes
+---
+
 # 混控
 
 模型设置的 **混控** 屏幕是将多个输入组合成一个"通道混控"的地方。然后将这些混控分配给一个遥控器通道进行输出。这也是分配开关、旋钮或滑块到通道进行输出的地方。与输入部分类似，也可以为通道混控分配权重、偏移或曲线。

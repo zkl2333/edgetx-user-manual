@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/installing-and-updating-edgetx/update-from-an-earlier-version-of-edgetx-using-the-bootloader
+---
+
 # 使用引导加载器从早期版本的 EdgeTX 更新
 
 ### 备份 SD 卡内容

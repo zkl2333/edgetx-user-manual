@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/global-variables
+---
+
 # 全局变量
 
 全局变量是其值在模型的所有配置屏幕中共享的变量。它们的值可以用于权重、偏移、差动、指数设置、输出以及逻辑开关比较。模型设置的 **全局变量** 屏幕显示每个飞行模式的每个全局变量的值。

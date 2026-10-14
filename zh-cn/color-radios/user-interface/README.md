@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/user-interface
+---
+
 # 用户界面
 
 EdgeTX 的用户界面可以通过物理按钮、触摸界面或两者结合进行导航。

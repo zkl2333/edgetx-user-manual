@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/radio-settings/trainer
+---
+
 # 教练
 
 在无线电设置中的**教练**屏幕用于配置主控模式下的无线电如何处理从控模式下无线电的信号。它包含以下配置选项。

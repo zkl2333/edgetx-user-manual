@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/radio-settings/trainer
+---
+
 # 教练
 
 在遥控器设置中的 **教练** 屏幕用于配置主控模式下的遥控器如何处理从控模式下遥控器的信号。

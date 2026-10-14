@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/main-view/reset
+---
+
 # 重置
 
 从弹出菜单中选择**重置**将为您提供以下选项：

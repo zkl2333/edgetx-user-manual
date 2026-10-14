@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/model-select/setup
+---
+
 # 设置
 
 <figure><img src="/.gitbook/assets/bw128_model_setup.png" alt=""><figcaption></figcaption></figure>

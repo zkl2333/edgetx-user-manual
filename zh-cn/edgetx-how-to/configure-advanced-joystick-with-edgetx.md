@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/edgetx-how-to/configure-advanced-joystick-with-edgetx
+---
+
 # 使用 EdgeTX 配置高级操纵杆
 
 ### 通用

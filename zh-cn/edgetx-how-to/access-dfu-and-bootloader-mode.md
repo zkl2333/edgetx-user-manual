@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/edgetx-how-to/access-dfu-and-bootloader-mode
+---
+
 # 进入 DFU 和 Bootloader 模式
 
 并不是所有的遥控器进入 Bootloader 或 DFU 模式的方式都相同。以下是许多 EdgeTX 遥控器进入 Bootloader 和 DFU 模式的方法描述。

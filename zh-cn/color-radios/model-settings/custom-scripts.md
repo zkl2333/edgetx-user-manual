@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/custom-scripts
+---
+
 # 自定义脚本
 
 <figure><img src="../../.gitbook/assets/color_model_custom-lua.png" alt=""><figcaption><p>自定义混控脚本</p></figcaption></figure>

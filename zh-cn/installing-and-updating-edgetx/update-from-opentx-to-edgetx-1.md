@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/installing-and-updating-edgetx/update-from-opentx-to-edgetx-1
+---
+
 # 使用 EdgeTX Buddy 从早期版本的 EdgeTX 更新
 
 ### 备份 SD 卡内容

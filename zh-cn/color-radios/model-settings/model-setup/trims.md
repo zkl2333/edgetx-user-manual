@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/model-setup/trims
+---
+
 # 微调
 
 <figure><img src="/.gitbook/assets/trims.png" alt=""><figcaption><p>微调设置页面</p></figcaption></figure>

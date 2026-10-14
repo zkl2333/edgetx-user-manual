@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/model-select/curves
+---
+
 # 曲线
 
 **曲线**屏幕允许您定义自定义曲线，以便在输入、混合或输出屏幕中使用。曲线屏幕将显示配置的自定义曲线，并提供每条曲线的图形表示。

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/curves
+---
+
 # 曲线
 
 模型设置的 **曲线** 屏幕允许您定义自定义曲线，以便在输入、混合或输出屏幕中使用。曲线屏幕将显示所有配置的自定义曲线，每条曲线都有图形表示、点数和曲线类型。

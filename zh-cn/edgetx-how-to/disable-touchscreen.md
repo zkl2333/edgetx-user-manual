@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/edgetx-how-to/disable-touchscreen
+---
+
 # 禁用触摸屏
 
 有多种原因可能导致您想要禁用触摸屏。在飞行过程中，意外触碰可能会改变您的模型配置，从而带来风险。

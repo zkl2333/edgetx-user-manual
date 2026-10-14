@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/model-setup/timer-1-2-3
+---
+
 # 计时器 1/2/3
 
 <figure><img src="/.gitbook/assets/timers.png" alt=""><figcaption><p>计时器配置页面</p></figcaption></figure>

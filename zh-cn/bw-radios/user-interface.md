@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/user-interface
+---
+
 # 用户界面
 
 <figure><img src="/.gitbook/assets/bwUserinterface.png" alt="" width="375"><figcaption><p>用于遥控器菜单导航的常用按钮（例如 RM Zorro）</p></figcaption></figure>

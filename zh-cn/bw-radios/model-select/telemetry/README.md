@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/model-select/telemetry
+---
+
 # 遥测
 
 遥测是从模型接收到的来自各种传感器的数据，这些传感器可能包含在无线电接收器或飞行控制器中，也可能是单独的传感器，如 GPS、变率计或磁力计。接收到的遥测数据可以通过 EdgeTX 在小部件中显示，配置在警报或音频播报中。

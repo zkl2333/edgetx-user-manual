@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/radio-settings/themes
+---
+
 # 主题
 
 <figure><img src="/.gitbook/assets/themes.png" alt=""><figcaption><p>主题屏幕</p></figcaption></figure>

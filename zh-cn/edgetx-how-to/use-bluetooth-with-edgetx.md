@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/edgetx-how-to/use-bluetooth-with-edgetx
+---
+
 # 在 EdgeTX 中使用蓝牙
 
 EdgeTX 中对蓝牙的支持仅限于：

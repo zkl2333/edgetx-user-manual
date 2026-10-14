@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/model-select/flight-modes
+---
+
 # 飞行/驾驶模式
 
 飞行模式（FM）和驾驶模式（DM）（在地面无线电上）允许您为每个飞行/驾驶模式设置不同的微调设置。一旦配置了多个飞行/驾驶模式，您可以在每个飞行/驾驶模式中调整微调设置，而不会影响其他飞行/驾驶模式的微调设置（除非它们被配置为这样做）。共有九种可能的飞行/驾驶模式，飞行/驾驶模式0是默认模式。

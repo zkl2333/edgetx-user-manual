@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/installing-and-updating-edgetx/having-trouble-updating
+---
+
 # 更新遇到问题？
 
 如果您在阅读此页面，说明您在尝试更新或更新后遇到了一些问题。请查看以下问题列表及其可能的解决步骤，看看是否有符合您遇到的问题。如果没有，您可以加入我们的 [Discord](https://discord.gg/wF9wUKnZ6H)（通常会有人可以帮助您），访问我们的 [GitHub Discussions](https://github.com/EdgeTX/edgetx/discussions) 论坛，或者使用 [RCGroups 论坛线程](https://www.rcgroups.com/forums/showthread.php?3916381-Official-EdgeTX-Discussion-Thread)，如果您更喜欢这种方式。

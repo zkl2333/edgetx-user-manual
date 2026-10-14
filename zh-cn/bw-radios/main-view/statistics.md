@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/main-view/statistics
+---
+
 # 统计
 
 <figure><img src="/.gitbook/assets/bwstats.png" alt=""><figcaption><p>统计屏幕</p></figcaption></figure>

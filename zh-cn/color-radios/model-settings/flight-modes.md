@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/flight-modes
+---
+
 # 飞行模式
 
 <figure><img src="/.gitbook/assets/FM1.png" alt=""><figcaption><p>飞行模式页面</p></figcaption></figure>

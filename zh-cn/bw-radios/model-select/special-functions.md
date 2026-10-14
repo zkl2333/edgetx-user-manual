@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/model-select/special-functions
+---
+
 # 特殊功能
 
 **特殊功能**部分是您可以配置EdgeTX中包含的特殊功能的地方。这些特殊功能增加了超出正常模型控制的附加功能，例如启用教练模式、播放声音、调整无线电背光、调整无线电音量等。在特殊功能屏幕上，您将看到所有配置的特殊功能以及一些配置选项，例如功能名称、激活开关、功能是否启用和其他配置选项。

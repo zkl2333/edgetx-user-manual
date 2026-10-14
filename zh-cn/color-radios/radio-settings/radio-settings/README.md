@@ -1,6 +1,13 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/radio-settings/radio-setup
+---
+
 # 遥控器设置
 
-<figure><img src="/.gitbook/assets/RadioSetup.png" alt=""><figcaption><p>遥控器设置屏幕</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/radio-setup-alt.png" alt=""><figcaption><p>遥控器设置屏幕</p></figcaption></figure>
 
 **遥控器设置** 屏幕是配置遥控器基本设置的地方。它包含以下选项：
 

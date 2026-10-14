@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/user-interface/virtual-keyboards
+---
+
 # 虚拟键盘
 
 为了方便输入文本和数字，EdgeTX 使用虚拟文本和数字键盘，可以通过触摸屏或滚轮进行交互。此外，还有映射到硬件按钮的快捷键，如下所述：

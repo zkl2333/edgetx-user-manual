@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/translated-user-manuals
+---
+
 # 用户手册翻译版本
 
 以下是由社区翻译的 EdgeTX 用户手册版本的链接。

@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/model-select
+---
+
 # 模型设置
 
 ### 模型选择

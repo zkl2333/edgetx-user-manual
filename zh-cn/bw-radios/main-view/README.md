@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/main-view
+---
+
 # 主视图
 
 主视图是遥控器操作期间通常使用的默认视图。此视图显示信息，如模型名称、微调位置、发射机电池电压、飞行模式、接收器信号强度和计时器。所有屏幕的下部中央还显示一个时钟。共有五个主视图屏幕。

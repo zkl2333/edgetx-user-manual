@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/edgetx-how-to/useful-logical-switches-and-special-functions
+---
+
 # 配置低电量警报
 
 本指南展示了如何配置低电压电池警报。假设我们有一个使用 2S Lipo 接收机电池的模型。我们希望在电池电压降至 7.4V 以下时配置警报。

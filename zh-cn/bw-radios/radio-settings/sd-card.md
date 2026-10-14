@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/radio-settings/sd-card
+---
+
 # SD 卡
 
 <figure><img src="/.gitbook/assets/bwsdcard1.png" alt=""><figcaption><p>SD 卡屏幕</p></figcaption></figure>

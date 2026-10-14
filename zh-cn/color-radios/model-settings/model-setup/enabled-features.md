@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/model-setup/enabled-features
+---
+
 # 启用功能
 
 <figure><img src="/.gitbook/assets/enabledfeatures.png" alt=""><figcaption><p>启用功能</p></figcaption></figure>

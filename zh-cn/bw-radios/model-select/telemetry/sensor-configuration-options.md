@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/model-select/telemetry/sensor-configuration-options
+---
+
 # 传感器配置
 
 <figure><img src="/.gitbook/assets/bwtelemetry2.png" alt=""><figcaption><p>传感器配置页面</p></figcaption></figure>

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/radio-settings/radio-setup
+---
+
 # 遥控器设置
 
 <figure><img src="/.gitbook/assets/bw128_radio_setup_top.png" alt=""><figcaption><p>遥控器设置</p></figcaption></figure>

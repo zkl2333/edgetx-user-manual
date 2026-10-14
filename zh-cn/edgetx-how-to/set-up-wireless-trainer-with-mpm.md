@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/edgetx-how-to/set-up-wireless-trainer-with-mpm
+---
+
 # 使用多协议模块设置无线教练
 
 #### 先决条件

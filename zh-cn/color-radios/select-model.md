@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/select-model
+---
+
 # 管理模型
 
 管理模型屏幕允许您创建新模型，选择哪个模型是活动的，创建和应用模型标签，以及创建模型模板。

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/radio-settings/hardware
+---
+
 # 硬件
 
 **硬件**屏幕是配置遥控器硬件特定设置的地方。它显示所有物理硬件对象（摇杆、旋钮、开关），并允许对其进行修改。您还可以在此处校准摇杆和旋钮，并进行其他配置选项。

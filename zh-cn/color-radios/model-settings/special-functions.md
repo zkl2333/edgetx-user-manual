@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/special-functions
+---
+
 # 特殊功能
 
 模型设置的 **特殊功能** 部分，顾名思义，是您可以配置 EdgeTX 中包含的特殊功能的地方。这些特殊功能增加了正常模型控制之外的附加功能，例如启用教练模式、播放声音、调整遥控器背光、调整遥控器音量等。在特殊功能屏幕上，您将看到所有配置的特殊功能以及一些配置选项，例如功能名称、激活开关、功能是否启用和其他配置选项。

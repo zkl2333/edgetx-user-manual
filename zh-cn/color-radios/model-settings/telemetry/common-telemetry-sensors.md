@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/telemetry/common-telemetry-sensors
+---
+
 # 常见遥测传感器
 
 以下传感器是常用的，并且通常由 EdgeTX 自动检测：

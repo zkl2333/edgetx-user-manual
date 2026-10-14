@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/model-select/logical-switches
+---
+
 # 逻辑开关
 
 逻辑开关是虚拟的两位开关，其值（开/关或 +100/-100）基于定义的逻辑表达式的评估（真/假）。一旦配置，逻辑开关可以在 EdgeTX 中任何可以定义物理开关的地方使用。

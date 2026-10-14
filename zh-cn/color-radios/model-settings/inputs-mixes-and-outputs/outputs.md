@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/inputs-mixes-and-outputs/outputs
+---
+
 # 输出
 
 **模型设置**的**输出**屏幕是对控制数据进行最终调整的地方（包括子微调、曲线、端点和中心值），然后将控制数据发送到 RF 模块。在这里设置通道中心、限制（以防止舵机卡住）和输出方向。

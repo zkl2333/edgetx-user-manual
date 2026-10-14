@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/telemetry/sensor-configuration-options
+---
+
 # 传感器配置选项
 
 以下选项可用于配置传感器：

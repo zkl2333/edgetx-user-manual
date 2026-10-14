@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/model-setup/internal-external-rf
+---
+
 # 内部 / 外部 RF
 
 内部和外部 RF 页面的配置设置相同。唯一的区别是 **内部 RF** 部分用于配置内置模块，而 **外部 RF** 部分用于配置外部模块槽中的 RF 模块。

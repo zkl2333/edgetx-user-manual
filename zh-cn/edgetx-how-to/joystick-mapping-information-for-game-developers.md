@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/edgetx-how-to/joystick-mapping-information-for-game-developers
+---
+
 # 游戏开发者的操纵杆映射信息
 
 ### 概述

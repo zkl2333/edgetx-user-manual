@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/screen-settings/widgets
+---
+
 # 小组件
 
 {% hint style="info" %}

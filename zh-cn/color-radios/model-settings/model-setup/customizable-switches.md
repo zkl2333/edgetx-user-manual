@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/model-setup/customizable-switches
+---
+
 # 可自定义开关
 
 传统的6位开关/控制要么是一组6个开关协同工作（一次只能激活一个），要么是具有六个物理位置（定位）的单个旋转开关。一些新一代遥控器提供了"可自定义开关"功能，允许您定义开关的类型、分组和启动状态。从物理上看，它们看起来像您在旧手持设备设计中看到的普通6位开关，但它们_**要**_灵活得多。

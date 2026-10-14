@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/model-setup/usb-joystick
+---
+
 # USB Joystick
 
 USB Joystick 有两种可能的模式，**经典** 和 **高级**。&#x20;

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/model-setup/preflight-checks
+---
+
 # 启动前检查
 
 <figure><img src="/.gitbook/assets/prestart checks.png" alt=""><figcaption><p>启动前检查页面</p></figcaption></figure>

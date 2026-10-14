@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/radio-settings/version
+---
+
 # 版本
 
 <figure><img src="/.gitbook/assets/version1.png" alt=""><figcaption><p>版本屏幕</p></figcaption></figure>

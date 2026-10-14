@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/reset-telemetry
+---
+
 # 重置遥测
 
 <figure><img src="/.gitbook/assets/resettelemetry.jpg" alt=""><figcaption><p>重置遥测屏幕</p></figcaption></figure>

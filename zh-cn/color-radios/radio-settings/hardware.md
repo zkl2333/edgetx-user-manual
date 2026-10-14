@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/radio-settings/hardware
+---
+
 # 硬件
 
 <figure><img src="/.gitbook/assets/hardware.png" alt=""><figcaption><p>硬件屏幕</p></figcaption></figure>

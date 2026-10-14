@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/more/contributors
+---
+
 # 贡献者
 
 特别感谢以下个人和团体直接或间接为本文档做出的贡献。

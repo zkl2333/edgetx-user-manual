@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/screen-settings
+---
+
 # 屏幕设置
 
 EdgeTX 的 **屏幕设置** 部分是您可以自定义主视图并添加额外视图（最多 10 个）的地方。 从主导航菜单中选择 **屏幕设置** 时，将打开 **主视图 1**。 如果已添加其他主视图，您可以从屏幕顶部的数字选项卡中选择它们以调整其设置。 所有主视图选项卡都有以下配置选项，并且是单独配置的：
