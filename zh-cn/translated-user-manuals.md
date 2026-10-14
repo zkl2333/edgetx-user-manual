@@ -33,3 +33,9 @@
 _翻译进行中！_
 
 [https://robertomirax.gitbook.io/untitled/](https://robertomirax.gitbook.io/untitled/)
+
+### 乌克兰语 / Українська
+
+贡献者: [https://fpvua.org](https://fpvua.org) 的朋友们
+
+[https://elektronik.gitbook.io/edgetx-ua](https://elektronik.gitbook.io/edgetx-ua)

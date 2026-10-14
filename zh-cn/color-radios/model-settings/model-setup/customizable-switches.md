@@ -26,4 +26,6 @@
 
 **OFF / ON 颜色（在兼容的手持设备上）：** 某些手持设备支持配置可自定义开关的颜色。如果是这样，将为每个可自定义开关显示 OFF 和 ON 颜色选择器（如下所示），您将能够为每种状态选择您喜欢的颜色。黑色表示可自定义开关未点亮时的状态。
 
+**Lua 覆盖（在兼容的手持设备上）：** 在 OFF 和 ON 颜色选择器旁边，各有一个切换开关，允许正在运行的 Lua 脚本在运行时覆盖为该状态配置的 LED 颜色。
+
 <figure><img src="../../../.gitbook/assets/colorlcd_model_customisable_switches_rgb.png" alt=""><figcaption><p>同时支持配置 LED 颜色的手持设备上的可自定义开关选项</p></figcaption></figure>

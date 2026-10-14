@@ -69,7 +69,7 @@ EdgeTX 的用户界面可以通过物理按钮、触摸界面或两者结合进�
 <figure><img src="/.gitbook/assets/mainmenu.png" alt=""><figcaption><p>主导航菜单</p></figcaption></figure>
 
 {% hint style="info" %}
-对于在 **Models** 文件夹中有有效模型检查表文件的模型，在 **Manage Models** 图标后会添加一个 **Model Notes** 图标。
+对于在 **Models** 文件夹中有有效模型检查表文件的模型，在 **Manage Models** 图标后会添加一个 **Model Notes** 图标。了解更多关于模型备注的信息，请参见[这里](../../edgetx-how-to/model-notes-and-checklists.md)。
 {% endhint %}
 
 从主屏幕按下滚轮也将打开主导航菜单。然后，您可以使用滚轮滚动到所需的菜单选项，并通过按下滚轮进行选择。

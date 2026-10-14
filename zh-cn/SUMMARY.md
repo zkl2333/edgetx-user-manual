@@ -95,6 +95,7 @@
 * [使用微调开关调整全局变量](edgetx-how-to/use-trims-as-switches.md)
 * [配置低电量警报](edgetx-how-to/useful-logical-switches-and-special-functions.md)
 * [高级音频功能](edgetx-how-to/advanced-audio-features.md)
+* [模型备注和检查清单](edgetx-how-to/model-notes-and-checklists.md)
 
 ## 更多
 
