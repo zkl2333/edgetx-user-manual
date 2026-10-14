@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: true
----
-
 # User Manual for Color Screen Radios
 
 <figure><img src="../.gitbook/assets/colorradios.png" alt=""><figcaption><p>EdgeTX supported color screen radios</p></figcaption></figure>

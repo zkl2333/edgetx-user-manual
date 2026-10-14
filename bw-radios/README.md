@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: true
----
-
 # User Manual for Monochrome Screen Radios
 
 <figure><img src="../.gitbook/assets/monoradios (1).png" alt=""><figcaption><p>EdgeTX supported monochrome screen radios</p></figcaption></figure>

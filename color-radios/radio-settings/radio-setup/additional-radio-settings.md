@@ -6,7 +6,7 @@ Many of the additional settings here are self-explanatory. Only those settings n
 
 ### Sound
 
-<figure><img src="../../../.gitbook/assets/Sound.png" alt=""><figcaption><p>Sound Options</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/radio-settings-sound.png" alt=""><figcaption><p>Sound Options</p></figcaption></figure>
 
 **Mode** - configures when to play sounds.
 
@@ -82,6 +82,14 @@ The length in seconds that the backlight is on. The minimum value is 5 seconds. 
 
 The backlight turns on when there are alarms or warnings.
 
+#### Backlight ON brightness / Backlight OFF brightness
+
+Sliders that set the backlight brightness level used while the backlight is "on" (per the Mode setting above) and while it is "off" (dimmed) respectively.
+
+#### Keys Backlight (select radios)
+
+Toggles a separate backlight for the radio's buttons. Only available on radios with backlit buttons (e.g. the Jumper T18).
+
 ### GPS
 
 <figure><img src="../../../.gitbook/assets/gps.png" alt=""><figcaption><p>GPS options</p></figcaption></figure>
@@ -104,7 +112,7 @@ The GPS coordinate format that will be displayed.
 
 ### Enabled Features
 
-<figure><img src="../../../.gitbook/assets/EnabledFeatures.png" alt=""><figcaption><p>Enabled Reatures</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/radio-settings-enabled-features.png" alt=""><figcaption><p>Enabled Reatures</p></figcaption></figure>
 
 The **Enabled Features** section of Radio Setup allows you to configure the _**Global**_ _**settings**_ for which tabs are visible in the Radio Setup and Model Settings area of EdgeTX. The configuration setting for the active model will show to the right of the toggle switch. The model configuration will override the global configuration.
 

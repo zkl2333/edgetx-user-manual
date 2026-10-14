@@ -108,7 +108,7 @@ To use customisable switches like a traditional hardware 6-POS implementation (H
 
 **Trim Step: -** Defines the amount of increase/decrease in trim when the trim switch is pressed.&#x20;
 
-* Course = 1.6%
+* Coarse = 1.6%
 * Medium = 0.8%
 * Fine = 0.4%
 * Extra Fine = 0.2%
@@ -142,7 +142,7 @@ On surface radios (EX: MT-12), the throttle trim has no effect on the reverse th
 
 Whenever a new model is loaded, EdgeTX will conduct pre-flight checks based on the checks that are configured on this page. If any of the checks are failed, EdgeTX will give the user an audio and visual warning that must be acknowledged before using the model. The following preflight checks below are displayed in collapsible menu.
 
-**Checklist** - When this option is selected, the model notes file will be displayed when the model is loaded. A valid model notes file must be in the **Models** folder on the SD card. The model notes file must be a .txt file and must have the EXACT same name as the model it is for, for example: Mobula6.txt. The text in the file is up to the user.
+**Checklist** - When this option is selected, the [model notes file](../../edgetx-how-to/model-notes-and-checklists.md) will be displayed when the model is loaded. A valid model notes file must be in the **Models** folder on the SD card. The model notes file must be a .txt file and must have the EXACT same name as the model it is for, for example: Mobula6.txt. The text in the file is up to the user.
 
 **C-Interact** (Interactive checklist) - This option is used with the **Checklist** option. When this option is selected, any line of text in the checklist file that begins with **=** will display as a check box when the checklist is displayed. All displayed checkboxes must be **checked** by selecting them in order to close the checklist.
 
@@ -201,9 +201,17 @@ Below are the possibile configuration options:
 * **Slave/Jack** - Slave mode using a cable connection.
   * **Ch. Range** - This is the range of channels that will be sent to the radio in Master mode. Channel 10 is the recommended last channel to use.
   * **PPM frame** - The first field is the length of the PPM frame. The second field is the stop length/delay between pulses. The dropdown is to select the polarity of the signal. The frame length is automatically adjusted to the correct value when the number of transmitted channels is changed. However, this automatically assigned value can be manual changed. _**Note**: In most cases, the default setting does_ not _need to be changed._
+* **Master / SBUS Module** - Master mode receiving an SBUS signal via the external module bay, for use when no Multi-protocol module is fitted there.
+* **Master / CPPM Module** - Master mode receiving a CPPM signal via the external module bay.
+* **Master / Serial** - Master mode receiving the trainer signal over an auxiliary serial port configured for SBUS trainer input in Hardware settings.
 * **Master / Bluetooth** - Master mode using a Bluetooth connection (if installed in radio).
 * **Slave / Bluetooth** - Slave mode using a Bluetooth connection (if installed in radio).
 * **Master / Multi** - Master mode using an additional externally mounted Multi-protocol module for the connection. For more information on this setup, see [set-up-wireless-trainer-with-mpm.md](../../edgetx-how-to/set-up-wireless-trainer-with-mpm.md "mention")
+* **Master / CRSF** - Master mode receiving the trainer signal via a Crossfire (CRSF) capable module.
+
+{% hint style="info" %}
+The options available will vary depending on the radio's hardware capabilities and its current module/hardware configuration. Some options are mutually exclusive - for example, an external module bay or serial port already used for something else (such as an RF module or another peripheral) will not offer the corresponding trainer mode.
+{% endhint %}
 
 <figure><img src="../../.gitbook/assets/bwsetup5 (1).png" alt=""><figcaption><p>Enabled Features options</p></figcaption></figure>
 

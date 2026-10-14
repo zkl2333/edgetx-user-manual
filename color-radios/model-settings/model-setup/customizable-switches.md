@@ -24,7 +24,8 @@ When switches are grouped, only one switch in the group can be active at a time.
 
 **Startup:** Here is where you specify the startup state for either a 2POS customizable switch not in a group, or for a group of customizable switches. You can specify it to be "Last" (remember the last state when the transmitter was powered off or model changed) or in the up (released) or down (pressed) state.&#x20;
 
-**OFF / ON Colors (on compatible handsets):** Some handsets support configuring the color of the customizable switches. If so, the OFF and ON color pickers will be shown for each customisable switch (as shown below) and you will be able to pick your preferred colour for each state. Black represents when the customizable switch is not illuminated.  \
-
+**OFF / ON Colors (on compatible handsets):** Some handsets support configuring the color of the customizable switches. If so, the OFF and ON color pickers will be shown for each customisable switch (as shown below) and you will be able to pick your preferred colour for each state. Black represents when the customizable switch is not illuminated.  <br>
 
 <figure><img src="../../../.gitbook/assets/colorlcd_model_customisable_switches_rgb.png" alt=""><figcaption><p>Customizable Switch options on a handset that also supports configuring the LED colors</p></figcaption></figure>
+
+**Lua Override (on compatible handsets):** Next to the OFF and ON color pickers, a toggle for each is shown that lets a running Lua script override the configured LED color for that state at runtime.

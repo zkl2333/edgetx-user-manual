@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: true
----
-
 # EdgeTX User Manual v2.11
 
 <figure><img src=".gitbook/assets/logos (1).png" alt=""><figcaption></figcaption></figure>
