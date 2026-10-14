@@ -24,7 +24,7 @@ metaLinks:
 
 要在 **主题编辑器** 中编辑主题，请从屏幕左侧的列表中选择颜色变量。一旦选择，**编辑颜色** 屏幕将显示。&#x20;
 
-<figure><img src="/.gitbook/assets/themes3 (1).jpg" alt=""><figcaption><p>编辑颜色屏幕</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/themes3.jpg" alt=""><figcaption><p>编辑颜色屏幕</p></figcaption></figure>
 
 使用屏幕左侧的颜色刻度选择颜色。您可以通过屏幕右上角的按钮在 RGB 和 HSV 颜色刻度之间进行选择。&#x20;
 

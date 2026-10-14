@@ -5,17 +5,21 @@ metaLinks:
       https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/radio-settings/tools
 ---
 
-# 工具
+# 应用
 
 <figure><img src="/.gitbook/assets/tools.jpg" alt=""><figcaption><p>工具屏幕</p></figcaption></figure>
 
-在无线电设置中的 **工具** 页面，您可以选择基于 Lua 脚本的工具进行执行。位于 SD 卡 **Tools** 文件夹中的 Lua 脚本将在此列出。选择一个工具将以全屏模式执行它。默认情况下，EdgeTX 包含几个工具。其他工具可以下载并添加到 SD 卡中。以下工具包含在默认的 EdgeTX SD 卡中。
+在遥控器设置中的 **应用（Apps）** 页面，您可以选择基于 Lua 脚本的工具进行执行。位于 SD 卡 `\SCRIPTS\TOOLS` 文件夹中的 Lua 脚本将在此列出。选择一个工具将以全屏模式执行它。默认情况下，EdgeTX 包含几个工具。其他工具可以下载并添加到 SD 卡中。以下工具包含在默认的 EdgeTX SD 卡中。
 
 #### 模型定位器（通过 RSSI）
 
 <figure><img src="/.gitbook/assets/rssi.jpg" alt=""><figcaption><p>模型定位器工具</p></figcaption></figure>
 
 模型定位器工具帮助根据 RSSI（如果仍然可用）找到丢失的模型。该小部件会产生一个音频表示（变音器风格）的丢失模型的 RSSI。小部件还将在一个可见的彩色条（0-100%）中显示 RSSI。
+
+#### GPS 模型定位器（GPS Model Locator）
+
+仅当当前模型配置了 GPS 传感器时显示。利用模型最后已知的 GPS 位置、距离和方位（而不是 RSSI）帮助寻找丢失的模型。
 
 #### 频谱（INT）
 
@@ -31,17 +35,21 @@ metaLinks:
 
 按下 **ENT** 并向左或向右滚动可以更改 **T** 值，这将移动垂直线以突出显示特定频率。
 
+#### 频谱（EXT）（部分遥控器）
+
+与频谱（INT）相同，但使用外部模块槽中的兼容多协议模块，而不是内部模块。仅在具有外部模块槽且其中配置了多协议模块的遥控器上显示。
+
+#### Ghost 模块配置（Ghost Module Config）（部分遥控器）
+
+仅当外部模块设置为 Ghost 时显示。用于打开 ImmersionRC Ghost 模块自身的配置菜单。
+
+#### 麦克风录音（Mic Recorder）（部分遥控器）
+
+仅在内置麦克风的遥控器上可用。将音频录制到 SD 卡。
+
 #### 向导加载器
 
-<div>
-
-<figure><img src="/.gitbook/assets/wizard1.jpg" alt=""><figcaption><p>向导加载器工具</p></figcaption></figure>
-
- 
-
-<figure><img src="/.gitbook/assets/wizard2.jpg" alt=""><figcaption><p>飞机向导</p></figcaption></figure>
-
-</div>
+<div><figure><img src="/.gitbook/assets/wizard1.jpg" alt=""><figcaption><p>向导加载器工具</p></figcaption></figure> <figure><img src="/.gitbook/assets/wizard2.jpg" alt=""><figcaption><p>飞机向导</p></figcaption></figure></div>
 
 向导加载器工具通过为特定模型类型运行设置向导来帮助您设置新模型。一旦选择了模型类型，向导将引导您完成一系列提示，然后根据提供的信息配置您选择的模型。
 

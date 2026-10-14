@@ -17,6 +17,10 @@ metaLinks:
 
 **检查 RTC 电压** - 启用后，在启动时检查 RTC 电池，并在电池电压低时警告您。
 
+{% hint style="info" %}
+开关旁边显示的数值是 RTC 电池的当前电压。为了使读数更准确，测量时会给电池加上一个小负载，这可能导致每个测量周期的数值开始波动或“抖动”。如果抖动过大，可能表明电池电量即将耗尽。
+{% endhint %}
+
 **ADC 滤波器** - 启用或禁用 ADC 滤波器。此滤波器也可以在模型设置中按模型启用/禁用。
 
 {% hint style="info" %}
@@ -29,7 +33,9 @@ ADC 滤波器是用于比例通道（摇杆、旋钮、滑块）的滤波器，�
 
 选择内部模块槽的模块类型。选项有：**Multi, XJT, ISRM, CRSF**。选择 **CRSF** 时，您还可以选择波特率。您可以在[这里](https://www.expresslrs.org/2.0/quick-start/transmitters/tx-prep/)阅读更多关于波特率的信息。
 
-### **外部 RF 采样模式**&#x20;
+**Antenna（天线）**（部分遥控器）- 在可切换内置/外置天线的遥控器上，设置所使用的天线。选项有 **Internal**（内置）、**Ask**（启动时询问）、**Per model**（在每个模型的[内置 / 外接 RF](../model-settings/model-setup/internal-external-rf.md)页面中单独配置）、**Internal + External**（内置 + 外置）和 **External**（外置）。
+
+### **外部 RF 采样模式**
 
 选项为 Normal 和 OneBit。大多数用户应使用默认设置 **Normal**。只有 X9D+ 和 X7 遥控器的用户可能希望使用 **OneBit** 模式。
 
@@ -66,6 +72,7 @@ _**注意：** 此选项仅在启用了 **Bluetooth** 标志的自定义编译�
   * **遥测镜像** - 发送到外部模块槽的相同遥测数据也发送到串行端口。&#x20;
   * **遥测输入** - 通过串行端口接收遥测数据。
   * **SBUS 训练器** - 通过串行端口连接教练和学生遥控器。
+  * **SBUS Trn Inv.**（部分遥控器）- 与 SBUS 教练相同，但信号极性反转，适用于需要反相信号的硬件。并非所有遥控器都提供。
   * **LUA** - 发送/接收数据到/从 Lua 脚本。
   * **GPS** - 通过串行端口接收 GPS 遥测数据。
   * **CLI** - 通过命令行向遥控器发送命令。&#x20;
@@ -76,6 +83,11 @@ _**注意：** 此选项仅在启用了 **Bluetooth** 标志的自定义编译�
       [![Screenshot 2022-10-15 at 20 47 42](https://user-images.githubusercontent.com/1050031/196003145-41fd9f94-22b6-4646-b77a-ade379d15965.png)](https://user-images.githubusercontent.com/1050031/196003145-41fd9f94-22b6-4646-b77a-ade379d15965.png)
   * **AUX2** - 第二个可用的辅助串行端口（取决于硬件），具有与 AUX1 相同的选项，除了外部模块&#x20;
   * **USB-VCP** - 虚拟 COM 端口。这是将遥控器连接到大多数遥控器的 PC 时提供的选项之一。通常设置为 'CLI' 以便对具有内部 ExpressLRS RF 模块的遥控器进行固件更新。
+
+{% hint style="warning" %}
+AUX 串行端口的 TX/RX 引脚电压请勿超过 3.3V——硬件屏幕上每个 AUX 端口（USB-VCP 除外）下方都会显示此警告。
+{% endhint %}
+
 * **端口电源** - 启用或禁用某些遥控器上串行端口旁边的电源引脚的电源输出（目前只有 TX16S 具有此功能）。
 
 ### 输入
@@ -96,12 +108,16 @@ _**注意：** 此选项仅在启用了 **Bluetooth** 标志的自定义编译�
 
 选择轴、旋钮或开关按钮之一将打开配置屏幕。在这些屏幕上，您将看到 EdgeTX 预定义的所有物理遥控器控制。在这里，您可以为控制添加一个 3 个字符的标签，并根据需要更改控制类型。此外，列在旋钮屏幕下的控制也可以配置为反转。
 
+**可自定义开关**（部分遥控器）- 打开适用于整个遥控器的可自定义开关配置屏幕，类似于按模型配置的[可自定义开关](../model-settings/model-setup/customizable-switches.md)页面。仅在具有可自定义开关硬件的遥控器上显示。
+
 ### 调试
 
-<div><figure><img src="/.gitbook/assets/hardware4.png" alt=""><figcaption><p>模拟调试屏幕</p></figcaption></figure> <figure><img src="/.gitbook/assets/hardware5 (1).jpg" alt=""><figcaption><p>开关测试屏幕</p></figcaption></figure></div>
+<div><figure><img src="/.gitbook/assets/hardware4.png" alt=""><figcaption><p>模拟调试屏幕</p></figcaption></figure> <figure><img src="/.gitbook/assets/hardware5.jpg" alt=""><figcaption><p>开关测试屏幕</p></figcaption></figure></div>
 
 调试部分允许测试和调试模拟控制和按键。
 
 **模拟** - 这些屏幕将显示您的模拟控制（摇杆、滑块、旋钮、6 位开关）和遥控器上的触摸屏的数据。有四种视图 - 校准的模拟、带偏差的过滤原始模拟、未过滤的原始模拟，以及最小最大和范围。&#x20;
 
 **按键** - 此屏幕将显示您的按键、开关、微调和旋转编码器（滚轮）的数字数据。
+
+**可自定义开关**（部分遥控器）- 显示可自定义开关的物理和逻辑状态，以及 LED 状态或颜色（如果手持设备支持 RGB 可自定义开关）。仅在具有可自定义开关硬件的遥控器上显示。

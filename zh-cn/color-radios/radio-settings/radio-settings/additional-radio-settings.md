@@ -26,6 +26,10 @@ metaLinks:
 
 电台的主音量。
 
+**Beeps volume / Beeps length / Beeps pitch（蜂鸣音量 / 蜂鸣时长 / 蜂鸣音调）**
+
+用于控制遥控器按键音和警报蜂鸣声的音量、时长和音调的滑块/字段。
+
 **Wav 音量**
 
 警报和警告的音量以及通过 **播放轨道** 特殊功能播放的声音
@@ -37,6 +41,14 @@ metaLinks:
 ### 高度计
 
 <figure><img src="/.gitbook/assets/variometer.png" alt=""><figcaption><p>高度计选项</p></figcaption></figure>
+
+**音量**
+
+高度计蜂鸣声的音量。
+
+**Pitch at Zero / Pitch at Max（零点音调 / 最大音调）**
+
+分别在垂直速度为零和垂直速度最大时播放的音调频率（Hz）。
 
 **重复零**
 
@@ -67,7 +79,11 @@ metaLinks:
 
 #### 关闭时检查 RSSI
 
-在尝试关闭时检查接收器是否仍连接到电台。 如果检测到，则发出音频和视觉警报。&#x20;
+在尝试关闭时检查接收器是否仍连接到电台。 如果检测到，则发出音频和视觉警报。
+
+#### 关闭时检查教练信号（Trainer Shutdown Alarm）
+
+在尝试关机时检查是否仍有教练信号处于活动状态。如果检测到，则发出音频和视觉警报。
 
 ### 背光
 
@@ -88,6 +104,14 @@ metaLinks:
 #### 警报
 
 当有警报或警告时，背光会亮起。
+
+#### Backlight ON brightness / Backlight OFF brightness（背光开启亮度 / 背光关闭亮度）
+
+滑块，分别设置背光处于“开启”状态（根据上述模式设置）和“关闭”（变暗）状态时的背光亮度。
+
+#### Keys Backlight（按键背光，部分遥控器）
+
+切换遥控器按键的独立背光。仅在带有背光按键的遥控器上可用（例如 Jumper T18）。
 
 ### GPS
 

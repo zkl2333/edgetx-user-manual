@@ -81,8 +81,8 @@ _启动画面图像_ 的理想图像尺寸为实际的遥控器屏幕尺寸（�
 
 * **Functions** - 这是放置可以通过 [特殊功能](../model-settings/special-functions.md) **Lua 脚本** 激活的功能 Lua 脚本的文件夹。此文件夹默认是空的（除了 readme.txt 文件）。有关功能 Lua 脚本的更多信息，请参见：[功能脚本](https://luadoc.edgetx.org/part\_i\_-\_script\_type\_overview/function\_scripts)。
 * **Mixes** - 这是放置 Lua 混合器脚本的文件夹。此文件夹默认是空的（除了 readme.txt 文件）。有关混合器 Lua 脚本的更多信息，请参见：[自定义混合器脚本](https://luadoc.edgetx.org/part\_i\_-\_script\_type\_overview/mix)。
-* **Tools** - 包含在 [工具](tools.md) 屏幕中可用的 Lua 脚本。
-* **Wizards** - 包含在 [工具](tools.md) 屏幕中可用的向导 Lua 脚本。
+* **Tools** - 包含在 [工具](apps.md) 屏幕中可用的 Lua 脚本。
+* **Wizards** - 包含在 [工具](apps.md) 屏幕中可用的向导 Lua 脚本。
 
 ### SOUNDS
 
