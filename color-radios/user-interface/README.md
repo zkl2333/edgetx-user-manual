@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/user-interface
+---
+
 # User Interface
 
 The user interface of EdgeTX can be navigated by physical buttons, the touch interface, or a combination of both.
@@ -9,7 +15,7 @@ The user interface of EdgeTX can be navigated by physical buttons, the touch int
 *   **\[SYS]** - System Button\
     \- Short press **\[SYS]** button to go to the [Radio Settings](../radio-settings/) page.&#x20;
 
-    \- Long press the **\[SYS]** button to go to the [Radio Setup](../radio-settings/radio-setup/) page.
+    \- Long press the **\[SYS]** button to go to the [Radio Setup](../radio-settings/radio-settings/) page.
 * **\[MDL]** - Model Button\
   \- Short press **\[MDL]** button to go to the [Model Settings](../model-settings/) page\
   \- Long press **\[MDL]** button to go to the [Select Model](../select-model.md) page
@@ -66,10 +72,10 @@ It is possible to disable the touch interface by configuring a special function.
 
 Touch the EdgeTX icon in the upper left corner of the screen to open the main navigation menu. Touch the desired menu option to select it.
 
-<figure><img src="../../.gitbook/assets/color_quick-menu.png" alt=""><figcaption><p>Main navigation menu</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/colorlcd_main_menu.png" alt=""><figcaption><p>Main navigation menu</p></figcaption></figure>
 
 {% hint style="info" %}
-For models that have a valid model checklist file in the **Models** folder, a **Model Notes** icon is added after the **Manage Models** icon.
+For models that have a valid model checklist file in the **Models** folder, a **Model Notes** icon is added after the **Manage Models** icon. Find out more about Model Notes [here](../../edgetx-how-to/model-notes-and-checklists.md).
 {% endhint %}
 
 Pressing the roller from the main screen will also open the main navigation menu. You can then scroll using the roller to the desired menu option and select it by pressing the roller.

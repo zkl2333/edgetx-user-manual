@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/model-select/curves
+---
+
 # Curves
 
 The **Curves** screen allows you to define custom curves to use in the Inputs, Mixes, or Output screens. The curves screen will show the configured custom curves, with a graphical representation of each curve.

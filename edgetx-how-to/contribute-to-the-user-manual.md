@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/edgetx-how-to/contribute-to-the-user-manual
+---
+
 # Contribute to the User Manual
 
 ### How to contribute

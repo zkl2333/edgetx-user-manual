@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/translated-user-manuals
+---
+
 # Translated User Manuals
 
 Below are links to community translated versions of the EdgeTX User Manual.
@@ -10,7 +16,7 @@ The manuals below are community submitted and have not been verified for accurac
 
 Credit: Heiner#1063
 
-{% file src=".gitbook/assets/EdgeTx v2.9 Benutzerhandbuch Farbe (1).pdf" %}
+{% file src=".gitbook/assets/EdgeTx v2.11 Benutzerhandbuch Farbe.pdf" %}
 User Manual for Color Radios in German
 {% endfile %}
 

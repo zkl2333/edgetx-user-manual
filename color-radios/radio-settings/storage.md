@@ -1,4 +1,11 @@
-# SD Card
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/radio-settings/sd-card
+---
+
+# Storage
 
 <figure><img src="../../.gitbook/assets/sdcard.jpg" alt=""><figcaption><p>SD Card screen</p></figcaption></figure>
 
@@ -24,7 +31,7 @@ Place the firmware files that you want to flash in this folder. This folder is e
 
 Place your custom model or splash screen image files in this folder. This folder is empty by default (except for the readme.txt file). Selecting an image file will give you the option to **Assign Bitmap**, which assigns the selected image file as the model image of the currently selected model.
 
-The ideal image size for _model images_ used for thumbnails on the **Model Manager** screen is 156x92 pixels. If you plan to use the _**Model Info**_ widget, you may want a increase the image size to 192x114 pixels for better visual quality at the increased size. For performance reasons, it is NOT recommeded to use a higher resolution image. The picture format should be .png. The image file name should not exceed 9 characters.&#x20;
+The ideal image size for _model images_ used for thumbnails on the **Model Manager** screen is 156x92 pixels. If you plan to use the _**Model Info**_ widget, you may want a increase the image size to 192x114 pixels for better visual quality at the increased size. For performance reasons, it is NOT recommended to use a higher resolution image. The picture format should be .png. The image file name should not exceed 9 characters.&#x20;
 
 The ideal image size for _Splash Screen images_ is the actual radio screen size (480x272 pixels for most color screen radios). The picture format should be .png. The image file name must be splash.png.  Screen dimensions for the supported color screen radios can be found [here](https://github.com/EdgeTX/edgetx-sdcard).  &#x20;
 
@@ -72,10 +79,10 @@ This is where the screenshot image files that are configured in the [special fun
 
 This folder and its subfolders are where the Lua scripts get placed. It contains the following sub-folders by default. You can download additional Lua scripts from [https://github.com/EdgeTX/lua-scripts](https://github.com/EdgeTX/lua-scripts).
 
-* **Functions** - This folder is where the functions Lua scripts that can be activated by the [special function](../model-settings/special-functions.md) **Lua Script** must be placed. This folder is empty by default (except for the readme.txt file).  More information about function Lua scripts can be found here: [Function Scripts](https://luadoc.edgetx.org/part\_i\_-\_script\_type\_overview/function\_scripts).
-* **Mixes** - This folder is where the Lua mixer scripts shall be placed. This folder is empty by default (except for the readme.txt file). More information about Mixer Lua scripts can be found here: [Custom Mixer Scripts](https://luadoc.edgetx.org/part\_i\_-\_script\_type\_overview/mix)
-* **Tools** - Contains the Lua scripts that are available in the [Tools](tools.md) screen.&#x20;
-* **Wizards** - Contains the Wizard Lua scripts that are available in the [Tools](tools.md) screen.&#x20;
+* **Functions** - This folder is where the functions Lua scripts that can be activated by the [special function](../model-settings/special-functions.md) **Lua Script** must be placed. This folder is empty by default (except for the readme.txt file).  More information about function Lua scripts can be found here: [Function Scripts](https://luadoc.edgetx.org/part_i_-_script_type_overview/function_scripts).
+* **Mixes** - This folder is where the Lua mixer scripts shall be placed. This folder is empty by default (except for the readme.txt file). More information about Mixer Lua scripts can be found here: [Custom Mixer Scripts](https://luadoc.edgetx.org/part_i_-_script_type_overview/mix)
+* **Tools** - Contains the Lua scripts that are available in the [Tools](apps.md) screen.&#x20;
+* **Wizards** - Contains the Wizard Lua scripts that are available in the [Tools](apps.md) screen.&#x20;
 
 ### SOUNDS
 

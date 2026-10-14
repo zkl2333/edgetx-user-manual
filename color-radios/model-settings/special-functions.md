@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/special-functions
+---
+
 # Special Functions
 
 The **Special Functions** section of Model Setup, as the name implies, is where you can configure the special functions that are included in EdgeTX. These special functions add additional functionality beyond normal model controls such as enabling trainer mode, playing a sound, adjusting the radio backlight, adjusting radio volume, etc. On the special functions screen you will see all configured special functions as well as some of the configured options such as function name, activation switch, if the function is enabled, and other configuration options.
@@ -15,7 +22,7 @@ Selecting an already configured special function will give you the following opt
 * **Clear** - Clears all configured options from the selected special function.
 * **Delete** - Deletes the selected special function.
 * **Enable** - Enables special function
-* **Disable** - Disables special function&#x20;
+* **Disable** - Disables special function
 
 ### Configuring Special Functions
 
@@ -53,6 +60,8 @@ Below are all the available functions in EdgeTX, what they do, as well as what o
 
 **Inst. Trim** (Instant Trim)- Sets all trims to the current values of their respective sticks.
 
+**LCD to Video** (select radios) - Switches the radio's screen output to its analog video (FPV) output. Only available on the F16, the sole colorlcd radio with this video-out hardware.
+
 **Lua Script** - Executes the Lua script defined in the value field. The Lua script must be located in `/SCRIPTS/FUNCTIONS/` folder on the SD card. Lua scripts that display information on the screen cannot be executed with this special function.
 
 * **Value** - LUA script file to play from the SD card.
@@ -80,20 +89,30 @@ Below are all the available functions in EdgeTX, what they do, as well as what o
 * **Value** - The source for the value to announce. It can be an input, stick, pot, slider, trim, physical and logical switch, trainer import channel value, global variable, telemetry sensor or channel.
 * **Repeat** - Frequency to repeat the announcement. Options are **!1x** (do not announce at startup even if the switch is active), **1x** (announce once), **1s** thru **60s** (announce every xx seconds).
 
+**Push CS** (Push Customizable Switch) (select radios) - Presses the designated customizable switch for the designated period of time.
+
+* **Switch** - Which customizable switch to press.
+* **Time** - How long to press the customizable switch for. Options are 0.0 to 25.5 seconds. Input to the switch will be ignored while this time is being served, allowing this to automate a press and block input (and retrigger of the function) until the time has elapsed.
+
 **RacingMode** - Enables racing mode (low latency) for FrSky Archer RS receivers. Racing mode must also be enabled in External RF Module Settings.
 
 **Reset** (Reset Timer)- Resets the timer or telemetry specified in the value back to their initial values.
 
-* **Reset** - Options are **Timer 1, Timer 2, Timer 3, Flight,** and **Telemetry.** See[ **Reset Telemetry**](../reset-telemetry.md) for more information on what data is reset for each option.
+* **Reset** - Options are **Timer 1, Timer 2, Timer 3, Flight, Telemetry,** and **Trims** (resets all trims to zero). See[ **Reset Telemetry**](../reset-telemetry.md) for more information on what data is reset for each option.
+
+**RGB Led** (select radios) - Runs the selected LED-related Lua script to animate the RGB LEDs on the handset. Only available on radios with an addressable RGB LED strip (e.g. GX15, C14, ST16, PL18(U), T22, T15/T15 Pro, TX15, PA01, V12, TX16S Mk3).
+
+* **Value** - LUA script file to play from the SD card (in the /**SCRIPTS/RGBLED** folder).
+* **Repeat** - Frequency to repeat the Lua script. Options are: **ON** (repeat indefinitely as long as switch is active) or **1x** (once).
 
 **Screenshot** -  Creates screenshot as a .bmp file in the SCREENSHOT folder on the SD Card.
 
-**SD Logs** - Creates a log .csv file of the radio and telemetry values in the LOGS folder on the SD Card. The radio will create a new entry into the log file based on the frequency configured in the **Interval** setting.  The value options are **0.1s** - **25.5s.** Each time the function is activated the radio will create a new log file provided that the function is activated at least as long as the value setting. **Note:** Logging will not start if SD card has less than 50mb of free space.&#x20;
+**SD Logs** - Creates a log .csv file of the radio and telemetry values in the LOGS folder on the SD Card. The radio will create a new entry into the log file based on the frequency configured in the **Interval** setting.  The value options are **0.1s** - **25.5s.** Each time the function is activated the radio will create a new log file provided that the function is activated at least as long as the value setting. **Note:** Logging will not start if SD card has less than 50mb of free space.
 
 **Set** (Set Timer) - Sets the specified timer to the specified value.
 
 * **Timer** - Options are **Timer 1, Timer 2, Timer 3**
-* **Value** - The range is 00:00:00 to 08:59:59&#x20;
+* **Value** - The range is 00:00:00 to 08:59:59
 
 **SetFailsafe** - Sets the custom failsafe values for the selected module (Internal/External) to the current stick position when activated. For this option to work, the Failsafe mode for the RF module must be set to **custom**.
 
@@ -104,7 +123,7 @@ Below are all the available functions in EdgeTX, what they do, as well as what o
 
 **Trainer -** Enables trainer mode.
 
-* **Value** - Specifies which controls will be given over to the student. Options include **Axis** (all sticks / primary controls), **Rud** (Rudder), **Ele** (Elevator), **Thr** (Throttle), **Ail** (Aileron), and **Chans** (all channels).&#x20;
+* **Value** - Specifies which controls will be given over to the student. Options include **Axis** (all sticks / primary controls), **Rud** (Rudder), **Ele** (Elevator), **Thr** (Throttle), **Ail** (Aileron), and **Chans** (all channels).
 
 **Vario** - Enables the variometer beeping sound for the ascent and descent of the model.
 

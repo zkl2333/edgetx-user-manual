@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/model-setup/internal-external-rf
+---
+
 # Internal / External RF
 
 The configuration settings for both the Internal and External RF pages work the same. The only difference is that the **Internal RF** section is for configuring the built-in module and the **External RF** section is for configuring an RF module in the external module bay.
@@ -11,8 +18,12 @@ The Internal / External RF modules are "active" for a model when the buttons are
 The receiver number is a user-assigned number for a model that is sent to the receiver when bound. Each model must have a unique receiver number. However, models using different protocols may have the same receiver number without issues.  EdgeTX will inform you when a receiver number is unique or if it is already being used with a text above the number field.
 
 {% hint style="warning" %}
-If using the radio in gamepad mode, both internal and external RF modules should be turned off. This will result in increased performance when connected to a computer via USB.&#x20;
+If using the radio in gamepad mode, both internal and external RF modules should be turned off. This will result in increased performance when connected to a computer via USB.
 {% endhint %}
+
+#### Antenna (select radios)
+
+On radios with a switchable internal/external antenna, if the **Antenna** setting on the [Hardware](../../radio-settings/hardware.md) page is set to **Per model**, an **Antenna** field appears on this Internal RF page letting you choose **Internal** or **External** for this specific model.
 
 #### Mode Options
 
@@ -21,11 +32,11 @@ If using the radio in gamepad mode, both internal and external RF modules should
   * **Telemetry** - No telemetry or MLink
   * **Channel Range** - Channels that will be used.
   * **PPM Frame** – Frame length, pulse length, and polarity of the PPM frame. The frame length is automatically adjusted to the correct value when the number of transmitted channels is changed. However, this automatically assigned value can be manual changed.
-* **XJT** -&#x20;
+* **XJT** -
   * **Protocol**- D16, B8, LR2
   * **Channel Range** - Channels that will be used.
   * **Failsafe Mode** - Available in D16 protocol. The receiver will use this setting when the transmitter signal is not being received (signal loss).
-    * **Not Set** - failsafe mode is not set.&#x20;
+    * **Not Set** - failsafe mode is not set.
     * **Hold** – The receiver keeps channel values at their last received state from the transmitter.
     * **No pulses** – No PWM pulses are output.
     * **Receiver** – Follows the fail-safe settings configured on the receiver. Follow the instructions that come with the receiver.
@@ -42,14 +53,14 @@ If using the radio in gamepad mode, both internal and external RF modules should
   * **Range** . This puts the transmitter into range check mode. When in this mode, the RSSI value is displayed and a sound is made every 5 seconds.
 * **CRSF**
   * **Baud Rate** - the speed to which the Transmitter module and the Radio Handset communicate.
-  * **Status** - Shows the packet radio configured on the trasmitter module.
+  * **Status** - Shows the packet radio configured on the transmitter module.
   * **Channel Range** - Channels that will be used.
   * **Receiver Number** -  a user-assigned number for a model that is sent to the receiver when bound
 * **Multi** - Multiprotocol Module. The configuration options are unique to each selected protocol Configuration options for the multi-protocol module are described here:  [https://www.multi-module.org/using-the-module/protocol-options](https://www.multi-module.org/using-the-module/protocol-options)
 * **R9M**
   * **Mode**- FCC, EU, 868MHz, 915 MHZ
   * **Failsafe Mode** - The receiver will use this setting when the transmitter signal is not being received (signal loss).
-    * **Not Set** - failsafe mode is not set.&#x20;
+    * **Not Set** - failsafe mode is not set.
     * **Hold** – The receiver keeps channel values at their last received state from the transmitter.
     * **No pulses** – No PWM pulses are output.
     * **Receiver** – Follows the fail-safe settings configured on the receiver. Follow the instructions that come with the receiver.
@@ -59,10 +70,10 @@ If using the radio in gamepad mode, both internal and external RF modules should
   * **Bind** - This puts the transmitter into bind mode. When in this mode the transmitter will make a chirp sound every 2.5 seconds.
   * **Range** . This puts the transmitter into range check mode. When in this mode, the RSSI value is displayed and a sound is made every 5 seconds.
   * **RF Power** - The output power for the transmitter module. The options change based on the selected mode.
-* **R9M Access    Note:** In order for the mode **R9M ACCESS** to be visible in the mode dropdow&#x6E;**,** the AUX1 or AUX2 serial port must be configured to **External Module** on the [Hardware](../../radio-settings/hardware.md) page.&#x20;
+* **R9M Access    Note:** In order for the mode **R9M ACCESS** to be visible in the mode dropdown, the AUX1 or AUX2 serial port must be configured to **External Module** on the [Hardware](../../radio-settings/hardware.md) page.
   * **Channel Range** - Channels that will be used.
   * **Failsafe Mode** - The receiver will use this setting when the transmitter signal is not being received (signal loss).
-    * **Not Set** - failsafe mode is not set.&#x20;
+    * **Not Set** - failsafe mode is not set.
       * **Hold** – The receiver keeps channel values at their last received state from the transmitter.
       * **No pulses** – No PWM pulses are output.
       * **Receiver** – Follows the fail-safe settings configured on the receiver. Follow the instructions that come with the receiver.
@@ -77,18 +88,18 @@ If using the radio in gamepad mode, both internal and external RF modules should
 * **GHST** - ImmersionRC Ghost
   * **Channel Range** - Channels that will be used.
   * **Raw 12 bits** - enable 12bit mode
-* **SBUS**&#x20;
+* **SBUS**
   * **Channel Range** - Channels that will be used.
   * **Refresh Rate** - Rate of refresh in milliseconds
     * **Inversion** - Normal, Non-inverted
-* **FLYSKY**&#x20;
+* **FLYSKY**
   * **Protocol** - AFHDS3, AFHDS2A
   * **Module Status** - Status of the module
   * **Type** - _Please refer to FLYSKY documentation for these configuration settings_
     * **Module Options**- _Please refer to FLYSKY documentation for these configuration settings_
   * **Channel Range** - Channels that will be used.
   * **Failsafe Mode** - The receiver will use this setting when the transmitter signal is not being received (signal loss).
-    * **Not Set** - failsafe mode is not set.&#x20;
+    * **Not Set** - failsafe mode is not set.
     * **Hold** – The receiver keeps channel values at their last received state from the transmitter.
     * **No pulses** – No PWM pulses are output.
     * **Receiver** – Follows the fail-safe settings configured on the receiver. Follow the instructions that come with the receiver.

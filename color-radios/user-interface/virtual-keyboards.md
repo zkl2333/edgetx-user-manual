@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/user-interface/virtual-keyboards
+---
+
 # Virtual Keyboards
 
 To allow for the easy entry of text and numbers, EdgeTX uses virtual text and number keyboards that can be interacted by either the touchscreen or roller. Additionally, there are shortcut keys that are mapped to the hardware buttons as described below:

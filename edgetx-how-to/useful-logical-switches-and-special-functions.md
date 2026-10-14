@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/edgetx-how-to/useful-logical-switches-and-special-functions
+---
+
 # Configure a low battery alert
 
 This How-To shows the configuration of a low voltage battery alert. Let's assume we have a model that is using a 2S Lipo RX battery. We want to configure an alerts when the battery voltage drops below 7.4V.

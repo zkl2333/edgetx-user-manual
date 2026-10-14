@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/radio-settings/sd-card
+---
+
 # SD Card
 
 <figure><img src="../../.gitbook/assets/bwsdcard1.png" alt=""><figcaption><p>SD Card Screen</p></figcaption></figure>
@@ -67,8 +74,8 @@ This folder and its subfolders are where the Lua scripts get placed. It contains
 * **Functions** - This folder is where the functions Lua scripts that can be activated by the [special function](../../color-radios/model-settings/special-functions.md) **Lua Script** must be placed. This folder is empty by default (except for the readme.txt file).  More information about function Lua scripts can be found here: [Function Scripts](https://luadoc.edgetx.org/part_i_-_script_type_overview/function_scripts).
 * **Mixes** - This folder is where the Lua mixer scripts shall be placed. This folder is empty by default (except for the readme.txt file). More information about Mixer Lua scripts can be found here: [Custom Mixer Scripts](https://luadoc.edgetx.org/part_i_-_script_type_overview/mix)
 * **RGBLED** - This folder is where Lua scripts that control the RGB Leds (if hardware available) are stored.
-* **Tools** - Contains the Lua scripts that are available in the [Tools](../../color-radios/radio-settings/tools.md) screen.&#x20;
-* **Wizards** - Contains the Wizard Lua scripts that are available in the [Tools](../../color-radios/radio-settings/tools.md) screen.&#x20;
+* **Tools** - Contains the Lua scripts that are available in the [Tools](../../color-radios/radio-settings/apps.md) screen.&#x20;
+* **Wizards** - Contains the Wizard Lua scripts that are available in the [Tools](../../color-radios/radio-settings/apps.md) screen.&#x20;
 
 ### SOUNDS
 

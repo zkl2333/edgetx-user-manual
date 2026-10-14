@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/logical-switches
+---
+
 # Logical Switches
 
 Logical Switches are virtual two-position switches whose values (ON/OFF or +100/-100) are based on the evaluation (true/false) of a defined logical expression. Once configured, logical switches can be used anywhere in EdgeTX that a physical switch can be defined.

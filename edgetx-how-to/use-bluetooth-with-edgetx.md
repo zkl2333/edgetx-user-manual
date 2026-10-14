@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/edgetx-how-to/use-bluetooth-with-edgetx
+---
+
 # Use Bluetooth with EdgeTX
 
 The support for Bluetooth in EdgeTX is limited to:

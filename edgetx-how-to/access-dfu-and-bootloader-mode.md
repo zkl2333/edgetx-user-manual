@@ -1,10 +1,15 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/edgetx-how-to/access-dfu-and-bootloader-mode
+---
+
 # Access DFU and Bootloader Mode
 
-Not all radios go into Bootloader or DFU mode the same way.  Below you will find descriptions how to get into Bootlader and DFU mode for many EdgeTX radios.
+Not all radios go into Bootloader or DFU mode the same way. Below you will find descriptions how to get into Bootlader and DFU mode for many EdgeTX radios.
 
 ### BETAFPV LiteRadio 3 Pro
-
-
 
 <figure><img src="../.gitbook/assets/LR3Prodfu.png" alt="" width="375"><figcaption><p>BETAFPV LiteRadio 3 Pro Bootloader and DFU Button</p></figcaption></figure>
 
@@ -18,8 +23,6 @@ Note: In early versions of the LiteRadio 3 Pro, the DFU button was non-functiona
 
 ### Flysky NV14 / EL18
 
-
-
 <figure><img src="../.gitbook/assets/EL18 DFU.png" alt="" width="456"><figcaption><p>FlySky NV14/EL18 DFU button</p></figcaption></figure>
 
 **Bootloader**: Turn off the radio transmitter. Pull both trims inward and press both power buttons.
@@ -28,19 +31,21 @@ Note: In early versions of the LiteRadio 3 Pro, the DFU button was non-functiona
 
 ### Flysky Noble+ (NB4+)
 
-**Bootloader:** TODO
+<figure><img src="../.gitbook/assets/nb4p-dfu-reset.png" alt="" width="563"><figcaption></figcaption></figure>
 
-**DFU:** TODO
+**Bootloader:** Press and hold both of the buttons marked SW1 (on either side of the grip) and power on the radio. You can release them once in the bootloader. Use TR3 to scroll, left SW1 for RTN, right SW1 for ENTER (when viewed from rear).&#x20;
+
+**DFU:** Press and hold the DFU button located on the left side of the grip (when viewed from the rear) while connecting the USB to the radio (via it's external battery bank) with both the radio and battery bank powered off.<br>
 
 ### Flysky PA01
 
-**Bootloader:** TODO
+<figure><img src="../.gitbook/assets/pa01_dfu.png" alt=""><figcaption></figcaption></figure>
 
-**DFU:** TODO
+**Bootloader:** Turn off the radio transmitter. Pull both horizontal trims (T1 and T4) inwards, and press the power button.
+
+**DFU:** Turn off the radio transmitter. Turn the radio over so you are looking at the back of it. Remove the left side battery cover. Use a non-conductive (i.e. plastic) object to press and hold the DFU button down, and plug in the USB cable. Release the DFU button. The cooling fan will be running at full speed if you have done this correctly.
 
 ### Flysky PL18 / PL18 EV
-
-
 
 <figure><img src="../.gitbook/assets/PL18Dfu.png" alt="" width="375"><figcaption><p>PL18 PL18 EV DFU Button</p></figcaption></figure>
 
@@ -52,8 +57,7 @@ Note: In early versions of the LiteRadio 3 Pro, the DFU button was non-functiona
 
 **Bootloader:** Turn off the radio transmitter. Pull both horizontal trims (TR3 and TR4) together and press the power button.
 
-**DFU:** Turn off the radio transmitter. Press and hold the DFU button (circled in the image below) and plug in the USB cable, release the DFU button.\
-
+**DFU:** Turn off the radio transmitter. Press and hold the DFU button (circled in the image below) and plug in the USB cable, release the DFU button.<br>
 
 <figure><img src="../.gitbook/assets/st16_DFU_button.png" alt=""><figcaption></figcaption></figure>
 
@@ -111,8 +115,6 @@ Note: To access the DFU button on v1, remove the antenna. For v2, use a toothpic
 
 <figure><img src="../.gitbook/assets/T-ProDFU.png" alt="" width="375"><figcaption><p>Jumper T-Pro DFU Button</p></figcaption></figure>
 
-
-
 **Bootloader**: Turn off the radio transmitter. Push both trim hat switches inward together and press the power button.
 
 **DFU**: Turn off the radio transmitter. Press and hold the DFU button and plug in the USB cable, release the DFU button.
@@ -121,7 +123,7 @@ Note: To access the DFU button on v1, remove the antenna. For v2, use a toothpic
 
 **Bootloader**: Turn off the radio transmitter. Pull both horizontal trim switches together and press the power button.
 
-**DFU**: Turn off the radio transmitter. Plug in the USB cable to the USB port on the top of the radio (power button LED should light up). Press and hold SG (top left shoulder switch) and then press and release the power button (only needs a momentary press). You can now release SG.&#x20;
+**DFU**: Turn off the radio transmitter. Plug in the USB cable to the USB port on the top of the radio (power button LED should light up). Press and hold SG (top left shoulder switch) and then press and release the power button (only needs a momentary press). You can now release SG.
 
 ### RadioMaster MT12
 
@@ -135,13 +137,13 @@ Note: To access the DFU button on v1, remove the antenna. For v2, use a toothpic
 
 **DFU**: Turn off the radio transmitter. Plug in the USB cable to the USB port on the top of the radio.
 
-### RadioMaster  TX15 (EdgeTX 3.0)
+### RadioMaster TX15 / TX16S MK3 / GX15
 
 **Bootloader**: Turn off the radio transmitter. Pull both horizontal trim switches together and press the power button.
 
-**DFU**: Turn off the radio transmitter. Plug in the USB cable to the USB port on the top of the radio (power button LED should light up). Momentarily press the SYSTEM (SYS) button for the TX15 to enter the DFU mode.&#x20;
+**DFU**: Turn off the radio transmitter. Plug in the USB cable to the USB port on the top of the radio (power button LED should light up). Momentarily press the SYSTEM (SYS) button for the radio to enter the DFU mode.
 
-### RadioMaster (All others - Boxer, T12, Zorro, TX16S)
+### RadioMaster (All others - Boxer, TX12, Zorro, TX16S MK1/MK2)
 
 **Bootloader**: Turn off the radio transmitter. Pull both horizontal trim switches together and press the power button.
 

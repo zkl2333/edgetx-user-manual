@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/model-select/setup
+---
+
 # Setup
 
 <figure><img src="../../.gitbook/assets/bw128_model_setup.png" alt=""><figcaption></figcaption></figure>
@@ -18,7 +25,7 @@ Image dimensions shall be 64 x 32 pixels, 16 bit, grayscale, .bmp file. The imag
 
 **Timer 1/2/3** - There are 3 configurable timers in EdgeTX. The following configuration options will be displayed once the timer is no longer set to **OFF**:
 
-#### Timer 1   \[Mode]   \[Switch]&#x20;
+#### Timer 1   \[Mode]   \[Switch]
 
 **\[Mode] -** The options include:
 
@@ -58,17 +65,21 @@ If set to **Remain**, the counter will function like a countdown timer - countin
 
 <figure><img src="../../.gitbook/assets/bw128_customisable_switches.png" alt=""><figcaption><p>Customizable Switches</p></figcaption></figure>
 
-### **Customizable Switches**&#x20;
+### **Customizable Switches**
 
 The customizable switches are a type of multi-position switch (on select transmitters) that are managed directly by EdgeTX. Physically, they look like a regular 6-pos switch but are much more flexible.
 
 Unlike other switches managed at the radio level, customizable switches are defined per model and configured in the model setup page. They contain the following configuration options:
+
+**Name** - A 3 character name for the customizable switch.
 
 **Switch Type**
 
 * **None**: the switch is disabled
 * **Toggle**: they are active only during the push duration
 * **2POS**: pushing the switch will alternate the state between OFF and On
+* **3POS**: pushing the switch cycles through 3 states
+* **Global**: the switch takes its type/behavior from the Customizable Switches configuration in Radio Setup rather than being configured per-model.
 
 **Switch group**
 
@@ -78,7 +89,7 @@ A traditional 6POS is a group of 6 switches that work together, where only one c
 
 **'1', '2' or '3'** define groups. All the switches in a group act together, **where only one (the last pushed) can be active.**
 
-**Always on groups**&#x20;
+**Always on groups**
 
 Selecting this check box makes the assigned group act a bit like a traditional 6-position switch where one button (and only one) from the group must be on at all times.
 
@@ -91,8 +102,10 @@ Selecting this check box makes the assigned group act a bit like a traditional 6
 * **=** Switch is set to the same state it was in when the model was last used (it keeps old state).
 
 {% hint style="info" %}
-To use customisable switches like a traditional hardware 6-POS implementation (Horus, TX16S,...), leave the customizable switches at the default settings (all switches set to 2POS, Group 1). Configure Group 1 to be "Always On" and SW1 to be selected on model/radio start. You can then use select GR1 on the input or mixes page, to get just like the prior 6-POS behaviour.&#x20;
+To use customizable switches like a traditional hardware 6-POS implementation (Horus, TX16S,...), leave the customizable switches at the default settings (all switches set to 2POS, Group 1). Configure Group 1 to be "Always On" and SW1 to be selected on model/radio start. You can then use select GR1 on the input or mixes page, to get just like the prior 6-POS behavior.
 {% endhint %}
+
+**OFF / ON Colors and Lua Override (select radios)** - On radios with RGB-illuminated customizable switches, OFF and ON color pickers (R/G/B) are shown for each switch, along with a Lua Override toggle for each state that lets a running Lua script override the configured color at runtime.
 
 <figure><img src="../../.gitbook/assets/setup2.png" alt=""><figcaption><p>Trims settings</p></figcaption></figure>
 
@@ -100,15 +113,15 @@ To use customisable switches like a traditional hardware 6-POS implementation (H
 
 **E.Limits (Extended Limits)** **-** When enabled, it increases the minimum and maximum range for the output values to -150 and 150. Extended limits are necessary if the full range of the control surface cannot be reached with standard limits.
 
-**E. Trims) Extended Trims -** Increases the maximum trim adjustment value from **±**&#x32;5% to **±**&#x31;00%.
+**E. Trims) Extended Trims -** Increases the maximum trim adjustment value from ±25% to ±100%.
 
 **Reset** - This resets all trim values to zero.
 
 **Show trims -** When set to **Yes**, it will display the numerical trim value on the trim bar.  When set to **CHANGE**, it will display the numerical value once the trim is no longer at zero.
 
-**Trim Step: -** Defines the amount of increase/decrease in trim when the trim switch is pressed.&#x20;
+**Trim Step: -** Defines the amount of increase/decrease in trim when the trim switch is pressed.
 
-* Course = 1.6%
+* Coarse = 1.6%
 * Medium = 0.8%
 * Fine = 0.4%
 * Extra Fine = 0.2%
@@ -122,12 +135,12 @@ The throttle related configuration options below are displayed in collapsible me
 
 **T-Reverse** - When enabled, this option reverses the output direction of the configured throttle channel.
 
-**T-Source** - The source that will be used for the throttle.&#x20;
+**T-Source** - The source that will be used for the throttle.
 
-**T-Trim-Idle** - When enabled, the throttle trim will only affect the bottom portion of the throttle band.&#x20;
+**T-Trim-Idle** - When enabled, the throttle trim will only affect the bottom portion of the throttle band.
 
 {% hint style="info" %}
-For example, with **Trim idle only** enabled, the throttle stick at the lowest point might have a value of -80 and the center point will still be 0 and the highest point of 100. Without this enabled, the throttle stick at the lowest point might have a value of -80 however, the center point will be 20 and the highest point of 100.&#x20;
+For example, with **Trim idle only** enabled, the throttle stick at the lowest point might have a value of -80 and the center point will still be 0 and the highest point of 100. Without this enabled, the throttle stick at the lowest point might have a value of -80 however, the center point will be 20 and the highest point of 100.
 {% endhint %}
 
 **T-Trim-SW** - The trim switch that will be used to trim the throttle. It is possible to substitute the throttle trim switch with the aileron, rudder, or elevator trim switches.
@@ -142,7 +155,7 @@ On surface radios (EX: MT-12), the throttle trim has no effect on the reverse th
 
 Whenever a new model is loaded, EdgeTX will conduct pre-flight checks based on the checks that are configured on this page. If any of the checks are failed, EdgeTX will give the user an audio and visual warning that must be acknowledged before using the model. The following preflight checks below are displayed in collapsible menu.
 
-**Checklist** - When this option is selected, the model notes file will be displayed when the model is loaded. A valid model notes file must be in the **Models** folder on the SD card. The model notes file must be a .txt file and must have the EXACT same name as the model it is for, for example: Mobula6.txt. The text in the file is up to the user.
+**Checklist** - When this option is selected, the [model notes file](../../edgetx-how-to/model-notes-and-checklists.md) will be displayed when the model is loaded. A valid model notes file must be in the **Models** folder on the SD card. The model notes file must be a .txt file and must have the EXACT same name as the model it is for, for example: Mobula6.txt. The text in the file is up to the user.
 
 **C-Interact** (Interactive checklist) - This option is used with the **Checklist** option. When this option is selected, any line of text in the checklist file that begins with **=** will display as a check box when the checklist is displayed. All displayed checkboxes must be **checked** by selecting them in order to close the checklist.
 
@@ -183,7 +196,7 @@ Configuration options for the multi-protocol module are described here:  [https:
 **Receiver number** - A receiver number is a user-assigned number for a model that is sent to the receiver when bound. Each model must have a unique receiver number. However, models using different protocols may have the same receiver number without issues. EdgeTX will inform you when a receiver number is unique or if it is already being used with a text above the number field.
 
 {% hint style="info" %}
-If using the radio in gamepad mode, both internal and external RF modules should be turned off. This will result in increased performance when connected to a computer via USB.&#x20;
+If using the radio in gamepad mode, both internal and external RF modules should be turned off. This will result in increased performance when connected to a computer via USB.
 {% endhint %}
 
 ### **Trainer**
@@ -194,16 +207,24 @@ If using the radio in gamepad mode, both internal and external RF modules should
 
 **Slave mode** - This is the mode for the radio that will pass it's CPPM values to the radio in _**Master mode,**_ which are then sent to the model.
 
-Below are the possibile configuration options:
+Below are the possible configuration options:
 
 * **OFF** - Trainer mode is not used for this model.
 * **Master/Jack** - Master mode using a cable connection.
 * **Slave/Jack** - Slave mode using a cable connection.
   * **Ch. Range** - This is the range of channels that will be sent to the radio in Master mode. Channel 10 is the recommended last channel to use.
   * **PPM frame** - The first field is the length of the PPM frame. The second field is the stop length/delay between pulses. The dropdown is to select the polarity of the signal. The frame length is automatically adjusted to the correct value when the number of transmitted channels is changed. However, this automatically assigned value can be manual changed. _**Note**: In most cases, the default setting does_ not _need to be changed._
+* **Master / SBUS Module** - Master mode receiving an SBUS signal via the external module bay, for use when no Multi-protocol module is fitted there.
+* **Master / CPPM Module** - Master mode receiving a CPPM signal via the external module bay.
+* **Master / Serial** - Master mode receiving the trainer signal over an auxiliary serial port configured for SBUS trainer input in Hardware settings.
 * **Master / Bluetooth** - Master mode using a Bluetooth connection (if installed in radio).
 * **Slave / Bluetooth** - Slave mode using a Bluetooth connection (if installed in radio).
 * **Master / Multi** - Master mode using an additional externally mounted Multi-protocol module for the connection. For more information on this setup, see [set-up-wireless-trainer-with-mpm.md](../../edgetx-how-to/set-up-wireless-trainer-with-mpm.md "mention")
+* **Master / CRSF** - Master mode receiving the trainer signal via a Crossfire (CRSF) capable module.
+
+{% hint style="info" %}
+The options available will vary depending on the radio's hardware capabilities and its current module/hardware configuration. Some options are mutually exclusive - for example, an external module bay or serial port already used for something else (such as an RF module or another peripheral) will not offer the corresponding trainer mode.
+{% endhint %}
 
 <figure><img src="../../.gitbook/assets/bwsetup5 (1).png" alt=""><figcaption><p>Enabled Features options</p></figcaption></figure>
 
@@ -225,7 +246,7 @@ _**Note:**_ Turning off a tab only hides the tab and does not change the items a
 
 ### USB Joystick
 
-The **USB Joystick** has two possible modes, **Classic** and **Advanced**.&#x20;
+The **USB Joystick** has two possible modes, **Classic** and **Advanced**.
 
 {% hint style="info" %}
 If using the radio as a USB Joystick, both internal and external RF modules should be turned off. When configured as such, the mixer will run at 1000Hz when in Joystick mode (which is needed for F.Sim competitors). Additionally, it also displays mixer run time in statistic/debug screen. This will result in increased performance when connected to a computer via USB. \
@@ -247,7 +268,7 @@ In **Classic mode**, the radio's configured output channels will be sent to the 
 
 In **Advanced mode** you can configure the following additional options:
 
-**If. mode (Interface mode):** This indicates to the target device (the device you are connecting your transmitter to) what type of device you are connecting. The options are **Joystick**, **Gamepad**, **MultiAxis.** &#x20;
+**If. mode (Interface mode):** This indicates to the target device (the device you are connecting your transmitter to) what type of device you are connecting. The options are **Joystick**, **Gamepad**, **MultiAxis.** 
 
 {% hint style="info" %}
 **Note:** Currently there is a limitation in MS Windows that may limit your transmitter to being only detected as a Joystick, regardless of what is selected in this option. In MacOS, Linux and Andriod this functions properly.
@@ -266,12 +287,12 @@ In **Advanced mode** you can configure the following additional options:
 * **Btn** - Channel is used to simulate a button. Configuration options include:
   * **Inversion** - Inverts the output channel signal. Options are: **On** / **Off**
   * **Button Mode** -
-    * **Normal** - Each postion of a multiposition switch is represented by a button. The current switch state is represented by a continous button press.
-      * **Pulse** - Similar to "Normal" mode. However, instead of continous button press it is represented by a short button press.
+    * **Normal** - Each position of a multiposition switch is represented by a button. The current switch state is represented by a continuous button press.
+      * **Pulse** - Similar to "Normal" mode. However, instead of continuous button press it is represented by a short button press.
       * **SWEmu** - The toggle switch emulations a push button. The first press turns the virtual button on, the second press turns it off.
       * **Delta** - The change of the output channel is represented by 2 buttons. While the output value is decreasing, the first button is pressed. When the output value is increasing, the second button is pressed. If there is no change, then no buttons will be pressed.
       * **Companion** - This option should be selected when using your transmitter to control the simulator in EdgeTX Companion.  It allows the multi-position switches to function properly in the simulator.
-  * **Positions** - The type of button that will be simulated.&#x20;
+  * **Positions** - The type of button that will be simulated.
     * **Push -** will only map to one button
       * **2POS - 8 POS** - will map to the number of buttons that the switch has (ex: 3POS will map to 3 buttons).
   * **Button No:** The button number that the output will be mapped to and sent to the target device as.

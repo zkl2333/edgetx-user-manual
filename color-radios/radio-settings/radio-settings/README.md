@@ -1,4 +1,11 @@
-# Radio Setup
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/radio-settings/radio-setup
+---
+
+# Radio Settings
 
 <figure><img src="../../../.gitbook/assets/color_radio_radio-setup.png" alt=""><figcaption><p>Radio Setup Screen</p></figcaption></figure>
 
@@ -10,15 +17,19 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 
 **Additional Settings Buttons** - Additional configuration options for the named areas are available when selecting these buttons.  More information about these configuration settings is on the next page - [Additional Radio Settings](additional-radio-settings.md)
 
+**Lock keys (select radios)** - When enabled, holding the two keys named in the option's label together (e.g. "Lock keys (SYS+MDL)") locks the radio's keys. The specific key combo shown varies by radio model. Only available on radios with a suitable layout or sufficient hardware keys.
+
+**One log per day** - When enabled, only one SD card log file is created per day for a given model, rather than a new file each time logging is started.
+
 **Splash Screen** - Duration that the splash screen will be displayed.
 
 **Startup Sound** - Toggles whether to enable/disable startup sound.
 
 **Pwr Off delay** - The delay between when the power button is pushed and when the radio shuts off. The options are: **0s, 0.5s, 1s, 2s, 3s, 4**s. _It is recommended to set at least a 1s delay in order to prevent the radio from being shut off in the case of an accidental button press._
 
-**Power Auto Off** - If enabled, the radio with automatically power off after the configured amount of inactivity, if there is no RF module with active telemetry, or an active trainer connection.&#x20;
+**Power Auto Off** - If enabled, the radio with automatically power off after the configured amount of inactivity, if there is no RF module with active telemetry, or an active trainer connection.
 
-**Power ON/OFF Haptic** - When enabled, the radio with use the vibration motor to give a haptic pulse when powering the radio on (indicating when the power button can be released) and when the transmitter is powering off.&#x20;
+**Power ON/OFF Haptic** - When enabled, the radio with use the vibration motor to give a haptic pulse when powering the radio on (indicating when the power button can be released) and when the transmitter is powering off.
 
 **Owner ID** - Custom registration ID used only for users with FrSky ISRM/ACCESS modules.
 
@@ -28,7 +39,7 @@ The **Radio Setup** screen is where you configure basic settings for your radio.
 
 **Units** - Units of measure. Options are **metric** or **imperial**.
 
-**PPM Units** - Level of accuracy for PPM values are displyed. Options are **0.-, 0.0 or us** **(μs/microseconds).**
+**PPM Units** - Level of accuracy for PPM values are displayed. Options are **0.-, 0.0 or us** **(μs/microseconds).**
 
 **Play delay** (sw. mid pos) - The minimum time in milliseconds a switch must be in the middle position before a special function will get activated. This is used to prevent the middle position from being activated on a three-position switch when switching from low position to high position.
 

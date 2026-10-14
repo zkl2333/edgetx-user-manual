@@ -1,5 +1,8 @@
 ---
 description: Below are some additional useful resources
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/more/additional-resources
 ---
 
 # Additional Resources

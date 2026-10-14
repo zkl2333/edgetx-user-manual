@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/more/contributors
+---
+
 # Contributors
 
 Special thanks to all the people and groups that contributed (directly or indirectly) to this document.
@@ -8,7 +14,7 @@ Special thanks to all the people and groups that contributed (directly or indire
 * Joshua Bardwell - [https://www.youtube.com/@JoshuaBardwell](https://www.youtube.com/@JoshuaBardwell)
 * Lee Schofield- Painless360 - [https://www.youtube.com/@Painless360](https://www.youtube.com/@Painless360)
 * [http://rcdiy.ca/](http://rcdiy.ca/)
-* [https://www.apollomaniacs.com](https://www.apollomaniacs.com/ipod/howto\_ar\_drone\_opentx\_en.htm)
+* [https://www.apollomaniacs.com](https://www.apollomaniacs.com/ipod/howto_ar_drone_opentx_en.htm)
 * [https://doc.open-tx.org/opentx-taranis-manual/](https://doc.open-tx.org/opentx-taranis-manual/)
 * [https://rc-soar.com/](https://rc-soar.com/)
 * [Alexander Gnauck](https://github.com/agnauck)

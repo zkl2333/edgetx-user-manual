@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/radio-settings
+---
+
 # Radio Settings
 
 ### Tools
@@ -8,15 +14,7 @@ The **Tools** page in Radio Settings is where you can select Lua script-based to
 
 ### Wizard Loader
 
-<div>
-
-<figure><img src="../../.gitbook/assets/bwtools1.png" alt=""><figcaption><p>Setup Wizard</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/bwtools2.png" alt=""><figcaption><p>Setup Wizard Configuration menu</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/bwtools1.png" alt=""><figcaption><p>Setup Wizard</p></figcaption></figure> <figure><img src="../../.gitbook/assets/bwtools2.png" alt=""><figcaption><p>Setup Wizard Configuration menu</p></figcaption></figure></div>
 
 The Wizard Loader tool assists you in setting up a new model by running a setup wizard for a particular model type. Once the model type is selected, the wizard will take you through a series of prompts and then configure your selected model based on the information provided.&#x20;
 

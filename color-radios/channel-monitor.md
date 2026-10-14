@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/channel-monitor
+---
+
 # Channel Monitor
 
 The Channel Monitor shows both the output value (top bar) and mix value (bottom bar) for each of the 32 radio channels, spread across 4 pages of 8. &#x20;

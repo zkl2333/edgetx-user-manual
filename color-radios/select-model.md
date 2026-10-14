@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/select-model
+---
+
 # Manage Models
 
 The Manage Models screen allows you to create new models, select which model is active, create and apply model labels, and create model templates.
@@ -42,7 +48,7 @@ Model labels allow you to give each model one or more labels. You are then able 
 
 ### Filtering models using labels
 
-To filter the visible models based on their labels, select the filter or filters from the left column. It will automatically filter out the models that do not have those model labels. For more information on how the filters work or to configure advanced filtering options, see: [Additional Radio settings](radio-settings/radio-setup/additional-radio-settings.md)
+To filter the visible models based on their labels, select the filter or filters from the left column. It will automatically filter out the models that do not have those model labels. For more information on how the filters work or to configure advanced filtering options, see: [Additional Radio settings](radio-settings/radio-settings/additional-radio-settings.md)
 
 ### Assigning labels to models
 

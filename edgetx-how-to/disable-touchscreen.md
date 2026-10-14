@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/edgetx-how-to/disable-touchscreen
+---
+
 # Disable Touchscreen
 
 There are various reasons on why you may want to disable the touchscreen. Unintentional touches during a flight could change your model configuration which can be a risk.

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/curves
+---
+
 # Curves
 
 The **Curves** screen of Model Settings allows you to define custom curves to use in the Inputs, Mixes, or Output screens. The curves screen will show all of the configured custom curves, with a graphical representation of each curve, the number of points, and the curve type. &#x20;
@@ -26,7 +33,7 @@ Selecting **Edit** for a configured or unconfigured curve will open the curve co
   * **Custom** - Both horizontal and vertical axes are adjustable.
 * **Number of Points** - number of points in the curve
 * **Smooth** - When enabled, connects the points with curved lines instead of straight lines
-* **Verticle point values** - Adjust the point values to make the desired curve.
+* **Vertical point values** - Adjust the point values to make the desired curve.
 
 {% hint style="info" %}
 The stick positions are displayed in yellow on the curve. Moving the control sticks will update the stick position on the curve in real time.

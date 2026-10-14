@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/global-variables
+---
+
 # Global Variables
 
 Global variables are variables whose values are shared across all the configuration screens of a model. Their values can be used in weights, offsets, differential, expo settings, outputs, and in logical switch comparisons.  The **Global Variables** screen of Model Settings shows the value of each global variable for each flight mode.
@@ -8,6 +15,7 @@ Selecting a global variable from the global variable screen will give you the fo
 
 * **Edit** - Opens the global variable configuration screen for the selected global variable.
 * **Clear** - Clears the global variable values for all flight modes for the selected global variable.
+* **Reset** - Sets all flight modes to inherit the value from Flight Mode 0 (FM0), and resets FM0's own value to 0.
 
 <figure><img src="../../.gitbook/assets/GVE.png" alt=""><figcaption><p>Global Variable configuration screen.</p></figcaption></figure>
 

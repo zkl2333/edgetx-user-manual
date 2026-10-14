@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/screen-settings/widgets
+---
+
 # Widgets
 
 {% hint style="info" %}
@@ -15,7 +22,7 @@ Displays a graphical representation of the charge level of a Lipo/Li-ion. It wil
 * **Sensor** - Sensor for the battery voltage to use.
 * **Color** - Opens the color picker to choose the color for the text.
 * **Show\_Total\_Voltage** - Shows total battery voltage (instead of calculated cell voltage) when enabled.
-* **Lithium\_Ion** - Adjusts the minumum battery voltage used in calculating the remaining battery percentage from 3.0 to 2.8 when enabled.
+* **Lithium\_Ion** - Adjusts the minimum battery voltage used in calculating the remaining battery percentage from 3.0 to 2.8 when enabled.
 
 ### BattCheck
 
@@ -40,25 +47,17 @@ A counter that incrementally counts. The configurable options are:
 
 ### **Event Demo**
 
-<div>
-
-<figure><img src="../../.gitbook/assets/widgets5.jpg" alt=""><figcaption><p>Counter and Event Demo Widgets</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/widgets6.jpg" alt=""><figcaption><p>Event Demo Widget Full Screen</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/widgets5.jpg" alt=""><figcaption><p>Counter and Event Demo Widgets</p></figcaption></figure> <figure><img src="../../.gitbook/assets/widgets6.jpg" alt=""><figcaption><p>Event Demo Widget Full Screen</p></figcaption></figure></div>
 
 Demonstrates handling of key and touch events in full screen mode. For demo purposed only. The configurable options are:
 
 * **Size** - Changes the size of the box in full screen mode.
 
-### **Flights**&#x20;
+### **Flights**
 
 <figure><img src="../../.gitbook/assets/wid_flights.png" alt=""><figcaption><p>Flights Widget</p></figcaption></figure>
 
-Counts your number of flights. It will give you a verbal queue when the flight has started, finished as well as the total flights for the model.&#x20;
+Counts your number of flights. It will give you a verbal queue when the flight has started, finished as well as the total flights for the model.
 
 The configurable options are:
 
@@ -76,40 +75,40 @@ The widget assumes the following: the model has a motor, the motor is activated 
 
 ### Gauge
 
-<figure><img src="../../.gitbook/assets/wid_gauge (1).png" alt=""><figcaption><p>Gauge Widget</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/wid_gauge.png" alt=""><figcaption><p>Gauge Widget</p></figcaption></figure>
 
 Shows a bar graph for the source value. The configurable options are:
 
 * **Source** - Source for the gauge.
-* **Min** - Minimum value for the gauge. This value will be 0%&#x20;
-* **Max** - Maximum value for the gauge. This value will be 100%&#x20;
+* **Min** - Minimum value for the gauge. This value will be 0%
+* **Max** - Maximum value for the gauge. This value will be 100%
 * **Color** - Opens the color picker to choose the color for the gauge text and bar.
 
 ### **Gauge Rotary**
 
 <figure><img src="../../.gitbook/assets/wid_gaugerotary.png" alt=""><figcaption><p>Gauge Rotary Widget</p></figcaption></figure>
 
-&#x20;A configurable analog style gauge with a needle. Also shows the minimum and maximum values that were read by the gauge with green and red needles. The configurable options are:
+A configurable analog style gauge with a needle. Also shows the minimum and maximum values that were read by the gauge with green and red needles. The configurable options are:
 
 * **Source** - Source for the gauge.
 * **Min** - The minimum (lowest) gauge value.
 * **Max** - The maximum (highest) gauge value.
 * **HighasGreen** - **Enable** for a sensor where high values are good. **Disable** for sensor where low values are good.
-* **Precision** - The precision of the number value to display in decimals.&#x20;
+* **Precision** - The precision of the number value to display in decimals.
 
 ### **Ghost**
 
 <figure><img src="../../.gitbook/assets/wid_ghost.jpg" alt=""><figcaption><p>Ghost Widget Normal Mode and VTX Mode</p></figcaption></figure>
 
-The Ghost widget will display RF receiver or video transmitter telemetry data based on the mode that is configured.&#x20;
+The Ghost widget will display RF receiver or video transmitter telemetry data based on the mode that is configured.
 
-In normal mode, the widget provides RF Mode (RFMD), Frame Rate (FRATE), Link Quality (RQLY), and Transmit Power (TPWR)&#x20;
+In normal mode, the widget provides RF Mode (RFMD), Frame Rate (FRATE), Link Quality (RQLY), and Transmit Power (TPWR)
 
 In video mode, the widget provides Video Band (VBAN), Video Frequency (VFRQ), Video channel (VCHAN), and Video Power (VPWR)
 
 ### **LibGUI Demo**
 
-<figure><img src="../../.gitbook/assets/wid_libgui.jpg" alt=""><figcaption><p>LibGUI Demo Widget</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/widgets10.jpg" alt=""><figcaption><p>LibGUI Demo Widget</p></figcaption></figure>
 
 This widget is a demo for the LibGUI library. This library is not normally run by itself. Instead, it provides interactive functions to other Lua scripts that use it. The widget must be run in full-screen mode to demo the library's functionality.
 
@@ -125,7 +124,7 @@ Displays the selected model name and picture (if configured in model settings). 
 * **BG Color** - Opens the color picker to choose the color for the background.
 * **Use Theme Color** - When enabled, overrides the text color with the text color of the configured theme.
 
-### **Outputs**&#x20;
+### **Outputs**
 
 <figure><img src="../../.gitbook/assets/wid_outputs.png" alt=""><figcaption><p>Outputs Widget</p></figcaption></figure>
 
@@ -135,7 +134,7 @@ Shows the channel output values in a bar graph. The number of channels that are 
 * **Fill background** - Adds a solid background color to the widget when enabled
 * **BG Color** - Opens the color picker to choose the color for the background.
 * **Text Color** - Opens the color picker to choose the color for the text.
-* **Color** -  Opens the color picker to choose the color for the output bars.
+* **Color** - Opens the color picker to choose the color for the output bars.
 
 ### Serial Power Port Demo
 
@@ -145,13 +144,13 @@ A demo widget to show you how the power port can be used. It must be run in full
 
 ### **SOARETX**
 
-<figure><img src="../../.gitbook/assets/wid_soaretx.jpg" alt=""><figcaption><p>SoarETX Widget</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/widgets11.jpg" alt=""><figcaption><p>SoarETX Widget</p></figcaption></figure>
 
-The EdgeTX version of the SoarOTX tool.  It is a package of sailplane models for EdgeTX transmitters. It provides Lua scripts for timing and scorekeeping, graphing of log data (e.g. altitude graphs), and model configuration.
+The EdgeTX version of the SoarOTX tool. It is a package of sailplane models for EdgeTX transmitters. It provides Lua scripts for timing and scorekeeping, graphing of log data (e.g. altitude graphs), and model configuration.
 
-For more information about the configuration and use of this widget please see  [https://github.com/jfrickmann/SoarOTX/wiki/SoarETX-for-color-radios](https://github.com/jfrickmann/SoarOTX/wiki/SoarETX-for-color-radios).
+For more information about the configuration and use of this widget please see [https://github.com/jfrickmann/SoarOTX/wiki/SoarETX-for-color-radios](https://github.com/jfrickmann/SoarOTX/wiki/SoarETX-for-color-radios).
 
-A demo of this tool can be seen here: [https://www.youtube.com/watch?v=5NSvxUNKM\_c](https://www.youtube.com/watch?v=5NSvxUNKM\_c)
+A demo of this tool can be seen here: [https://www.youtube.com/watch?v=5NSvxUNKM\_c](https://www.youtube.com/watch?v=5NSvxUNKM_c)
 
 ### **Text**
 
@@ -160,7 +159,7 @@ A demo of this tool can be seen here: [https://www.youtube.com/watch?v=5NSvxUNKM
 Displays a user-customizable text field. The configurable options are:
 
 * **Text** - Text to display
-* **Color** - Opens the color picker to choose the color for the text.&#x20;
+* **Color** - Opens the color picker to choose the color for the text.
 * **Size** - Size for the text. Options are STD (Default), BOLD, XXS, XS, L, XL, XXL
 * **Shadow** - When enabled, adds a shadow to the text.
 * **Alignment** - Alignment of the text in the text box. Options are: Left, Center, Right
@@ -171,9 +170,7 @@ Displays a user-customizable text field. The configurable options are:
 
 Displays the selected timer. No configurable options other than timer selection.
 
-
-
-### **Timer2**&#x20;
+### **Timer2**
 
 <figure><img src="../../.gitbook/assets/wid_timer2.png" alt=""><figcaption><p>Timer2 Widget</p></figcaption></figure>
 
@@ -183,7 +180,7 @@ Displays the selected timer with the timer text scaled based on the select widge
 * **Timer** - Timer to display.
 * **use\_days** - Shows days when the time value is over 24 hours when enabled.
 
-### **TxGPStest**&#x20;
+### **TxGPStest**
 
 <figure><img src="../../.gitbook/assets/wid_gpstest.png" alt=""><figcaption><p>TxGPSTest Widget</p></figcaption></figure>
 
@@ -198,14 +195,14 @@ Displays a numeric value of the defined source as text. The configurable options
 * **Source** - source for the text to be displayed
 * **Color** - Opens the color picker to choose the color for the text. User can choose between RGB and HSV color model to choose the color. You can also select one of the configured theme system colors.
 * **Shadow** - When enabled, adds a shadow to the text.
-* **Align Label** - Aligns the label text.  Options include: **Left**, **Center**, **Right**
+* **Align Label** - Aligns the label text. Options include: **Left**, **Center**, **Right**
 * **Align Value** - Aligns the value text. Options include: **Left**, **Center**, **Right**
 
 ### Value2
 
 <figure><img src="../../.gitbook/assets/wid_value2.png" alt=""><figcaption><p>Value2 Widget</p></figcaption></figure>
 
-Displays a numeric value of the defined telemetry source as text. The text will scale based on the size of the widget grid that is selected. The widget will detect the end of the flight (by no longer receiving telemtry) and will then display the min and max values of the configured telemetry sensor.
+Displays a numeric value of the defined telemetry source as text. The text will scale based on the size of the widget grid that is selected. The widget will detect the end of the flight (by no longer receiving telemetry) and will then display the min and max values of the configured telemetry sensor.
 
 The configurable options are:
 

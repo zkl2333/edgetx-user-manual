@@ -1,4 +1,11 @@
-# Version
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/radio-settings/version
+---
+
+# About
 
 
 

@@ -1,18 +1,25 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/installing-and-updating-edgetx/migrate-from-opentx-to-edgetx-using-the-bootloader
+---
+
 # Migrate from OpenTX to EdgeTX using the Bootloader
 
-In order to update from OpenTX to EdgeTX you will need to have both OpenTX & EdgeTX Companion installed on your computer.  You can download OpenTX Companion from: [https://downloads.open-tx.org/2.3/release/companion/](https://downloads.open-tx.org/2.3/release/companion/). You can download EdgeTX Companion from: [https://github.com/EdgeTX/edgetx/releases](https://github.com/EdgeTX/edgetx/releases) (File name: edgetx-cpn-\[operation system]-\[version].zip)
+In order to update from OpenTX to EdgeTX you will need to have both OpenTX & EdgeTX Companion installed on your computer. You can download OpenTX Companion from: [https://downloads.open-tx.org/2.3/release/companion/](https://downloads.open-tx.org/2.3/release/companion/). You can download EdgeTX Companion from: [https://github.com/EdgeTX/edgetx/releases](https://github.com/EdgeTX/edgetx/releases) (File name: edgetx-cpn-\[operation system]-\[version].zip)
 
 ### Backing up your Models
 
-Turn on your radio, navigate to **Radio Settings**, **Hardware** and scroll down to the bottom of the screen and select **EEPROM backup**. If you do not have this option, then your radio does not store your data in EEPROM and this step can be skipped.&#x20;
+Turn on your radio, navigate to **Radio Settings**, **Hardware** and scroll down to the bottom of the screen and select **EEPROM backup**. If you do not have this option, then your radio does not store your data in EEPROM and this step can be skipped.
 
 <figure><img src="../.gitbook/assets/update14.png" alt=""><figcaption></figcaption></figure>
 
-With your radio powered on, plug your radio into your computer via USB. When prompted by your radio for the USB mode, select **USB Storage**.&#x20;
+With your radio powered on, plug your radio into your computer via USB. When prompted by your radio for the USB mode, select **USB Storage**.
 
 With your computer, copy the entire contents of your SD card to a safe place on your Computer. If you ever decide to go back to OpenTX you can use these files again. If you backed up your EEPROM in the step above, check the EEPROM folder to make sure that there is a recent backup file in there.
 
-Start OpenTX Companion.&#x20;
+Start OpenTX Companion.
 
 Select the **Backup radio to file** icon from the left side of the screen as shown below. Select a saving location (desktop is fine) and give it a descriptive name.
 
@@ -60,11 +67,11 @@ After the flashing is complete, select "**Exit**". The radio will restart and yo
 
 When the radio starts with EdgeTX for the first time, you will get a warning: **STORAGE WARNING - Missing or Bad Radio Data**-. Press the white circle or roller to bypass the warning. Then you will get another STORAGE WARNING - Storage Preparation. Press the white circle or roller again. Once the SD card is prepared, the calibration screen will appear. Calibrate your radio.
 
-At this point, you now have the EdgeTX Bootloader, Firmware and the SD card contents installed. The last step is to convert your models over from OpenTX and put them on the radio.&#x20;
+At this point, you now have the EdgeTX Bootloader, Firmware and the SD card contents installed. The last step is to convert your models over from OpenTX and put them on the radio.
 
 ### Restoring your Models from OpenTX
 
-With your radio powered on, plug your radio into your computer via USB. When prompted by your radio for the USB mode, select **USB Storage**.&#x20;
+With your radio powered on, plug your radio into your computer via USB. When prompted by your radio for the USB mode, select **USB Storage**.
 
 Open EdgeTX Companion. If you have not already done so, create a radio profile for your radio and make sure that it is selected as active.
 
@@ -72,11 +79,11 @@ In the upper left corner of Companion, select **File**, then **Open**, then sele
 
 <figure><img src="../.gitbook/assets/update11.png" alt=""><figcaption></figcaption></figure>
 
-You will then see all your models from OpenTX in EdgeTX Companion. Click on the **Write models and Settings to Radio** button. It will warn you that it will overwrite all the models on your radio.  Click **Yes.**&#x20;
+You will then see all your models from OpenTX in EdgeTX Companion. Click on the **Write models and Settings to Radio** button. It will warn you that it will overwrite all the models on your radio. Click **Yes.**
 
 <figure><img src="../.gitbook/assets/update12.png" alt=""><figcaption></figcaption></figure>
 
-The models and settings will be written to the radio.  A message will be displayed when complete.  Click on **OK**. Unplug your radio from the USB port and close EdgeTX Companion.
+The models and settings will be written to the radio. A message will be displayed when complete. Click on **OK**. Unplug your radio from the USB port and close EdgeTX Companion.
 
 <figure><img src="../.gitbook/assets/update13.png" alt=""><figcaption></figcaption></figure>
 
@@ -89,6 +96,5 @@ _Unfortunately, it is not possible to copy over the setup for your widgets from 
 {% endhint %}
 
 {% hint style="info" %}
-Your Lua Scripts from OpenTX will still be on your SD Card. However, they may not all work with EdgeTX and may need to be re-installed to get them to work.  You can find a list of EdgeTX-compatible LUA scripts here: [https://github.com/EdgeTX/lua-scripts](https://github.com/EdgeTX/lua-scripts)
+Your Lua Scripts from OpenTX will still be on your SD Card. However, they may not all work with EdgeTX and may need to be re-installed to get them to work. You can find a list of EdgeTX-compatible LUA scripts here: [https://github.com/EdgeTX/lua-scripts](https://github.com/EdgeTX/lua-scripts)
 {% endhint %}
-

@@ -1,5 +1,9 @@
 ---
 description: Model Independent and Model Dependent audio!
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/edgetx-how-to/advanced-audio-features
 ---
 
 # Advanced Audio Features

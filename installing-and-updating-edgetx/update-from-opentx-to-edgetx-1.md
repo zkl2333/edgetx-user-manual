@@ -1,16 +1,23 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/installing-and-updating-edgetx/update-from-opentx-to-edgetx-1
+---
+
 # Update from an earlier version of EdgeTX using EdgeTX Buddy
 
 ### Back-up SD Card Contents
 
-**Before making any updates to your radio, we ALWAYS recommend that you back up your current SD Card contents using the following steps.**&#x20;
+**Before making any updates to your radio, we ALWAYS recommend that you back up your current SD Card contents using the following steps.**
 
-With your radio powered on, plug your radio into your computer via USB. When prompted by your radio for the USB mode, select **USB Storage**.&#x20;
+With your radio powered on, plug your radio into your computer via USB. When prompted by your radio for the USB mode, select **USB Storage**.
 
 With your computer, copy the entire contents of your SD card to a safe place on your computer. You can use these files again if you need to roll back the update.
 
 ### Update Bootloader and Firmware
 
-With the radio powered off, plug your radio into your computer via USB. This will connect your radio to the computer via DFU mode.&#x20;
+With the radio powered off, plug your radio into your computer via USB. This will connect your radio to the computer via DFU mode.
 
 {% hint style="info" %}
 On the Jumper T-Pro, you have to plug in the radio while pressing the Boot0 button to enter DFU mode.
@@ -26,14 +33,12 @@ On the next screen, select the **STM32 Bootloader** device and click **Next**.
 
 <figure><img src="../.gitbook/assets/update3.png" alt=""><figcaption></figcaption></figure>
 
-
-
 If the **STM32 Bootloader** device is not present, then select **Add New Device**. From the pop up window, select **STM32 Bootloader** and click **Connect.**
 
 <figure><img src="../.gitbook/assets/update4.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**Note:** If the STM32 BOOTLOADER is not available to select, then that usually means that there is an issue with the drivers on your computer. You can install the **ImpulseRC Driver Fixer** to fix your computer drivers. It is available to download from here: [**https://impulserc.blob.core.windows.net/utilities/ImpulseRC\_Driver\_Fixer.exe**](https://impulserc.blob.core.windows.net/utilities/ImpulseRC\_Driver\_Fixer.exe)
+**Note:** If the STM32 BOOTLOADER is not available to select, then that usually means that there is an issue with the drivers on your computer. You can install the [**ImpulseRC Driver Fixer**](https://impulserc.blob.core.windows.net/utilities/ImpulseRC_Driver_Fixer.exe) to fix your computer drivers.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
@@ -48,15 +53,15 @@ EdgeTX buddy will now start the flashing sequence. A progress screen will be dis
 
 <figure><img src="../.gitbook/assets/update6.png" alt=""><figcaption></figcaption></figure>
 
-Once the flashing is complete, the next step is to update your SD card. It is not always necessary to update your SD card contents. However, it is recommended. To update your SD card contents, select the **Setup your SD Card** link from the completion screen, which will take you to the SD Card content screen.&#x20;
+Once the flashing is complete, the next step is to update your SD card. It is not always necessary to update your SD card contents. However, it is recommended. To update your SD card contents, select the **Setup your SD Card** link from the completion screen, which will take you to the SD Card content screen.
 
 <figure><img src="../.gitbook/assets/update7.png" alt=""><figcaption></figcaption></figure>
 
 ### Update SD Card Contents
 
-Unplug the radio from the computer and power it on.&#x20;
+Unplug the radio from the computer and power it on.
 
-With the radio turned on, plug it in to your PC via USB and select **USB Storage** when the option is displayed on the radio. Click on the **Select SD Card** option and then navigate to your EdgeTX SD card.&#x20;
+With the radio turned on, plug it in to your PC via USB and select **USB Storage** when the option is displayed on the radio. Click on the **Select SD Card** option and then navigate to your EdgeTX SD card.
 
 <figure><img src="../.gitbook/assets/update8.png" alt=""><figcaption></figcaption></figure>
 
@@ -65,7 +70,7 @@ The EdgeTX SD Card will be mounted as a USB Drive on your computer. Select the U
 <figure><img src="../.gitbook/assets/update9.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Your PC may ask you to give EdgeTX buddy permission to your SD card contents.  This is normal and required for buddy to be able to modify the files on the SD Card.
+Your PC may ask you to give EdgeTX buddy permission to your SD card contents. This is normal and required for buddy to be able to modify the files on the SD Card.
 {% endhint %}
 
 On the SD Card Content screen, verify the Firmware version and Radio model are still correct, then select the desired language for the sound pack. Click on **Apply Changes.** A status window will pop up and show you the installation progress. Once the installation of the files is complete, the status window will close.
@@ -73,7 +78,7 @@ On the SD Card Content screen, verify the Firmware version and Radio model are s
 <figure><img src="../.gitbook/assets/update10.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**Note:** EdgeTX Buddy will update all SD card files that are part of the default EdgeTX installation. It will not modify or delete any additional files you have added (LUA scripts, sound files, images, custom themes, model files, radio setup file, etc) that are already existing on the SD card.&#x20;
+**Note:** EdgeTX Buddy will update all SD card files that are part of the default EdgeTX installation. It will not modify or delete any additional files you have added (LUA scripts, sound files, images, custom themes, model files, radio setup file, etc) that are already existing on the SD card.
 {% endhint %}
 
 ### Congratulations, you have now successfully updated EdgeTX!
@@ -86,19 +91,16 @@ Navigate back to the **Radio Firmware tab.**
 
 Select the **Firmware version** and **Radio model** - then **Download .bin**.
 
-After the firmware is downloaded, you will be asked for the location to save the file. Navigate to the radio's SD card and select the **Firmware** folder. Then select **Save**.&#x20;
+After the firmware is downloaded, you will be asked for the location to save the file. Navigate to the radio's SD card and select the **Firmware** folder. Then select **Save**.
 
 <figure><img src="../.gitbook/assets/update15.png" alt=""><figcaption></figcaption></figure>
 
 Disconnect the USB cable from the radio and turn off the radio.
 
-Boot your radio into bootloader mode  by holding trim switches T4 and T1 to center while pushing the power button on.
+Boot your radio into bootloader mode by holding trim switches T4 and T1 to center while pushing the power button on.
 
 You should now see the EdgeTX bootloader. Select the option **Write Firmware**. Select the EdgeTX firmware file that you saved to your SD card. Long-press to flash it.
 
 After the flashing is complete, select **Exit**. The radio will restart with the updated EdgeTX version.
 
 ### Congratulations, you have now successfully updated EdgeTX!
-
-
-

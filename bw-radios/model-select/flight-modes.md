@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/bw-radios/model-select/flight-modes
+---
+
 # Flight / Drive Modes
 
 Flight modes (FM) and Drive modes (DM) (on surface radios) allow you to have different trim settings for each flight/drive mode. Once multiple flight/drove modes are configured, you can adjust the trim settings in each flight/drive mode without affecting the trim settings in other flight/drive modes (unless they are configured to do so). There are nine possible Flight/Drive modes, with flight/drive Mode 0 being the default mode.
@@ -60,6 +67,6 @@ You can edit the value of the global variable by changing the value in the value
 * **Min** - Defines the minimum that is allowed for the global variable.
 * **Max** - Defines the maximum value that is allowed for the global variable.
 * **Popup** - When enabled, a pop-up window will be displayed on the main screen when the value of this global variable changes during normal use.
-* **FM1 -> FM8** - Allows you to select the global variable inheritance for the flight/drive mode. **Long press** the field to switch between **Own** and **Inheritence** mode. In **Own** mode, you can define the global variable value for the selected flight mode. In **Inheritance** mode, you can select the Flight Mode that the global variable will inherit the value from.
+* **FM1 -> FM8** - Allows you to select the global variable inheritance for the flight/drive mode. **Long press** the field to switch between **Own** and **Inheritance** mode. In **Own** mode, you can define the global variable value for the selected flight mode. In **Inheritance** mode, you can select the Flight Mode that the global variable will inherit the value from.
 
 Pressing the **\[PAGE>]** button will take you to the **Inputs** screen.

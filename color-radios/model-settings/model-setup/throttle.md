@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/model-settings/model-setup/throttle
+---
+
 # Throttle
 
 <figure><img src="../../../.gitbook/assets/throttle.png" alt=""><figcaption><p>Throttle page settings</p></figcaption></figure>
