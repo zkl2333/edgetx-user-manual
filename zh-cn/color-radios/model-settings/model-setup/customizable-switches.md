@@ -13,7 +13,7 @@ metaLinks:
 如果您确实需要可自定义开关的行为与传统6POS开关**完全相同**，则需要将六个可自定义开关配置为单个组，将该组设置为"始终开启"，并将组的启动设置为第一个开关。然后，您将能够使用例如 GR1 来代替 6POS。
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/colorlcd_model_customisable_switches.png" alt=""><figcaption><p>一个支持的手持设备上的可自定义开关选项示例。</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/colorlcd_model_customisable_switches.png" alt=""><figcaption><p>一个支持的手持设备上的可自定义开关选项示例。</p></figcaption></figure>
 
 **名称：** 您希望为每个可自定义开关指定的任何三个字母的名称。
 
@@ -35,6 +35,6 @@ metaLinks:
 
 **OFF / ON 颜色（在兼容的手持设备上）：** 某些手持设备支持配置可自定义开关的颜色。如果是这样，将为每个可自定义开关显示 OFF 和 ON 颜色选择器（如下所示），您将能够为每种状态选择您喜欢的颜色。黑色表示可自定义开关未点亮时的状态。
 
-<figure><img src="../../../.gitbook/assets/colorlcd_model_customisable_switches_rgb.png" alt=""><figcaption><p>同时支持配置 LED 颜色的手持设备上的可自定义开关选项</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/colorlcd_model_customisable_switches_rgb.png" alt=""><figcaption><p>同时支持配置 LED 颜色的手持设备上的可自定义开关选项</p></figcaption></figure>
 
 **Lua Override（在兼容的手持设备上）：** 在 OFF 和 ON 颜色选择器旁边，各显示一个开关，允许正在运行的 Lua 脚本在运行时覆盖该状态下所配置的 LED 颜色。
