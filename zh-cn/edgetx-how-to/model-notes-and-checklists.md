@@ -110,11 +110,11 @@ This line will not be a checklist item
 
 ### 检查表
 
-在预启动检查中启用检查表选项后（[彩屏](../color-radios/model-settings/model-setup/preflight-checks.md)、[单色屏](../bw-radios/model-select/setup.md#pre-start-checks)），每当您选择该模型时（无论是切换到该模型还是开机时），都会显示备注，您可以滚动查看，准备好后即可关闭。与交互式检查表不同，您无需勾选检查表项目（它们也不会显示为可勾选的项目）。可以将其视为“启动时显示模型备注”选项。
+在预启动检查中启用检查表选项后（[彩屏](../color-radios/model-settings/model-setup/preflight-checks.md)、[单色屏](../bw-radios/model-select/setup.md#启动前检查)），每当您选择该模型时（无论是切换到该模型还是开机时），都会显示备注，您可以滚动查看，准备好后即可关闭。与交互式检查表不同，您无需勾选检查表项目（它们也不会显示为可勾选的项目）。可以将其视为“启动时显示模型备注”选项。
 
 ### 交互式检查表
 
-在预启动检查中同时启用交互式选项后（[彩屏](../color-radios/model-settings/model-setup/preflight-checks.md)、[单色屏](../bw-radios/model-select/setup.md#pre-start-checks)），如果模型备注文件格式正确，将显示模型备注，并且您必须勾选所有检查表项目后才能继续使用该模型。屏幕会根据需要自动滚动，跳转到下一个需要勾选的项目，因此您可以将说明性备注与检查表项目混合编写。所有项目完成后，会跳转到检查表底部，此时即可退出。\
+在预启动检查中同时启用交互式选项后（[彩屏](../color-radios/model-settings/model-setup/preflight-checks.md)、[单色屏](../bw-radios/model-select/setup.md#启动前检查)），如果模型备注文件格式正确，将显示模型备注，并且您必须勾选所有检查表项目后才能继续使用该模型。屏幕会根据需要自动滚动，跳转到下一个需要勾选的项目，因此您可以将说明性备注与检查表项目混合编写。所有项目完成后，会跳转到检查表底部，此时即可退出。\
 <br>
 
 <figure><img src="/.gitbook/assets/screenshot_tx16s_25-12-28_09-18-12.png" alt=""><figcaption><p>彩屏上的交互式检查表</p></figcaption></figure>

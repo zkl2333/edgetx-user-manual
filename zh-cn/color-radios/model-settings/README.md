@@ -25,7 +25,7 @@ metaLinks:
 * [遥测](telemetry/)
 
 {% hint style="info" %}
-如果某个标签页/图标缺失，可能已在[模型配置](model-setup/enabled-features.md)或[遥控器设置](../radio-settings/radio-settings/additional-radio-settings.md#enabled-features)层级被禁用。
+如果某个标签页/图标缺失，可能已在[模型配置](model-setup/enabled-features.md)或[遥控器设置](../radio-settings/radio-settings/additional-radio-settings.md#启用功能)层级被禁用。
 {% endhint %}
 
 {% hint style="info" %}

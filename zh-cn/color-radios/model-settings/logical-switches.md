@@ -26,7 +26,7 @@ metaLinks:
 
 选择编辑逻辑开关后，您将有以下配置选项：
 
-* **Func** - 您想要使用的逻辑功能。请参阅下面的 [逻辑开关功能](logical-switches.md#logical\_switches\_judgment\_conditions\_and\_logical\_expressions) 以了解您可以使用的可能功能的描述。
+* **Func** - 您想要使用的逻辑功能。请参阅下面的 [逻辑开关功能](logical-switches.md#logical_switches_judgment_conditions_and_logical_expressions) 以了解您可以使用的可能功能的描述。
 * **V1** - 要评估的表达式中的第一个变量。
 * **V2** - 要评估的表达式中的第二个变量。
 * **AND 开关** - 必须激活的开关，以允许逻辑开关被评估为激活。

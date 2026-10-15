@@ -11,7 +11,7 @@ metaLinks:
 
 <figure><img src="/.gitbook/assets/bwmixes1.png" alt=""><figcaption><p>混控页面</p></figcaption></figure>
 
-**混控**屏幕为您显示已配置混控的概览。每一行代表一个混控线，并从左到右显示以下信息：通道、权重、输入、混控名称、开关。这些项目在下面的[混控配置选项](mixes.md#mixes-configuration-options)区域中描述。
+**混控**屏幕为您显示已配置混控的概览。每一行代表一个混控线，并从左到右显示以下信息：通道、权重、输入、混控名称、开关。这些项目在下面的[混控配置选项](mixes.md#混控配置选项)区域中描述。
 
 选择一个空的混控行并按下 **\[Enter]** 将创建一个新的混控并打开混控配置页面。
 

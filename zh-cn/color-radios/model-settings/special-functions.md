@@ -11,7 +11,7 @@ metaLinks:
 
 <figure><img src="/.gitbook/assets/specialfunctions.png" alt=""><figcaption><p>特殊功能</p></figcaption></figure>
 
-选择 **+** 按钮将允许您选择一个未使用的特殊功能进行配置，并将出现特殊功能配置窗口。有关配置新特殊功能的信息，请参见下文的[配置特殊功能](special-functions.md#configuring-special-functions)。
+选择 **+** 按钮将允许您选择一个未使用的特殊功能进行配置，并将出现特殊功能配置窗口。有关配置新特殊功能的信息，请参见下文的[配置特殊功能](special-functions.md#配置特殊功能)。
 
 选择一个已配置的特殊功能将为您提供以下选项：
 
