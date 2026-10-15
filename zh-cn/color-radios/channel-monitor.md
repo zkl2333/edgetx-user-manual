@@ -7,7 +7,7 @@ metaLinks:
 
 # 通道监视器
 
-通道监视器显示每个32个无线电通道的输出值（顶部条）和混合值（底部条），分布在4页，每页8个。
+通道监视器显示每个32个无线电通道的输出值（顶部条）和混控值（底部条），分布在4页，每页8个。
 
 <figure><img src="/.gitbook/assets/channelmonitor.png" alt=""><figcaption><p>通道监视器</p></figcaption></figure>
 

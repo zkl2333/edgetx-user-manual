@@ -5,17 +5,17 @@ metaLinks:
       https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/screen-settings/widgets
 ---
 
-# 小组件
+# 小部件
 
 {% hint style="info" %}
-设置小组件后，长按小组件将显示两个菜单选项：**全屏**和**小组件**设置。对于某些小组件，全屏模式将提供额外的功能。要退出全屏模式，长按 RTN / 返回按钮。
+设置小部件后，长按小部件将显示两个菜单选项：**全屏**和**小部件**设置。对于某些小部件，全屏模式将提供额外的功能。要退出全屏模式，长按 RTN / 返回按钮。
 {% endhint %}
 
-以下是 EdgeTX 附带的小组件的描述和配置选项。
+以下是 EdgeTX 附带的小部件的描述和配置选项。
 
 ### BattAnalog
 
-<figure><img src="/.gitbook/assets/wid_battanal.png" alt=""><figcaption><p>BattAnalog 小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_battanal.png" alt=""><figcaption><p>BattAnalog 小部件</p></figcaption></figure>
 
 显示 Lipo/Li-ion 电池电量的图形表示。它将自动检测电池的电芯数量。适用于仅接收总电池电压的遥测。可配置选项包括：
 
@@ -26,7 +26,7 @@ metaLinks:
 
 ### BattCheck
 
-<figure><img src="/.gitbook/assets/wid_battcheck.png" alt=""><figcaption><p>BattCheck 小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_battcheck.png" alt=""><figcaption><p>BattCheck 小部件</p></figcaption></figure>
 
 显示 Lipo/Li-ion 电池电量的图形表示。适用于接收单个电芯电压的遥测，例如 FLVSS LiPo 电压传感器。可配置选项包括：
 
@@ -38,7 +38,7 @@ metaLinks:
 
 ### 计数器
 
-<figure><img src="/.gitbook/assets/wid_counter.png" alt=""><figcaption><p>计数器小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_counter.png" alt=""><figcaption><p>计数器小部件</p></figcaption></figure>
 
 一个递增计数的计数器。可配置选项包括：
 
@@ -49,11 +49,11 @@ metaLinks:
 
 <div>
 
-<figure><img src="/.gitbook/assets/widgets5.jpg" alt=""><figcaption><p>计数器和事件演示小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/widgets5.jpg" alt=""><figcaption><p>计数器和事件演示小部件</p></figcaption></figure>
 
  
 
-<figure><img src="/.gitbook/assets/widgets6.jpg" alt=""><figcaption><p>事件演示小组件全屏</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/widgets6.jpg" alt=""><figcaption><p>事件演示小部件全屏</p></figcaption></figure>
 
 </div>
 
@@ -63,7 +63,7 @@ metaLinks:
 
 ### **飞行次数**&#x20;
 
-<figure><img src="/.gitbook/assets/wid_flights.png" alt=""><figcaption><p>飞行次数小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_flights.png" alt=""><figcaption><p>飞行次数小部件</p></figcaption></figure>
 
 计算您的飞行次数。它将在飞行开始、结束以及模型的总飞行次数时给出语音提示。&#x20;
 
@@ -73,17 +73,17 @@ metaLinks:
 * **电机通道** - 电机的通道。
 * **最小飞行时间** - 计入飞行次数的最小飞行时间。
 * **文本颜色** - 打开颜色选择器以选择文本的颜色。
-* **调试** - 启用时，在小组件上显示状态信息。
+* **调试** - 启用时，在小部件上显示状态信息。
 
-_**关于此小组件的附加说明：**_
+_**关于此小部件的附加说明：**_
 
-如果在 30 秒后引擎超过 25%，遥测处于活动状态（表示模型已连接），并且安全开关开启，则认为飞行成功。在电池断开 8 秒后（通过无遥测检测）认为飞行结束——警告：如果模型使用 GV9，请勿使用此小组件（GV9 FM0 是存储飞行次数的地方）！
+如果在 30 秒后引擎超过 25%，遥测处于活动状态（表示模型已连接），并且安全开关开启，则认为飞行成功。在电池断开 8 秒后（通过无遥测检测）认为飞行结束——警告：如果模型使用 GV9，请勿使用此小部件（GV9 FM0 是存储飞行次数的地方）！
 
-小组件假设以下情况：模型有一个电机，电机在通道 3 上激活（可以在设置中配置），有上述遥测之一 \[RSSI|RxBt|A1|A2|1RSS|2RSS|RQly]，有一个安全开关（臂开关），并且全局变量 GV9 是空闲的（即未使用）。
+小部件假设以下情况：模型有一个电机，电机在通道 3 上激活（可以在设置中配置），有上述遥测之一 \[RSSI|RxBt|A1|A2|1RSS|2RSS|RQly]，有一个安全开关（臂开关），并且全局变量 GV9 是空闲的（即未使用）。
 
 ### 仪表
 
-<figure><img src="/.gitbook/assets/wid_gauge.png" alt=""><figcaption><p>仪表小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_gauge.png" alt=""><figcaption><p>仪表小部件</p></figcaption></figure>
 
 显示源值的条形图。可配置选项包括：
 
@@ -94,7 +94,7 @@ _**关于此小组件的附加说明：**_
 
 ### **旋转仪表**
 
-<figure><img src="/.gitbook/assets/wid_gaugerotary.png" alt=""><figcaption><p>旋转仪表小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_gaugerotary.png" alt=""><figcaption><p>旋转仪表小部件</p></figcaption></figure>
 
 &#x20;一个可配置的模拟样式仪表，带有指针。还显示仪表读取的最小值和最大值，分别用绿色和红色指针表示。可配置选项包括：
 
@@ -106,63 +106,63 @@ _**关于此小组件的附加说明：**_
 
 ### **Ghost**
 
-<figure><img src="/.gitbook/assets/wid_ghost.jpg" alt=""><figcaption><p>Ghost 小组件正常模式和 VTX 模式</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_ghost.jpg" alt=""><figcaption><p>Ghost 小部件正常模式和 VTX 模式</p></figcaption></figure>
 
-Ghost 小组件将根据配置的模式显示 RF 接收器或视频发射机的遥测数据。&#x20;
+Ghost 小部件将根据配置的模式显示 RF 接收器或视频发射机的遥测数据。&#x20;
 
-在正常模式下，小组件提供 RF 模式（RFMD）、帧率（FRATE）、链路质量（RQLY）和发射功率（TPWR）&#x20;
+在正常模式下，小部件提供 RF 模式（RFMD）、帧率（FRATE）、链路质量（RQLY）和发射功率（TPWR）&#x20;
 
-在视频模式下，小组件提供视频频段（VBAN）、视频频率（VFRQ）、视频通道（VCHAN）和视频功率（VPWR）
+在视频模式下，小部件提供视频频段（VBAN）、视频频率（VFRQ）、视频通道（VCHAN）和视频功率（VPWR）
 
 ### **LibGUI 演示**
 
-<figure><img src="/.gitbook/assets/widgets10.jpg" alt=""><figcaption><p>LibGUI 演示小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/widgets10.jpg" alt=""><figcaption><p>LibGUI 演示小部件</p></figcaption></figure>
 
-此小组件是 LibGUI 库的演示。此库通常不单独运行。相反，它为使用它的其他 Lua 脚本提供交互功能。小组件必须在全屏模式下运行以演示库的功能。
+此小部件是 LibGUI 库的演示。此库通常不单独运行。相反，它为使用它的其他 Lua 脚本提供交互功能。小部件必须在全屏模式下运行以演示库的功能。
 
 ### **模型信息**
 
-<figure><img src="/.gitbook/assets/wid_modelinfo (1).png" alt=""><figcaption><p>模型信息小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_modelinfo (1).png" alt=""><figcaption><p>模型信息小部件</p></figcaption></figure>
 
 显示所选模型的名称和图片（如果在模型设置中配置）。可配置选项包括：
 
 * **颜色** - 打开颜色选择器以选择名称文本的颜色。
 * **大小** - 名称文本的大小。选项有 STD（默认）、BOLD、XXS、XS、L、XL、XXL
-* **填充背景？** - 启用时，为小组件添加实心背景色
+* **填充背景？** - 启用时，为小部件添加实心背景色
 * **背景颜色** - 打开颜色选择器以选择背景的颜色。
 * **使用主题颜色** - 启用时，使用配置主题的文本颜色覆盖文本颜色。
 
 ### **输出**&#x20;
 
-<figure><img src="/.gitbook/assets/wid_outputs.png" alt=""><figcaption><p>输出小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_outputs.png" alt=""><figcaption><p>输出小部件</p></figcaption></figure>
 
-以条形图显示通道输出值。显示的通道数量取决于小组件的大小。可配置选项包括：
+以条形图显示通道输出值。显示的通道数量取决于小部件的大小。可配置选项包括：
 
-* **第一个通道** - 选择要在小组件中显示的第一个通道。
-* **填充背景** - 启用时，为小组件添加实心背景色
+* **第一个通道** - 选择要在小部件中显示的第一个通道。
+* **填充背景** - 启用时，为小部件添加实心背景色
 * **背景颜色** - 打开颜色选择器以选择背景的颜色。
 * **文本颜色** - 打开颜色选择器以选择文本的颜色。
 * **颜色** - 打开颜色选择器以选择输出条的颜色。
 
 ### 串行电源端口演示
 
-<figure><img src="/.gitbook/assets/wid_serialpower.png" alt=""><figcaption><p>串行电源端口演示小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_serialpower.png" alt=""><figcaption><p>串行电源端口演示小部件</p></figcaption></figure>
 
-一个演示小组件，向您展示如何使用电源端口。必须在全屏模式下运行。
+一个演示小部件，向您展示如何使用电源端口。必须在全屏模式下运行。
 
 ### **SOARETX**
 
-<figure><img src="/.gitbook/assets/widgets11.jpg" alt=""><figcaption><p>SoarETX 小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/widgets11.jpg" alt=""><figcaption><p>SoarETX 小部件</p></figcaption></figure>
 
 EdgeTX 版本的 SoarOTX 工具。它是 EdgeTX 发射机的滑翔机模型包。它提供用于计时和记分的 Lua 脚本、日志数据的图形化（例如高度图）和模型配置。
 
-有关此小组件的配置和使用的更多信息，请参见 [https://github.com/jfrickmann/SoarOTX/wiki/SoarETX-for-color-radios](https://github.com/jfrickmann/SoarOTX/wiki/SoarETX-for-color-radios)。
+有关此小部件的配置和使用的更多信息，请参见 [https://github.com/jfrickmann/SoarOTX/wiki/SoarETX-for-color-radios](https://github.com/jfrickmann/SoarOTX/wiki/SoarETX-for-color-radios)。
 
 此工具的演示可以在这里看到：[https://www.youtube.com/watch?v=5NSvxUNKM\_c](https://www.youtube.com/watch?v=5NSvxUNKM\_c)
 
 ### **文本**
 
-<figure><img src="/.gitbook/assets/wid_text.png" alt=""><figcaption><p>文本小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_text.png" alt=""><figcaption><p>文本小部件</p></figcaption></figure>
 
 显示用户可自定义的文本字段。可配置选项包括：
 
@@ -174,15 +174,15 @@ EdgeTX 版本的 SoarOTX 工具。它是 EdgeTX 发射机的滑翔机模型包�
 
 ### **计时器**
 
-<figure><img src="/.gitbook/assets/wid_timer.png" alt=""><figcaption><p>计时器小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_timer.png" alt=""><figcaption><p>计时器小部件</p></figcaption></figure>
 
 显示所选的计时器。除了计时器选择外没有其他可配置选项。
 
 ### **计时器2**&#x20;
 
-<figure><img src="/.gitbook/assets/wid_timer2.png" alt=""><figcaption><p>计时器2 小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_timer2.png" alt=""><figcaption><p>计时器2 小部件</p></figcaption></figure>
 
-显示所选计时器，计时器文本根据选择的小组件大小进行缩放，并具有以下配置选项：
+显示所选计时器，计时器文本根据选择的小部件大小进行缩放，并具有以下配置选项：
 
 * **文本颜色** - 打开颜色选择器以选择文本的颜色。
 * **计时器** - 要显示的计时器。
@@ -190,13 +190,13 @@ EdgeTX 版本的 SoarOTX 工具。它是 EdgeTX 发射机的滑翔机模型包�
 
 ### **TxGPStest**&#x20;
 
-<figure><img src="/.gitbook/assets/wid_gpstest.png" alt=""><figcaption><p>TxGPSTest 小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_gpstest.png" alt=""><figcaption><p>TxGPSTest 小部件</p></figcaption></figure>
 
 以文本格式显示 GPS 信息。没有可配置选项。
 
 ### **值**
 
-<figure><img src="/.gitbook/assets/wid_value.png" alt=""><figcaption><p>值小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_value.png" alt=""><figcaption><p>值小部件</p></figcaption></figure>
 
 以文本形式显示定义源的数值。可配置选项包括：
 
@@ -208,9 +208,9 @@ EdgeTX 版本的 SoarOTX 工具。它是 EdgeTX 发射机的滑翔机模型包�
 
 ### 值2
 
-<figure><img src="/.gitbook/assets/wid_value2.png" alt=""><figcaption><p>值2 小组件</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/wid_value2.png" alt=""><figcaption><p>值2 小部件</p></figcaption></figure>
 
-以文本形式显示定义的遥测源的数值。文本将根据选择的小组件网格的大小进行缩放。小组件将检测飞行结束（通过不再接收遥测），然后显示配置的遥测传感器的最小值和最大值。
+以文本形式显示定义的遥测源的数值。文本将根据选择的小部件网格的大小进行缩放。小部件将检测飞行结束（通过不再接收遥测），然后显示配置的遥测传感器的最小值和最大值。
 
 可配置选项包括：
 
