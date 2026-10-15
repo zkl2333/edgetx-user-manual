@@ -56,7 +56,7 @@
 | rotary encoder | 旋转编码器（滚轮） | |
 | 6-position switch (6POS) | 6 位开关 | |
 | customizable switches | 可自定义开关 | |
-| USB joystick | USB 游戏手柄 | |
+| USB joystick | USB Joystick | 页面标题与链接文字保留英文 |
 
 ## 模型设置
 
@@ -64,7 +64,9 @@
 | --- | --- | --- |
 | Model Setup | 模型配置 | |
 | Heli Setup | 直升机配置 | |
-| Swash type / Swash ring | 旋翼类型 / 旋翼环 | |
+| Swash type / Swash ring | 斜盘类型 / 斜盘环 | |
+| flybar / flybarless | 平衡翼 / 无平衡翼 | |
+| swashplate | 斜盘 | |
 | Scale | 比例 | |
 | Flight Modes | 飞行模式 | |
 | Inputs / Mixes / Outputs | 输入 / 混控 / 输出 | |

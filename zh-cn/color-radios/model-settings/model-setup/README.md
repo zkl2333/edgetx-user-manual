@@ -46,6 +46,6 @@ metaLinks:
 \- [可自定义开关](customizable-switches.md)（部分遥控器）\
 \- [油门](throttle.md)\
 \- [启用功能](enabled-features.md)\
-\- [USB 游戏手柄](usb-joystick.md)\
+\- [USB Joystick](usb-joystick.md)\
 \- [其他](other.md)\
 \- [直升机](heli-setup.md)（启用时）

@@ -23,7 +23,7 @@
       * [微调](color-radios/model-settings/model-setup/trims.md)
       * [油门](color-radios/model-settings/model-setup/throttle.md)
       * [启用功能](color-radios/model-settings/model-setup/enabled-features.md)
-      * [USB 游戏手柄](color-radios/model-settings/model-setup/usb-joystick.md)
+      * [USB Joystick](color-radios/model-settings/model-setup/usb-joystick.md)
       * [可自定义开关](color-radios/model-settings/model-setup/customizable-switches.md)
       * [其他](color-radios/model-settings/model-setup/other.md)
       * [直升机配置](color-radios/model-settings/model-setup/heli-setup.md)

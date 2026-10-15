@@ -53,7 +53,7 @@ metaLinks:
   * **范围** - 这将使发射机进入范围检查模式。在此模式下，显示 RSSI 值并每 5 秒发出一次声音。
 * **CRSF**
   * **波特率** - 发射机模块和遥控器手柄通信的速度。
-  * **状态** - 显示在发射机模块上配置的数据包遥控器。
+  * **状态** - 显示发射机模块上配置的数据无线电（packet radio）。
   * **通道范围** - 将使用的通道。
   * **接收机编号** - 绑定时发送到接收机的用户分配的模型编号
 * **Multi** - 多协议模块。每个选定协议的配置选项都是独特的。多协议模块的配置选项在此描述：[https://www.multi-module.org/using-the-module/protocol-options](https://www.multi-module.org/using-the-module/protocol-options)
