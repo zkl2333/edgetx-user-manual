@@ -63,6 +63,8 @@ EdgeTX Buddy 将开始刷写过程，屏幕会显示进度。
 
 刷写完成后，点击完成屏幕上的 **设置您的 SD 卡** 链接，这会带您进入 SD 卡内容页面。
 
+此时，EdgeTX 引导加载器和固件已安装到您的遥控器上。下一步是安装 SD 卡内容。
+
 ### 准备 SD 卡
 
 <figure><img src="/.gitbook/assets/update7.png" alt=""><figcaption></figcaption></figure>
@@ -73,7 +75,7 @@ EdgeTX Buddy 将开始刷写过程，屏幕会显示进度。
 
 <figure><img src="/.gitbook/assets/update8.png" alt=""><figcaption></figcaption></figure>
 
-EdgeTX SD 卡将作为 USB 驱动器挂载到您的电脑。选择 USB 驱动器后点击 **选择文件夹**。
+EdgeTX SD 卡将作为 USB 驱动器挂载到您的电脑。选择 USB 驱动器（注意：里面仍留有 OpenTX 文件的才是正确的那个。），然后点击 **选择文件夹**。
 
 <figure><img src="/.gitbook/assets/update9.png" alt=""><figcaption></figcaption></figure>
 

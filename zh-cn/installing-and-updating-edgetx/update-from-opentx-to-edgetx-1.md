@@ -78,7 +78,7 @@ EdgeTX SD 卡将作为 USB 驱动器挂载到您的电脑。选择 USB 驱动器
 <figure><img src="/.gitbook/assets/update10.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**注意：** EdgeTX Buddy 只会更新默认 EdgeTX 安装的一部分 SD 卡文件。它不会修改或删除您添加的其他文件（如 LUA 脚本、声音文件、图片、自定义主题、模型文件、遥控器设置文件等）。
+**注意：** EdgeTX Buddy 将更新属于 EdgeTX 默认安装的全部 SD 卡文件。它不会修改或删除您添加的其他文件（如 LUA 脚本、声音文件、图片、自定义主题、模型文件、遥控器设置文件等）。
 {% endhint %}
 
 ### 恭喜，您已成功更新 EdgeTX！
@@ -97,7 +97,7 @@ EdgeTX SD 卡将作为 USB 驱动器挂载到您的电脑。选择 USB 驱动器
 
 断开 USB 数据线并关闭遥控器电源。
 
-同时按住微调开关 T4 和 T1 并按电源按钮，将遥控器启动至引导加载器模式。
+将微调开关 T4 和 T1 同时向中间方向按住，再按下电源按钮，将遥控器启动至引导加载器模式。
 
 进入引导加载器后，选择 **写入固件** 选项。选择保存到 SD 卡上的 EdgeTX 固件文件，长按刷写。
 

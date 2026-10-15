@@ -6,7 +6,7 @@
 
 | English | 中文 | 备注 |
 | --- | --- | --- |
-| radio / transmitter | 遥控器 / 发射机 | 首选“遥控器”；“电台”为旧译，不再新增 |
+| radio / transmitter | 遥控器 / 发射机 | 首选“遥控器”；“电台”为旧译，不再新增；电池电压语境统一用“遥控器电池电压”（RxBt 为“接收机电池”） |
 | receiver | 接收机 | |
 | model | 模型 | |
 | firmware | 固件 | |

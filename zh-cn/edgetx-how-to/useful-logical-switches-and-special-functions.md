@@ -22,7 +22,7 @@ metaLinks:
 * **V2** 是您希望触发警报的电压值
 * **延迟** 建议配置延迟，这样电池电压瞬降不会导致警报触发
 
-当发射机电池低于 7.4V 并持续 10 秒时，此逻辑开关将激活。
+当接收机电池低于 7.4V 并持续 10 秒时，此逻辑开关将激活。
 
 <figure><img src="/.gitbook/assets/howto-batt-alert-screen2.png" alt=""><figcaption><p>低电压警报的逻辑开关</p></figcaption></figure>
 

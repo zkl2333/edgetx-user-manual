@@ -5,7 +5,7 @@ metaLinks:
       https://app.gitbook.com/s/2n2y0XsJcrhXt3asceP0/color-radios/radio-settings/sd-card
 ---
 
-# SD 卡
+# 存储
 
 <figure><img src="/.gitbook/assets/sdcard.jpg" alt=""><figcaption><p>SD 卡屏幕</p></figcaption></figure>
 

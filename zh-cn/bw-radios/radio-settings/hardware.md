@@ -31,7 +31,7 @@ metaLinks:
 
 <figure><img src="/.gitbook/assets/bw128_radio_setup_hardware_bottom.png" alt=""><figcaption><p>硬件屏幕</p></figcaption></figure>
 
-**电池校准** - 设置此值以匹配发射机电池电压。这确保显示的电池电压准确。
+**电池校准** - 设置此值以匹配遥控器电池电压。这确保显示的电池电压准确。
 
 **RTC电池** - RTC电池的当前电压。RTC（实时时钟）电池即使在没有主遥控器电池的情况下也能保持遥控器的日期和时间准确。
 
